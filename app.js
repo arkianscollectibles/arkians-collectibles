@@ -10,7 +10,7 @@ const coins = [
     year: 2014,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/001.jpg"
+    image: "PRODUCT PHOTOS/COIN/001.jpg"
   },
   {
     id: 2,
