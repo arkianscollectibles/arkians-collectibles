@@ -19,7 +19,7 @@ const coins = [
     year: 2026,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/002.jpg"
+    image: "PRODUCT PHOTOS/COINS/002.jpg"
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const coins = [
     year: 2019,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/003.jpg"
+    image: "PRODUCT PHOTOS/COINS/003.jpg"
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ const coins = [
     year: 2022,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/004.jpg"
+    image: "PRODUCT PHOTOS/COINS/004.jpg"
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ const coins = [
     year: 2015,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/005.jpg"
+    image: "PRODUCT PHOTOS/COINS/005.jpg"
   },
   {
     id: 7,
@@ -55,7 +55,7 @@ const coins = [
     year: 2023,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/007.jpg"
+    image: "PRODUCT PHOTOS/COINS/007.jpg"
   },
   {
     id: 8,
@@ -64,7 +64,7 @@ const coins = [
     year: 2026,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/008.jpg"
+    image: "PRODUCT PHOTOS/COINS/008.jpg"
   },
   {
     id: 9,
@@ -73,7 +73,7 @@ const coins = [
     year: 2015,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/009.jpg"
+    image: "PRODUCT PHOTOS/COINS/009.jpg"
   },
   {
     id: 10,
@@ -82,7 +82,7 @@ const coins = [
     year: 2021,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/010.jpg"
+    image: "PRODUCT PHOTOS/COINS/010.jpg"
   },
   {
     id: 11,
@@ -91,7 +91,7 @@ const coins = [
     year: 2022,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/011.jpg"
+    image: "PRODUCT PHOTOS/COINS/011.jpg"
   },
   {
     id: 12,
@@ -100,7 +100,7 @@ const coins = [
     year: 2024,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/012.jpg"
+    image: "PRODUCT PHOTOS/COINS/012.jpg"
   },
   {
     id: 13,
@@ -109,7 +109,7 @@ const coins = [
     year: 2008,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/013.jpg"
+    image: "PRODUCT PHOTOS/COINS/013.jpg"
   },
   {
     id: 14,
@@ -118,7 +118,7 @@ const coins = [
     year: 2020,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/014.jpg"
+    image: "PRODUCT PHOTOS/COINS/014.jpg"
   },
   {
     id: 15,
@@ -127,7 +127,7 @@ const coins = [
     year: 2010,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/015.jpg"
+    image: "PRODUCT PHOTOS/COINS/015.jpg"
   },
   {
     id: 16,
@@ -136,7 +136,7 @@ const coins = [
     year: 2026,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/016.jpg"
+    image: "PRODUCT PHOTOS/COINS/016.jpg"
   },
   {
     id: 17,
@@ -145,7 +145,7 @@ const coins = [
     year: 2022,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/017.jpg"
+    image: "PRODUCT PHOTOS/COINS/017.jpg"
   },
   {
     id: 18,
@@ -154,7 +154,7 @@ const coins = [
     year: 2012,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/018.jpg"
+    image: "PRODUCT PHOTOS/COINS/018.jpg"
   },
     {
     id: 19,
@@ -163,7 +163,7 @@ const coins = [
     year: 2026,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/019.jpg"
+    image: "PRODUCT PHOTOS/COINS/019.jpg"
   },
       {
     id: 20,
@@ -172,7 +172,7 @@ const coins = [
     year: 2021,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/020.jpg"
+    image: "PRODUCT PHOTOS/COINS/020.jpg"
   },
         {
     id: 21,
@@ -181,7 +181,7 @@ const coins = [
     year: 2022,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/021.jpg"
+    image: "PRODUCT PHOTOS/COINS/021.jpg"
   },
           {
     id: 22,
@@ -190,7 +190,7 @@ const coins = [
     year: 2026,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/022.jpg"
+    image: "PRODUCT PHOTOS/COINS/022.jpg"
   },
             {
     id: 23,
@@ -199,7 +199,7 @@ const coins = [
     year: 2011,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/023.jpg"
+    image: "PRODUCT PHOTOS/COINS/023.jpg"
   },
               {
     id: 24,
@@ -208,7 +208,7 @@ const coins = [
     year: 2024,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/024.jpg"
+    image: "PRODUCT PHOTOS/COINS/024.jpg"
   },
                 {
     id: 25,
@@ -217,7 +217,7 @@ const coins = [
     year: 2025,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/025.jpg"
+    image: "PRODUCT PHOTOS/COINS/025.jpg"
   },
                  {
     id: 26,
@@ -226,7 +226,7 @@ const coins = [
     year: 2020,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/026.jpg"
+    image: "PRODUCT PHOTOS/COINS/026.jpg"
   },
                    {
     id: 27,
@@ -235,7 +235,7 @@ const coins = [
     year: 2026,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/027.jpg"
+    image: "PRODUCT PHOTOS/COINS/027.jpg"
   },
                      {
     id: 28,
@@ -244,7 +244,7 @@ const coins = [
     year: 2023,
     colored: true,
     price: 14.99,
-    image: "PRODUCT PHOTOS/coins/028.jpg"
+    image: "PRODUCT PHOTOS/COINS/028.jpg"
   }
   
   
