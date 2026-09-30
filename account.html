@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>My Account | Arkians Collectibles</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Zen+Dots&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="site-header">
+
+    <div class="header-inner">
+
+      <a href="index.html" class="logo">
+        Arkians Collectibles
+      </a>
+
+      <nav class="main-nav">
+
+        <div class="nav-item dropdown">
+
+          <button class="nav-link dropdown-trigger">
+            Products
+            <span>⌄</span>
+          </button>
+
+          <div class="dropdown-menu">
+            <a href="coins.html">Coins</a>
+            <a href="cards.html">Cards</a>
+          </div>
+
+        </div>
+
+        
+
+        <a href="about.html" class="nav-link">
+          About Us
+        </a>
+
+      </nav>
+
+
+      <!-- SEARCH -->
+
+      <div class="search-wrapper">
+
+        <form class="search-bar" id="searchForm">
+
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search Coins..."
+            autocomplete="off"
+          >
+
+          <button type="submit" aria-label="Search">
+            <svg viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="16" y1="16" x2="21" y2="21"></line>
+            </svg>
+          </button>
+
+        </form>
+
+        <div class="search-results" id="searchResults"></div>
+
+      </div>
+
+
+      <!-- ICONS -->
+
+      <div class="header-icons">
+
+        <a href="account.html" class="icon-button" aria-label="My Account">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="8" r="4"></circle>
+            <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+          </svg>
+        </a>
+
+        <a href="wishlist.html" class="icon-button" aria-label="Wishlist">
+          <svg viewBox="0 0 24 24">
+            <path d="M20.8 4.6c-2-2-5.3-2-7.3 0L12 6.1l-1.5-1.5c-2-2-5.3-2-7.3 0s-2 5.3 0 7.3L12 20.7l8.8-8.8c2-2 2-5.3 0-7.3z"></path>
+          </svg>
+        </a>
+
+        <a href="cart.html" class="icon-button" aria-label="Cart">
+          <svg viewBox="0 0 24 24">
+            <path d="M6 8h12l-1 13H7L6 8z"></path>
+            <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
+          </svg>
+        </a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- MY ACCOUNT -->
+
+  <main class="account-page">
+
+    <section class="page-intro">
+
+      <h1>
+        My Account
+      </h1>
+
+      <p>
+        Everything about your account
+      </p>
+
+    </section>
+
+<section class="login-section" id="loginSection">
+
+  <h2>Sign in to your account</h2>
+
+  <p>
+    Sign in with Google to access your profile,
+    wishlist, cart and order history.
+  </p>
+
+  <button
+  id="googleLoginButton"
+  type="button"
+  class="google-login-button"
+>
+  Sign in with Google
+</button>
+
+</section>
+
+   <section class="account-grid">
+  
+
+  <!-- PROFILE -->
+  <a href="profile.html" class="account-card">
+
+    <svg viewBox="0 0 24 24" class="account-icon">
+      <circle cx="12" cy="8" r="4"></circle>
+      <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+    </svg>
+
+    <span>Profile</span>
+
+  </a>
+
+
+  <!-- WISHLIST -->
+  <a href="wishlist.html" class="account-card">
+
+    <svg viewBox="0 0 24 24" class="account-icon">
+      <path d="M20.8 4.6c-2-2-5.3-2-7.3 0L12 6.1l-1.5-1.5c-2-2-5.3-2-7.3 0s-2 5.3 0 7.3L12 20.7l8.8-8.8c2-2 2-5.3 0-7.3z"></path>
+    </svg>
+
+    <span>Wishlist</span>
+
+  </a>
+
+
+  <!-- CART -->
+  <a href="cart.html" class="account-card">
+
+    <svg viewBox="0 0 24 24" class="account-icon">
+      <path d="M6 8h12l-1 13H7L6 8z"></path>
+      <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
+    </svg>
+
+    <span>Cart</span>
+
+  </a>
+
+
+  <!-- EDIT PROFILE -->
+  <a href="edit-profile.html" class="account-card">
+
+    <svg viewBox="0 0 24 24" class="account-icon">
+      <circle cx="9" cy="7" r="3.5"></circle>
+      <path d="M3 18c0-3.5 2.7-6.5 6-6.5"></path>
+      <path d="M14 17l5-5 2 2-5 5-3 1z"></path>
+    </svg>
+
+    <span>Edit Profile</span>
+
+  </a>
+
+
+  <!-- ORDER HISTORY -->
+  <a href="order-history.html" class="account-card">
+
+    <svg viewBox="0 0 24 24" class="account-icon">
+      <path d="M5 3h10a2 2 0 0 1 2 2v8"></path>
+      <path d="M5 3v18h7"></path>
+      <path d="M8 7h6"></path>
+      <path d="M8 11h5"></path>
+      <circle cx="17" cy="17" r="4"></circle>
+      <path d="M17 15v2l1.5 1"></path>
+    </svg>
+
+    <span>Order History</span>
+
+  </a>
+
+</section>
+
+<div class="logout-wrapper">
+  <button
+    id="logoutButton"
+    class="logout-button"
+    type="button"
+  >
+    Log out
+  </button>
+</div>
+<!-- =========================
+     ORDER HISTORY
+========================= -->
+
+<section class="order-history-section">
+
+  <div class="order-history-header">
+
+  
+
+  <div
+    class="order-history-list"
+    id="orderHistoryList"
+  >
+
+   
+
+  </div>
+
+
+  <div
+    class="order-history-empty"
+    id="orderHistoryEmpty"
+    hidden
+  >
+
+    <p>
+      You haven't placed any orders yet.
+    </p>
+
+    <a
+      href="coins.html"
+      class="primary-button"
+    >
+      Shop Coins
+    </a>
+
+  </div>
+
+</section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        Arkians Collectibles
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>About Us...</h4>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="returns.html">Returns</a>
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>Shop By...</h4>
+
+        <a href="coins.html">Coins</a>
+        <a href="cards.html">Cards</a>
+      
+
+      </div>
+
+
+      <div class="footer-column">
+
+        <h4>My Account</h4>
+
+        <a href="profile.html">Profile</a>
+        <a href="cart.html">Cart</a>
+        <a href="wishlist.html">Wishlist</a>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="app.js"></script>
+
+</body>
+
+</html>

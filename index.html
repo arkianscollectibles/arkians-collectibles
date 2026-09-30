@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Arkians Collectibles</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Zen+Dots&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="site-header">
+
+    <div class="header-inner">
+
+      <a href="index.html" class="logo">
+        Arkians Collectibles
+      </a>
+
+
+    <nav class="main-nav">
+
+  <!-- PRODUCTS -->
+
+  <div class="nav-item dropdown">
+
+    <button class="nav-link dropdown-trigger">
+      Products
+      <span>⌄</span>
+    </button>
+
+    <div class="dropdown-menu">
+      <a href="coins.html">Coins</a>
+      <a href="cards.html">Cards</a>
+    </div>
+
+  </div>
+
+
+ 
+
+  <!-- ABOUT -->
+
+  <a href="about.html" class="nav-link">
+    About Us
+  </a>
+
+</nav>
+
+
+      <!-- SEARCH -->
+
+      <div class="search-wrapper">
+
+        <form
+          class="search-bar"
+          id="searchForm"
+        >
+
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search Coins..."
+            autocomplete="off"
+          >
+
+          <button type="submit" aria-label="Search">
+
+            <svg viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="16" y1="16" x2="21" y2="21"></line>
+            </svg>
+
+          </button>
+
+        </form>
+
+        <div
+          class="search-results"
+          id="searchResults">
+        </div>
+
+      </div>
+
+
+      <!-- SHORTCUT ICONS -->
+
+      <div class="header-icons">
+
+        <a
+          href="account.html"
+          class="icon-button"
+          aria-label="My Account"
+        >
+
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="8" r="4"></circle>
+            <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+          </svg>
+
+        </a>
+
+
+        <a
+          href="wishlist.html"
+          class="icon-button"
+          aria-label="Wishlist"
+        >
+
+          <svg viewBox="0 0 24 24">
+            <path d="M20.8 4.6c-2-2-5.3-2-7.3 0L12 6.1l-1.5-1.5c-2-2-5.3-2-7.3 0s-2 5.3 0 7.3L12 20.7l8.8-8.8c2-2 2-5.3 0-7.3z"></path>
+          </svg>
+
+        </a>
+
+
+        <a
+          href="cart.html"
+          class="icon-button"
+          aria-label="Cart"
+        >
+
+          <svg viewBox="0 0 24 24">
+            <path d="M6 8h12l-1 13H7L6 8z"></path>
+            <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
+          </svg>
+
+        </a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- HOME HERO -->
+
+  <main>
+
+    <section class="home-hero">
+
+      <img
+        src="PRODUCT PHOTOS/home-hero.jpg.jpg"
+        alt="Arkians Collectibles"
+      >
+
+      <div class="home-hero-overlay"></div>
+
+      <div class="home-hero-content">
+
+        <h1>
+          Arkians Collectibles
+        </h1>
+
+        <p>
+          Collect the stories that shaped history.
+        </p>
+
+        <a href="coins.html" class="primary-button">
+          Shop Coins
+        </a>
+
+      </div>
+
+    </section>
+
+
+    <!-- NEW ARRIVALS -->
+
+    <section class="content-section">
+
+      <div class="section-heading">
+
+        <h2>
+          New Arrivals
+        </h2>
+
+        <a href="coins.html">
+          View All
+        </a>
+
+      </div>
+
+
+      <div
+        class="coin-grid"
+        id="newArrivals"
+      >
+        <!-- coins added by JavaScript later -->
+      </div>
+
+    </section>
+
+
+    
+
+
+<!-- FOOTER -->
+
+<footer class="site-footer">
+
+  <div class="footer-inner">
+
+    <div class="footer-brand">
+      Arkians Collectibles
+    </div>
+
+    <div class="footer-column">
+      <h4>About Us...</h4>
+
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="terms.html">Terms</a>
+      <a href="returns.html">Returns</a>
+    </div>
+
+    <div class="footer-column">
+      <h4>Shop By...</h4>
+
+      <a href="countries.html">Country</a>
+      <a href="years.html">Year</a>
+    
+    </div>
+
+    <div class="footer-column">
+      <h4>My Account</h4>
+
+      <a href="account.html">Profile</a>
+      <a href="cart.html">Cart</a>
+      <a href="wishlist.html">Wishlist</a>
+    </div>
+
+  </div>
+
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>

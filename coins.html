@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>All Coins | Arkians Collectibles</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Zen+Dots&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header class="site-header">
+
+    <div class="header-inner">
+
+   <a class="logo" href="index.html" onclick="location.href='index.html'; return false;">
+  Arkians Collectibles
+</a>
+
+   <nav class="main-nav">
+
+  <!-- PRODUCTS -->
+
+  <div class="nav-item dropdown">
+
+    <button class="nav-link dropdown-trigger">
+      Products
+      <span>⌄</span>
+    </button>
+
+    <div class="dropdown-menu">
+      <a href="coins.html">Coins</a>
+      <a href="cards.html">Cards</a>
+    </div>
+
+  </div>
+
+
+
+  <!-- ABOUT -->
+
+  <a href="about.html" class="nav-link">
+    About Us
+  </a>
+
+</nav>
+
+      <!-- SEARCH -->
+
+
+      <div class="search-wrapper">
+
+        <form class="search-bar" id="searchForm">
+
+          <input
+            id="searchInput"
+            type="text"
+            placeholder="Search Coins..."
+            autocomplete="off"
+          >
+
+          <button type="submit" aria-label="Search">
+            <svg viewBox="0 0 24 24">
+              <circle cx="11" cy="11" r="7"></circle>
+              <line x1="16" y1="16" x2="21" y2="21"></line>
+            </svg>
+          </button>
+
+        </form>
+
+        <div class="search-results" id="searchResults"></div>
+
+      </div>
+
+      <!-- ICONS -->
+
+      <div class="header-icons">
+
+        <a href="account.html" class="icon-button" aria-label="My Account">
+          <svg viewBox="0 0 24 24">
+            <circle cx="12" cy="8" r="4"></circle>
+            <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
+          </svg>
+        </a>
+
+        <a href="wishlist.html" class="icon-button" aria-label="Wishlist">
+          <svg viewBox="0 0 24 24">
+            <path d="M20.8 4.6c-2-2-5.3-2-7.3 0L12 6.1l-1.5-1.5c-2-2-5.3-2-7.3 0s-2 5.3 0 7.3L12 20.7l8.8-8.8c2-2 2-5.3 0-7.3z"></path>
+          </svg>
+        </a>
+
+        <a href="cart.html" class="icon-button" aria-label="Cart">
+          <svg viewBox="0 0 24 24">
+            <path d="M6 8h12l-1 13H7L6 8z"></path>
+            <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
+          </svg>
+        </a>
+
+      </div>
+
+    </div>
+
+  </header>
+
+
+  <!-- ALL COINS -->
+
+  <main class="coins-page">
+
+    <section class="page-intro">
+
+      <h1>All Coins</h1>
+
+      <p>
+        Browse through all the coins or use the filter to explore
+        the treasures of specific countries or years.
+      </p>
+
+    </section>
+
+
+    <section class="coins-layout">
+
+      <!-- FILTERS -->
+
+      <aside class="filters">
+
+        <h2>Filter</h2>
+
+        <div class="filter-group">
+
+          <button class="filter-title">
+            Country
+            <span>⌄</span>
+          </button>
+
+          <div class="filter-options">
+
+            <label>
+              <input type="checkbox" value="Belgium" class="country-filter">
+              <span>Belgium</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Germany" class="country-filter">
+              <span>Germany</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Slovakia" class="country-filter">
+              <span>Slovakia</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="France" class="country-filter">
+              <span>France</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Malta" class="country-filter">
+              <span>Malta</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Lithuania" class="country-filter">
+              <span>Lithuania</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Portugal" class="country-filter">
+              <span>Portugal</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Estonia" class="country-filter">
+              <span>Estonia</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Greece" class="country-filter">
+              <span>Greece</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Slovenia" class="country-filter">
+              <span>Slovenia</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Italy" class="country-filter">
+              <span>Italy</span>
+            </label>
+
+          </div>
+
+        </div>
+
+
+        <div class="filter-group">
+
+          <button class="filter-title">
+            Year
+            <span>⌄</span>
+          </button>
+
+          <div class="filter-options">
+
+            <label>
+              <input type="checkbox" value="2008" class="year-filter">
+              <span>2008</span>
+            </label>
+
+             <label>
+              <input type="checkbox" value="2009" class="year-filter">
+              <span>2009</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2010" class="year-filter">
+              <span>2010</span>
+            </label>
+
+             <label>
+              <input type="checkbox" value="2011" class="year-filter">
+              <span>2011</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2012" class="year-filter">
+              <span>2012</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2013" class="year-filter">
+              <span>2013</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2014" class="year-filter">
+              <span>2014</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2015" class="year-filter">
+              <span>2015</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2016" class="year-filter">
+              <span>2016</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2017" class="year-filter">
+              <span>2017</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2018" class="year-filter">
+              <span>2018</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2019" class="year-filter">
+              <span>2019</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2020" class="year-filter">
+              <span>2020</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2021" class="year-filter">
+              <span>2021</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2022" class="year-filter">
+              <span>2022</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2023" class="year-filter">
+              <span>2023</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2024" class="year-filter">
+              <span>2024</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2025" class="year-filter">
+              <span>2025</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2026" class="year-filter">
+              <span>2026</span>
+            </label>
+
+          </div>
+
+        </div>
+        <div class="filter-section colored-filter">
+
+  <button class="filter-toggle" type="button">
+    Colored
+  </button>
+
+  <div class="filter-options">
+
+    <label>
+      <input type="checkbox" name="colored" value="yes">
+      Yes
+    </label>
+
+    <label>
+      <input type="checkbox" name="colored" value="no">
+      No
+    </label>
+
+  </div>
+
+</div>
+
+      </aside>
+
+
+      <!-- COIN RESULTS -->
+
+      <div class="coins-results">
+
+        <div class="coin-grid" id="allCoins">
+          <!-- JavaScript will add coins here -->
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- FOOTER -->
+
+  <footer class="site-footer">
+
+    <div class="footer-inner">
+
+      <div class="footer-brand">
+        Arkians Collectibles
+      </div>
+
+      <div class="footer-column">
+        <h4>About Us...</h4>
+
+        <a href="index.html">Home</a>
+        <a href="about.html">About Us</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms</a>
+        <a href="returns.html">Returns</a>
+      </div>
+
+      <div class="footer-column">
+        <h4>Shop By...</h4>
+
+        <a href="countries.html">Country</a>
+        <a href="years.html">Year</a>
+   
+      </div>
+
+      <div class="footer-column">
+        <h4>My Account</h4>
+
+        <a href="account.html">Profile</a>
+        <a href="cart.html">Cart</a>
+        <a href="wishlist.html">Wishlist</a>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="supabase.js"></script>
+<script src="app.js"></script>
+
+</body>
+</html>
