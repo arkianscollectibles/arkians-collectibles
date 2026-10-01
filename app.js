@@ -2453,3 +2453,48 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
 });
+/* LANGUAGE SWITCH */
+
+document.addEventListener("DOMContentLoaded", () => {
+
+  const languageButtons =
+    document.querySelectorAll(".language-switch");
+
+  let currentLanguage =
+    localStorage.getItem("arkians-language") || "en";
+
+
+  function updateLanguageButtons() {
+    languageButtons.forEach((button) => {
+      button.textContent =
+        currentLanguage === "en"
+          ? "EN / GR"
+          : "GR / EN";
+    });
+  }
+
+
+  languageButtons.forEach((button) => {
+    button.addEventListener("click", () => {
+
+      currentLanguage =
+        currentLanguage === "en"
+          ? "el"
+          : "en";
+
+      localStorage.setItem(
+        "arkians-language",
+        currentLanguage
+      );
+
+      document.documentElement.lang =
+        currentLanguage;
+
+      updateLanguageButtons();
+    });
+  });
+
+
+  updateLanguageButtons();
+
+});
