@@ -3708,3 +3708,24 @@ input {
     z-index: 10002;
   }
 }
+/* FIX MOBILE CONTROLS SHOWING ON DESKTOP */
+
+.mobile-menu-close,
+.language-switch-mobile {
+  display: none !important;
+}
+
+@media (max-width: 700px) {
+
+  .mobile-menu-close {
+    display: flex !important;
+  }
+
+  .language-switch-mobile {
+    display: flex !important;
+  }
+
+  .language-switch-desktop {
+    display: none !important;
+  }
+}
