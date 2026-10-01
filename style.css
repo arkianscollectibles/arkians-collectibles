@@ -3594,3 +3594,45 @@ input {
   }
 
 }
+@media (max-width: 700px) {
+
+  .mobile-menu-close {
+    position: absolute;
+    top: 22px;
+    left: 18px;
+
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0;
+    border: 0;
+    background: transparent;
+    color: #ffffff;
+
+    font-size: 34px;
+    line-height: 1;
+
+    cursor: pointer;
+    z-index: 10002;
+  }
+
+  .main-nav::before {
+    content: "Products";
+
+    position: absolute;
+    top: 30px;
+    left: 72px;
+
+    color: #ffffff;
+
+    font-family: "Zen Dots", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+
+    pointer-events: none;
+  }
+}
