@@ -9,7 +9,7 @@ const coins = [
     country: "Slovenia",
     year: 2014,
     colored: true,
-    price: 14.99,
+    price: 1,
     image: "PRODUCT PHOTOS/COINS/001.jpg"
   },
   {
