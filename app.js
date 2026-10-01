@@ -2408,6 +2408,7 @@ const { error } = await supabaseClient
 document.addEventListener("DOMContentLoaded", () => {
   const menuButton = document.querySelector(".mobile-menu-toggle");
   const mainNav = document.querySelector(".main-nav");
+  const closeButton = document.querySelector(".mobile-menu-close");
 
   if (!menuButton || !mainNav) return;
 
@@ -2415,12 +2416,19 @@ document.addEventListener("DOMContentLoaded", () => {
     const isOpen = mainNav.classList.toggle("mobile-open");
 
     menuButton.classList.toggle("active", isOpen);
-
     menuButton.setAttribute(
       "aria-expanded",
       isOpen ? "true" : "false"
     );
   });
+
+  if (closeButton) {
+    closeButton.addEventListener("click", () => {
+      mainNav.classList.remove("mobile-open");
+      menuButton.classList.remove("active");
+      menuButton.setAttribute("aria-expanded", "false");
+    });
+  }
 
   mainNav.querySelectorAll("a").forEach((link) => {
     link.addEventListener("click", () => {
