@@ -3329,18 +3329,3 @@ input {
     font-size: 21px;
   }
 }
-
-@media (max-width: 768px) {
-  .dropdown-trigger {
-    display: none;
-  }
-
-  .dropdown-menu {
-    display: flex;
-    position: static;
-    flex-direction: column;
-    background: transparent;
-    box-shadow: none;
-    padding: 0;
-  }
-}
