@@ -2403,3 +2403,30 @@ const { error } = await supabaseClient
   });
 
 }
+/* MOBILE HEADER MENU */
+
+document.addEventListener("DOMContentLoaded", () => {
+  const menuButton = document.querySelector(".mobile-menu-toggle");
+  const mainNav = document.querySelector(".main-nav");
+
+  if (!menuButton || !mainNav) return;
+
+  menuButton.addEventListener("click", () => {
+    const isOpen = mainNav.classList.toggle("mobile-open");
+
+    menuButton.classList.toggle("active", isOpen);
+
+    menuButton.setAttribute(
+      "aria-expanded",
+      isOpen ? "true" : "false"
+    );
+  });
+
+  mainNav.querySelectorAll("a").forEach((link) => {
+    link.addEventListener("click", () => {
+      mainNav.classList.remove("mobile-open");
+      menuButton.classList.remove("active");
+      menuButton.setAttribute("aria-expanded", "false");
+    });
+  });
+});
