@@ -23,7 +23,7 @@ if (googleLoginButton) {
           options: {
 
             redirectTo:
-              `${window.location.origin}/account.html`,
+  "https://arkianscollectibles.github.io/arkians-collectibles/account.html",
 
             queryParams: {
               prompt: "select_account"
