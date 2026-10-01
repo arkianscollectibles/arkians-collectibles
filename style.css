@@ -3729,3 +3729,39 @@ input {
     display: none !important;
   }
 }
+/* =========================================
+   DESKTOP HEADER FINAL FIX
+========================================= */
+
+@media (min-width: 701px) {
+
+  /* Mobile controls NEVER appear on desktop */
+  .mobile-menu-toggle,
+  .mobile-menu-close,
+  .language-switch-mobile {
+    display: none !important;
+  }
+
+  /* Keep desktop header elements in fixed order */
+  .header-inner > .logo {
+    order: 1;
+  }
+
+  .header-inner > .main-nav {
+    order: 2;
+  }
+
+  .header-inner > .search-wrapper {
+    order: 3;
+    margin-left: auto;
+  }
+
+  .header-inner > .language-switch-desktop {
+    order: 4;
+    flex-shrink: 0;
+  }
+
+  .header-inner > .header-icons {
+    order: 5;
+  }
+}
