@@ -3567,3 +3567,30 @@ input {
   }
 
 }
+@media (max-width: 700px) {
+
+  .mobile-menu-close {
+    position: absolute;
+    top: 22px;
+    left: 18px;
+
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border: 0;
+    background: transparent;
+    color: #ffffff;
+
+    font-size: 34px;
+    line-height: 1;
+
+    cursor: pointer;
+
+    z-index: 10001;
+  }
+
+}
