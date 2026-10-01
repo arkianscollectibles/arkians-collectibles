@@ -2405,36 +2405,51 @@ const { error } = await supabaseClient
 }
 /* MOBILE HEADER MENU */
 
-document.addEventListener("DOMContentLoaded", () => {
+document.addEventListener("DOMContentLoaded", function () {
+
   const menuButton = document.querySelector(".mobile-menu-toggle");
-  const mainNav = document.querySelector(".main-nav");
+  const mainNav = document.getElementById("mainNav");
   const closeButton = document.querySelector(".mobile-menu-close");
 
   if (!menuButton || !mainNav) return;
 
-  menuButton.addEventListener("click", () => {
-    const isOpen = mainNav.classList.toggle("mobile-open");
 
-    menuButton.classList.toggle("active", isOpen);
-    menuButton.setAttribute(
-      "aria-expanded",
-      isOpen ? "true" : "false"
-    );
+  function openMenu() {
+    mainNav.classList.add("mobile-open");
+    menuButton.classList.add("active");
+    menuButton.setAttribute("aria-expanded", "true");
+  }
+
+
+  function closeMenu() {
+    mainNav.classList.remove("mobile-open");
+    menuButton.classList.remove("active");
+    menuButton.setAttribute("aria-expanded", "false");
+  }
+
+
+  menuButton.addEventListener("click", function () {
+
+    if (mainNav.classList.contains("mobile-open")) {
+      closeMenu();
+    } else {
+      openMenu();
+    }
+
   });
 
+
   if (closeButton) {
-    closeButton.addEventListener("click", () => {
-      mainNav.classList.remove("mobile-open");
-      menuButton.classList.remove("active");
-      menuButton.setAttribute("aria-expanded", "false");
+    closeButton.addEventListener("click", function (event) {
+      event.preventDefault();
+      event.stopPropagation();
+      closeMenu();
     });
   }
 
-  mainNav.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => {
-      mainNav.classList.remove("mobile-open");
-      menuButton.classList.remove("active");
-      menuButton.setAttribute("aria-expanded", "false");
-    });
+
+  mainNav.querySelectorAll("a").forEach(function (link) {
+    link.addEventListener("click", closeMenu);
   });
+
 });
