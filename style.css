@@ -3765,3 +3765,60 @@ input {
     order: 5;
   }
 }
+/* =========================================
+   LANGUAGE BUTTON — FIXED HEADER POSITION
+========================================= */
+
+@media (min-width: 701px) {
+
+  .header-inner {
+    display: flex !important;
+    align-items: center !important;
+    flex-wrap: nowrap !important;
+  }
+
+  .header-inner > .logo {
+    order: 1 !important;
+    flex-shrink: 0;
+  }
+
+  .header-inner > .main-nav {
+    order: 2 !important;
+    flex-shrink: 0;
+  }
+
+  .header-inner > .search-wrapper {
+    order: 3 !important;
+    margin-left: auto !important;
+  }
+
+  .header-inner > .language-switch-desktop {
+    order: 4 !important;
+
+    position: static !important;
+
+    margin-left: 10px !important;
+    margin-right: 4px !important;
+
+    flex-shrink: 0 !important;
+
+    width: 74px;
+    min-width: 74px;
+    height: 42px;
+
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .header-inner > .header-icons {
+    order: 5 !important;
+    flex-shrink: 0;
+  }
+
+  .mobile-menu-toggle,
+  .mobile-menu-close,
+  .language-switch-mobile {
+    display: none !important;
+  }
+}
