@@ -3425,7 +3425,7 @@ input {
   }
 }
 /* =========================================
-   MOBILE SIDE DRAWER
+   ARKIANS MOBILE SIDE DRAWER
 ========================================= */
 
 @media (max-width: 700px) {
@@ -3436,17 +3436,17 @@ input {
     top: 0;
     left: 0;
 
-    width: min(88vw, 390px);
+    width: min(86vw, 380px);
     height: 100dvh;
 
-    padding: 90px 18px 30px;
+    padding: 88px 18px 28px;
 
     display: flex;
     flex-direction: column;
     align-items: stretch;
     gap: 10px;
 
-    background: #ffffff;
+    background: var(--green);
 
     z-index: 9999;
 
@@ -3455,15 +3455,17 @@ input {
     transform: translateX(-105%);
     transition: transform 0.28s ease;
 
-    box-shadow:
-      100vw 0 0 100vw rgba(0, 0, 0, 0.48);
+    box-shadow: none;
   }
 
 
-  /* OPEN */
+  /* OPEN DRAWER */
 
   .main-nav.mobile-open {
     transform: translateX(0);
+
+    box-shadow:
+      100vw 0 0 100vw rgba(0, 0, 0, 0.42);
   }
 
 
@@ -3476,14 +3478,15 @@ input {
     top: 28px;
     left: 28px;
 
-    color: #111111;
+    color: #ffffff;
 
-    font-size: 26px;
-    font-weight: 500;
+    font-family: "Zen Dots", sans-serif;
+    font-size: 22px;
+    font-weight: 400;
   }
 
 
-  /* hide desktop Products button */
+  /* PRODUCTS BUTTON HIDDEN */
 
   .main-nav .dropdown > .dropdown-trigger {
     display: none;
@@ -3496,13 +3499,14 @@ input {
   }
 
 
-  /* Coins / Cards */
+  /* COINS + CARDS CONTAINER */
 
   .main-nav .dropdown-menu,
   .main-nav .dropdown:hover > .dropdown-menu {
     position: static;
 
     width: 100%;
+    min-width: 0;
 
     padding: 0;
 
@@ -3512,39 +3516,54 @@ input {
 
     background: transparent;
 
+    border-radius: 0;
     box-shadow: none;
   }
 
 
-  /* ALL MENU LINKS */
+  /* MENU ITEMS */
 
   .main-nav .nav-link,
   .main-nav .dropdown-menu > a {
     width: 100%;
-    min-height: 72px;
+    min-height: 64px;
 
-    padding: 0 22px;
+    padding: 0 20px;
 
     display: flex;
     align-items: center;
 
-    background: #f1f1f1;
+    background: rgba(255, 255, 255, 0.96);
 
     color: #111111;
 
-    border-radius: 14px;
+    border-radius: 20px;
 
-    font-size: 18px;
-    font-weight: 600;
+    font-size: 17px;
+    font-weight: 700;
 
     box-shadow: none;
   }
 
 
-  .main-nav .nav-link:hover,
-  .main-nav .dropdown-menu > a:hover {
-    background: #e9e9e9;
-    box-shadow: none;
+  .main-nav .nav-link:active,
+  .main-nav .dropdown-menu > a:active {
+    transform: scale(0.98);
+  }
+
+
+  /* HAMBURGER -> X */
+
+  .mobile-menu-toggle.active span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+  }
+
+  .mobile-menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .mobile-menu-toggle.active span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
   }
 
 }
