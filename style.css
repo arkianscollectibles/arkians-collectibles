@@ -3839,3 +3839,31 @@ textarea {
 .home-hero-content h1 {
   font-family: "Zen Dots", sans-serif;
 }
+/* ALL SITE TEXT = FUTURA */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+span,
+button,
+input,
+select,
+textarea,
+label,
+li {
+  font-family: "Futura", "Century Gothic", Arial, sans-serif !important;
+}
+
+
+/* ONLY ARKIANS COLLECTIBLES = ZEN DOTS */
+
+.logo,
+.home-hero-content h1 {
+  font-family: "Zen Dots", sans-serif !important;
+}
