@@ -8,6 +8,7 @@ window.ARKIANS_TRANSLATIONS = {
     nav_proof: "Proof",
     nav_about: "About Us",
     home_hero_title: "Add rare finds to your collection",
+    home_shop_coins: "Shop Coins",
 
     search_placeholder: "Search..."
 
@@ -22,6 +23,7 @@ window.ARKIANS_TRANSLATIONS = {
     nav_proof: "Proof",
     nav_about: "Για Εμάς",
     home_hero_title: "Βάλε σπάνια κομμάτια στη συλλογή σου",
+    home_shop_coins: "Αγόρασε Κέρματα",
 
     search_placeholder: "Αναζήτηση..."
 
