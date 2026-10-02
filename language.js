@@ -18,6 +18,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     document.documentElement.lang = language;
 
+
+    /* TRANSLATE ELEMENTS */
+
     document.querySelectorAll("[data-i18n]").forEach((element) => {
 
       const key = element.dataset.i18n;
@@ -29,6 +32,8 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 
+    /* UPDATE LANGUAGE BUTTONS */
+
     document.querySelectorAll(".language-switch").forEach((button) => {
 
       button.textContent =
@@ -38,8 +43,22 @@ document.addEventListener("DOMContentLoaded", () => {
 
     });
 
+
+    /* MOBILE DRAWER TITLE */
+
+    const mainNav = document.querySelector(".main-nav");
+
+    if (mainNav) {
+      mainNav.setAttribute(
+        "data-drawer-title",
+        translations[language].nav_products
+      );
+    }
+
   }
 
+
+  /* LANGUAGE BUTTON CLICK */
 
   document.querySelectorAll(".language-switch").forEach((button) => {
 
@@ -64,13 +83,8 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
 
+  /* APPLY SAVED LANGUAGE */
+
   applyLanguage(getLanguage());
 
-const mainNav = document.querySelector(".main-nav");
-
-if (mainNav) {
-  mainNav.setAttribute(
-    "data-drawer-title",
-    translations[language].nav_products
-  );
-}
+});
