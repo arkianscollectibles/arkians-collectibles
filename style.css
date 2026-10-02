@@ -3822,52 +3822,8 @@ input {
     display: none !important;
   }
 }
-/* GLOBAL FONT */
 
-body,
-button,
-input,
-select,
-textarea {
-  font-family: "Helvetica", "Century Gothic", Arial, sans-serif;
-}
-
-
-/* KEEP ARKIANS COLLECTIBLES TITLE AS IT IS */
-
-.logo,
-.home-hero-content h1 {
-  font-family: "Zen Dots", sans-serif;
-}
-/* ALL SITE TEXT = HELVETICA */
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-span,
-button,
-input,
-select,
-textarea,
-label,
-li {
-  font-family: "Helvetica", "Century Gothic", Arial, sans-serif !important;
-}
-
-
-/* ONLY ARKIANS COLLECTIBLES = ZEN DOTS */
-
-.logo,
-.home-hero-content h1 {
-  font-family: "Zen Dots", sans-serif !important;
-}
-/* ALL SITE TEXT = NOTO SANS */
+/* ALL SITE TEXT = SOURCE SANS 3 */
 
 body,
 h1,
