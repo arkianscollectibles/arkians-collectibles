@@ -73,7 +73,7 @@ window.ARKIANS_TRANSLATIONS = {
     footer_terms: "Όροι Χρήσης",
     footer_returns: "Επιστροφές",
 
-    footer_shop_by_title: "Προϊόντα",
+    footer_shop_by_title: "Ανά..",
     footer_country: "Χώρα",
     footer_year: "Έτος",
 
