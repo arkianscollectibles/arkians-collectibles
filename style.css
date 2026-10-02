@@ -3885,9 +3885,13 @@ select,
 textarea,
 label,
 li {
-  font-family: "Noto Sans", sans-serif !important;
+  font-family: "Source Sans 3", sans-serif !important;
 }
 
+.logo,
+.home-hero-content h1 {
+  font-family: "Zen Dots", sans-serif !important;
+}
 
 /* ONLY ARKIANS COLLECTIBLES = ZEN DOTS */
 
