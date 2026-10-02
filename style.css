@@ -3472,7 +3472,7 @@ input {
   /* TITLE */
 
   .main-nav::before {
-    content: "Products";
+    content: attr(data-drawer-title);
 
     position: absolute;
     top: 28px;
