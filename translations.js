@@ -7,6 +7,7 @@ window.ARKIANS_TRANSLATIONS = {
     nav_cards: "Coin Cards",
     nav_proof: "Proof",
     nav_about: "About Us",
+    home_hero_title: "Add rare finds to your collection",
 
     search_placeholder: "Search..."
 
@@ -20,6 +21,7 @@ window.ARKIANS_TRANSLATIONS = {
     nav_cards: "Κάρτες Νομισμάτων",
     nav_proof: "Proof",
     nav_about: "Για Εμάς",
+    home_hero_title: "Βάλε σπάνια κομμάτια στη συλλογή σου",
 
     search_placeholder: "Αναζήτηση..."
 
