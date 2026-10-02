@@ -28,7 +28,7 @@ window.ARKIANS_TRANSLATIONS = {
     footer_terms: "Terms",
     footer_returns: "Returns",
 
-    footer_shop_by_title: "Shop By",
+    footer_shop_by_title: "Shop By...",
     footer_country: "Country",
     footer_year: "Year",
 
