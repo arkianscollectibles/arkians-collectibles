@@ -3829,7 +3829,7 @@ button,
 input,
 select,
 textarea {
-  font-family: "Futura", "Century Gothic", Arial, sans-serif;
+  font-family: "Helvetica", "Century Gothic", Arial, sans-serif;
 }
 
 
@@ -3839,7 +3839,7 @@ textarea {
 .home-hero-content h1 {
   font-family: "Zen Dots", sans-serif;
 }
-/* ALL SITE TEXT = FUTURA */
+/* ALL SITE TEXT = HELVETICA */
 
 body,
 h1,
@@ -3857,7 +3857,7 @@ select,
 textarea,
 label,
 li {
-  font-family: "Futura", "Century Gothic", Arial, sans-serif !important;
+  font-family: "Helvetica", "Century Gothic", Arial, sans-serif !important;
 }
 
 
