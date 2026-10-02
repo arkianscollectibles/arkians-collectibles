@@ -3822,3 +3822,20 @@ input {
     display: none !important;
   }
 }
+/* GLOBAL FONT */
+
+body,
+button,
+input,
+select,
+textarea {
+  font-family: "Futura", "Century Gothic", Arial, sans-serif;
+}
+
+
+/* KEEP ARKIANS COLLECTIBLES TITLE AS IT IS */
+
+.logo,
+.home-hero-content h1 {
+  font-family: "Zen Dots", sans-serif;
+}
