@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Arkians Collectibles</title>
+  <title>Search | Arkians Collectibles</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,7 +17,6 @@
 
   <link rel="stylesheet" href="style.css">
 </head>
-
 
 <body>
 
@@ -150,73 +149,20 @@
   </header>
 
 
-  <!-- HOME HERO -->
+  <!-- ALL COINS -->
 
-  <main>
-
-    <section class="home-hero">
-
-      <img
-        src="PRODUCT PHOTOS/home-hero.jpg.jpg"
-        alt="Arkians Collectibles"
-      >
-
-      <div class="home-hero-overlay"></div>
-
-      <div class="home-hero-content">
-
-        <h1>
-          Arkians Collectibles
-        </h1>
-
-        <p data-i18n="home_hero_title">
-  Collect the stories that shaped history.
-</p>
-
-        <a
-  href="coins.html"
-  class="primary-button"
-  data-i18n="home_shop_coins"
->
-  Shop Coins
-</a>
-
-      </div>
-
+  <main class="coins-page">
+    <section class="page-intro">
+      <h1 data-i18n="search_title">Search results</h1>
+      <p id="searchSummary" aria-live="polite"></p>
     </section>
+    <section class="coin-grid" id="globalSearchResults" aria-label="Search results"></section>
+  </main>
 
 
-    <!-- NEW ARRIVALS -->
+  <!-- FOOTER -->
 
-    <section class="content-section">
-
-      <div class="section-heading">
-
-        <h2 data-i18n="home_new_arrivals">New Arrivals</h2>
-
-        <a href="coins.html" data-i18n="home_view_all">
-  View All
-</a>
-
-      </div>
-
-
-      <div
-        class="coin-grid"
-        id="newArrivals"
-      >
-        <!-- coins added by JavaScript later -->
-      </div>
-
-    </section>
-
-
-
-
-
-<!-- FOOTER -->
-
-<footer class="site-footer">
+ <footer class="site-footer">
 
   <div class="footer-inner">
 
@@ -286,7 +232,7 @@
   <div class="footer-cookie-settings"><button type="button" class="cookie-settings" data-i18n="cookie_settings">Cookie settings</button></div>
 </footer>
 
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase.js"></script>
 <script src="translations.js?v=6"></script>
 <script src="language.js?v=4"></script>

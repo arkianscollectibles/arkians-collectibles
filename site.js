@@ -49,6 +49,7 @@
     products.forEach(product => {
       const card = document.createElement('div');
       card.className = 'coin-card template-product';
+      if (product.id) card.id = `product-${product.id}`;
       const image = document.createElement('img');
       image.className = 'coin-card-image';
       image.alt = product.name;

@@ -3881,3 +3881,6 @@ li {
 .cookie-banner, .cookie-actions button { border-color: var(--green); }
 .cookie-actions button:first-child { background: var(--green); color: #111; }
 .dropdown:focus-within > .dropdown-menu { display: block; }
+.search-result { display: block; }
+.search-result:focus-visible, .template-product:target { outline: 2px solid var(--green); outline-offset: 6px; border-radius: 16px; }
+.template-product { scroll-margin-top: 24px; }
