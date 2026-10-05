@@ -127,3 +127,11 @@ Object.assign(window.ARKIANS_TRANSLATIONS.el, {
 });
 window.ARKIANS_TRANSLATIONS.en.country_germany = 'Germany';
 window.ARKIANS_TRANSLATIONS.el.country_germany = 'Γερμανία';
+Object.assign(window.ARKIANS_TRANSLATIONS.en, {
+  search_title: 'Search results', search_empty: 'Enter a name, country, year or product category in the search box.',
+  search_none: 'No products found for', search_found: 'results for', search_view: 'View product'
+});
+Object.assign(window.ARKIANS_TRANSLATIONS.el, {
+  search_title: 'Αποτελέσματα αναζήτησης', search_empty: 'Πληκτρολογήστε όνομα, χώρα, έτος ή κατηγορία προϊόντος στην αναζήτηση.',
+  search_none: 'Δεν βρέθηκαν προϊόντα για', search_found: 'αποτελέσματα για', search_view: 'Δείτε το προϊόν'
+});

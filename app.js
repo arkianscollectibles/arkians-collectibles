@@ -2209,12 +2209,12 @@ function setupCoinSearch() {
       input.value.trim();
 
     if (!search) {
-      window.location.href = "coins.html";
+      window.location.href = "search.html";
       return;
     }
 
     window.location.href =
-      `coins.html?search=${encodeURIComponent(search)}`;
+      `search.html?search=${encodeURIComponent(search)}`;
 
 
   });
