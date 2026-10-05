@@ -90,3 +90,40 @@ window.ARKIANS_TRANSLATIONS = {
   }
 
 };
+// Shared navigation, catalogue and cookie controls.
+Object.assign(window.ARKIANS_TRANSLATIONS.en, {
+  footer_shop_by_title: 'Products', catalog_coins: 'All Coins',
+  catalog_cards: 'All Coin Cards', catalog_proof: 'All Proof',
+  catalog_intro: 'Browse all products or filter by country, year and colour.',
+  filter_title: 'Filter', filter_country: 'Country', filter_year: 'Year',
+  filter_colored: 'Colored', yes: 'Yes', no: 'No', coming_soon: 'Coming soon',
+  no_products: 'No products match these filters.', add_cart: 'Add to Cart',
+  menu_open: 'Open menu', menu_close: 'Close menu', language_change: 'Change language',
+  search_label: 'Search', cookie_settings: 'Cookie settings',
+  cookie_title: 'Cookies & privacy',
+  cookie_message: 'We use necessary browser storage for your account and preferences. Optional analytics and advertising are not currently used. You can accept optional cookies or keep only necessary storage, and change your choice at any time.',
+  cookie_accept: 'Accept all', cookie_reject: 'Necessary only',
+  cookie_policy: 'Privacy policy', country_belgium: 'Belgium', country_slovakia: 'Slovakia',
+  country_france: 'France', country_malta: 'Malta', country_lithuania: 'Lithuania',
+  country_portugal: 'Portugal', country_estonia: 'Estonia', country_greece: 'Greece',
+  country_slovenia: 'Slovenia', country_italy: 'Italy'
+});
+Object.assign(window.ARKIANS_TRANSLATIONS.el, {
+  footer_shop_by_title: 'Προϊόντα', catalog_coins: 'Όλα τα Κέρματα',
+  catalog_cards: 'Όλες οι Κάρτες Νομισμάτων', catalog_proof: 'Όλα τα Proof',
+  catalog_intro: 'Δείτε όλα τα προϊόντα ή αναζητήστε ανά χώρα, έτος και χρώμα.',
+  filter_title: 'Φίλτρα', filter_country: 'Χώρα', filter_year: 'Έτος',
+  filter_colored: 'Χρωματιστά', yes: 'Ναι', no: 'Όχι', coming_soon: 'Σύντομα',
+  no_products: 'Δεν υπάρχουν προϊόντα με αυτά τα φίλτρα.', add_cart: 'Προσθήκη στο καλάθι',
+  menu_open: 'Άνοιγμα μενού', menu_close: 'Κλείσιμο μενού', language_change: 'Αλλαγή γλώσσας',
+  search_label: 'Αναζήτηση', cookie_settings: 'Ρυθμίσεις cookies',
+  cookie_title: 'Cookies & απόρρητο',
+  cookie_message: 'Χρησιμοποιούμε την απαραίτητη αποθήκευση του προγράμματος περιήγησης για τον λογαριασμό και τις προτιμήσεις σας. Δεν χρησιμοποιούμε προς το παρόν προαιρετικά cookies ανάλυσης ή διαφήμισης. Μπορείτε να αποδεχτείτε τα προαιρετικά cookies ή να κρατήσετε μόνο τα απαραίτητα και να αλλάξετε την επιλογή σας οποιαδήποτε στιγμή.',
+  cookie_accept: 'Αποδοχή όλων', cookie_reject: 'Μόνο τα απαραίτητα',
+  cookie_policy: 'Πολιτική απορρήτου', country_belgium: 'Βέλγιο', country_slovakia: 'Σλοβακία',
+  country_france: 'Γαλλία', country_malta: 'Μάλτα', country_lithuania: 'Λιθουανία',
+  country_portugal: 'Πορτογαλία', country_estonia: 'Εσθονία', country_greece: 'Ελλάδα',
+  country_slovenia: 'Σλοβενία', country_italy: 'Ιταλία'
+});
+window.ARKIANS_TRANSLATIONS.en.country_germany = 'Germany';
+window.ARKIANS_TRANSLATIONS.el.country_germany = 'Γερμανία';

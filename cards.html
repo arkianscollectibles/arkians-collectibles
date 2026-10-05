@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>Cards | Arkians Collectibles</title>
+  <title>Coin Cards | Arkians Collectibles</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,11 +29,10 @@
 
     <div class="header-inner">
 
-      <a href="index.html" class="logo">
-        Arkians Collectibles
-      </a>
-
-      <button
+   <a class="logo" href="index.html" onclick="location.href='index.html'; return false;">
+  Arkians Collectibles
+</a>
+<button
   class="mobile-menu-toggle"
   type="button"
   aria-label="Open menu"
@@ -45,9 +44,8 @@
   <span></span>
 </button>
 
-
-    <nav class="main-nav" id="mainNav">
-      <button
+   <nav class="main-nav" id="mainNav">
+    <button
   class="mobile-menu-close"
   type="button"
   aria-label="Close menu"
@@ -63,6 +61,7 @@
 </button>
 
   <!-- PRODUCTS -->
+
 
   <div class="nav-item dropdown">
 
@@ -80,7 +79,6 @@
   </div>
 
 
- 
 
   <!-- ABOUT -->
 
@@ -88,15 +86,12 @@
 
 </nav>
 
-
       <!-- SEARCH -->
+
 
       <div class="search-wrapper">
 
-        <form
-          class="search-bar"
-          id="searchForm"
-        >
+        <form class="search-bar" id="searchForm">
 
           <input
             id="searchInput"
@@ -107,26 +102,21 @@
           >
 
           <button type="submit" aria-label="Search">
-
             <svg viewBox="0 0 24 24">
               <circle cx="11" cy="11" r="7"></circle>
               <line x1="16" y1="16" x2="21" y2="21"></line>
             </svg>
-
           </button>
 
         </form>
 
-        <div
-          class="search-results"
-          id="searchResults">
-        </div>
+        <div class="search-results" id="searchResults"></div>
 
       </div>
 
+      <!-- ICONS -->
 
-      <!-- SHORTCUT ICONS -->
-<button
+      <button
   class="language-switch language-switch-desktop"
   type="button"
   aria-label="Change language"
@@ -135,44 +125,24 @@
 </button>
       <div class="header-icons">
 
-        <a
-          href="account.html"
-          class="icon-button"
-          aria-label="My Account"
-        >
-
+        <a href="account.html" class="icon-button" aria-label="My Account">
           <svg viewBox="0 0 24 24">
             <circle cx="12" cy="8" r="4"></circle>
             <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
           </svg>
-
         </a>
 
-
-        <a
-          href="wishlist.html"
-          class="icon-button"
-          aria-label="Wishlist"
-        >
-
+        <a href="wishlist.html" class="icon-button" aria-label="Wishlist">
           <svg viewBox="0 0 24 24">
             <path d="M20.8 4.6c-2-2-5.3-2-7.3 0L12 6.1l-1.5-1.5c-2-2-5.3-2-7.3 0s-2 5.3 0 7.3L12 20.7l8.8-8.8c2-2 2-5.3 0-7.3z"></path>
           </svg>
-
         </a>
 
-
-        <a
-          href="cart.html"
-          class="icon-button"
-          aria-label="Cart"
-        >
-
+        <a href="cart.html" class="icon-button" aria-label="Cart">
           <svg viewBox="0 0 24 24">
             <path d="M6 8h12l-1 13H7L6 8z"></path>
             <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
           </svg>
-
         </a>
 
       </div>
@@ -187,30 +157,232 @@
        CARDS PAGE
   ========================== -->
 
-  <main class="cards-page">
+  <main class="coins-page" data-catalog="cards">
 
     <section class="page-intro">
 
-      <h1>All Cards</h1>
+      <h1 data-i18n="catalog_cards">All Coin Cards</h1>
 
-      <p>
-        Soon with you
-      </p>
+      <p data-i18n="catalog_intro">Browse all products or filter by country, year and colour.</p>
 
     </section>
 
 
+    <section class="coins-layout">
 
-    <section class="cards-soon">
+      <!-- FILTERS -->
 
-      <img
-        src="PRODUCT PHOTOS/cards-soon-bg.jpg.jpg"
-        alt="Cards coming soon"
-        class="cards-soon-image"
-      >
+      <aside class="filters">
 
-      <div class="cards-soon-overlay">
-        Soon...
+        <h2 data-i18n="filter_title">Filter</h2>
+
+        <div class="filter-group">
+
+          <button class="filter-title" type="button">
+            <span data-i18n="filter_country">Country</span>
+            <span class="filter-arrow" aria-hidden="true">⌄</span>
+          </button>
+
+          <div class="filter-options" hidden>
+
+            <label>
+              <input type="checkbox" value="Belgium" class="country-filter">
+              <span data-i18n="country_belgium">Belgium</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Germany" class="country-filter">
+              <span data-i18n="country_germany">Germany</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Slovakia" class="country-filter">
+              <span data-i18n="country_slovakia">Slovakia</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="France" class="country-filter">
+              <span data-i18n="country_france">France</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Malta" class="country-filter">
+              <span data-i18n="country_malta">Malta</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Lithuania" class="country-filter">
+              <span data-i18n="country_lithuania">Lithuania</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Portugal" class="country-filter">
+              <span data-i18n="country_portugal">Portugal</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Estonia" class="country-filter">
+              <span data-i18n="country_estonia">Estonia</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Greece" class="country-filter">
+              <span data-i18n="country_greece">Greece</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Slovenia" class="country-filter">
+              <span data-i18n="country_slovenia">Slovenia</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="Italy" class="country-filter">
+              <span data-i18n="country_italy">Italy</span>
+            </label>
+
+          </div>
+
+        </div>
+
+
+        <div class="filter-group">
+
+          <button class="filter-title" type="button">
+            <span data-i18n="filter_year">Year</span>
+            <span class="filter-arrow" aria-hidden="true">⌄</span>
+          </button>
+
+          <div class="filter-options" hidden>
+
+            <label>
+              <input type="checkbox" value="2008" class="year-filter">
+              <span>2008</span>
+            </label>
+
+             <label>
+              <input type="checkbox" value="2009" class="year-filter">
+              <span>2009</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2010" class="year-filter">
+              <span>2010</span>
+            </label>
+
+             <label>
+              <input type="checkbox" value="2011" class="year-filter">
+              <span>2011</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2012" class="year-filter">
+              <span>2012</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2013" class="year-filter">
+              <span>2013</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2014" class="year-filter">
+              <span>2014</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2015" class="year-filter">
+              <span>2015</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2016" class="year-filter">
+              <span>2016</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2017" class="year-filter">
+              <span>2017</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2018" class="year-filter">
+              <span>2018</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2019" class="year-filter">
+              <span>2019</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2020" class="year-filter">
+              <span>2020</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2021" class="year-filter">
+              <span>2021</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2022" class="year-filter">
+              <span>2022</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2023" class="year-filter">
+              <span>2023</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2024" class="year-filter">
+              <span>2024</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2025" class="year-filter">
+              <span>2025</span>
+            </label>
+
+            <label>
+              <input type="checkbox" value="2026" class="year-filter">
+              <span>2026</span>
+            </label>
+
+          </div>
+
+        </div>
+        <div class="filter-group colored-filter">
+
+  <button class="filter-title" type="button"><span data-i18n="filter_colored">Colored</span><span class="filter-arrow" aria-hidden="true">⌄</span></button>
+
+  <div class="filter-options" hidden>
+
+    <label>
+      <input type="checkbox" name="colored" value="yes">
+      <span data-i18n="yes">Yes</span>
+    </label>
+
+    <label>
+      <input type="checkbox" name="colored" value="no">
+      <span data-i18n="no">No</span>
+    </label>
+
+  </div>
+
+</div>
+
+      </aside>
+
+
+      <!-- COIN RESULTS -->
+
+      <div class="coins-results">
+
+        <div class="coin-grid" id="allCoins">
+          <!-- JavaScript will add coins here -->
+        </div>
+
       </div>
 
     </section>
@@ -259,17 +431,10 @@
 
     <div class="footer-column">
 
-      <h4 data-i18n="footer_shop_by_title">
-        Shop By
-      </h4>
-
-      <a href="countries.html" data-i18n="footer_country">
-        Country
-      </a>
-
-      <a href="years.html" data-i18n="footer_year">
-        Year
-      </a>
+      <h4 data-i18n="footer_shop_by_title">Products</h4>
+      <a href="coins.html" data-i18n="nav_coins">Coins</a>
+      <a href="cards.html" data-i18n="nav_cards">Coin Cards</a>
+      <a href="proof.html" data-i18n="nav_proof">Proof</a>
 
     </div>
 
@@ -295,29 +460,16 @@
 
   </div>
 
+  <div class="footer-cookie-settings"><button type="button" class="cookie-settings" data-i18n="cookie_settings">Cookie settings</button></div>
 </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase.js"></script>
-<script src="translations.js?v=4"></script>
-<script src="language.js"></script>
-<script src="app.js"></script>
+<script src="translations.js?v=6"></script>
+<script src="language.js?v=4"></script>
+<script src="catalog-data.js"></script>
+<script src="site.js"></script>
+<script src="app.js?v=2"></script>
 
 </body>
-</html>
-
-
-
-  <!-- =========================
-       SCRIPTS
-  ========================== -->
-
-  <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-  <script src="supabase.js"></script>
-<script src="translations.js?v=4"></script>
-<script src="language.js?v=3"></script>
-<script src="app.js"></script>
-
-</body>
-
 </html>

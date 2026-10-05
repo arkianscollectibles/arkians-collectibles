@@ -1,99 +1,43 @@
-/* =========================================
-   ARKIANS LANGUAGE SYSTEM
-========================================= */
-
-document.addEventListener("DOMContentLoaded", () => {
-
+/* Shared language controls, including content rendered after page load. */
+(() => {
   const translations = window.ARKIANS_TRANSLATIONS;
-
-  if (!translations) return;
-
-
-  function getLanguage() {
-    return localStorage.getItem("arkians-language") || "en";
-  }
-
-
-  function applyLanguage(language) {
-
-    document.documentElement.lang = language;
-
-
-    /* TRANSLATE ELEMENTS */
-
-    document.querySelectorAll("[data-i18n]").forEach((element) => {
-
-      const key = element.dataset.i18n;
-
-      if (translations[language]?.[key]) {
-        element.textContent = translations[language][key];
-      }
-
-    });
-    document.querySelectorAll("[data-i18n-placeholder]").forEach((element) => {
-
-  const key = element.dataset.i18nPlaceholder;
-
-  if (translations[language]?.[key]) {
-    element.placeholder = translations[language][key];
-  }
-
-});
-
-
-    /* UPDATE LANGUAGE BUTTONS */
-
-    document.querySelectorAll(".language-switch").forEach((button) => {
-
-      button.textContent =
-        language === "en"
-          ? "EN / GR"
-          : "GR / EN";
-
-    });
-
-
-    /* MOBILE DRAWER TITLE */
-
-    const mainNav = document.querySelector(".main-nav");
-
-    if (mainNav) {
-      mainNav.setAttribute(
-        "data-drawer-title",
-        translations[language].nav_products
-      );
+  const storedLanguage = () => {
+    try { return localStorage.getItem('arkians-language') === 'el' ? 'el' : 'en'; }
+    catch { return 'en'; }
+  };
+  let language = storedLanguage();
+  function translate(root = document) {
+    const strings = translations?.[language];
+    if (!strings) return;
+    for (const [attribute, target] of [['data-i18n', 'textContent'], ['data-i18n-placeholder', 'placeholder'], ['data-i18n-aria', 'aria-label']]) {
+      root.querySelectorAll(`[${attribute}]`).forEach(element => {
+        const text = strings[element.getAttribute(attribute)];
+        if (text === undefined) return;
+        if (target === 'textContent') element.textContent = text;
+        else element.setAttribute(target, text);
+      });
     }
-
-  }
-
-
-  /* LANGUAGE BUTTON CLICK */
-
-  document.querySelectorAll(".language-switch").forEach((button) => {
-
-    button.addEventListener("click", () => {
-
-      const currentLanguage = getLanguage();
-
-      const newLanguage =
-        currentLanguage === "en"
-          ? "el"
-          : "en";
-
-      localStorage.setItem(
-        "arkians-language",
-        newLanguage
-      );
-
-      applyLanguage(newLanguage);
-
+    document.documentElement.lang = language;
+    document.querySelectorAll('.language-switch').forEach(button => {
+      button.textContent = language === 'en' ? 'EN / GR' : 'GR / EN';
     });
-
+    document.querySelector('.main-nav')?.setAttribute('data-drawer-title', strings.nav_products);
+  }
+  window.arkiansTranslate = translate;
+  document.addEventListener('DOMContentLoaded', () => {
+    const aria = {'.mobile-menu-toggle': 'menu_open', '.mobile-menu-close': 'menu_close',
+      '.language-switch': 'language_change', '.search-bar button': 'search_label',
+      '.header-icons a[href="account.html"]': 'footer_account_title',
+      '.header-icons a[href="wishlist.html"]': 'footer_wishlist', '.header-icons a[href="cart.html"]': 'footer_cart'};
+    Object.entries(aria).forEach(([selector,key]) => document.querySelectorAll(selector).forEach(el=>el.setAttribute('data-i18n-aria',key)));
+    document.querySelectorAll('.language-switch').forEach(button => button.addEventListener('click', () => {
+      language = language === 'en' ? 'el' : 'en';
+      try { localStorage.setItem('arkians-language', language); } catch { /* Storage can be unavailable. */ }
+      translate();
+    }));
+    translate();
+    new MutationObserver(records => {
+      if (records.some(record => [...record.addedNodes].some(node => node.nodeType === 1))) translate();
+    }).observe(document.body, {childList: true, subtree: true});
   });
-
-
-  /* APPLY SAVED LANGUAGE */
-
-  applyLanguage(getLanguage());
-
-});
+})();

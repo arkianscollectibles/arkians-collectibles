@@ -461,52 +461,19 @@ function renderNewArrivals() {
 // ======================================================
 
 function setupFilterAccordion() {
-
-  document
-    .querySelectorAll(".filter-title")
-    .forEach((button) => {
-
-      button.addEventListener(
-        "click",
-        () => {
-
-          const group =
-            button.closest(".filter-group");
-
-          if (!group) return;
-
-          const options =
-            group.querySelector(
-              ".filter-options"
-            );
-
-          const arrow =
-            button.querySelector("span");
-
-          if (!options) return;
-
-          const isOpen =
-            window.getComputedStyle(
-              options
-            ).display !== "none";
-
-          options.style.display =
-            isOpen
-              ? "none"
-              : "flex";
-
-          if (arrow) {
-            arrow.style.transform =
-              isOpen
-                ? "rotate(-90deg)"
-                : "rotate(0deg)";
-          }
-        }
-      );
+  document.querySelectorAll('.filter-title').forEach((button, index) => {
+    const options = button.closest('.filter-group')?.querySelector('.filter-options');
+    if (!options) return;
+    options.id = `filter-options-${index}`;
+    options.hidden = true;
+    button.setAttribute('aria-controls', options.id);
+    button.setAttribute('aria-expanded', 'false');
+    button.addEventListener('click', () => {
+      options.hidden = !options.hidden;
+      button.setAttribute('aria-expanded', String(!options.hidden));
     });
+  });
 }
-
-
 
 // ======================================================
 // ALL COINS
@@ -583,7 +550,7 @@ function renderAllCoins(list) {
         data-coin-id="${coin.id}"
         type="button"
       >
-        Add to Cart
+        <span data-i18n="add_cart">Add to Cart</span>
       </button>
     `;
 
@@ -638,7 +605,7 @@ function applyFilters() {
 
 
   const filteredCoins =
-    coins.filter((coin) => {
+    (window.ARKIANS_CATALOGS?.[document.querySelector("[data-catalog]")?.dataset.catalog] || coins).filter((coin) => {
 
       const countryMatch =
         selectedCountries.length === 0 ||
@@ -693,7 +660,15 @@ function applyFilters() {
     });
 
 
-  renderAllCoins(filteredCoins);
+  const catalog = document.querySelector('[data-catalog]')?.dataset.catalog;
+  if (catalog === 'cards' || catalog === 'proof') {
+    window.arkiansRenderTemplates(container, filteredCoins);
+  } else {
+    renderAllCoins(filteredCoins);
+    if (!filteredCoins.length) {
+      container.innerHTML = '<p data-i18n="no_products">No products match these filters.</p>';
+    }
+  }
 }
 
 
@@ -723,9 +698,7 @@ async function initAllCoinsPage() {
   if (!container) return;
 
 
-  await loadWishlistIds();
-
-
+  // Catalogue browsing must work even if the backend is unreachable.
   const params =
     new URLSearchParams(
       window.location.search
@@ -742,9 +715,7 @@ async function initAllCoinsPage() {
   if (countryFromURL) {
 
     const checkbox =
-      document.querySelector(
-        `.country-filter[value="${countryFromURL}"]`
-      );
+      [...document.querySelectorAll(".country-filter")].find(input => input.value === countryFromURL);
 
     if (checkbox) {
       checkbox.checked = true;
@@ -755,9 +726,7 @@ async function initAllCoinsPage() {
   if (yearFromURL) {
 
     const checkbox =
-      document.querySelector(
-        `.year-filter[value="${yearFromURL}"]`
-      );
+      [...document.querySelectorAll(".year-filter")].find(input => input.value === yearFromURL);
 
     if (checkbox) {
       checkbox.checked = true;
@@ -766,6 +735,11 @@ async function initAllCoinsPage() {
 
 
   applyFilters();
+  if (document.querySelector('[data-catalog]')?.dataset.catalog === 'coins') {
+    loadWishlistIds().then(applyFilters).catch(error => {
+      console.error('Wishlist unavailable:', error);
+    });
+  }
 }
 
 
@@ -903,7 +877,7 @@ async function renderWishlistPage() {
         data-coin-id="${coin.id}"
         type="button"
       >
-        Add to Cart
+        <span data-i18n="add_cart">Add to Cart</span>
       </button>
     `;
 
@@ -1559,7 +1533,7 @@ function renderRelatedProducts(currentCoin) {
         data-coin-id="${coin.id}"
         type="button"
       >
-        Add to Cart
+        <span data-i18n="add_cart">Add to Cart</span>
       </button>
     `;
 

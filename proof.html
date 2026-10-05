@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <title>All Coins | Arkians Collectibles</title>
+  <title>Proof | Arkians Collectibles</title>
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -58,7 +58,7 @@
 </button>
 
   <!-- PRODUCTS -->
-  
+
 
   <div class="nav-item dropdown">
 
@@ -151,16 +151,13 @@
 
   <!-- ALL COINS -->
 
-  <main class="coins-page">
+  <main class="coins-page" data-catalog="proof">
 
     <section class="page-intro">
 
-      <h1>All Coins</h1>
+      <h1 data-i18n="catalog_proof">All Proof</h1>
 
-      <p>
-        Browse through all the coins or use the filter to explore
-        the treasures of specific countries or years.
-      </p>
+      <p data-i18n="catalog_intro">Browse all products or filter by country, year and colour.</p>
 
     </section>
 
@@ -171,70 +168,70 @@
 
       <aside class="filters">
 
-        <h2>Filter</h2>
+        <h2 data-i18n="filter_title">Filter</h2>
 
         <div class="filter-group">
 
-          <button class="filter-title">
-            Country
-            <span>⌄</span>
+          <button class="filter-title" type="button">
+            <span data-i18n="filter_country">Country</span>
+            <span class="filter-arrow" aria-hidden="true">⌄</span>
           </button>
 
-          <div class="filter-options">
+          <div class="filter-options" hidden>
 
             <label>
               <input type="checkbox" value="Belgium" class="country-filter">
-              <span>Belgium</span>
+              <span data-i18n="country_belgium">Belgium</span>
             </label>
 
             <label>
               <input type="checkbox" value="Germany" class="country-filter">
-              <span>Germany</span>
+              <span data-i18n="country_germany">Germany</span>
             </label>
 
             <label>
               <input type="checkbox" value="Slovakia" class="country-filter">
-              <span>Slovakia</span>
+              <span data-i18n="country_slovakia">Slovakia</span>
             </label>
 
             <label>
               <input type="checkbox" value="France" class="country-filter">
-              <span>France</span>
+              <span data-i18n="country_france">France</span>
             </label>
 
             <label>
               <input type="checkbox" value="Malta" class="country-filter">
-              <span>Malta</span>
+              <span data-i18n="country_malta">Malta</span>
             </label>
 
             <label>
               <input type="checkbox" value="Lithuania" class="country-filter">
-              <span>Lithuania</span>
+              <span data-i18n="country_lithuania">Lithuania</span>
             </label>
 
             <label>
               <input type="checkbox" value="Portugal" class="country-filter">
-              <span>Portugal</span>
+              <span data-i18n="country_portugal">Portugal</span>
             </label>
 
             <label>
               <input type="checkbox" value="Estonia" class="country-filter">
-              <span>Estonia</span>
+              <span data-i18n="country_estonia">Estonia</span>
             </label>
 
             <label>
               <input type="checkbox" value="Greece" class="country-filter">
-              <span>Greece</span>
+              <span data-i18n="country_greece">Greece</span>
             </label>
 
             <label>
               <input type="checkbox" value="Slovenia" class="country-filter">
-              <span>Slovenia</span>
+              <span data-i18n="country_slovenia">Slovenia</span>
             </label>
 
             <label>
               <input type="checkbox" value="Italy" class="country-filter">
-              <span>Italy</span>
+              <span data-i18n="country_italy">Italy</span>
             </label>
 
           </div>
@@ -244,12 +241,12 @@
 
         <div class="filter-group">
 
-          <button class="filter-title">
-            Year
-            <span>⌄</span>
+          <button class="filter-title" type="button">
+            <span data-i18n="filter_year">Year</span>
+            <span class="filter-arrow" aria-hidden="true">⌄</span>
           </button>
 
-          <div class="filter-options">
+          <div class="filter-options" hidden>
 
             <label>
               <input type="checkbox" value="2008" class="year-filter">
@@ -349,22 +346,20 @@
           </div>
 
         </div>
-        <div class="filter-section colored-filter">
+        <div class="filter-group colored-filter">
 
-  <button class="filter-toggle" type="button">
-    Colored
-  </button>
+  <button class="filter-title" type="button"><span data-i18n="filter_colored">Colored</span><span class="filter-arrow" aria-hidden="true">⌄</span></button>
 
-  <div class="filter-options">
+  <div class="filter-options" hidden>
 
     <label>
       <input type="checkbox" name="colored" value="yes">
-      Yes
+      <span data-i18n="yes">Yes</span>
     </label>
 
     <label>
       <input type="checkbox" name="colored" value="no">
-      No
+      <span data-i18n="no">No</span>
     </label>
 
   </div>
@@ -429,17 +424,10 @@
 
     <div class="footer-column">
 
-      <h4 data-i18n="footer_shop_by_title">
-        Shop By
-      </h4>
-
-      <a href="countries.html" data-i18n="footer_country">
-        Country
-      </a>
-
-      <a href="years.html" data-i18n="footer_year">
-        Year
-      </a>
+      <h4 data-i18n="footer_shop_by_title">Products</h4>
+      <a href="coins.html" data-i18n="nav_coins">Coins</a>
+      <a href="cards.html" data-i18n="nav_cards">Coin Cards</a>
+      <a href="proof.html" data-i18n="nav_proof">Proof</a>
 
     </div>
 
@@ -465,13 +453,16 @@
 
   </div>
 
+  <div class="footer-cookie-settings"><button type="button" class="cookie-settings" data-i18n="cookie_settings">Cookie settings</button></div>
 </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase.js"></script>
-<script src="translations.js?v=4"></script>
-<script src="language.js?v=3"></script>
-<script src="app.js"></script>
+<script src="translations.js?v=6"></script>
+<script src="language.js?v=4"></script>
+<script src="catalog-data.js"></script>
+<script src="site.js"></script>
+<script src="app.js?v=2"></script>
 
 </body>
 </html>

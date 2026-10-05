@@ -2,10 +2,12 @@ const SUPABASE_URL = "https://ubgnwgwicaznwfxvbxfg.supabase.co";
 
 const SUPABASE_PUBLISHABLE_KEY = "sb_publishable_VKlBIfDbzpD9d1nuGTdhgw__QYvyhb9";
 
-const supabaseClient = window.supabase.createClient(
+const supabaseClient = window.supabase?.createClient(
   SUPABASE_URL,
   SUPABASE_PUBLISHABLE_KEY
 );
+// Keep static browsing functional when the external SDK is unavailable.
+if (supabaseClient) {
 const googleLoginButton =
   document.getElementById("googleLoginButton");
 
@@ -181,8 +183,6 @@ async function loadProfileData() {
 
 
 loadProfileData();
-
-loadProfileData();
 // EDIT PROFILE - LOAD + SAVE
 
 async function setupEditProfile() {
@@ -267,3 +267,5 @@ async function setupEditProfile() {
 
 
 setupEditProfile();
+
+}

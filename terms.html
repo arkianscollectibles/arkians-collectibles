@@ -43,11 +43,10 @@
 
     <div class="header-inner">
 
-      <a href="index.html" class="logo">
-        Arkians Collectibles
-      </a>
-
-      <button
+   <a class="logo" href="index.html" onclick="location.href='index.html'; return false;">
+  Arkians Collectibles
+</a>
+<button
   class="mobile-menu-toggle"
   type="button"
   aria-label="Open menu"
@@ -59,9 +58,8 @@
   <span></span>
 </button>
 
-
-      <nav class="main-nav" id="mainNav">
-        <button
+   <nav class="main-nav" id="mainNav">
+    <button
   class="mobile-menu-close"
   type="button"
   aria-label="Close menu"
@@ -76,42 +74,38 @@
   EN / GR
 </button>
 
-        <!-- PRODUCTS -->
-
-        <div class="nav-item dropdown">
-
-          <button
-            type="button"
-            class="nav-link dropdown-trigger"
-          >
-            Products
-            <span>⌄</span>
-          </button>
-
-          <div class="dropdown-menu">
-            <a href="coins.html" data-i18n="nav_coins">Coins</a>
-            <a href="cards.html" data-i18n="nav_cards">Cards</a>
-            <a href="proof.html" data-i18n="nav_proof">Proof</a>
-          </div>
-
-        </div>
+  <!-- PRODUCTS -->
 
 
-        <!-- ABOUT -->
+  <div class="nav-item dropdown">
 
-        <a href="about.html" class="nav-link" data-i18n="nav_about">About Us</a>
+    <button class="nav-link dropdown-trigger">
+  <span data-i18n="nav_products">Products</span>
+  <span>⌄</span>
+</button>
 
-      </nav>
+    <div class="dropdown-menu">
+      <a href="coins.html" data-i18n="nav_coins">Coins</a>
+      <a href="cards.html" data-i18n="nav_cards">Cards</a>
+      <a href="proof.html" data-i18n="nav_proof">Proof</a>
+    </div>
 
+  </div>
+
+
+
+  <!-- ABOUT -->
+
+  <a href="about.html" class="nav-link" data-i18n="nav_about">About Us</a>
+
+</nav>
 
       <!-- SEARCH -->
 
+
       <div class="search-wrapper">
 
-        <form
-          class="search-bar"
-          id="searchForm"
-        >
+        <form class="search-bar" id="searchForm">
 
           <input
             id="searchInput"
@@ -122,27 +116,21 @@
           >
 
           <button type="submit" aria-label="Search">
-
             <svg viewBox="0 0 24 24">
               <circle cx="11" cy="11" r="7"></circle>
               <line x1="16" y1="16" x2="21" y2="21"></line>
             </svg>
-
           </button>
 
         </form>
 
-        <div
-          class="search-results"
-          id="searchResults"
-        >
-        </div>
+        <div class="search-results" id="searchResults"></div>
 
       </div>
 
+      <!-- ICONS -->
 
-      <!-- SHORTCUT ICONS -->
-<button
+      <button
   class="language-switch language-switch-desktop"
   type="button"
   aria-label="Change language"
@@ -151,44 +139,24 @@
 </button>
       <div class="header-icons">
 
-        <a
-          href="account.html"
-          class="icon-button"
-          aria-label="My Account"
-        >
-
+        <a href="account.html" class="icon-button" aria-label="My Account">
           <svg viewBox="0 0 24 24">
             <circle cx="12" cy="8" r="4"></circle>
             <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
           </svg>
-
         </a>
 
-
-        <a
-          href="wishlist.html"
-          class="icon-button"
-          aria-label="Wishlist"
-        >
-
+        <a href="wishlist.html" class="icon-button" aria-label="Wishlist">
           <svg viewBox="0 0 24 24">
             <path d="M20.8 4.6c-2-2-5.3-2-7.3 0L12 6.1l-1.5-1.5c-2-2-5.3-2-7.3 0s-2 5.3 0 7.3L12 20.7l8.8-8.8c2-2 2-5.3 0-7.3z"></path>
           </svg>
-
         </a>
 
-
-        <a
-          href="cart.html"
-          class="icon-button"
-          aria-label="Cart"
-        >
-
+        <a href="cart.html" class="icon-button" aria-label="Cart">
           <svg viewBox="0 0 24 24">
             <path d="M6 8h12l-1 13H7L6 8z"></path>
             <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
           </svg>
-
         </a>
 
       </div>
@@ -1106,17 +1074,10 @@
 
     <div class="footer-column">
 
-      <h4 data-i18n="footer_shop_by_title">
-        Shop By
-      </h4>
-
-      <a href="countries.html" data-i18n="footer_country">
-        Country
-      </a>
-
-      <a href="years.html" data-i18n="footer_year">
-        Year
-      </a>
+      <h4 data-i18n="footer_shop_by_title">Products</h4>
+      <a href="coins.html" data-i18n="nav_coins">Coins</a>
+      <a href="cards.html" data-i18n="nav_cards">Coin Cards</a>
+      <a href="proof.html" data-i18n="nav_proof">Proof</a>
 
     </div>
 
@@ -1142,13 +1103,16 @@
 
   </div>
 
+  <div class="footer-cookie-settings"><button type="button" class="cookie-settings" data-i18n="cookie_settings">Cookie settings</button></div>
 </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
 <script src="supabase.js"></script>
-<script src="translations.js?v=4"></script>
-<script src="language.js?v=3"></script>
-<script src="app.js"></script>
+<script src="translations.js?v=6"></script>
+<script src="language.js?v=4"></script>
+<script src="catalog-data.js"></script>
+<script src="site.js"></script>
+<script src="app.js?v=2"></script>
 
 </body>
 </html>

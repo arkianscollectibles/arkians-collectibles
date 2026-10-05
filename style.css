@@ -3855,3 +3855,29 @@ li {
 .home-hero-content h1 {
   font-family: "Zen Dots", sans-serif !important;
 }
+/* Collapsed filters on first entry, including the coloured filter. */
+.filter-options[hidden], .cookie-banner[hidden] { display: none !important; }
+.filter-title [data-i18n] { font-size: inherit; }
+.filter-title .filter-arrow { transform: rotate(-90deg); }
+.filter-title[aria-expanded="true"] .filter-arrow { transform: rotate(0); }
+.template-product .add-cart-button:disabled { opacity: .65; cursor: default; }
+.footer-cookie-settings { max-width: 1200px; margin: 20px auto 0; padding: 0 24px; }
+.cookie-settings { background: none; border: 0; padding: 0; color: inherit; font: inherit; text-decoration: underline; cursor: pointer; }
+.cookie-banner { position: fixed; z-index: 10000; bottom: 20px; left: 20px; right: 20px; max-width: 1120px; margin: auto; padding: 24px; display: flex; align-items: center; gap: 28px; background: #fff; color: #111; border: 1px solid #b39b61; border-radius: 16px; box-shadow: 0 8px 36px #0003; font-family: inherit; }
+.cookie-copy { flex: 1; min-width: 0; }
+.cookie-copy h2 { font-size: 20px; margin: 0 0 8px; }
+.cookie-copy p { font-size: 14px; line-height: 1.5; margin: 0 0 10px; }
+.cookie-copy a { color: inherit; text-decoration: underline; }
+.cookie-actions { display: flex; gap: 10px; flex-wrap: wrap; }
+.cookie-actions button { border: 1px solid #b39b61; border-radius: 8px; background: #fff; color: #111; font: inherit; font-size: 14px; font-weight: 600; padding: 12px 16px; cursor: pointer; }
+.cookie-actions button:first-child { background: #f3f0e9; }
+.cookie-actions button:focus-visible, .cookie-settings:focus-visible { outline: 2px solid #111; outline-offset: 3px; }
+@media (max-width: 700px) {
+  .cookie-banner { bottom: 10px; left: 10px; right: 10px; padding: 16px; flex-direction: column; align-items: stretch; gap: 14px; max-height: 75vh; overflow-y: auto; }
+  .cookie-actions { display: grid; grid-template-columns: 1fr 1fr; }
+}
+/* Match the coloured accordion and consent controls to the existing theme. */
+.colored-filter.filter-group { padding: 0; }
+.cookie-banner, .cookie-actions button { border-color: var(--green); }
+.cookie-actions button:first-child { background: var(--green); color: #111; }
+.dropdown:focus-within > .dropdown-menu { display: block; }
