@@ -46,6 +46,10 @@
       const title = document.createElement('div'); title.className = 'coin-card-title'; title.textContent = product.name;
       const label = document.createElement('div'); label.className = 'coin-card-meta'; label.dataset.i18n = category.key;
       const meta = document.createElement('div'); meta.className = 'coin-card-meta'; meta.textContent = `${product.country} · ${product.year}`;
+      if (type === 'coins' && product.colored === false) {
+        const variant = document.createElement('span'); variant.dataset.i18n = 'variant_uncolored';
+        meta.append(' · ', variant);
+      }
       const price = document.createElement('div'); price.className = 'coin-card-price';
       if (type === 'coins') price.textContent = `€${product.price.toFixed(2)}`;
       else price.dataset.i18n = 'coming_soon';

@@ -10,6 +10,11 @@ const coins = Object.entries(window.ARKIANS_PRICES.products).map(([id, product])
 }));
 
 
+const escapeCoinText = value => String(value).replace(/[&<>"']/g, character => ({
+  '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
+})[character]);
+
+
 
 // ======================================================
 // HEART SVG
@@ -189,7 +194,7 @@ function renderNewArrivals() {
         <img
           class="coin-card-image"
           src="${coin.image}"
-          alt="${coin.name}"
+          alt="${escapeCoinText(coin.name)}"
         >
       </a>
 
@@ -197,11 +202,11 @@ function renderNewArrivals() {
         href="product.html?id=${coin.id}"
         class="coin-card-title coin-product-link"
       >
-        ${coin.name}
+        ${escapeCoinText(coin.name)}
       </a>
 
       <div class="coin-card-meta">
-        ${coin.country} · ${coin.year}
+        ${coin.country} · ${coin.year}${window.arkiansCoinVariant(coin)}
       </div>
 
       <div class="coin-card-price">
@@ -265,7 +270,7 @@ function renderAllCoins(list) {
           <img
             class="coin-card-image"
             src="${coin.image}"
-            alt="${coin.name}"
+            alt="${escapeCoinText(coin.name)}"
           >
         </a>
 
@@ -290,12 +295,12 @@ function renderAllCoins(list) {
         href="product.html?id=${coin.id}"
         class="coin-card-title coin-product-link"
       >
-        ${coin.name}
+        ${escapeCoinText(coin.name)}
       </a>
 
 
       <div class="coin-card-meta">
-        ${coin.country} · ${coin.year}
+        ${coin.country} · ${coin.year}${window.arkiansCoinVariant(coin)}
       </div>
 
 
@@ -594,7 +599,7 @@ async function renderWishlistPage() {
         >
           <img
             src="${coin.image}"
-            alt="${coin.name}"
+            alt="${escapeCoinText(coin.name)}"
           >
         </a>
 
@@ -616,13 +621,13 @@ async function renderWishlistPage() {
           href="product.html?id=${coin.id}"
           class="coin-product-link"
         >
-          ${coin.name}
+          ${escapeCoinText(coin.name)}
         </a>
       </h3>
 
 
       <div class="wishlist-card-meta">
-        ${coin.country} · ${coin.year}
+        ${coin.country} · ${coin.year}${window.arkiansCoinVariant(coin)}
       </div>
 
 
@@ -1012,7 +1017,7 @@ async function renderCartPage() {
         <img
           class="cart-card-image"
           src="${coin.image}"
-          alt="${coin.name}"
+          alt="${escapeCoinText(coin.name)}"
         >
       </a>
 
@@ -1024,13 +1029,13 @@ async function renderCartPage() {
             href="product.html?id=${coin.id}"
             class="coin-product-link"
           >
-            ${coin.name}
+            ${escapeCoinText(coin.name)}
           </a>
         </h3>
 
 
         <div class="cart-card-meta">
-          ${coin.country} · ${coin.year}
+          ${coin.country} · ${coin.year}${window.arkiansCoinVariant(coin)}
         </div>
 
 
@@ -1266,7 +1271,7 @@ function renderRelatedProducts(currentCoin) {
         <img
           class="coin-card-image"
           src="${coin.image}"
-          alt="${coin.name}"
+          alt="${escapeCoinText(coin.name)}"
         >
       </a>
 
@@ -1275,12 +1280,12 @@ function renderRelatedProducts(currentCoin) {
         href="product.html?id=${coin.id}"
         class="coin-card-title coin-product-link"
       >
-        ${coin.name}
+        ${escapeCoinText(coin.name)}
       </a>
 
 
       <div class="coin-card-meta">
-        ${coin.country} · ${coin.year}
+        ${coin.country} · ${coin.year}${window.arkiansCoinVariant(coin)}
       </div>
 
 
@@ -1385,8 +1390,8 @@ async function renderProductPage() {
 
 
   if (productMeta) {
-    productMeta.textContent =
-      `${coin.country} · ${coin.year}`;
+    productMeta.innerHTML =
+      `${coin.country} · ${coin.year}${window.arkiansCoinVariant(coin)}`;
   }
 
 

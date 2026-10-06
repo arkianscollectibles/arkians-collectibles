@@ -1,5 +1,5 @@
 {
-  "status": "pending_authentic_image_sources_and_price_confirmation",
+  "status": "30_added_7_pending_authentic_image_sources",
   "products": [
     {
       "id": 38,
@@ -10,7 +10,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/001.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014/comm_2014_Slovenia.jpg",
+      "status": "added"
     },
     {
       "id": 39,
@@ -21,7 +22,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/002.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": null,
+      "status": "pending_publisher_image_access"
     },
     {
       "id": 40,
@@ -32,7 +34,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/003.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019/comm_2019_sv_100anni_university_ljublja.jpg",
+      "status": "added"
     },
     {
       "id": 41,
@@ -43,18 +46,20 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/004.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/2022_1comm_Italy-polizia_540x540.jpg",
+      "status": "added"
     },
     {
       "id": 42,
       "source_coin_id": 5,
       "name": "2 Euros Academy of Athens",
       "country": "Greece",
-      "year": 2015,
+      "year": 2026,
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/005.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": null,
+      "status": "pending_publisher_image_access"
     },
     {
       "id": 43,
@@ -65,7 +70,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/006.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": null,
+      "status": "pending_publisher_image_access"
     },
     {
       "id": 44,
@@ -76,7 +82,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/007.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023/IMG_0007.jpg",
+      "status": "added"
     },
     {
       "id": 45,
@@ -87,7 +94,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/008.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": null,
+      "status": "pending_publisher_image_access"
     },
     {
       "id": 46,
@@ -98,7 +106,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/009.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2015/comm_2015_Malta.jpg",
+      "status": "added"
     },
     {
       "id": 47,
@@ -109,7 +118,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/010.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/PT 2021 EU presidency.jpg",
+      "status": "added"
     },
     {
       "id": 48,
@@ -120,7 +130,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/011.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/0429-23r.jpg",
+      "status": "added"
     },
     {
       "id": 49,
@@ -131,7 +142,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/012.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024/2024_comm_Belgium2.jpg",
+      "status": "added"
     },
     {
       "id": 50,
@@ -142,7 +154,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/013.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2008/comm_2008_Slovenia.jpg",
+      "status": "added"
     },
     {
       "id": 51,
@@ -153,7 +166,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/014.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_sl_birth_bohoric.jpg",
+      "status": "added"
     },
     {
       "id": 52,
@@ -164,7 +178,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/015.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010/comm_2010_sl.jpg",
+      "status": "added"
     },
     {
       "id": 53,
@@ -175,7 +190,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/016.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": null,
+      "status": "pending_publisher_image_access"
     },
     {
       "id": 54,
@@ -186,7 +202,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/017.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/0424-23r.jpg",
+      "status": "added"
     },
     {
       "id": 55,
@@ -197,7 +214,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/018.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2012/comm_2012_pt.jpg",
+      "status": "added"
     },
     {
       "id": 56,
@@ -208,7 +226,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/019.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": null,
+      "status": "pending_publisher_image_access"
     },
     {
       "id": 57,
@@ -219,7 +238,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/020.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/SL_Oct21.jpg",
+      "status": "added"
     },
     {
       "id": 58,
@@ -230,7 +250,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/021.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/Slovenia.jpg",
+      "status": "added"
     },
     {
       "id": 59,
@@ -241,7 +262,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/022.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.monnaiedeparis.fr/media/catalog/product/M/5/M5066_MDP_00070866_BD_ac41.jpg",
+      "status": "added"
     },
     {
       "id": 60,
@@ -252,7 +274,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/023.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011/comm_2011_sk.jpg",
+      "status": "added"
     },
     {
       "id": 61,
@@ -263,7 +286,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/024.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024/IMG_0060.jpg",
+      "status": "added"
     },
     {
       "id": 62,
@@ -274,7 +298,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/025.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025/Estonia_540x540.jpg",
+      "status": "added"
     },
     {
       "id": 63,
@@ -285,7 +310,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/026.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_pt_university_coimbra.jpg",
+      "status": "added"
     },
     {
       "id": 64,
@@ -294,9 +320,10 @@
       "country": "Germany",
       "year": 2026,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/UNCOLORED/027.jpg",
+      "image": "PRODUCT PHOTOS/COINS/UNCOLORED/027.png",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://muenze-deutschland.de/out/pictures/generated/product/1/1200_1200_85/2_euro_bremen_2026_bs_1300x1272(2).png",
+      "status": "added"
     },
     {
       "id": 65,
@@ -307,7 +334,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/028.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023/IMG_0023_540x540.jpg",
+      "status": "added"
     },
     {
       "id": 66,
@@ -318,7 +346,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/029.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2016/comm_2016_portugal_olympics_270.jpg",
+      "status": "added"
     },
     {
       "id": 67,
@@ -329,7 +358,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/030.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/comm_2021_estonia-wolf.jpg",
+      "status": "added"
     },
     {
       "id": 68,
@@ -340,7 +370,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/031.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011/comm_2011_pt.jpg",
+      "status": "added"
     },
     {
       "id": 69,
@@ -351,7 +382,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/032.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025/Slovakia.jpg",
+      "status": "added"
     },
     {
       "id": 70,
@@ -362,7 +394,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/033.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014/comm_2014_Slovakia.jpg",
+      "status": "added"
     },
     {
       "id": 71,
@@ -373,7 +406,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/034.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": null,
+      "status": "pending_publisher_image_access"
     },
     {
       "id": 72,
@@ -384,7 +418,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/035.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010/comm_2010_be.jpg",
+      "status": "added"
     },
     {
       "id": 73,
@@ -395,7 +430,8 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/036.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_gr_battle_thermopylae.jpg",
+      "status": "added"
     },
     {
       "id": 74,
@@ -406,7 +442,40 @@
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/UNCOLORED/037.jpg",
       "suggested_price_cents": 1499,
-      "source_url": null
+      "source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/Greece.jpg",
+      "status": "added"
     }
+  ],
+  "added_product_ids": [
+    38,
+    40,
+    41,
+    44,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    54,
+    55,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    72,
+    73,
+    74
   ]
 }

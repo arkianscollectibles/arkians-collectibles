@@ -422,6 +422,46 @@ input {
     font-weight: 700;
 }
 
+/* Equal coin diameter and centring, without changing the source photographs. */
+.coin-photo-frame {
+  display: block;
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 18px;
+}
+
+.coin-photo-frame img.coin-photo {
+  position: absolute;
+  width: var(--coin-photo-width);
+  height: var(--coin-photo-height);
+  max-width: none;
+  left: var(--coin-photo-left);
+  top: var(--coin-photo-top);
+  aspect-ratio: auto;
+  object-fit: fill;
+  border-radius: 0;
+  background: transparent;
+}
+
+.coin-photo-frame--cart { width: 150px; }
+.coin-photo-frame--product { width: 420px; max-width: 100%; }
+.coin-photo-credit {
+  position: absolute;
+  right: 5px;
+  bottom: 2px;
+  font-size: 9px;
+  line-height: 1.2;
+  color: #777;
+  background: #fff;
+}
+
+@media (max-width: 700px) {
+  .coin-photo-frame--cart { width: 80px; }
+}
+
 .coin-card-meta {
   margin-top: 5px;
 

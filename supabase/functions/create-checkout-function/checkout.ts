@@ -3,7 +3,7 @@ import type { createClient } from "npm:@supabase/supabase-js@2.117.2";
 import { corsHeaders } from "npm:@supabase/supabase-js@2.117.2/cors";
 import priceCatalog from "../_shared/product-prices.json" with { type: "json" };
 
-type Product = { name: string; price_cents: number };
+type Product = { name: string; price_cents: number; colored?: boolean };
 const PRODUCTS: Record<string, Product> = priceCatalog.products;
 const SHIPPING_CENTS = priceCatalog.shipping_cents;
 
@@ -72,7 +72,7 @@ export function createCheckoutHandler(deps: Dependencies) {
         // Always use the server's catalogue; request-body prices are ignored.
         lineItems.push({ quantity, price_data: {
           currency: "eur", unit_amount: product.price_cents,
-          product_data: { name: product.name },
+          product_data: { name: product.colored === false ? `${product.name} (Uncoloured)` : product.name },
         } });
       }
       if (!Number.isSafeInteger(SHIPPING_CENTS) || SHIPPING_CENTS < 0) {

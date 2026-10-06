@@ -36,13 +36,18 @@ function request(body: unknown = {}, authorized = true) {
   });
 }
 
-Deno.test("all 37 products, including the newly added IDs, have server-authoritative prices", async () => {
+Deno.test("all coloured and uncoloured products have server-authoritative prices", async () => {
   const cart = Object.keys(catalogue.products).map(id=>({coin_id:Number(id),quantity:1}));
   const {handler,captured} = fixture(cart);
   const response = await handler(request({price_cents:1,user_id:"user-B"}));
   assert.equal(response.status,200); assert.equal(captured.userFilter,"user-A");
   const params = captured.stripeParams!;
-  assert.equal(params.line_items.length,37);
+  assert.equal(params.line_items.length,Object.keys(catalogue.products).length);
+  assert.ok(cart.some(item => item.coin_id === 38), "uncoloured Barbara is purchasable");
+  assert.ok(cart.some(item => item.coin_id === 74), "uncoloured Erasmus Greece is purchasable");
+  const plainBarbara = params.line_items[cart.findIndex(item => item.coin_id === 38)];
+  assert.equal(plainBarbara.price_data.product_data.name, "2 Euros Barbara of Celje (Uncoloured)");
+  assert.equal(params.line_items[0].price_data.product_data.name, "2 Euros Barbara of Celje");
   assert.equal(params.line_items.reduce((sum:number,item:any)=>sum+item.price_data.unit_amount,0),Object.values(catalogue.products).reduce((sum, product) => sum + product.price_cents, 0));
   assert.equal(params.line_items[0].price_data.unit_amount,catalogue.products[1].price_cents);
   assert.equal(params.shipping_options[0].shipping_rate_data.fixed_amount.amount,catalogue.shipping_cents);
