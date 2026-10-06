@@ -446,6 +446,16 @@ input {
   background: transparent;
 }
 
+.coin-photo-face {
+  position: absolute;
+  width: var(--coin-face-width);
+  height: var(--coin-face-height);
+  left: var(--coin-face-left);
+  top: var(--coin-face-top);
+  overflow: hidden;
+  clip-path: ellipse(50% 50% at 50% 50%);
+}
+
 .coin-photo-frame--cart { width: 150px; }
 .coin-photo-frame--product { width: 420px; max-width: 100%; }
 .coin-photo-credit {

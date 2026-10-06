@@ -309,11 +309,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014/comm_2014_Slovenia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014.en.html",
       "image_frame": {
-        "width": 94.8785,
-        "height": 94.8785,
-        "left": 2.2972,
-        "top": 2.4729
-      }
+        "width": 104.448743,
+        "height": 100.934579,
+        "left": -2.514507,
+        "top": -0.560748
+      },
+      "image_bounds": {
+        "left": 13,
+        "top": 3,
+        "right": 530,
+        "bottom": 538
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "40": {
       "name": "2 Euros University of Ljubljana",
@@ -326,11 +333,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019/comm_2019_sv_100anni_university_ljublja.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019.en.html",
       "image_frame": {
-        "width": 94,
-        "height": 94,
-        "left": 3,
-        "top": 3
-      }
+        "width": 100,
+        "height": 100,
+        "left": 0,
+        "top": 0
+      },
+      "image_bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 540,
+        "bottom": 540
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "41": {
       "name": "2 Euros Italian National Police",
@@ -343,11 +357,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/2022_1comm_Italy-polizia_540x540.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
-        "width": 94,
-        "height": 94,
-        "left": 2.91296,
-        "top": 3
-      }
+        "width": 100.185529,
+        "height": 100,
+        "left": -0.185529,
+        "top": 0
+      },
+      "image_bounds": {
+        "left": 1,
+        "top": 0,
+        "right": 540,
+        "bottom": 540
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "44": {
       "name": "2 Euros Maria Callas",
@@ -360,11 +381,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023/IMG_0007.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "image_frame": {
-        "width": 94.70149,
-        "height": 94.70149,
-        "left": 2.56157,
-        "top": 2.47388
-      }
+        "width": 100.934579,
+        "height": 100.746269,
+        "left": -0.560748,
+        "top": -0.559701
+      },
+      "image_bounds": {
+        "left": 3,
+        "top": 3,
+        "right": 538,
+        "bottom": 539
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "46": {
       "name": "2 Euros First Flight from Malta",
@@ -377,11 +405,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2015/comm_2015_Malta.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2015.en.html",
       "image_frame": {
-        "width": 97.24138,
-        "height": 97.24138,
-        "left": 1.73946,
-        "top": 1.37931
-      }
+        "width": 105.058366,
+        "height": 103.448276,
+        "left": -2.140078,
+        "top": -1.724138
+      },
+      "image_bounds": {
+        "left": 11,
+        "top": 9,
+        "right": 525,
+        "bottom": 531
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "47": {
       "name": "2 Euros Presidency European Union",
@@ -394,11 +429,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/PT 2021 EU presidency.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021.en.html",
       "image_frame": {
-        "width": 94,
-        "height": 94,
-        "left": 3,
-        "top": 3
-      }
+        "width": 100,
+        "height": 100,
+        "left": 0,
+        "top": 0
+      },
+      "image_bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 540,
+        "bottom": 540
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "48": {
       "name": "2 Euros Basketball in Lithuania",
@@ -411,11 +453,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/0429-23r.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
-        "width": 95.59322,
-        "height": 95.59322,
-        "left": 2.11488,
-        "top": 1.93785
-      }
+        "width": 101.694915,
+        "height": 101.694915,
+        "left": -0.94162,
+        "top": -1.129944
+      },
+      "image_bounds": {
+        "left": 5,
+        "top": 6,
+        "right": 536,
+        "bottom": 537
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "49": {
       "name": "2 Euros Belgian Presidency of the Council of the EU",
@@ -428,11 +477,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024/2024_comm_Belgium2.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "image_frame": {
-        "width": 101.587,
-        "height": 99.96122,
-        "left": -0.9413,
-        "top": -0.05451
-      }
+        "width": 108.071279,
+        "height": 107.582185,
+        "left": -4.192872,
+        "top": -3.870626
+      },
+      "image_bounds": {
+        "left": 80,
+        "top": 73,
+        "right": 1988,
+        "bottom": 1959
+      },
+      "image_quality_review": "source_resolution_sufficient"
     },
     "50": {
       "name": "2 Euros Primož Trubar",
@@ -445,11 +501,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2008/comm_2008_Slovenia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2008.en.html",
       "image_frame": {
-        "width": 94.34944,
-        "height": 94.34944,
-        "left": 2.65056,
-        "top": 2.65056
-      }
+        "width": 101.886792,
+        "height": 100.371747,
+        "left": -1.132075,
+        "top": -0.371747
+      },
+      "image_bounds": {
+        "left": 3,
+        "top": 1,
+        "right": 268,
+        "bottom": 270
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "51": {
       "name": "2 Euros Adam Bohorič",
@@ -462,11 +525,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_sl_birth_bohoric.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020.en.html",
       "image_frame": {
-        "width": 95.23452,
-        "height": 95.23452,
-        "left": 2.5591,
-        "top": 2.1182
-      }
+        "width": 101.503759,
+        "height": 101.313321,
+        "left": -0.56391,
+        "top": -0.938086
+      },
+      "image_bounds": {
+        "left": 3,
+        "top": 5,
+        "right": 535,
+        "bottom": 538
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "52": {
       "name": "2 Euros Ljubljana Botanical Garden",
@@ -479,11 +549,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010/comm_2010_sl.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010.en.html",
       "image_frame": {
-        "width": 95.77358,
-        "height": 95.77358,
-        "left": 2.11321,
-        "top": 1.58113
-      }
+        "width": 102.272727,
+        "height": 101.886792,
+        "left": -1.136364,
+        "top": -1.509434
+      },
+      "image_bounds": {
+        "left": 3,
+        "top": 4,
+        "right": 267,
+        "bottom": 269
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "54": {
       "name": "2 Euros Glory to Ukraine",
@@ -496,11 +573,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/0424-23r.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
-        "width": 94,
-        "height": 94,
-        "left": 3,
-        "top": 3.08704
-      }
+        "width": 100,
+        "height": 100.934579,
+        "left": 0,
+        "top": -0.373832
+      },
+      "image_bounds": {
+        "left": 0,
+        "top": 2,
+        "right": 540,
+        "bottom": 537
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "55": {
       "name": "2 Euros Guimarães",
@@ -513,11 +597,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2012/comm_2012_pt.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2012.en.html",
       "image_frame": {
-        "width": 94.70149,
-        "height": 94.70149,
-        "left": 2.47388,
-        "top": 2.64925
-      }
+        "width": 101.123596,
+        "height": 100.746269,
+        "left": -0.749064,
+        "top": -0.373134
+      },
+      "image_bounds": {
+        "left": 2,
+        "top": 1,
+        "right": 269,
+        "bottom": 269
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "57": {
       "name": "2 Euros Provincial Museum for Carniola",
@@ -530,11 +621,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/SL_Oct21.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021.en.html",
       "image_frame": {
-        "width": 94.34944,
-        "height": 94.34944,
-        "left": 3,
-        "top": 2.73792
-      }
+        "width": 100.371747,
+        "height": 100.558659,
+        "left": 0,
+        "top": -0.372439
+      },
+      "image_bounds": {
+        "left": 0,
+        "top": 2,
+        "right": 538,
+        "bottom": 539
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "58": {
       "name": "2 Euros Erasmus Slovenia",
@@ -547,11 +645,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/Slovenia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
-        "width": 94.8785,
-        "height": 94.8785,
-        "left": 2.2972,
-        "top": 2.6486
-      }
+        "width": 101.313321,
+        "height": 100.934579,
+        "left": -0.938086,
+        "top": -0.373832
+      },
+      "image_bounds": {
+        "left": 5,
+        "top": 2,
+        "right": 538,
+        "bottom": 537
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "59": {
       "name": "2 Euros Marine Nationale 400ans",
@@ -565,11 +670,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.monnaiedeparis.fr/media/catalog/product/M/5/M5066_MDP_00070866_BD_ac41.jpg",
       "image_source_page": "https://www.monnaiedeparis.fr/en/french-navy-2eur-brilliant-uncirculated-commemorative-coin-brilliant-uncirculated-yeardate-2026",
       "image_frame": {
-        "width": 122.39583,
-        "height": 122.39583,
-        "left": -10.95312,
-        "top": -11.6263
-      }
+        "width": 135.135135,
+        "height": 137.174211,
+        "left": -15.675676,
+        "top": -17.695473
+      },
+      "image_bounds": {
+        "left": 116,
+        "top": 129,
+        "right": 856,
+        "bottom": 858
+      },
+      "image_quality_review": "source_resolution_sufficient"
     },
     "60": {
       "name": "2 Euros Visegrad Group",
@@ -582,11 +694,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011/comm_2011_sk.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011.en.html",
       "image_frame": {
-        "width": 94.70149,
-        "height": 94.70149,
-        "left": 2.82463,
-        "top": 2.64925
-      }
+        "width": 102.661597,
+        "height": 100.746269,
+        "left": -1.140684,
+        "top": -0.373134
+      },
+      "image_bounds": {
+        "left": 3,
+        "top": 1,
+        "right": 266,
+        "bottom": 269
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "61": {
       "name": "2 Euros Centaurea Cyanus",
@@ -599,11 +718,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024/IMG_0060.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "image_frame": {
-        "width": 95.59322,
-        "height": 95.59322,
-        "left": 2.46893,
-        "top": 2.55744
-      }
+        "width": 101.694915,
+        "height": 103.053435,
+        "left": -0.564972,
+        "top": -1.145038
+      },
+      "image_bounds": {
+        "left": 3,
+        "top": 6,
+        "right": 534,
+        "bottom": 530
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "62": {
       "name": "2 Euros Raamat 500",
@@ -616,11 +742,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025/Estonia_540x540.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "image_frame": {
-        "width": 96.5019,
-        "height": 96.5019,
-        "left": 1.74905,
-        "top": 1.92776
-      }
+        "width": 102.661597,
+        "height": 103.053435,
+        "left": -1.330798,
+        "top": -1.335878
+      },
+      "image_bounds": {
+        "left": 7,
+        "top": 7,
+        "right": 533,
+        "bottom": 531
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "63": {
       "name": "2 Euros 730 years of the University of Coimbra",
@@ -633,11 +766,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_pt_university_coimbra.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020.en.html",
       "image_frame": {
-        "width": 94,
-        "height": 94,
-        "left": 3,
-        "top": 3
-      }
+        "width": 100,
+        "height": 100,
+        "left": 0,
+        "top": 0
+      },
+      "image_bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 540,
+        "bottom": 540
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "64": {
       "name": "2 Euros Bundesländer II - \"Bremen\"",
@@ -651,11 +791,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://muenze-deutschland.de/out/pictures/generated/product/1/1200_1200_85/2_euro_bremen_2026_bs_1300x1272(2).png",
       "image_source_page": "https://muenze-deutschland.de/Muenzen/2-Euro-Sammlermuenzen-Set/2-Euro-Sammlermuenzen-Set-2026-Bundeslaender-II.html",
       "image_frame": {
-        "width": 95.51228,
-        "height": 93.44285,
-        "left": 2.12447,
-        "top": 3.0398
-      }
+        "width": 106.761566,
+        "height": 104.448399,
+        "left": -3.024911,
+        "top": -2.846975
+      },
+      "image_bounds": {
+        "left": 34,
+        "top": 32,
+        "right": 1158,
+        "bottom": 1156
+      },
+      "image_quality_review": "source_resolution_sufficient"
     },
     "65": {
       "name": "2 Euros Constantin Caratheodory",
@@ -668,11 +815,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023/IMG_0023_540x540.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "image_frame": {
-        "width": 102.1328,
-        "height": 94.37827,
-        "left": -1.3501,
-        "top": 3
-      }
+        "width": 108.651911,
+        "height": 100.402414,
+        "left": -4.627767,
+        "top": 0
+      },
+      "image_bounds": {
+        "left": 23,
+        "top": 0,
+        "right": 520,
+        "bottom": 497
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "66": {
       "name": "2 Euros Joana Vasconcelos",
@@ -685,11 +839,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2016/comm_2016_portugal_olympics_270.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2016.en.html",
       "image_frame": {
-        "width": 95.23452,
-        "height": 95.23452,
-        "left": 1.76548,
-        "top": 2.29456
-      }
+        "width": 103.646833,
+        "height": 101.313321,
+        "left": -2.495202,
+        "top": -0.750469
+      },
+      "image_bounds": {
+        "left": 13,
+        "top": 4,
+        "right": 534,
+        "bottom": 537
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "67": {
       "name": "2 Euros Canis Lupus",
@@ -702,11 +863,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/comm_2021_estonia-wolf.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021.en.html",
       "image_frame": {
-        "width": 94.1744,
-        "height": 94.1744,
-        "left": 2.8256,
-        "top": 2.9128
-      }
+        "width": 100.185529,
+        "height": 100.371747,
+        "left": -0.185529,
+        "top": -0.185874
+      },
+      "image_bounds": {
+        "left": 1,
+        "top": 1,
+        "right": 540,
+        "bottom": 539
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "68": {
       "name": "2 Euros Fernao Mendes Pinto",
@@ -719,11 +887,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011/comm_2011_pt.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011.en.html",
       "image_frame": {
-        "width": 94.34944,
-        "height": 94.34944,
-        "left": 2.82528,
-        "top": 2.65056
-      }
+        "width": 101.503759,
+        "height": 100.371747,
+        "left": -0.75188,
+        "top": -0.371747
+      },
+      "image_bounds": {
+        "left": 2,
+        "top": 1,
+        "right": 268,
+        "bottom": 270
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "69": {
       "name": "2 Euros Majstrovstva Europy V Hokeji",
@@ -736,11 +911,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025/Slovakia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "image_frame": {
-        "width": 96.68571,
-        "height": 96.68571,
-        "left": 1.56762,
-        "top": 1.65714
-      }
+        "width": 102.857143,
+        "height": 103.448276,
+        "left": -1.52381,
+        "top": -1.724138
+      },
+      "image_bounds": {
+        "left": 8,
+        "top": 9,
+        "right": 533,
+        "bottom": 531
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "70": {
       "name": "2 Euros 10th Anniversary - Accession to the European Union",
@@ -753,11 +935,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014/comm_2014_Slovakia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014.en.html",
       "image_frame": {
-        "width": 94.70149,
-        "height": 94.70149,
-        "left": 1.77239,
-        "top": 2.47388
-      }
+        "width": 103.448276,
+        "height": 100.746269,
+        "left": -2.681992,
+        "top": -0.559701
+      },
+      "image_bounds": {
+        "left": 14,
+        "top": 3,
+        "right": 536,
+        "bottom": 539
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "72": {
       "name": "2 Euros Belgian Presidency of the Council of the European Union",
@@ -770,11 +959,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010/comm_2010_be.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010.en.html",
       "image_frame": {
-        "width": 94.70149,
-        "height": 94.70149,
-        "left": 2.29851,
-        "top": 2.64925
-      }
+        "width": 102.272727,
+        "height": 100.746269,
+        "left": -1.515152,
+        "top": -0.373134
+      },
+      "image_bounds": {
+        "left": 4,
+        "top": 1,
+        "right": 268,
+        "bottom": 269
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "73": {
       "name": "2 Euros 2500 years of the Battle of Thermopylae",
@@ -787,11 +983,18 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_gr_battle_thermopylae.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020.en.html",
       "image_frame": {
-        "width": 94,
-        "height": 94,
-        "left": 3,
-        "top": 3
-      }
+        "width": 100,
+        "height": 100,
+        "left": 0,
+        "top": 0
+      },
+      "image_bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 540,
+        "bottom": 540
+      },
+      "image_quality_review": "needs_higher_resolution_source"
     },
     "74": {
       "name": "2 Euros Erasmus Greece",
@@ -804,11 +1007,31 @@ globalThis.ARKIANS_PRICES = {
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/Greece.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
-        "width": 95.05618,
-        "height": 95.05618,
-        "left": 2.29588,
-        "top": 2.3839
-      }
+        "width": 101.123596,
+        "height": 101.313321,
+        "left": -0.749064,
+        "top": -0.750469
+      },
+      "image_bounds": {
+        "left": 4,
+        "top": 4,
+        "right": 538,
+        "bottom": 537
+      },
+      "image_quality_review": "needs_higher_resolution_source"
+    }
+  },
+  "coin_image_reference": {
+    "width": 92.125,
+    "height": 93.4375,
+    "center_x": 50.25,
+    "center_y": 49.65625,
+    "source_coin_id": 1,
+    "face": {
+      "width": 92.125,
+      "height": 93.4375,
+      "left": 4.1875,
+      "top": 2.9375
     }
   }
 };

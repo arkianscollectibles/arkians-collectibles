@@ -1,6 +1,7 @@
 /* Centre the original source photographs inside an equal square display frame. */
 (() => {
   const catalogue = Object.values(window.ARKIANS_PRICES.products);
+  const faceLayout = window.ARKIANS_PRICES.coin_image_reference?.face;
   const photos = new Map(catalogue.filter(coin => coin.image_frame).map(coin => [coin.image, coin]));
   window.arkiansCoinVariant = coin => coin.colored === false
     ? ' · <span data-i18n="variant_uncolored">Uncoloured</span>' : '';
@@ -10,8 +11,8 @@
     if (!coin) {
       if (image.classList.contains('coin-photo')) {
         image.classList.remove('coin-photo');
-        const frame = image.parentElement;
-        frame.replaceWith(image);
+        const frame = image.closest('.coin-photo-frame');
+        frame?.replaceWith(image);
       }
       return;
     }
@@ -24,7 +25,15 @@
       frame.style.setProperty(`--coin-photo-${key}`, `${coin.image_frame[key]}%`);
     }
     image.before(frame);
-    frame.append(image);
+    if (coin.image_bounds && faceLayout) {
+      const face = document.createElement('span');
+      face.className = 'coin-photo-face';
+      for (const key of ['width', 'height', 'left', 'top']) {
+        face.style.setProperty(`--coin-face-${key}`, `${faceLayout[key]}%`);
+      }
+      face.append(image);
+      frame.append(face);
+    } else frame.append(image);
     image.classList.add('coin-photo');
     const credit = document.createElement('span');
     credit.className = 'coin-photo-credit';
