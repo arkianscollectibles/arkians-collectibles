@@ -1,4 +1,4 @@
-/* Centre the original source photographs inside an equal square display frame. */
+/* Centre catalogue images inside an equal square display frame. */
 (() => {
   const catalogue = Object.values(window.ARKIANS_PRICES.products);
   const faceLayout = window.ARKIANS_PRICES.coin_image_reference?.face;
@@ -37,7 +37,12 @@
     image.classList.add('coin-photo');
     const credit = document.createElement('span');
     credit.className = 'coin-photo-credit';
-    if (coin.image_credit && coin.image_credit !== 'ECB') {
+    if (coin.image_edit === 'ai-retouched') {
+      const label = document.createElement('span');
+      label.dataset.i18n = 'photo_retouched';
+      label.textContent = 'AI retouch';
+      credit.append(label, ` · ${coin.image_credit || 'ECB'}`);
+    } else if (coin.image_credit && coin.image_credit !== 'ECB') {
       const label = document.createElement('span');
       label.dataset.i18n = 'photo_source';
       label.textContent = 'Photo: ';

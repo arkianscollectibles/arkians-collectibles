@@ -15,6 +15,8 @@
 
 ## Supabase checkout
 
+Η αλλαγή των φωτογραφιών σε καθαρή επεξεργασμένη όψη δεν αλλάζει τιμές, IDs, μεταφορικά ή τη λειτουργία πληρωμής. Για αυτή την αλλαγή χρειάζεται μόνο η δημοσίευση του site, χωρίς νέο Supabase deployment.
+
 Το GitHub Pages δεν δημοσιεύει τη Supabase Edge Function. Όταν αλλάζει ο κατάλογος ή οι τιμές, χρειάζεται και το ξεχωριστό βήμα του [supabase/PRICES.md](supabase/PRICES.md): Supabase Dashboard → Edge Functions → `create-checkout-function` → Code, αντικατάσταση με ολόκληρο το παραγόμενο [create-checkout-function.ts](supabase/dashboard/create-checkout-function.ts), και Deploy. Διατήρησε τα υπάρχοντα secrets και τη ρύθμιση JWT verification.
 
 Για απευθείας δημοσίευση από το Codex απαιτείται ξεχωριστή, ασφαλώς συνδεδεμένη πρόσβαση διαχείρισης Supabase. Τα αρχεία του site περιέχουν μόνο το δημόσιο publishable key· αυτό δεν παρέχει δικαίωμα deployment.

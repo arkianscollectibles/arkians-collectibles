@@ -1,5 +1,7 @@
 # Frontal image review
 
+Update, 6 October 2026: the owner subsequently approved a clean-finish Barbara sample and requested AI retouching of all 30 existing uncoloured images for the site. The active replacements and per-product manifest are now in `../PRODUCT PHOTOS/COINS/RETOUCHED/`. The authentic originals remain preserved in `UNCOLORED`. The earlier Bremen sample below is still unused; the remaining notes describe the previous review decision.
+
 [Bremen sample](bremen-frontal-sample.png) is an AI-retouched, illustrative draft made from the official uncoloured 2026 Bremen asset and the existing coloured photo as a positioning reference. It is not used as a catalogue photograph. Fine engraving can differ from the actual coin.
 
 The user's latest instruction accepts the existing photographic quality and prioritises the same displayed coin dimensions as the coloured images. Display geometry has been matched and tested on mobile and desktop. Six originals are 270px and most others are 540px, while coloured originals are 1600px. CSS framing cannot restore missing detail; higher-resolution replacement is optional under the accepted scope.
