@@ -28,13 +28,19 @@ if (process.argv.includes('--check')) {
   if (readFileSync(dashboardFile, 'utf8') !== standalone) throw Error('Dashboard function is stale; run node scripts/build-prices.mjs');
 } else writeFileSync(dashboardFile, standalone);
 
-// Invalidate website price caches whenever the shared catalogue changes.
-const cacheTag = createHash('sha256').update(JSON.stringify(catalog)).digest('hex').slice(0, 12);
+// Refresh local script/style URLs after any frontend change, including template
+// edits. Fixed version numbers can leave returning visitors on older code.
+const root = new URL('../', import.meta.url);
+const assetVersions = new Map(readdirSync(root)
+  .filter(name => /\.(?:js|css)$/.test(name))
+  .map(name => [name, createHash('sha256').update(readFileSync(new URL(name, root))).digest('hex').slice(0, 12)]));
 for (const filename of readdirSync(new URL('../', import.meta.url)).filter(name => name.endsWith('.html'))) {
   const file = new URL('../' + filename, import.meta.url);
   const current = readFileSync(file, 'utf8');
-  const updated = current.replace(/product-prices\.js\?v=[^"\s]+/g, 'product-prices.js?v=' + cacheTag);
+  const updated = current.replace(/\b(src|href)=(['"])([\w-]+\.(?:js|css))(?:\?v=[^'"\s]+)?\2/g,
+    (match, attribute, quote, name) => assetVersions.has(name)
+      ? `${attribute}=${quote}${name}?v=${assetVersions.get(name)}${quote}` : match);
   if (process.argv.includes('--check')) {
-    if (current !== updated) throw Error(`Stale price cache tag in ${filename}; run node scripts/build-prices.mjs`);
+    if (current !== updated) throw Error(`Stale asset cache tag in ${filename}; run node scripts/build-prices.mjs`);
   } else if (current !== updated) writeFileSync(file, updated);
 }

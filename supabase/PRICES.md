@@ -15,7 +15,7 @@ node scripts/build-prices.mjs
 node scripts/build-prices.mjs --check
 ```
 
-This generates `product-prices.js` for the website and `supabase/dashboard/create-checkout-function.ts` for Dashboard deployment. Never edit these generated copies manually. Product page, search, wishlist and cart all obtain prices from the generated browser catalogue. Cart shipping and total match the same configured shipping amount.
+This generates `product-prices.js` for the website and `supabase/dashboard/create-checkout-function.ts` for Dashboard deployment. Never edit these generated copies manually. It also updates every local JavaScript/CSS cache tag in the HTML from the file contents, including template edits and frontend fixes. Run the generator after changing those files as well; `--check` detects stale tags. Product page, search, wishlist and cart all obtain prices from the generated browser catalogue. Cart shipping and total match the same configured shipping amount.
 
 ## Deployment required in two places
 

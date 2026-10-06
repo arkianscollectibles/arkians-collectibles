@@ -1,8 +1,10 @@
 /* Shared cookie controls and display-only catalogue templates. */
 (() => {
   const consentKey = 'arkians-cookie-consent';
+  let visitConsent;
   let returnFocus;
   function readConsent() {
+    if (visitConsent) return visitConsent;
     try {
       const saved = JSON.parse(localStorage.getItem(consentKey));
       return saved?.version === 1 && typeof saved.optional === 'boolean' ? saved : null;
@@ -13,9 +15,11 @@
   document.addEventListener('error', event => {
     const image = event.target;
     if (!(image instanceof HTMLImageElement) || !image.matches('.coin-card-image, .cart-card-image, #productImage')) return;
-    if (image.dataset.placeholderApplied) return;
+    const placeholder = 'PRODUCT PHOTOS/product-placeholder.svg';
+    const source = image.getAttribute('src');
+    if (!source || source === placeholder) return;
     image.dataset.placeholderApplied = 'true';
-    image.src = 'PRODUCT PHOTOS/product-placeholder.svg';
+    image.src = placeholder;
   }, true);
   document.addEventListener('DOMContentLoaded', () => {
     const banner = document.createElement('section');
@@ -35,6 +39,7 @@
     window.arkiansTranslate?.();
     banner.querySelectorAll('[data-consent]').forEach(button => button.addEventListener('click', () => {
       const consent = {version: 1, necessary: true, optional: button.dataset.consent === 'accept', updatedAt: new Date().toISOString()};
+      visitConsent = consent;
       try { localStorage.setItem(consentKey, JSON.stringify(consent)); } catch { /* Keep this visit usable without storage. */ }
       banner.hidden = true;
       window.dispatchEvent(new CustomEvent('arkians:cookie-consent', {detail: consent}));
