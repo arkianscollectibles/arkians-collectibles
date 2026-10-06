@@ -7,7 +7,7 @@ const priceCatalog = {
   "products": {
     "1": {
       "name": "2 Euros Barbara of Celje",
-      "price_cents": 100
+      "price_cents": 1499
     },
     "2": {
       "name": "2 Euros Sipsik",
