@@ -306,40 +306,41 @@ const priceCatalog = {
       "country": "Slovenia",
       "year": 2014,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/001.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/001-slava-gold.png",
       "source_coin_id": 1,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014/comm_2014_Slovenia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014.en.html",
       "image_frame": {
         "width": 104.152824,
-        "height": 100.884956,
+        "height": 100.722892,
         "left": -2.159468,
-        "top": -0.563154
+        "top": -0.481928
       },
       "image_bounds": {
         "left": 26,
-        "top": 7,
+        "top": 6,
         "right": 1229,
-        "bottom": 1249
+        "bottom": 1250
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/001.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "40": {
       "name": "2 Euros University of Ljubljana",
       "country": "Slovenia",
       "year": 2019,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/003.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/003-slava-gold.png",
       "source_coin_id": 3,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019/comm_2019_sv_100anni_university_ljublja.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019.en.html",
       "image_frame": {
         "width": 100.884956,
-        "height": 100.642055,
+        "height": 100.561347,
         "left": -0.241352,
         "top": 0
       },
@@ -347,70 +348,73 @@ const priceCatalog = {
         "left": 3,
         "top": 0,
         "right": 1245,
-        "bottom": 1245
+        "bottom": 1246
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/003.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "41": {
       "name": "2 Euros Italian National Police",
       "country": "Italy",
       "year": 2022,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/004.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/004-slava-gold.png",
       "source_coin_id": 4,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/2022_1comm_Italy-polizia_540x540.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
-        "width": 101.785714,
+        "width": 101.8684,
         "height": 100.642055,
-        "left": -0.487013,
+        "left": -0.568643,
         "top": 0
       },
       "image_bounds": {
-        "left": 6,
+        "left": 7,
         "top": 0,
         "right": 1237,
         "bottom": 1245
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/004.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "44": {
       "name": "2 Euros Maria Callas",
       "country": "Greece",
       "year": 2023,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/007.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/007-slava-gold.png",
       "source_coin_id": 7,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023/IMG_0007.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "image_frame": {
-        "width": 102.786885,
+        "width": 102.871206,
         "height": 101.703163,
-        "left": -1.065574,
+        "left": -1.148482,
         "top": -0.324412
       },
       "image_bounds": {
-        "left": 13,
+        "left": 14,
         "top": 4,
         "right": 1232,
         "bottom": 1236
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/007.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "46": {
       "name": "2 Euros First Flight from Malta",
       "country": "Malta",
       "year": 2015,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/009.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/009-slava-gold.png",
       "source_coin_id": 9,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2015/comm_2015_Malta.jpg",
@@ -427,68 +431,71 @@ const priceCatalog = {
         "right": 1223,
         "bottom": 1226
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/009.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "47": {
       "name": "2 Euros Presidency European Union",
       "country": "Portugal",
       "year": 2021,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/010.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/010-slava-gold.png",
       "source_coin_id": 10,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/PT 2021 EU presidency.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021.en.html",
       "image_frame": {
-        "width": 101.047542,
-        "height": 100.32,
-        "left": -0.322321,
+        "width": 100.884956,
+        "height": 100.239808,
+        "left": -0.241352,
         "top": 0
       },
       "image_bounds": {
-        "left": 4,
+        "left": 3,
         "top": 0,
-        "right": 1244,
-        "bottom": 1249
+        "right": 1245,
+        "bottom": 1250
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/010.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "48": {
       "name": "2 Euros Basketball in Lithuania",
       "country": "Lithuania",
       "year": 2022,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/011.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/011-slava-gold.png",
       "source_coin_id": 11,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/0429-23r.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
         "width": 103.465347,
-        "height": 102.117264,
+        "height": 101.95122,
         "left": -1.485149,
-        "top": -0.651466
+        "top": -0.569106
       },
       "image_bounds": {
         "left": 18,
-        "top": 8,
+        "top": 7,
         "right": 1229,
-        "bottom": 1235
+        "bottom": 1236
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/011.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "49": {
       "name": "2 Euros Belgian Presidency of the Council of the EU",
       "country": "Belgium",
       "year": 2024,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/012.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/012-slava-gold.png",
       "source_coin_id": 12,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024/2024_comm_Belgium2.jpg",
@@ -505,42 +512,44 @@ const priceCatalog = {
         "right": 1208,
         "bottom": 1210
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/012.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "50": {
       "name": "2 Euros Primož Trubar",
       "country": "Slovenia",
       "year": 2008,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/013.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/013-slava-gold.png",
       "source_coin_id": 13,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2008/comm_2008_Slovenia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2008.en.html",
       "image_frame": {
         "width": 102.702703,
-        "height": 101.703163,
+        "height": 101.620746,
         "left": -0.819001,
-        "top": -0.162206
+        "top": -0.162075
       },
       "image_bounds": {
         "left": 10,
         "top": 2,
         "right": 1230,
-        "bottom": 1234
+        "bottom": 1235
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/013.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "51": {
       "name": "2 Euros Adam Bohorič",
       "country": "Slovenia",
       "year": 2020,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/014.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/014-slava-gold.png",
       "source_coin_id": 14,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_sl_birth_bohoric.jpg",
@@ -557,16 +566,17 @@ const priceCatalog = {
         "right": 1239,
         "bottom": 1240
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/014.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "52": {
       "name": "2 Euros Ljubljana Botanical Garden",
       "country": "Slovenia",
       "year": 2010,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/015.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/015-slava-gold.png",
       "source_coin_id": 15,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010/comm_2010_sl.jpg",
@@ -583,9 +593,10 @@ const priceCatalog = {
         "right": 1231,
         "bottom": 1242
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/015.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "54": {
       "name": "2 Euros Glory to Ukraine",
@@ -609,16 +620,17 @@ const priceCatalog = {
         "right": 1240,
         "bottom": 1241
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/017.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "55": {
       "name": "2 Euros Guimarães",
       "country": "Portugal",
       "year": 2012,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/018.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/018-slava-gold.png",
       "source_coin_id": 18,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2012/comm_2012_pt.jpg",
@@ -635,16 +647,17 @@ const priceCatalog = {
         "right": 1230,
         "bottom": 1236
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/018.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "57": {
       "name": "2 Euros Provincial Museum for Carniola",
       "country": "Slovenia",
       "year": 2021,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/020.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/020-slava-gold.png",
       "source_coin_id": 20,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/SL_Oct21.jpg",
@@ -661,16 +674,17 @@ const priceCatalog = {
         "right": 1229,
         "bottom": 1230
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/020.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "58": {
       "name": "2 Euros Erasmus Slovenia",
       "country": "Slovenia",
       "year": 2022,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/021.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/021-slava-gold.png",
       "source_coin_id": 21,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/Slovenia.jpg",
@@ -687,9 +701,10 @@ const priceCatalog = {
         "right": 1232,
         "bottom": 1233
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/021.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "59": {
       "name": "2 Euros Marine Nationale 400ans",
@@ -697,7 +712,7 @@ const priceCatalog = {
       "country": "France",
       "year": 2026,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/022.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/022-slava-gold.png",
       "source_coin_id": 22,
       "image_credit": "Monnaie de Paris",
       "image_source_url": "https://www.monnaiedeparis.fr/media/catalog/product/M/5/M5066_MDP_00070866_BD_ac41.jpg",
@@ -714,16 +729,17 @@ const priceCatalog = {
         "right": 1222,
         "bottom": 1220
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/022.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "60": {
       "name": "2 Euros Visegrad Group",
       "country": "Slovakia",
       "year": 2011,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/023.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/023-slava-gold.png",
       "source_coin_id": 23,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011/comm_2011_sk.jpg",
@@ -731,25 +747,26 @@ const priceCatalog = {
       "image_frame": {
         "width": 103.893952,
         "height": 101.620746,
-        "left": -1.491301,
+        "left": -1.574151,
         "top": -0.324149
       },
       "image_bounds": {
-        "left": 18,
+        "left": 19,
         "top": 4,
-        "right": 1224,
+        "right": 1225,
         "bottom": 1237
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/023.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "61": {
       "name": "2 Euros Centaurea Cyanus",
       "country": "Estonia",
       "year": 2024,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/024.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/024-slava-gold.png",
       "source_coin_id": 24,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024/IMG_0060.jpg",
@@ -766,16 +783,17 @@ const priceCatalog = {
         "right": 1223,
         "bottom": 1220
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/024.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "62": {
       "name": "2 Euros Raamat 500",
       "country": "Estonia",
       "year": 2025,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/025.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/025-slava-gold.png",
       "source_coin_id": 25,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025/Estonia_540x540.jpg",
@@ -792,16 +810,17 @@ const priceCatalog = {
         "right": 1225,
         "bottom": 1221
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/025.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "63": {
       "name": "2 Euros 730 years of the University of Coimbra",
       "country": "Portugal",
       "year": 2020,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/026.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/026-slava-gold.png",
       "source_coin_id": 26,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_pt_university_coimbra.jpg",
@@ -818,9 +837,10 @@ const priceCatalog = {
         "right": 1248,
         "bottom": 1250
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/026.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "64": {
       "name": "2 Euros Bundesländer II - \"Bremen\"",
@@ -828,7 +848,7 @@ const priceCatalog = {
       "country": "Germany",
       "year": 2026,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/027.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/027-slava-gold.png",
       "source_coin_id": 27,
       "image_credit": "Münze Deutschland",
       "image_source_url": "https://muenze-deutschland.de/out/pictures/generated/product/1/1200_1200_85/2_euro_bremen_2026_bs_1300x1272(2).png",
@@ -845,16 +865,17 @@ const priceCatalog = {
         "right": 1214,
         "bottom": 1203
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/027.png",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "65": {
       "name": "2 Euros Constantin Caratheodory",
       "country": "Greece",
       "year": 2023,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/028.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/028-slava-gold.png",
       "source_coin_id": 28,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023/IMG_0023_540x540.jpg",
@@ -871,16 +892,17 @@ const priceCatalog = {
         "right": 1223,
         "bottom": 1224
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/028.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "66": {
       "name": "2 Euros Joana Vasconcelos",
       "country": "Portugal",
       "year": 2016,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/029.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/029-slava-gold.png",
       "source_coin_id": 29,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2016/comm_2016_portugal_olympics_270.jpg",
@@ -897,16 +919,17 @@ const priceCatalog = {
         "right": 1227,
         "bottom": 1236
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/029.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "67": {
       "name": "2 Euros Canis Lupus",
       "country": "Estonia",
       "year": 2021,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/030.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/030-slava-gold.png",
       "source_coin_id": 30,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/comm_2021_estonia-wolf.jpg",
@@ -923,68 +946,71 @@ const priceCatalog = {
         "right": 1234,
         "bottom": 1240
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/030.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "68": {
       "name": "2 Euros Fernao Mendes Pinto",
       "country": "Portugal",
       "year": 2011,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/031.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/031-slava-gold.png",
       "source_coin_id": 31,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011/comm_2011_pt.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011.en.html",
       "image_frame": {
-        "width": 102.871206,
+        "width": 102.955665,
         "height": 101.785714,
-        "left": -0.902379,
+        "left": -0.90312,
         "top": -0.487013
       },
       "image_bounds": {
         "left": 11,
         "top": 6,
-        "right": 1229,
+        "right": 1228,
         "bottom": 1237
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/031.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "69": {
       "name": "2 Euros Majstrovstva Europy V Hokeji",
       "country": "Slovakia",
       "year": 2025,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/032.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/032-slava-gold.png",
       "source_coin_id": 32,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025/Slovakia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "image_frame": {
-        "width": 103.294893,
-        "height": 103.550784,
-        "left": -1.400329,
-        "top": -1.486375
+        "width": 103.380049,
+        "height": 103.465347,
+        "left": -1.401484,
+        "top": -1.485149
       },
       "image_bounds": {
         "left": 17,
         "top": 18,
-        "right": 1230,
-        "bottom": 1228
+        "right": 1229,
+        "bottom": 1229
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/032.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "70": {
       "name": "2 Euros 10th Anniversary - Accession to the European Union",
       "country": "Slovakia",
       "year": 2014,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/033.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/033-slava-gold.png",
       "source_coin_id": 33,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014/comm_2014_Slovakia.jpg",
@@ -1001,16 +1027,17 @@ const priceCatalog = {
         "right": 1228,
         "bottom": 1231
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/033.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "72": {
       "name": "2 Euros Belgian Presidency of the Council of the European Union",
       "country": "Belgium",
       "year": 2010,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/035.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/035-slava-gold.png",
       "source_coin_id": 35,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010/comm_2010_be.jpg",
@@ -1027,61 +1054,64 @@ const priceCatalog = {
         "right": 1225,
         "bottom": 1234
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/035.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "73": {
       "name": "2 Euros 2500 years of the Battle of Thermopylae",
       "country": "Greece",
       "year": 2020,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/036.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/036-slava-gold.png",
       "source_coin_id": 36,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_gr_battle_thermopylae.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020.en.html",
       "image_frame": {
-        "width": 101.210654,
+        "width": 101.047542,
         "height": 100.722892,
-        "left": -0.403551,
+        "left": -0.322321,
         "top": 0
       },
       "image_bounds": {
-        "left": 5,
+        "left": 4,
         "top": 0,
-        "right": 1243,
+        "right": 1244,
         "bottom": 1244
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/036.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     },
     "74": {
       "name": "2 Euros Erasmus Greece",
       "country": "Greece",
       "year": 2022,
       "colored": false,
-      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/037.png",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/037-slava-gold.png",
       "source_coin_id": 37,
       "price_cents": 1499,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/Greece.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
         "width": 103.040263,
-        "height": 102.45098,
+        "height": 102.367347,
         "left": -0.986031,
-        "top": -0.653595
+        "top": -0.571429
       },
       "image_bounds": {
         "left": 12,
-        "top": 8,
+        "top": 7,
         "right": 1228,
         "bottom": 1231
       },
-      "image_quality_review": "approved_clean_finish_ai_illustration",
+      "image_quality_review": "approved_clean_finish_slava_gold_ai_illustration",
       "image_original": "PRODUCT PHOTOS/COINS/UNCOLORED/037.jpg",
-      "image_edit": "ai-retouched"
+      "image_edit": "ai-retouched",
+      "image_color_reference": "017"
     }
   },
   "coin_image_reference": {
@@ -1095,7 +1125,8 @@ const priceCatalog = {
       "height": 93.4375,
       "left": 4.1875,
       "top": 2.9375
-    }
+    },
+    "gold_source_coin_id": 17
   }
 };
 
