@@ -31,3 +31,5 @@
 # Τιμές κερμάτων και checkout
 
 Οι τιμές των πραγματικών κερμάτων βρίσκονται πλέον στο `supabase/functions/_shared/product-prices.json`, σε λεπτά του ευρώ. Το ίδιο JSON κρατά τις διαδρομές φωτογραφιών και τα χαρακτηριστικά των κερμάτων. Για αλλαγές τιμών και τα δύο βήματα δημοσίευσης (site + Supabase function), δείτε το `supabase/PRICES.md`.
+
+Μετά από προσθήκη νέων κερμάτων, τρέξε πρώτα `node scripts/build-seo.mjs` και μετά `node scripts/build-prices.mjs`, ώστε το sitemap και οι εκδόσεις των scripts να ενημερωθούν μαζί. Για HTTPS και Google Search Console, δείτε το `SEARCH-AND-HTTPS.md`.
