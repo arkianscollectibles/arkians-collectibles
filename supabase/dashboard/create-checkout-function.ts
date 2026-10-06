@@ -3,7 +3,7 @@ import Stripe from "npm:stripe@22.6.2";
 import { createClient } from "npm:@supabase/supabase-js@2.117.2";
 import { corsHeaders } from "npm:@supabase/supabase-js@2.117.2/cors";
 const priceCatalog = {
-  "shipping_cents": 0,
+  "shipping_cents": 300,
   "products": {
     "1": {
       "name": "2 Euros Barbara of Celje",
