@@ -135,3 +135,17 @@ Object.assign(window.ARKIANS_TRANSLATIONS.el, {
   search_title: 'Αποτελέσματα αναζήτησης', search_empty: 'Πληκτρολογήστε όνομα, χώρα, έτος ή κατηγορία προϊόντος στην αναζήτηση.',
   search_none: 'Δεν βρέθηκαν προϊόντα για', search_found: 'αποτελέσματα για', search_view: 'Δείτε το προϊόν'
 });
+Object.assign(window.ARKIANS_TRANSLATIONS.en, {
+  auth_title: 'Sign in to your account', auth_google: 'Sign in with Google', auth_logout: 'Log out',
+  auth_intro: 'Sign in with Google to access your profile, wishlist, cart and order history.',
+  auth_privacy: 'Google sign-in shares your name, profile picture and email address with this site. It does not give access to your email messages or ChatGPT conversations.',
+  auth_unavailable: 'Sign-in is temporarily unavailable. Please reload the page and try again.',
+  auth_failed: 'Sign-in could not be completed. Please try again.'
+});
+Object.assign(window.ARKIANS_TRANSLATIONS.el, {
+  auth_title: 'Σύνδεση στον λογαριασμό σας', auth_google: 'Σύνδεση με Google', auth_logout: 'Αποσύνδεση',
+  auth_intro: 'Συνδεθείτε με Google για πρόσβαση στο προφίλ, τα αγαπημένα, το καλάθι και τις παραγγελίες σας.',
+  auth_privacy: 'Η σύνδεση με Google κοινοποιεί στο site το όνομα, την εικόνα προφίλ και τη διεύθυνση email σας. Δεν δίνει πρόσβαση στα μηνύματα του email ή στις συνομιλίες σας στο ChatGPT.',
+  auth_unavailable: 'Η σύνδεση δεν είναι διαθέσιμη προσωρινά. Ανανεώστε τη σελίδα και δοκιμάστε ξανά.',
+  auth_failed: 'Η σύνδεση δεν ολοκληρώθηκε. Δοκιμάστε ξανά.'
+});

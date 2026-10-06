@@ -167,17 +167,17 @@
 
 <section class="login-section" id="loginSection">
 
-  <h2>Sign in to your account</h2>
+  <h2 data-i18n="auth_title">Sign in to your account</h2>
 
-  <p>
-    Sign in with Google to access your profile,
-    wishlist, cart and order history.
-  </p>
+  <p data-i18n="auth_intro">Sign in with Google to access your profile, wishlist, cart and order history.</p>
+  <p data-i18n="auth_privacy">Google sign-in shares your name, profile picture and email address with this site. It does not give access to your email messages or ChatGPT conversations.</p>
+  <p id="authMessage" role="alert" hidden></p>
 
   <button
   id="googleLoginButton"
   type="button"
   class="google-login-button"
+  data-i18n="auth_google"
 >
   Sign in with Google
 </button>
@@ -195,7 +195,7 @@
       <path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"></path>
     </svg>
 
-    <span>Profile</span>
+    <span data-i18n="footer_profile">Profile</span>
 
   </a>
 
@@ -207,7 +207,7 @@
       <path d="M20.8 4.6c-2-2-5.3-2-7.3 0L12 6.1l-1.5-1.5c-2-2-5.3-2-7.3 0s-2 5.3 0 7.3L12 20.7l8.8-8.8c2-2 2-5.3 0-7.3z"></path>
     </svg>
 
-    <span>Wishlist</span>
+    <span data-i18n="footer_wishlist">Wishlist</span>
 
   </a>
 
@@ -220,7 +220,7 @@
       <path d="M9 8V6a3 3 0 0 1 6 0v2"></path>
     </svg>
 
-    <span>Cart</span>
+    <span data-i18n="footer_cart">Cart</span>
 
   </a>
 
@@ -263,7 +263,7 @@
     class="logout-button"
     type="button"
   >
-    Log out
+    <span data-i18n="auth_logout">Log out</span>
   </button>
 </div>
 <!-- =========================
@@ -383,8 +383,8 @@
 </footer>
 
   <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
-<script src="supabase.js"></script>
-<script src="translations.js?v=6"></script>
+<script src="supabase.js?v=2"></script>
+<script src="translations.js?v=7"></script>
 <script src="language.js?v=4"></script>
 <script src="catalog-data.js"></script>
 <script src="site.js"></script>
