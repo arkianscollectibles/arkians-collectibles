@@ -9,6 +9,14 @@
     } catch { return null; }
   }
   window.arkiansHasOptionalConsent = () => readConsent()?.optional === true;
+  // A missing product photo gets a neutral placeholder, not another coin's design.
+  document.addEventListener('error', event => {
+    const image = event.target;
+    if (!(image instanceof HTMLImageElement) || !image.matches('.coin-card-image, .cart-card-image, #productImage')) return;
+    if (image.dataset.placeholderApplied) return;
+    image.dataset.placeholderApplied = 'true';
+    image.src = 'PRODUCT PHOTOS/product-placeholder.svg';
+  }, true);
   document.addEventListener('DOMContentLoaded', () => {
     const banner = document.createElement('section');
     banner.className = 'cookie-banner';

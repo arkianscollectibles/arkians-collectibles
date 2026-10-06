@@ -36,13 +36,13 @@ function request(body: unknown = {}, authorized = true) {
   });
 }
 
-Deno.test("all 27 products, including IDs 19–28, have server-authoritative prices", async () => {
+Deno.test("all 37 products, including the newly added IDs, have server-authoritative prices", async () => {
   const cart = Object.keys(catalogue.products).map(id=>({coin_id:Number(id),quantity:1}));
   const {handler,captured} = fixture(cart);
   const response = await handler(request({price_cents:1,user_id:"user-B"}));
   assert.equal(response.status,200); assert.equal(captured.userFilter,"user-A");
   const params = captured.stripeParams!;
-  assert.equal(params.line_items.length,27);
+  assert.equal(params.line_items.length,37);
   assert.equal(params.line_items.reduce((sum:number,item:any)=>sum+item.price_data.unit_amount,0),Object.values(catalogue.products).reduce((sum, product) => sum + product.price_cents, 0));
   assert.equal(params.line_items[0].price_data.unit_amount,catalogue.products[1].price_cents);
   assert.equal(params.shipping_options[0].shipping_rate_data.fixed_amount.amount,catalogue.shipping_cents);
@@ -64,7 +64,7 @@ Deno.test("missing or invalid sessions never create a Stripe session", async () 
   }
 });
 Deno.test("unknown IDs and invalid quantities are rejected before calling Stripe", async () => {
-  for(const item of [{coin_id:6,quantity:1},{coin_id:1,quantity:0},{coin_id:1,quantity:101},{coin_id:1,quantity:1.5},{coin_id:1.5,quantity:1}]) {
+  for(const item of [{coin_id:9999,quantity:1},{coin_id:1,quantity:0},{coin_id:1,quantity:101},{coin_id:1,quantity:1.5},{coin_id:1.5,quantity:1}]) {
     const {handler,captured}=fixture([item]);
     assert.equal((await handler(request())).status,400); assert.equal(captured.stripeCalls,0);
   }

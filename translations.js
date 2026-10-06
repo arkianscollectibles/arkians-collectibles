@@ -149,3 +149,6 @@ Object.assign(window.ARKIANS_TRANSLATIONS.el, {
   auth_unavailable: 'Η σύνδεση δεν είναι διαθέσιμη προσωρινά. Ανανεώστε τη σελίδα και δοκιμάστε ξανά.',
   auth_failed: 'Η σύνδεση δεν ολοκληρώθηκε. Δοκιμάστε ξανά.'
 });
+
+window.ARKIANS_TRANSLATIONS.en.country_spain = 'Spain';
+window.ARKIANS_TRANSLATIONS.el.country_spain = 'Ισπανία';

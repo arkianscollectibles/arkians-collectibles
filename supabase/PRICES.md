@@ -4,8 +4,8 @@ Authoritative file: `supabase/functions/_shared/product-prices.json`.
 
 - Prices are euro cents: `100` = €1.00, `1499` = €14.99, `1999` = €19.99.
 - `shipping_cents` is the shipping charge per order (currently `300`, i.e. €3.00 for every supported destination).
-- Product IDs match `app.js`. All 27 current coins are included, including IDs 19–28 which were missing from the supplied function.
-- All 27 current coins are priced at €14.99 each. Cards/Proof are still display-only templates.
+- Product IDs match `app.js`. All 37 current coins are included, including IDs 19–28 which were missing from the supplied function.
+- All 37 current coins are priced at €14.99 each. Cards/Proof are still display-only templates.
 - Stripe receives the price from the server catalogue and the quantity from the authenticated user's database cart. Request-body prices are ignored.
 
 After changing a price, run from the repository root:

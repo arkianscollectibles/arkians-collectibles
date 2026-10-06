@@ -7,111 +7,299 @@ const priceCatalog = {
   "products": {
     "1": {
       "name": "2 Euros Barbara of Celje",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Slovenia",
+      "year": 2014,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/001.jpg"
     },
     "2": {
       "name": "2 Euros Sipsik",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Estonia",
+      "year": 2026,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/002.jpg"
     },
     "3": {
       "name": "2 Euros University of Ljubljana",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Slovenia",
+      "year": 2019,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/003.jpg"
     },
     "4": {
       "name": "2 Euros Italian National Police",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Italy",
+      "year": 2022,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/004.jpg"
     },
     "5": {
       "name": "2 Euros Academy of Athens",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Greece",
+      "year": 2015,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/005.jpg"
+    },
+    "6": {
+      "name": "2 Euro Monastery of Poblet",
+      "price_cents": 1499,
+      "country": "Spain",
+      "year": 2026,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/006.jpg"
     },
     "7": {
       "name": "2 Euros Maria Callas",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Greece",
+      "year": 2023,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/007.jpg"
     },
     "8": {
       "name": "2 Euro Rotary",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Portugal",
+      "year": 2026,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/008.jpg"
     },
     "9": {
       "name": "2 Euros First Flight from Malta",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Malta",
+      "year": 2015,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/009.jpg"
     },
     "10": {
       "name": "2 Euros Presidency European Union",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Portugal",
+      "year": 2021,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/010.jpg"
     },
     "11": {
       "name": "2 Euros Basketball in Lithuania",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Lithuania",
+      "year": 2022,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/011.jpg"
     },
     "12": {
       "name": "2 Euros Belgian Presidency of the Council of the EU",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Belgium",
+      "year": 2024,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/012.jpg"
     },
     "13": {
       "name": "2 Euros Primož Trubar",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Slovenia",
+      "year": 2008,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/013.jpg"
     },
     "14": {
       "name": "2 Euros Adam Bohorič",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Slovenia",
+      "year": 2020,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/014.jpg"
     },
     "15": {
       "name": "2 Euros Ljubljana Botanical Garden",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Slovenia",
+      "year": 2010,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/015.jpg"
     },
     "16": {
       "name": "2 Euros Energy Independence",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Lithuania",
+      "year": 2026,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/016.jpg"
     },
     "17": {
       "name": "2 Euros Glory to Ukraine",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Estonia",
+      "year": 2022,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/017.jpg"
     },
     "18": {
       "name": "2 Euros Guimarães",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Portugal",
+      "year": 2012,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/018.jpg"
     },
     "19": {
       "name": "2 Euros Ivan Cankar",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Slovenia",
+      "year": 2026,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/019.jpg"
     },
     "20": {
       "name": "2 Euros Provincial Museum for Carniola",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Slovenia",
+      "year": 2021,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/020.jpg"
     },
     "21": {
       "name": "2 Euros Erasmus Slovenia",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Slovenia",
+      "year": 2022,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/021.jpg"
     },
     "22": {
       "name": "2 Euros Marine Nationale 400ans",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "France",
+      "year": 2026,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/022.jpg"
     },
     "23": {
       "name": "2 Euros Visegrad Group",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Slovakia",
+      "year": 2011,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/023.jpg"
     },
     "24": {
       "name": "2 Euros Centaurea Cyanus",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Estonia",
+      "year": 2024,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/024.jpg"
     },
     "25": {
       "name": "2 Euros Raamat 500",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Estonia",
+      "year": 2025,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/025.jpg"
     },
     "26": {
       "name": "2 Euros 730 years of the University of Coimbra",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Portugal",
+      "year": 2020,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/026.jpg"
     },
     "27": {
-      "name": "2 Euros Bundesländer II - Bremen",
-      "price_cents": 1499
+      "name": "2 Euros Bundesländer II - \"Bremen\"",
+      "price_cents": 1499,
+      "country": "Germany",
+      "year": 2026,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/027.jpg"
     },
     "28": {
       "name": "2 Euros Constantin Caratheodory",
-      "price_cents": 1499
+      "price_cents": 1499,
+      "country": "Greece",
+      "year": 2023,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/028.jpg"
+    },
+    "29": {
+      "name": "2 Euros Joana Vasconcelos",
+      "price_cents": 1499,
+      "country": "Portugal",
+      "year": 2016,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/029.jpg"
+    },
+    "30": {
+      "name": "2 Euros Canis Lupus",
+      "price_cents": 1499,
+      "country": "Estonia",
+      "year": 2021,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/030.jpg"
+    },
+    "31": {
+      "name": "2 Euros Fernao Mendes Pinto",
+      "price_cents": 1499,
+      "country": "Portugal",
+      "year": 2011,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/031.jpg"
+    },
+    "32": {
+      "name": "2 Euros Majstrovstva Europy V Hokeji",
+      "price_cents": 1499,
+      "country": "Slovakia",
+      "year": 2025,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/032.jpg"
+    },
+    "33": {
+      "name": "2 Euros 10th Anniversary - Accession to the European Union",
+      "price_cents": 1499,
+      "country": "Slovakia",
+      "year": 2014,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/033.jpg"
+    },
+    "34": {
+      "name": "2 Euros 200th Anniversary - Exodus of Missolonghi",
+      "price_cents": 1499,
+      "country": "Greece",
+      "year": 2026,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/034.jpg"
+    },
+    "35": {
+      "name": "2 Euros Belgian Presidency of the Council of the European Union",
+      "price_cents": 1499,
+      "country": "Belgium",
+      "year": 2010,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/035.jpg"
+    },
+    "36": {
+      "name": "2 Euros 2500 years of the Battle of Thermopylae",
+      "price_cents": 1499,
+      "country": "Greece",
+      "year": 2020,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/036.jpg"
+    },
+    "37": {
+      "name": "2 Euros Erasmus Greece",
+      "price_cents": 1499,
+      "country": "Greece",
+      "year": 2022,
+      "colored": true,
+      "image": "PRODUCT PHOTOS/COINS/037.jpg"
     }
   }
 };
