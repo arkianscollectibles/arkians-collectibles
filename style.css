@@ -3671,7 +3671,7 @@ input {
   }
 
   .main-nav::before {
-    content: "Products";
+    content: attr(data-drawer-title);
 
     position: absolute;
     top: 30px;
@@ -3870,6 +3870,41 @@ input {
   .mobile-menu-close,
   .language-switch-mobile {
     display: none !important;
+  }
+}
+
+/* Preserve the tablet layout when the desktop control rules apply. */
+@media (min-width: 701px) and (max-width: 1200px) {
+  .header-inner {
+    display: grid !important;
+    grid-template-columns: minmax(0, 1fr) 74px auto;
+  }
+
+  .header-inner > .logo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+
+  .header-inner > .language-switch-desktop {
+    grid-column: 2;
+    grid-row: 1;
+    margin: 0 !important;
+  }
+
+  .header-inner > .header-icons {
+    grid-column: 3;
+    grid-row: 1;
+  }
+
+  .header-inner > .search-wrapper {
+    grid-column: 1 / -1;
+    grid-row: 2;
+    margin-left: 0 !important;
+  }
+
+  .header-inner > .main-nav {
+    grid-column: 1 / -1;
+    grid-row: 3;
   }
 }
 

@@ -11,6 +11,7 @@
   document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('globalSearchResults');
     if (!container) return;
+    container.dataset.i18nAria = 'search_title';
     const query = (new URLSearchParams(location.search).get('search') || '').trim();
     const tokens = query.split(/\s+/).map(normalize).filter(Boolean);
     const products = [
@@ -45,7 +46,11 @@
       image.src = product.image;
       const title = document.createElement('div'); title.className = 'coin-card-title'; title.textContent = product.name;
       const label = document.createElement('div'); label.className = 'coin-card-meta'; label.dataset.i18n = category.key;
-      const meta = document.createElement('div'); meta.className = 'coin-card-meta'; meta.textContent = `${product.country} · ${product.year}`;
+      const meta = document.createElement('div'); meta.className = 'coin-card-meta';
+      const country = document.createElement('span');
+      country.dataset.i18n = `country_${product.country.toLowerCase()}`;
+      country.textContent = product.country;
+      meta.append(country, ` · ${product.year}`);
       if (type === 'coins' && product.colored === false) {
         const variant = document.createElement('span'); variant.dataset.i18n = 'variant_uncolored';
         meta.append(' · ', variant);

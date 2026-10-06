@@ -35,102 +35,130 @@ const HEART_SVG = `
 // ======================================================
 
 let wishlistIds = new Set();
-
-
-async function loadWishlistIds() {
-
-  if (typeof supabaseClient === "undefined") {
-    wishlistIds = new Set();
-    return;
-  }
-
-  const {
-    data: { user },
-    error: userError
-  } = await supabaseClient.auth.getUser();
-
-  if (userError || !user) {
-    wishlistIds = new Set();
-    return;
-  }
-
-  const { data, error } = await supabaseClient
-    .from("wishlist")
-    .select("coin_id")
-    .eq("user_id", user.id);
-
-  if (error) {
-    console.error("Wishlist load error:", error);
-    return;
-  }
-
-  wishlistIds = new Set(
-    (data || []).map((item) => Number(item.coin_id))
-  );
+const pendingWishlistChanges = new Set();
+const pendingCartChanges = new Set();
+let cartRenderRevision = 0;
+let wishlistRenderRevision = 0;
+let ordersRenderRevision = 0;
+const accountRevision = () => window.arkiansAuthState?.revision || 0;
+const accountRequestIsCurrent = (revision, user) => revision === accountRevision() &&
+  (!window.arkiansAuthState?.ready || window.arkiansAuthState.userId === user?.id);
+const accountText = (english, greek) => document.documentElement.lang === 'el' ? greek : english;
+function showAccountLoadError(element) {
+  if (!element) return;
+  element.textContent = accountText('Could not load your account data. Please refresh and try again.',
+    'Δεν ήταν δυνατή η φόρτωση των στοιχείων σου. Ανανέωσε τη σελίδα και δοκίμασε ξανά.');
+  element.style.display = 'block';
+  element.setAttribute('role', 'alert');
 }
+function refreshWishlistButtons() {
+  document.querySelectorAll('.wishlist-heart').forEach(button => {
+    button.classList.toggle('active', wishlistIds.has(Number(button.dataset.coinId)));
+  });
+  const button = document.getElementById('productWishlistButton');
+  if (button) updateProductWishlistButton(button, wishlistIds.has(Number(new URLSearchParams(location.search).get('id'))));
+}
+function clearAccountContent() {
+  wishlistIds = new Set();
+  document.querySelectorAll('.add-cart-button, .wishlist-heart, #productWishlistButton').forEach(button => {
+    const coinId = Number(button.dataset.coinId || (button.id === 'productWishlistButton' ? new URLSearchParams(location.search).get('id') : 0));
+    if (!coins.some(coin => coin.id === coinId)) return; // Preserve disabled template / Coming Soon buttons.
+    button.disabled = false;
+    const feedback = cartFeedback.get(button);
+    if (feedback) {
+      clearTimeout(feedback.timer);
+      button.innerHTML = feedback.html;
+      cartFeedback.delete(button);
+    }
+  });
+  const checkoutButton = document.getElementById('checkoutButton');
+  if (checkoutButton) {
+    checkoutButton.disabled = false;
+    if (checkoutButton.dataset.checkoutLabel) {
+      checkoutButton.textContent = checkoutButton.dataset.checkoutLabel;
+      delete checkoutButton.dataset.checkoutLabel;
+    }
+  }
+  cartRenderRevision += 1;
+  wishlistRenderRevision += 1;
+  ordersRenderRevision += 1;
+  ['cartItems', 'wishlistItems', 'ordersList'].forEach(id => {
+    const container = document.getElementById(id);
+    if (container) container.replaceChildren();
+  });
+  ['cartSummary', 'cartEmpty', 'wishlistEmpty', 'ordersEmpty'].forEach(id => {
+    const element = document.getElementById(id);
+    if (element) element.style.display = 'none';
+  });
+  refreshWishlistButtons();
+}
+document.addEventListener('arkians-auth-change', event => {
+  clearAccountContent();
+  if (!event.detail.userId) {
+    if (document.getElementById('cartItems') || document.getElementById('wishlistItems') || document.getElementById('ordersList')) {
+      window.location.href = 'account.html';
+    }
+    return;
+  }
+  // Never await Supabase calls from its synchronous auth callback.
+  setTimeout(async () => {
+    try {
+      if (document.getElementById('cartItems')) await renderCartPage();
+      else if (document.getElementById('wishlistItems')) await renderWishlistPage();
+      else if (document.getElementById('ordersList')) await renderOrderHistory();
+      else { await loadWishlistIds(); refreshWishlistButtons(); }
+    } catch (error) { console.error('Account refresh error:', error); }
+  }, 0);
+});
 
-
-
-async function toggleWishlist(coinId, button) {
-
-  if (typeof supabaseClient === "undefined") {
-    window.location.href = "account.html";
+async function loadWishlistIds(expectedUser = null, revision = accountRevision()) {
+  if (typeof supabaseClient === 'undefined') { wishlistIds = new Set(); return false; }
+  const userResult = expectedUser ? { data: { user: expectedUser } } : await supabaseClient.auth.getUser();
+  const user = userResult.data?.user;
+  if (revision !== accountRevision()) return false;
+  if (userResult.error || !user) { wishlistIds = new Set(); return false; }
+  if (!accountRequestIsCurrent(revision, user)) return false;
+  const { data, error } = await supabaseClient.from('wishlist').select('coin_id').eq('user_id', user.id);
+  if (!accountRequestIsCurrent(revision, user)) return false;
+  if (error) {
+    wishlistIds = new Set();
+    console.error('Wishlist load error:', error);
     return false;
   }
-
-  const {
-    data: { user }
-  } = await supabaseClient.auth.getUser();
-
-  if (!user) {
-    window.location.href = "account.html";
-    return false;
-  }
-
-
-  if (wishlistIds.has(Number(coinId))) {
-
-    const { error } = await supabaseClient
-      .from("wishlist")
-      .delete()
-      .eq("user_id", user.id)
-      .eq("coin_id", coinId);
-
-    if (error) {
-      console.error("Wishlist remove error:", error);
-      return false;
-    }
-
-    wishlistIds.delete(Number(coinId));
-
-    if (button) {
-      button.classList.remove("active");
-    }
-
-  } else {
-
-    const { error } = await supabaseClient
-      .from("wishlist")
-      .insert({
-        user_id: user.id,
-        coin_id: coinId
-      });
-
-    if (error) {
-      console.error("Wishlist add error:", error);
-      return false;
-    }
-
-    wishlistIds.add(Number(coinId));
-
-    if (button) {
-      button.classList.add("active");
-    }
-  }
-
+  wishlistIds = new Set((data || []).map(item => Number(item.coin_id)));
   return true;
 }
 
+async function toggleWishlist(coinId, button) {
+  coinId = Number(coinId);
+  const revision = accountRevision();
+  const lockKey = `${revision}:${coinId}`;
+  if (!coins.some(coin => coin.id === coinId) || pendingWishlistChanges.has(lockKey)) return false;
+  if (typeof supabaseClient === 'undefined') { window.location.href = 'account.html'; return false; }
+  pendingWishlistChanges.add(lockKey);
+  if (button) button.disabled = true;
+  try {
+    const { data: { user }, error: userError } = await supabaseClient.auth.getUser();
+    if (revision !== accountRevision()) return false;
+    if (userError || !user) { window.location.href = 'account.html'; return false; }
+    if (!accountRequestIsCurrent(revision, user)) return false;
+    const removing = wishlistIds.has(coinId);
+    const { error } = removing
+      ? await supabaseClient.from('wishlist').delete().eq('user_id', user.id).eq('coin_id', coinId)
+      : await supabaseClient.from('wishlist').insert({ user_id: user.id, coin_id: coinId });
+    if (!accountRequestIsCurrent(revision, user)) return false;
+    if (error) { console.error('Wishlist update error:', error); return false; }
+    if (removing) wishlistIds.delete(coinId); else wishlistIds.add(coinId);
+    refreshWishlistButtons();
+    return true;
+  } catch (error) {
+    console.error('Wishlist update error:', error);
+    return false;
+  } finally {
+    pendingWishlistChanges.delete(lockKey);
+    if (button && revision === accountRevision()) button.disabled = false;
+  }
+}
 
 
 function activateWishlistButtons() {
@@ -513,6 +541,8 @@ async function initAllCoinsPage() {
 // ======================================================
 
 async function renderWishlistPage() {
+  const revision = accountRevision();
+  const renderRevision = ++wishlistRenderRevision;
 
   const container =
     document.getElementById(
@@ -526,20 +556,11 @@ async function renderWishlistPage() {
 
 
   if (!container) return;
-
-
-  if (
-    typeof supabaseClient ===
-    "undefined"
-  ) {
-    return;
-  }
-
-
-  const {
-    data: { user }
-  } =
-    await supabaseClient.auth.getUser();
+  container.replaceChildren();
+  if (emptyMessage) emptyMessage.style.display = 'none';
+  if (typeof supabaseClient === 'undefined') { showAccountLoadError(emptyMessage); return; }
+  const { data: { user } } = await supabaseClient.auth.getUser();
+  if (revision !== accountRevision() || renderRevision !== wishlistRenderRevision) return;
 
 
   if (!user) {
@@ -549,8 +570,9 @@ async function renderWishlistPage() {
   }
 
 
-  await loadWishlistIds();
-
+  const loaded = await loadWishlistIds(user, revision);
+  if (!accountRequestIsCurrent(revision, user) || renderRevision !== wishlistRenderRevision) return;
+  if (!loaded) { showAccountLoadError(emptyMessage); return; }
 
   const savedCoins =
     coins.filter((coin) =>
@@ -566,6 +588,7 @@ async function renderWishlistPage() {
   if (savedCoins.length === 0) {
 
     if (emptyMessage) {
+      emptyMessage.textContent = accountText('Your wishlist is empty.', 'Η λίστα επιθυμιών σου είναι άδεια.');
       emptyMessage.style.display =
         "block";
     }
@@ -659,224 +682,94 @@ async function renderWishlistPage() {
 // CART - ADD PRODUCT
 // ======================================================
 
-async function addCoinToCart(
-  coinId,
-  button
-) {
-
-  if (
-    typeof supabaseClient ===
-    "undefined"
-  ) {
-    window.location.href =
-      "account.html";
-    return;
-  }
-
-
-  const {
-    data: { user }
-  } =
-    await supabaseClient.auth.getUser();
-
-
-  if (!user) {
-    window.location.href =
-      "account.html";
-    return;
-  }
-
-
-  const {
-    data: existingItem,
-    error: loadError
-  } =
-    await supabaseClient
-      .from("cart")
-      .select("quantity")
-      .eq("user_id", user.id)
-      .eq("coin_id", coinId)
-      .maybeSingle();
-
-
-  if (loadError) {
-    console.error(
-      "Cart load error:",
-      loadError
-    );
-    return;
-  }
-
-
-  if (existingItem) {
-
-    if (
-      Number(existingItem.quantity) >=
-      100
-    ) {
-
-      if (button) {
-        button.textContent =
-          "Max 100";
-      }
-
+async function addCoinToCart(coinId, button) {
+  coinId = Number(coinId);
+  const revision = accountRevision();
+  const lockKey = `${revision}:${coinId}`;
+  if (!coins.some(coin => coin.id === coinId) || pendingCartChanges.has(lockKey)) return;
+  if (typeof supabaseClient === 'undefined') { window.location.href = 'account.html'; return; }
+  pendingCartChanges.add(lockKey);
+  if (button) button.disabled = true;
+  try {
+    const { data: { user }, error: userError } = await supabaseClient.auth.getUser();
+    if (revision !== accountRevision()) return;
+    if (userError || !user) { window.location.href = 'account.html'; return; }
+    if (!accountRequestIsCurrent(revision, user)) return;
+    const { data: existingItem, error: loadError } = await supabaseClient.from('cart')
+      .select('quantity').eq('user_id', user.id).eq('coin_id', coinId).maybeSingle();
+    if (!accountRequestIsCurrent(revision, user)) return;
+    if (loadError) throw loadError;
+    const oldQuantity = Number(existingItem?.quantity || 0);
+    if (!Number.isSafeInteger(oldQuantity) || oldQuantity < 0 || oldQuantity >= 100) {
+      if (button) showCartFeedback(button, accountText('Max 100', 'Μέγιστο 100'));
       return;
     }
-
-
-    const { error } =
-      await supabaseClient
-        .from("cart")
-        .update({
-          quantity:
-            Number(
-              existingItem.quantity
-            ) + 1
-        })
-        .eq("user_id", user.id)
-        .eq("coin_id", coinId);
-
-
-    if (error) {
-      console.error(
-        "Cart update error:",
-        error
-      );
-      return;
-    }
-
-  } else {
-
-    const { error } =
-      await supabaseClient
-        .from("cart")
-        .insert({
-          user_id: user.id,
-          coin_id: coinId,
-          quantity: 1
-        });
-
-
-    if (error) {
-      console.error(
-        "Cart add error:",
-        error
-      );
-      return;
-    }
-  }
-
-
-  if (button) {
-
-    const originalText =
-      button.textContent;
-
-    button.textContent =
-      "Added ✓";
-
-
-    setTimeout(() => {
-
-      button.textContent =
-        originalText;
-
-    }, 1200);
+    const result = existingItem
+      ? await supabaseClient.from('cart').update({ quantity: oldQuantity + 1 }).eq('user_id', user.id).eq('coin_id', coinId)
+      : await supabaseClient.from('cart').insert({ user_id: user.id, coin_id: coinId, quantity: 1 });
+    if (!accountRequestIsCurrent(revision, user)) return;
+    if (result.error) throw result.error;
+    if (button) showCartFeedback(button, accountText('Added ✓', 'Προστέθηκε ✓'));
+  } catch (error) {
+    console.error('Cart update error:', error);
+    if (button && revision === accountRevision()) showCartFeedback(button, accountText('Try again', 'Δοκίμασε ξανά'));
+  } finally {
+    pendingCartChanges.delete(lockKey);
+    if (button && revision === accountRevision()) button.disabled = false;
   }
 }
-
-
+const cartFeedback = new WeakMap();
+function showCartFeedback(button, message) {
+  const previous = cartFeedback.get(button);
+  const html = previous?.html || button.innerHTML;
+  if (previous) clearTimeout(previous.timer);
+  button.textContent = message;
+  const timer = setTimeout(() => {
+    button.innerHTML = html;
+    cartFeedback.delete(button);
+    window.arkiansTranslate?.();
+  }, 1200);
+  cartFeedback.set(button, { html, timer });
+}
 
 // ======================================================
 // CART - QUANTITY / REMOVE
 // ======================================================
 
-async function updateCartQuantity(
-  coinId,
-  newQuantity
-) {
-
-  if (
-    newQuantity < 1 ||
-    newQuantity > 100
-  ) {
-    return;
-  }
-
-
-  const {
-    data: { user }
-  } =
-    await supabaseClient.auth.getUser();
-
-
-  if (!user) return;
-
-
-  const { error } =
-    await supabaseClient
-      .from("cart")
-      .update({
-        quantity: newQuantity
-      })
-      .eq("user_id", user.id)
-      .eq("coin_id", coinId);
-
-
-  if (error) {
-    console.error(
-      "Cart quantity error:",
-      error
-    );
-    return;
-  }
-
-
-  await renderCartPage();
+async function updateCartQuantity(coinId, newQuantity) {
+  if (!Number.isSafeInteger(newQuantity) || newQuantity < 1 || newQuantity > 100) return;
+  await changeCartItem(coinId, newQuantity);
 }
-
-
-
-async function removeCartItem(
-  coinId
-) {
-
-  const {
-    data: { user }
-  } =
-    await supabaseClient.auth.getUser();
-
-
-  if (!user) return;
-
-
-  const { error } =
-    await supabaseClient
-      .from("cart")
-      .delete()
-      .eq("user_id", user.id)
-      .eq("coin_id", coinId);
-
-
-  if (error) {
-    console.error(
-      "Cart remove error:",
-      error
-    );
-    return;
-  }
-
-
-  await renderCartPage();
+async function removeCartItem(coinId) { await changeCartItem(coinId, null); }
+async function changeCartItem(coinId, quantity) {
+  coinId = Number(coinId);
+  const revision = accountRevision();
+  const lockKey = `${revision}:${coinId}`;
+  if (typeof supabaseClient === 'undefined' || pendingCartChanges.has(lockKey) || !coins.some(coin => coin.id === coinId)) return;
+  pendingCartChanges.add(lockKey);
+  try {
+    const { data: { user }, error: userError } = await supabaseClient.auth.getUser();
+    if (userError || !user || !accountRequestIsCurrent(revision, user)) return;
+    const table = supabaseClient.from('cart');
+    const mutation = quantity === null ? table.delete() : table.update({ quantity });
+    const { error } = await mutation.eq('user_id', user.id).eq('coin_id', coinId);
+    if (!accountRequestIsCurrent(revision, user)) return;
+    if (error) throw error;
+    await renderCartPage();
+  } catch (error) {
+    console.error('Cart quantity error:', error);
+    if (revision === accountRevision()) alert(accountText('Could not update your cart. Please try again.',
+      'Δεν ήταν δυνατή η ενημέρωση του καλαθιού. Δοκίμασε ξανά.'));
+  } finally { pendingCartChanges.delete(lockKey); }
 }
-
-
 
 // ======================================================
 // CART PAGE
 // ======================================================
 
 async function renderCartPage() {
+  const revision = accountRevision();
+  const renderRevision = ++cartRenderRevision;
 
   const container =
     document.getElementById(
@@ -905,21 +798,17 @@ async function renderCartPage() {
 
 
   if (!container) return;
-
-
-  if (
-    typeof supabaseClient ===
-    "undefined"
-  ) {
-    return;
-  }
+  container.replaceChildren();
+  if (summary) summary.style.display = 'none';
+  if (emptyMessage) emptyMessage.style.display = 'none';
+  if (typeof supabaseClient === 'undefined') { showAccountLoadError(emptyMessage); return; }
 
 
   const {
     data: { user }
   } =
     await supabaseClient.auth.getUser();
-
+  if (revision !== accountRevision() || renderRevision !== cartRenderRevision) return;
 
   if (!user) {
     window.location.href =
@@ -937,7 +826,9 @@ async function renderCartPage() {
       .eq("user_id", user.id);
 
 
+  if (!accountRequestIsCurrent(revision, user) || renderRevision !== cartRenderRevision) return;
   if (error) {
+    showAccountLoadError(emptyMessage);
     console.error(
       "Cart load error:",
       error
@@ -955,6 +846,7 @@ async function renderCartPage() {
   ) {
 
     if (emptyMessage) {
+      emptyMessage.textContent = accountText('Your cart is empty.', 'Το καλάθι σου είναι άδειο.');
       emptyMessage.style.display =
         "block";
     }
@@ -980,6 +872,12 @@ async function renderCartPage() {
   }
 
 
+  if (data.some(item => !coins.some(coin => coin.id === Number(item.coin_id)) ||
+      !Number.isSafeInteger(Number(item.quantity)) || Number(item.quantity) < 1 || Number(item.quantity) > 100)) {
+    if (summary) summary.style.display = 'none';
+    showAccountLoadError(emptyMessage);
+    return;
+  }
   let subtotal = 0;
 
 
@@ -1094,6 +992,17 @@ async function renderCartPage() {
     `;
 
 
+    const withCartControlsLocked = async action => {
+      const controls = [...card.querySelectorAll('button')];
+      if (card.dataset.updating === 'true') return;
+      card.dataset.updating = 'true';
+      const disabled = controls.map(button => button.disabled);
+      controls.forEach(button => { button.disabled = true; });
+      try { await action(); } finally {
+        delete card.dataset.updating;
+        controls.forEach((button, index) => { button.disabled = disabled[index]; });
+      }
+    };
     const minusButton =
       card.querySelector(
         ".cart-minus"
@@ -1114,10 +1023,7 @@ async function renderCartPage() {
   "click",
   async () => {
 
-    await updateCartQuantity(
-      coin.id,
-      Number(item.quantity) - 1
-    );
+    await withCartControlsLocked(() => updateCartQuantity(coin.id, Number(item.quantity) - 1));
 
   }
 );
@@ -1125,10 +1031,7 @@ plusButton.addEventListener(
   "click",
   async () => {
 
-    await updateCartQuantity(
-      coin.id,
-      Number(item.quantity) + 1
-    );
+    await withCartControlsLocked(() => updateCartQuantity(coin.id, Number(item.quantity) + 1));
 
   }
 );
@@ -1138,9 +1041,7 @@ removeButton.addEventListener(
   "click",
   async () => {
 
-    await removeCartItem(
-      coin.id
-    );
+    await withCartControlsLocked(() => removeCartItem(coin.id));
 
   }
 );
@@ -1510,10 +1411,12 @@ function setupCheckoutButton() {
 
 
   button.addEventListener("click", async () => {
-
+    if (button.disabled) return;
+    const revision = accountRevision();
     const originalText =
       button.textContent;
 
+    button.dataset.checkoutLabel = originalText;
     button.disabled = true;
     button.textContent = "Loading checkout...";
 
@@ -1523,7 +1426,7 @@ function setupCheckoutButton() {
       const {
         data: { session }
       } = await supabaseClient.auth.getSession();
-
+      if (revision !== accountRevision()) return;
 
       if (!session) {
         window.location.href = "account.html";
@@ -1531,14 +1434,16 @@ function setupCheckoutButton() {
       }
 
 
+      if (!accountRequestIsCurrent(revision, session.user)) return;
       const { data, error } =
         await supabaseClient.functions.invoke(
           "create-checkout-function",
           {
-            body: {}
+            body: {},
+            ...(session.access_token ? { headers: { Authorization: `Bearer ${session.access_token}` } } : {})
           }
         );
-
+      if (!accountRequestIsCurrent(revision, session.user)) return;
 
       if (error) {
         console.error(
@@ -1547,7 +1452,8 @@ function setupCheckoutButton() {
         );
 
         alert(
-          "Checkout could not start. Check the console."
+          accountText("Checkout could not start. Please try again or contact us.",
+            "Δεν ήταν δυνατή η έναρξη πληρωμής. Δοκίμασε ξανά ή επικοινώνησε μαζί μας.")
         );
 
         return;
@@ -1583,8 +1489,11 @@ function setupCheckoutButton() {
 
     } finally {
 
-      button.disabled = false;
-      button.textContent = originalText;
+      if (revision === accountRevision()) {
+        button.disabled = false;
+        button.textContent = originalText;
+        delete button.dataset.checkoutLabel;
+      }
 
     }
 
@@ -1696,6 +1605,8 @@ async function verifyCheckoutSuccess() {
 // ======================================================
 
 async function renderOrderHistory() {
+  const revision = accountRevision();
+  const renderRevision = ++ordersRenderRevision;
 
   const list =
     document.getElementById("ordersList");
@@ -1708,17 +1619,16 @@ async function renderOrderHistory() {
 
 
   if (!list) return;
-
-
-  if (typeof supabaseClient === "undefined") {
-    return;
-  }
+  list.replaceChildren();
+  if (empty) empty.style.display = 'none';
+  if (loading) loading.style.display = 'block';
+  if (typeof supabaseClient === "undefined") { showAccountLoadError(loading); return; }
 
 
   const {
     data: { user }
   } = await supabaseClient.auth.getUser();
-
+  if (revision !== accountRevision() || renderRevision !== ordersRenderRevision) return;
 
   if (!user) {
     window.location.href = "account.html";
@@ -1745,6 +1655,7 @@ async function renderOrderHistory() {
     });
 
 
+  if (!accountRequestIsCurrent(revision, user) || renderRevision !== ordersRenderRevision) return;
   if (ordersError) {
 
     console.error(
@@ -1801,7 +1712,7 @@ async function renderOrderHistory() {
         quantity
       `)
       .eq("order_id", order.id);
-
+    if (!accountRequestIsCurrent(revision, user) || renderRevision !== ordersRenderRevision) return;
 
     if (itemsError) {
 
@@ -1859,17 +1770,17 @@ async function renderOrderHistory() {
             <img
               class="order-item-image"
               src="${image}"
-              alt="${item.product_name}"
+              alt="${escapeCoinText(item.product_name || coin?.name || "Product")}"
             >
 
             <div>
 
               <div class="order-item-name">
-                ${item.product_name}
+                ${escapeCoinText(item.product_name || coin?.name || "Product")}
               </div>
 
               <div class="order-item-meta">
-                Quantity: ${item.quantity}
+                Quantity: ${escapeCoinText(item.quantity)}
               </div>
 
             </div>
@@ -1895,7 +1806,7 @@ async function renderOrderHistory() {
         <div>
 
           <div class="order-card-number">
-            ${order.order_number || "Order"}
+            ${escapeCoinText(order.order_number || "Order")}
           </div>
 
           <div class="order-card-date">
@@ -1909,7 +1820,7 @@ async function renderOrderHistory() {
           ${
             order.status === "paid"
               ? "Paid"
-              : order.status
+              : escapeCoinText(order.status || '')
           }
         </div>
 
@@ -2144,52 +2055,56 @@ const { error } = await supabaseClient
 
 }
 /* MOBILE HEADER MENU */
-
-document.addEventListener("DOMContentLoaded", function () {
-
-  const menuButton = document.querySelector(".mobile-menu-toggle");
-  const mainNav = document.getElementById("mainNav");
-  const closeButton = document.querySelector(".mobile-menu-close");
-
+document.addEventListener('DOMContentLoaded', () => {
+  const menuButton = document.querySelector('.mobile-menu-toggle');
+  const mainNav = document.getElementById('mainNav');
+  const closeButton = document.querySelector('.mobile-menu-close');
   if (!menuButton || !mainNav) return;
-
-
+  const mobileLayout = window.matchMedia('(max-width: 700px)');
+  function closeMenu(restoreFocus = false) {
+    mainNav.classList.remove('mobile-open');
+    menuButton.classList.remove('active');
+    menuButton.setAttribute('aria-expanded', 'false');
+    mainNav.inert = mobileLayout.matches;
+    if (mobileLayout.matches) mainNav.setAttribute('aria-hidden', 'true');
+    else mainNav.removeAttribute('aria-hidden');
+    if (restoreFocus && mobileLayout.matches) menuButton.focus();
+  }
   function openMenu() {
-    mainNav.classList.add("mobile-open");
-    menuButton.classList.add("active");
-    menuButton.setAttribute("aria-expanded", "true");
+    if (!mobileLayout.matches) return;
+    mainNav.inert = false;
+    mainNav.removeAttribute('aria-hidden');
+    mainNav.classList.add('mobile-open');
+    menuButton.classList.add('active');
+    menuButton.setAttribute('aria-expanded', 'true');
+    (closeButton || mainNav.querySelector('a, button')).focus();
   }
-
-
-  function closeMenu() {
-    mainNav.classList.remove("mobile-open");
-    menuButton.classList.remove("active");
-    menuButton.setAttribute("aria-expanded", "false");
-  }
-
-
-  menuButton.addEventListener("click", function () {
-
-    if (mainNav.classList.contains("mobile-open")) {
-      closeMenu();
-    } else {
-      openMenu();
-    }
-
+  menuButton.addEventListener('click', () => {
+    if (mainNav.classList.contains('mobile-open')) closeMenu(true); else openMenu();
   });
-
-
-  if (closeButton) {
-    closeButton.addEventListener("click", function (event) {
+  closeButton?.addEventListener('click', event => {
+    event.preventDefault();
+    event.stopPropagation();
+    closeMenu(true);
+  });
+  mainNav.querySelectorAll('a').forEach(link => link.addEventListener('click', () => closeMenu()));
+  document.addEventListener('click', event => {
+    if (mobileLayout.matches && mainNav.classList.contains('mobile-open') &&
+        !mainNav.contains(event.target) && !menuButton.contains(event.target)) closeMenu();
+  });
+  document.addEventListener('keydown', event => {
+    if (!mobileLayout.matches || !mainNav.classList.contains('mobile-open')) return;
+    if (event.key === 'Escape') {
       event.preventDefault();
-      event.stopPropagation();
-      closeMenu();
-    });
-  }
-
-
-  mainNav.querySelectorAll("a").forEach(function (link) {
-    link.addEventListener("click", closeMenu);
+      closeMenu(true);
+    } else if (event.key === 'Tab' && mainNav.contains(document.activeElement)) {
+      const controls = [...mainNav.querySelectorAll('a[href], button:not([disabled])')]
+        .filter(element => element.getClientRects().length && getComputedStyle(element).visibility !== 'hidden');
+      const first = controls[0], last = controls[controls.length - 1];
+      if (event.shiftKey && document.activeElement === first) { event.preventDefault(); last?.focus(); }
+      else if (!event.shiftKey && document.activeElement === last) { event.preventDefault(); first?.focus(); }
+    }
   });
-
+  mobileLayout.addEventListener('change', () => closeMenu());
+  closeMenu();
 });
