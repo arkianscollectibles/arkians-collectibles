@@ -9,7 +9,6 @@ const coins = [
     country: "Slovenia",
     year: 2014,
     colored: true,
-    price: 1,
     image: "PRODUCT PHOTOS/COINS/001.jpg"
   },
   {
@@ -18,7 +17,6 @@ const coins = [
     country: "Estonia",
     year: 2026,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/002.jpg"
   },
   {
@@ -27,7 +25,6 @@ const coins = [
     country: "Slovenia",
     year: 2019,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/003.jpg"
   },
   {
@@ -36,7 +33,6 @@ const coins = [
     country: "Italy",
     year: 2022,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/004.jpg"
   },
   {
@@ -45,7 +41,6 @@ const coins = [
     country: "Greece",
     year: 2015,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/005.jpg"
   },
   {
@@ -54,7 +49,6 @@ const coins = [
     country: "Greece",
     year: 2023,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/007.jpg"
   },
   {
@@ -63,7 +57,6 @@ const coins = [
     country: "Portugal",
     year: 2026,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/008.jpg"
   },
   {
@@ -72,7 +65,6 @@ const coins = [
     country: "Malta",
     year: 2015,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/009.jpg"
   },
   {
@@ -81,7 +73,6 @@ const coins = [
     country: "Portugal",
     year: 2021,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/010.jpg"
   },
   {
@@ -90,7 +81,6 @@ const coins = [
     country: "Lithuania",
     year: 2022,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/011.jpg"
   },
   {
@@ -99,7 +89,6 @@ const coins = [
     country: "Belgium",
     year: 2024,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/012.jpg"
   },
   {
@@ -108,7 +97,6 @@ const coins = [
     country: "Slovenia",
     year: 2008,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/013.jpg"
   },
   {
@@ -117,7 +105,6 @@ const coins = [
     country: "Slovenia",
     year: 2020,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/014.jpg"
   },
   {
@@ -126,7 +113,6 @@ const coins = [
     country: "Slovenia",
     year: 2010,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/015.jpg"
   },
   {
@@ -135,7 +121,6 @@ const coins = [
     country: "Lithuania",
     year: 2026,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/016.jpg"
   },
   {
@@ -144,7 +129,6 @@ const coins = [
     country: "Estonia",
     year: 2022,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/017.jpg"
   },
   {
@@ -153,7 +137,6 @@ const coins = [
     country: "Portugal",
     year: 2012,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/018.jpg"
   },
     {
@@ -162,7 +145,6 @@ const coins = [
     country: "Slovenia",
     year: 2026,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/019.jpg"
   },
       {
@@ -171,7 +153,6 @@ const coins = [
     country: "Slovenia",
     year: 2021,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/020.jpg"
   },
         {
@@ -180,7 +161,6 @@ const coins = [
     country: "Slovenia",
     year: 2022,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/021.jpg"
   },
           {
@@ -189,7 +169,6 @@ const coins = [
     country: "France",
     year: 2026,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/022.jpg"
   },
             {
@@ -198,7 +177,6 @@ const coins = [
     country: "Slovakia",
     year: 2011,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/023.jpg"
   },
               {
@@ -207,7 +185,6 @@ const coins = [
     country: "Estonia",
     year: 2024,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/024.jpg"
   },
                 {
@@ -216,7 +193,6 @@ const coins = [
     country: "Estonia",
     year: 2025,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/025.jpg"
   },
                  {
@@ -225,7 +201,6 @@ const coins = [
     country: "Portugal",
     year: 2020,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/026.jpg"
   },
                    {
@@ -234,7 +209,6 @@ const coins = [
     country: "Germany",
     year: 2026,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/027.jpg"
   },
                      {
@@ -243,12 +217,15 @@ const coins = [
     country: "Greece",
     year: 2023,
     colored: true,
-    price: 14.99,
     image: "PRODUCT PHOTOS/COINS/028.jpg"
   }
   
   
-];
+].map(coin => {
+  const product = window.ARKIANS_PRICES.products[coin.id];
+  if (!product) throw new Error(`Missing price for product ${coin.id}`);
+  return { ...coin, name: product.name, price: product.price_cents / 100 };
+});
 
 
 
@@ -1393,9 +1370,11 @@ if (subtotalElement) {
 }
 
 
+const shippingElement = document.getElementById('cartShipping');
+if (shippingElement) shippingElement.textContent = `€${(window.ARKIANS_PRICES.shipping_cents / 100).toFixed(2)}`;
 if (totalElement) {
   totalElement.textContent =
-    `€${(subtotal + 5).toFixed(2)}`;
+    `€${(subtotal + window.ARKIANS_PRICES.shipping_cents / 100).toFixed(2)}`;
 }
 
 }
