@@ -1,0 +1,482 @@
+[
+  {
+    "id": "38",
+    "name": "2 Euros Barbara of Celje",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/001-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/001.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 26,
+      "top": 6,
+      "right": 1229,
+      "bottom": 1250
+    }
+  },
+  {
+    "id": "40",
+    "name": "2 Euros University of Ljubljana",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/003-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/003.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 3,
+      "top": 0,
+      "right": 1245,
+      "bottom": 1246
+    }
+  },
+  {
+    "id": "41",
+    "name": "2 Euros Italian National Police",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/004-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/004.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 7,
+      "top": 0,
+      "right": 1237,
+      "bottom": 1245
+    }
+  },
+  {
+    "id": "44",
+    "name": "2 Euros Maria Callas",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/007-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/007.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 14,
+      "top": 4,
+      "right": 1232,
+      "bottom": 1236
+    }
+  },
+  {
+    "id": "46",
+    "name": "2 Euros First Flight from Malta",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/009-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/009.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 21,
+      "top": 9,
+      "right": 1223,
+      "bottom": 1226
+    }
+  },
+  {
+    "id": "47",
+    "name": "2 Euros Presidency European Union",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/010-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/010.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 3,
+      "top": 0,
+      "right": 1245,
+      "bottom": 1250
+    }
+  },
+  {
+    "id": "48",
+    "name": "2 Euros Basketball in Lithuania",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/011-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/011.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 18,
+      "top": 7,
+      "right": 1229,
+      "bottom": 1236
+    }
+  },
+  {
+    "id": "49",
+    "name": "2 Euros Belgian Presidency of the Council of the EU",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/012-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/012.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 36,
+      "top": 33,
+      "right": 1208,
+      "bottom": 1210
+    }
+  },
+  {
+    "id": "50",
+    "name": "2 Euros Primož Trubar",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/013-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/013.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 10,
+      "top": 2,
+      "right": 1230,
+      "bottom": 1235
+    }
+  },
+  {
+    "id": "51",
+    "name": "2 Euros Adam Bohorič",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/014-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/014.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 8,
+      "top": 7,
+      "right": 1239,
+      "bottom": 1240
+    }
+  },
+  {
+    "id": "52",
+    "name": "2 Euros Ljubljana Botanical Garden",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/015-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/015.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 11,
+      "top": 4,
+      "right": 1231,
+      "bottom": 1242
+    }
+  },
+  {
+    "id": "54",
+    "name": "2 Euros Glory to Ukraine",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/017.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/017.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 2,
+      "top": 4,
+      "right": 1240,
+      "bottom": 1241
+    }
+  },
+  {
+    "id": "55",
+    "name": "2 Euros Guimarães",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/018-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/018.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 13,
+      "top": 4,
+      "right": 1230,
+      "bottom": 1236
+    }
+  },
+  {
+    "id": "57",
+    "name": "2 Euros Provincial Museum for Carniola",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/020-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/020.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 16,
+      "top": 5,
+      "right": 1229,
+      "bottom": 1230
+    }
+  },
+  {
+    "id": "58",
+    "name": "2 Euros Erasmus Slovenia",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/021-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/021.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 12,
+      "top": 5,
+      "right": 1232,
+      "bottom": 1233
+    }
+  },
+  {
+    "id": "60",
+    "name": "2 Euros Visegrad Group",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/023-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/023.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 19,
+      "top": 4,
+      "right": 1225,
+      "bottom": 1237
+    }
+  },
+  {
+    "id": "61",
+    "name": "2 Euros Centaurea Cyanus",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/024-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/024.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 12,
+      "top": 8,
+      "right": 1223,
+      "bottom": 1220
+    }
+  },
+  {
+    "id": "62",
+    "name": "2 Euros Raamat 500",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/025-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/025.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 17,
+      "top": 11,
+      "right": 1225,
+      "bottom": 1221
+    }
+  },
+  {
+    "id": "63",
+    "name": "2 Euros 730 years of the University of Coimbra",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/026-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/026.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 1,
+      "top": 1,
+      "right": 1248,
+      "bottom": 1250
+    }
+  },
+  {
+    "id": "65",
+    "name": "2 Euros Constantin Caratheodory",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/028-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/028.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 21,
+      "top": 0,
+      "right": 1223,
+      "bottom": 1224
+    }
+  },
+  {
+    "id": "66",
+    "name": "2 Euros Joana Vasconcelos",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/029-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/029.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 22,
+      "top": 6,
+      "right": 1227,
+      "bottom": 1236
+    }
+  },
+  {
+    "id": "67",
+    "name": "2 Euros Canis Lupus",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/030-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/030.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 8,
+      "top": 3,
+      "right": 1234,
+      "bottom": 1240
+    }
+  },
+  {
+    "id": "68",
+    "name": "2 Euros Fernao Mendes Pinto",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/031-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/031.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 11,
+      "top": 6,
+      "right": 1228,
+      "bottom": 1237
+    }
+  },
+  {
+    "id": "69",
+    "name": "2 Euros Majstrovstva Europy V Hokeji",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/032-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/032.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 17,
+      "top": 18,
+      "right": 1229,
+      "bottom": 1229
+    }
+  },
+  {
+    "id": "70",
+    "name": "2 Euros 10th Anniversary - Accession to the European Union",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/033-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/033.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 12,
+      "top": 4,
+      "right": 1228,
+      "bottom": 1231
+    }
+  },
+  {
+    "id": "72",
+    "name": "2 Euros Belgian Presidency of the Council of the European Union",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/035-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/035.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 17,
+      "top": 5,
+      "right": 1225,
+      "bottom": 1234
+    }
+  },
+  {
+    "id": "73",
+    "name": "2 Euros 2500 years of the Battle of Thermopylae",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/036-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/036.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 4,
+      "top": 0,
+      "right": 1244,
+      "bottom": 1244
+    }
+  },
+  {
+    "id": "74",
+    "name": "2 Euros Erasmus Greece",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/037-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/037.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 12,
+      "top": 7,
+      "right": 1228,
+      "bottom": 1231
+    }
+  },
+  {
+    "id": "59",
+    "name": "2 Euros Marine Nationale 400ans",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/022-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/022.jpg",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 25,
+      "top": 26,
+      "right": 1222,
+      "bottom": 1220
+    }
+  },
+  {
+    "id": "64",
+    "name": "2 Euros Bundesländer II - \"Bremen\"",
+    "file": "PRODUCT PHOTOS/COINS/RETOUCHED/027-slava-gold.png",
+    "original": "PRODUCT PHOTOS/COINS/UNCOLORED/027.png",
+    "pixels": [
+      1254,
+      1254
+    ],
+    "bounds": {
+      "left": 7,
+      "top": 18,
+      "right": 1214,
+      "bottom": 1203
+    }
+  }
+]

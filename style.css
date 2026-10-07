@@ -422,7 +422,7 @@ input {
     font-weight: 700;
 }
 
-/* Equal coin diameter and centring, without changing the source photographs. */
+/* Equal coin diameter and centring for original and retouched catalogue images. */
 .coin-photo-frame {
   display: block;
   position: relative;

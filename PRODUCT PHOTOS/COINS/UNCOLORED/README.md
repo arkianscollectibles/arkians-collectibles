@@ -1,5 +1,7 @@
 # Uncoloured coin photographs
 
+These original source files are preserved. The active catalogue now uses the owner's requested clean-finish AI retouches in `../RETOUCHED/`; see that folder's README and manifest. The information below describes the unmodified originals and the previous display setup.
+
 Source: European Central Bank, https://www.ecb.europa.eu/euro/coins/comm/html/index.en.html.
 Copyright © European Central Bank. Reuse conditions: https://www.ecb.europa.eu/services/using-our-site/disclaimer/html/index.en.html.
 
