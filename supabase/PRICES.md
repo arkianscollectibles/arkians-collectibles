@@ -19,6 +19,10 @@ This generates `product-prices.js` for the website and `supabase/dashboard/creat
 
 ## Deployment required in two places
 
+The price generator also rebuilds each `product-N.html`, its initial Product JSON-LD, canonical link, visible price, availability and shipping charge, as well as the sitemap and store policies. This keeps Google's data tied to the same authoritative price source. Run `node scripts/test-product-seo.mjs` and `node scripts/test-generated-seo.mjs` before publication. If a product is removed, the generator removes only its explicitly marked generated page; it does not remove a hand-written HTML page.
+
+Optional `availability` accepts a Schema.org availability name or HTTPS URL. All 67 products were confirmed available on 8 October 2026. Real manufacturer identifiers can be supplied as strings in `brand`, `mpn`, `gtin`, or the specific `gtin8`, `gtin12`, `gtin13`, `gtin14`. Do not invent identifiers; checksum validation does not establish that the manufacturer assigned one. Changing product availability must also be enforced in the backend before publication, so unavailable stock cannot be paid for through an existing cart.
+
 A Git push publishes the website, not the Supabase function. Updating the source does not automatically update either live deployment.
 
 1. In Supabase → Edge Functions → create-checkout-function → Code, replace the current entrypoint code with the entire generated `supabase/dashboard/create-checkout-function.ts` file and deploy it. That file is standalone, so no extra Dashboard files are needed. Keep existing JWT verification settings and existing secrets. No secret values are in the generated file. Preserve `STRIPE_SECRET_KEY` in Supabase secrets; do not copy it into the repository or chat.
