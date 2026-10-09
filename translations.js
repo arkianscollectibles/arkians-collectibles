@@ -154,3 +154,27 @@ Object.assign(window.ARKIANS_TRANSLATIONS.el, {
 
 window.ARKIANS_TRANSLATIONS.en.country_spain = 'Spain';
 window.ARKIANS_TRANSLATIONS.el.country_spain = 'Ισπανία';
+Object.assign(window.ARKIANS_TRANSLATIONS.en, {
+  product_in_stock: 'In stock', product_shipping: 'Standard shipping within the EU:',
+  product_out_of_stock: 'Out of stock', product_sold_out: 'Sold out', product_discontinued: 'Discontinued',
+  product_in_store_only: 'Available in store only', product_limited_availability: 'Limited availability',
+  product_online_only: 'Available online', product_back_order: 'Available on back order',
+  product_pre_order: 'Available for pre-order', product_pre_sale: 'Available for pre-sale',
+  product_per_order: 'per order.',
+  product_delivery: 'Estimated delivery: 3–10 business days. The final delivery options appear at checkout.',
+  product_returns: '14-day right of withdrawal; return postage is paid by the customer. Read the full returns policy and exceptions.',
+  payment_unverified: 'Payment status could not be confirmed',
+  payment_check_before_retry: 'Please check your order history or contact us before trying another payment.'
+});
+Object.assign(window.ARKIANS_TRANSLATIONS.el, {
+  product_in_stock: 'Διαθέσιμο', product_shipping: 'Τυπικά μεταφορικά εντός ΕΕ:',
+  product_out_of_stock: 'Μη διαθέσιμο', product_sold_out: 'Εξαντλημένο', product_discontinued: 'Δεν διατίθεται πλέον',
+  product_in_store_only: 'Διαθέσιμο μόνο στο κατάστημα', product_limited_availability: 'Περιορισμένη διαθεσιμότητα',
+  product_online_only: 'Διαθέσιμο διαδικτυακά', product_back_order: 'Διαθέσιμο κατόπιν παραγγελίας',
+  product_pre_order: 'Διαθέσιμο για προπαραγγελία', product_pre_sale: 'Διαθέσιμο για προπώληση',
+  product_per_order: 'ανά παραγγελία.',
+  product_delivery: 'Εκτιμώμενη παράδοση: 3–10 εργάσιμες ημέρες. Οι τελικές επιλογές αποστολής εμφανίζονται στο checkout.',
+  product_returns: 'Δικαίωμα υπαναχώρησης 14 ημερών· τα έξοδα επιστροφής επιβαρύνουν τον πελάτη. Δείτε την πλήρη πολιτική και τις εξαιρέσεις.',
+  payment_unverified: 'Δεν ήταν δυνατή η επιβεβαίωση της πληρωμής',
+  payment_check_before_retry: 'Ελέγξτε το ιστορικό παραγγελιών ή επικοινωνήστε μαζί μας πριν επιχειρήσετε νέα πληρωμή.'
+});

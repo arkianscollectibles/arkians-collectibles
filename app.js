@@ -9,6 +9,9 @@ const coins = Object.entries(window.ARKIANS_PRICES.products).map(([id, product])
   price: product.price_cents / 100,
 }));
 
+// Static product pages keep their canonical catalogue identity even if a query is added.
+const currentProductId = () => Number(document.body.dataset.productId || new URLSearchParams(location.search).get('id'));
+window.arkiansProductUrl = id => `product-${encodeURIComponent(id)}.html`;
 
 const escapeCoinText = value => String(value).replace(/[&<>"']/g, character => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -40,6 +43,7 @@ const pendingCartChanges = new Set();
 let cartRenderRevision = 0;
 let wishlistRenderRevision = 0;
 let ordersRenderRevision = 0;
+let paymentRenderRevision = 0;
 const accountRevision = () => window.arkiansAuthState?.revision || 0;
 const accountRequestIsCurrent = (revision, user) => revision === accountRevision() &&
   (!window.arkiansAuthState?.ready || window.arkiansAuthState.userId === user?.id);
@@ -56,14 +60,15 @@ function refreshWishlistButtons() {
     button.classList.toggle('active', wishlistIds.has(Number(button.dataset.coinId)));
   });
   const button = document.getElementById('productWishlistButton');
-  if (button) updateProductWishlistButton(button, wishlistIds.has(Number(new URLSearchParams(location.search).get('id'))));
+  if (button) updateProductWishlistButton(button, wishlistIds.has(currentProductId()));
 }
 function clearAccountContent() {
   wishlistIds = new Set();
   document.querySelectorAll('.add-cart-button, .wishlist-heart, #productWishlistButton').forEach(button => {
-    const coinId = Number(button.dataset.coinId || (button.id === 'productWishlistButton' ? new URLSearchParams(location.search).get('id') : 0));
-    if (!coins.some(coin => coin.id === coinId)) return; // Preserve disabled template / Coming Soon buttons.
-    button.disabled = false;
+    const coinId = Number(button.dataset.coinId || (button.id === 'productWishlistButton' ? currentProductId() : 0));
+    const coin = coins.find(coin => coin.id === coinId);
+    if (!coin) return; // Preserve disabled template / Coming Soon buttons.
+    button.disabled = window.ARKIANS_PRODUCT_SEO ? !window.ARKIANS_PRODUCT_SEO.canPurchase(coin) : false;
     const feedback = cartFeedback.get(button);
     if (feedback) {
       clearTimeout(feedback.timer);
@@ -82,6 +87,14 @@ function clearAccountContent() {
   cartRenderRevision += 1;
   wishlistRenderRevision += 1;
   ordersRenderRevision += 1;
+  paymentRenderRevision += 1;
+  // A payment result and order number belong to the account that requested them.
+  ['paymentSuccess', 'paymentFailed'].forEach(id => {
+    const element = document.getElementById(id);
+    if (element) element.style.display = 'none';
+  });
+  const orderNumber = document.getElementById('orderNumber');
+  if (orderNumber) orderNumber.textContent = '—';
   ['cartItems', 'wishlistItems', 'ordersList'].forEach(id => {
     const container = document.getElementById(id);
     if (container) container.replaceChildren();
@@ -95,6 +108,10 @@ function clearAccountContent() {
 document.addEventListener('arkians-auth-change', event => {
   clearAccountContent();
   if (!event.detail.userId) {
+    const checking = document.getElementById('paymentChecking');
+    const failed = document.getElementById('paymentFailed');
+    if (checking) checking.style.display = 'none';
+    if (failed) failed.style.display = 'block';
     if (document.getElementById('cartItems') || document.getElementById('wishlistItems') || document.getElementById('ordersList')) {
       window.location.href = 'account.html';
     }
@@ -103,7 +120,8 @@ document.addEventListener('arkians-auth-change', event => {
   // Never await Supabase calls from its synchronous auth callback.
   setTimeout(async () => {
     try {
-      if (document.getElementById('cartItems')) await renderCartPage();
+      if (document.getElementById('paymentChecking')) await verifyCheckoutSuccess();
+      else if (document.getElementById('cartItems')) await renderCartPage();
       else if (document.getElementById('wishlistItems')) await renderWishlistPage();
       else if (document.getElementById('ordersList')) await renderOrderHistory();
       else { await loadWishlistIds(); refreshWishlistButtons(); }
@@ -216,7 +234,7 @@ function renderNewArrivals() {
     card.innerHTML = `
 
       <a
-        href="product.html?id=${coin.id}"
+        href="${window.arkiansProductUrl(coin.id)}"
         class="coin-product-link"
       >
         <img
@@ -227,7 +245,7 @@ function renderNewArrivals() {
       </a>
 
       <a
-        href="product.html?id=${coin.id}"
+        href="${window.arkiansProductUrl(coin.id)}"
         class="coin-card-title coin-product-link"
       >
         ${escapeCoinText(coin.name)}
@@ -292,7 +310,7 @@ function renderAllCoins(list) {
       <div class="coin-image-wrapper">
 
         <a
-          href="product.html?id=${coin.id}"
+          href="${window.arkiansProductUrl(coin.id)}"
           class="coin-product-link"
         >
           <img
@@ -320,7 +338,7 @@ function renderAllCoins(list) {
 
 
       <a
-        href="product.html?id=${coin.id}"
+        href="${window.arkiansProductUrl(coin.id)}"
         class="coin-card-title coin-product-link"
       >
         ${escapeCoinText(coin.name)}
@@ -617,7 +635,7 @@ async function renderWishlistPage() {
       <div class="coin-image-wrapper">
 
         <a
-          href="product.html?id=${coin.id}"
+          href="${window.arkiansProductUrl(coin.id)}"
           class="coin-product-link"
         >
           <img
@@ -641,7 +659,7 @@ async function renderWishlistPage() {
 
       <h3>
         <a
-          href="product.html?id=${coin.id}"
+          href="${window.arkiansProductUrl(coin.id)}"
           class="coin-product-link"
         >
           ${escapeCoinText(coin.name)}
@@ -686,7 +704,8 @@ async function addCoinToCart(coinId, button) {
   coinId = Number(coinId);
   const revision = accountRevision();
   const lockKey = `${revision}:${coinId}`;
-  if (!coins.some(coin => coin.id === coinId) || pendingCartChanges.has(lockKey)) return;
+  const coin = coins.find(coin => coin.id === coinId);
+  if (!coin || (window.ARKIANS_PRODUCT_SEO && !window.ARKIANS_PRODUCT_SEO.canPurchase(coin)) || pendingCartChanges.has(lockKey)) return;
   if (typeof supabaseClient === 'undefined') { window.location.href = 'account.html'; return; }
   pendingCartChanges.add(lockKey);
   if (button) button.disabled = true;
@@ -909,7 +928,7 @@ async function renderCartPage() {
     card.innerHTML = `
 
       <a
-        href="product.html?id=${coin.id}"
+        href="${window.arkiansProductUrl(coin.id)}"
         class="coin-product-link"
       >
         <img
@@ -924,7 +943,7 @@ async function renderCartPage() {
 
         <h3>
           <a
-            href="product.html?id=${coin.id}"
+            href="${window.arkiansProductUrl(coin.id)}"
             class="coin-product-link"
           >
             ${escapeCoinText(coin.name)}
@@ -1166,7 +1185,7 @@ function renderRelatedProducts(currentCoin) {
     card.innerHTML = `
 
       <a
-        href="product.html?id=${coin.id}"
+        href="${window.arkiansProductUrl(coin.id)}"
         class="coin-product-link"
       >
         <img
@@ -1178,7 +1197,7 @@ function renderRelatedProducts(currentCoin) {
 
 
       <a
-        href="product.html?id=${coin.id}"
+        href="${window.arkiansProductUrl(coin.id)}"
         class="coin-card-title coin-product-link"
       >
         ${escapeCoinText(coin.name)}
@@ -1225,14 +1244,7 @@ async function renderProductPage() {
   if (!productName) return;
 
 
-  const params =
-    new URLSearchParams(
-      window.location.search
-    );
-
-
-  const coinId =
-    Number(params.get("id"));
+  const coinId = currentProductId();
 
 
   const coin =
@@ -1287,7 +1299,7 @@ async function renderProductPage() {
 
 
   productName.textContent =
-    coin.name;
+    window.ARKIANS_PRODUCT_SEO?.name(coin) || coin.name;
 
 
   if (productMeta) {
@@ -1304,9 +1316,12 @@ async function renderProductPage() {
 
   if (productDescription) {
     productDescription.textContent =
-      coin.description ||
+      window.ARKIANS_PRODUCT_SEO?.description(coin) || coin.description ||
       `A collectible €2 coin from ${coin.country}, issued in ${coin.year}.`;
   }
+
+  const shippingInfo = document.getElementById('productShipping');
+  if (shippingInfo) shippingInfo.textContent = `€${(window.ARKIANS_PRICES.shipping_cents / 100).toFixed(2)}`;
 
 
   if (addToCartButton) {
@@ -1402,6 +1417,16 @@ function setupAddToCartButtons() {
 // STRIPE CHECKOUT
 // ======================================================
 
+function checkoutDestination(value) {
+  if (typeof value !== 'string') return null;
+  try {
+    const destination = new URL(value);
+    // Stripe can serve Checkout on its own host or a configured merchant domain.
+    return destination.protocol === 'https:' && !destination.username && !destination.password
+      ? destination.href : null;
+  } catch { return null; }
+}
+
 function setupCheckoutButton() {
 
   const button =
@@ -1460,21 +1485,22 @@ function setupCheckoutButton() {
       }
 
 
-      if (!data?.url) {
+      const destination = checkoutDestination(data?.url);
+      if (!destination) {
         console.error(
-          "No Stripe URL returned:",
-          data
+          "A valid HTTPS checkout URL was not returned."
         );
 
         alert(
-          "Stripe checkout URL was not returned."
+          accountText("Checkout could not start. Please try again or contact us.",
+            "Δεν ήταν δυνατή η έναρξη πληρωμής. Δοκίμασε ξανά ή επικοινώνησε μαζί μας.")
         );
 
         return;
       }
 
 
-      window.location.href = data.url;
+      window.location.href = destination;
 
     } catch (error) {
 
@@ -1505,98 +1531,44 @@ function setupCheckoutButton() {
 // ======================================================
 
 async function verifyCheckoutSuccess() {
-
-  const checking =
-    document.getElementById("paymentChecking");
-
-  const success =
-    document.getElementById("paymentSuccess");
-
-  const failed =
-    document.getElementById("paymentFailed");
-
-  const orderNumber =
-    document.getElementById("orderNumber");
-
-
+  const revision = accountRevision();
+  const renderRevision = ++paymentRenderRevision;
+  const checking = document.getElementById('paymentChecking');
+  const success = document.getElementById('paymentSuccess');
+  const failed = document.getElementById('paymentFailed');
+  const orderNumber = document.getElementById('orderNumber');
   if (!checking) return;
-
-
-  const params =
-    new URLSearchParams(window.location.search);
-
-  const sessionId =
-    params.get("session_id");
-
-
-  // Someone opened success.html manually
-  if (!sessionId) {
-
-    checking.style.display = "none";
-    failed.style.display = "block";
-
-    return;
-  }
-
-
+  checking.style.display = 'block';
+  if (success) success.style.display = 'none';
+  if (failed) failed.style.display = 'none';
+  if (orderNumber) orderNumber.textContent = '—';
+  const requestIsCurrent = () => revision === accountRevision() && renderRevision === paymentRenderRevision;
+  const showUnverified = () => {
+    if (!requestIsCurrent()) return;
+    checking.style.display = 'none';
+    if (failed) failed.style.display = 'block';
+  };
+  const sessionId = new URLSearchParams(window.location.search).get('session_id');
+  if (!sessionId || typeof supabaseClient === 'undefined') { showUnverified(); return; }
   try {
-
-    const {
-      data,
-      error
-    } =
-      await supabaseClient.functions.invoke(
-        "verify-checkout-session",
-        {
-          body: {
-            session_id: sessionId
-          }
-        }
-      );
-
-
-    if (error) {
-
-      console.error(
-        "Payment verification error:",
-        error
-      );
-
-      checking.style.display = "none";
-      failed.style.display = "block";
-
-      return;
-    }
-
-
+    const { data: { session }, error: sessionError } = await supabaseClient.auth.getSession();
+    if (!requestIsCurrent()) return;
+    if (sessionError || !session?.access_token) { showUnverified(); return; }
+    if (!accountRequestIsCurrent(revision, session.user)) return;
+    const { data, error } = await supabaseClient.functions.invoke('verify-checkout-session', {
+      body: { session_id: sessionId },
+      headers: { Authorization: `Bearer ${session.access_token}` }
+    });
+    if (!requestIsCurrent() || !accountRequestIsCurrent(revision, session.user)) return;
+    if (error) { console.error('Payment verification error:', error); showUnverified(); return; }
     if (data?.paid === true) {
-
-      checking.style.display = "none";
-      success.style.display = "block";
-
-      if (orderNumber) {
-
-        orderNumber.textContent =
-          data.order_number || "—";
-      }
-
-      return;
-    }
-
-
-    checking.style.display = "none";
-    failed.style.display = "block";
-
-
+      checking.style.display = 'none';
+      if (success) success.style.display = 'block';
+      if (orderNumber) orderNumber.textContent = data.order_number || '—';
+    } else showUnverified();
   } catch (error) {
-
-    console.error(
-      "Verification failed:",
-      error
-    );
-
-    checking.style.display = "none";
-    failed.style.display = "block";
+    console.error('Verification failed:', error);
+    showUnverified();
   }
 }
 
@@ -1976,10 +1948,14 @@ if (withdrawalForm) {
 
   const withdrawalMessage =
     document.getElementById("withdrawalMessage");
+  const withdrawalButton = withdrawalForm.querySelector('[type="submit"]');
+  let withdrawalSubmitting = false;
+  withdrawalMessage.setAttribute('role', 'status');
 
   withdrawalForm.addEventListener("submit", async (event) => {
 
     event.preventDefault();
+    if (withdrawalSubmitting || !withdrawalForm.reportValidity()) return;
 
 
     const fullName =
@@ -2001,8 +1977,14 @@ if (withdrawalForm) {
         .trim();
 
 
-    withdrawalMessage.textContent =
-      "Submitting your withdrawal request...";
+    if (![fullName, email, orderNumber, items, confirmationEmail].every(Boolean)) {
+      withdrawalMessage.textContent = accountText('Please complete all fields.', 'Συμπλήρωσε όλα τα πεδία.');
+      return;
+    }
+    withdrawalSubmitting = true;
+    if (withdrawalButton) withdrawalButton.disabled = true;
+    withdrawalMessage.textContent = accountText('Submitting your withdrawal request...',
+      'Υποβολή του αιτήματος υπαναχώρησης...');
 
 
     try {
@@ -2027,17 +2009,12 @@ const { error } = await supabaseClient
         throw error;
       }
      
-      withdrawalMessage.textContent =
-  `Your withdrawal request has been submitted successfully.
-   Reference: ${withdrawalId}`;
+      withdrawalMessage.textContent = accountText(
+        `Your withdrawal request has been submitted successfully. Reference: ${withdrawalId}`,
+        `Το αίτημα υπαναχώρησης υποβλήθηκε επιτυχώς. Αριθμός αναφοράς: ${withdrawalId}`);
 
       withdrawalForm.reset();
 
-
-      console.log(
-  "Withdrawal request submitted:",
-  withdrawalId
-);
 
     } catch (error) {
 
@@ -2046,9 +2023,12 @@ const { error } = await supabaseClient
         error
       );
 
-      withdrawalMessage.textContent =
-        "Something went wrong. Please try again or contact us directly.";
+      withdrawalMessage.textContent = accountText('Something went wrong. Please try again or contact us directly.',
+        'Η υποβολή δεν ολοκληρώθηκε. Δοκίμασε ξανά ή επικοινώνησε μαζί μας.');
 
+    } finally {
+      withdrawalSubmitting = false;
+      if (withdrawalButton) withdrawalButton.disabled = false;
     }
 
   });

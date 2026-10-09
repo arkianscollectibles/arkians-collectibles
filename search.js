@@ -38,7 +38,7 @@
       const category = categories[type];
       const link = document.createElement('a');
       link.className = 'coin-card search-result';
-      link.href = type === 'coins' ? `product.html?id=${encodeURIComponent(product.id)}`
+      link.href = type === 'coins' ? window.arkiansProductUrl(product.id)
         : `${category.url}#product-${encodeURIComponent(product.id)}`;
       const image = document.createElement('img');
       image.className = 'coin-card-image'; image.alt = product.name;
