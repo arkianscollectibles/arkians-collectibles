@@ -3984,7 +3984,7 @@ li {
   aspect-ratio: 1 / 1;
   overflow: hidden;
   border-radius: 18px;
-  background: #f6f6f6;
+  background: #fff;
 }
 .coin-gallery-image .coin-card-image {
   position: absolute;
@@ -3995,6 +3995,9 @@ li {
   top: var(--gallery-image-top);
   max-width: none;
   border-radius: 0;
+  /* One restrained display filter for all originals, including search results.
+     Preserve the source photographs and their measured coin outlines. */
+  filter: brightness(1.04) contrast(1.08) saturate(0.98);
 }
 .coin-gallery .coin-card-title { margin-bottom: 8px; }
 .coin-gallery .coin-card-meta { margin: 6px 0; }
