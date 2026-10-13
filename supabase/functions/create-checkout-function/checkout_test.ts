@@ -46,8 +46,8 @@ Deno.test("all coloured and uncoloured products have server-authoritative prices
   assert.ok(cart.some(item => item.coin_id === 38), "uncoloured Barbara is purchasable");
   assert.ok(cart.some(item => item.coin_id === 74), "uncoloured Erasmus Greece is purchasable");
   const plainBarbara = params.line_items[cart.findIndex(item => item.coin_id === 38)];
-  assert.equal(plainBarbara.price_data.product_data.name, "2 Euros Barbara of Celje (Uncoloured)");
-  assert.equal(params.line_items[0].price_data.product_data.name, "2 Euros Barbara of Celje");
+  assert.equal(plainBarbara.price_data.product_data.name, "2 Euro The 600th anniversary of the crowning of Barbara Celjska (Uncoloured)");
+  assert.equal(params.line_items[0].price_data.product_data.name, "2 Euro The 600th anniversary of the crowning of Barbara Celjska");
   assert.equal(params.line_items.reduce((sum:number,item:any)=>sum+item.price_data.unit_amount,0),Object.values(catalogue.products).reduce((sum, product) => sum + product.price_cents, 0));
   assert.equal(params.line_items[0].price_data.unit_amount,catalogue.products[1].price_cents);
   assert.equal(params.shipping_options[0].shipping_rate_data.fixed_amount.amount,catalogue.shipping_cents);

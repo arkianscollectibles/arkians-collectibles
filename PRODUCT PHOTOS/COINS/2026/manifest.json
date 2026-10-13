@@ -1,0 +1,377 @@
+{
+  "diameter_percent": 93.4375,
+  "center_percent": [
+    50.25,
+    49.65625
+  ],
+  "images": [
+    {
+      "name": "2 Euro Ivan Cankar",
+      "country": "Slovenia",
+      "year": 2026,
+      "file": "2-euro-ivan-cankar-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-02-532.jpg",
+      "sha256": "d8dde4a1a2b8e6fefea565e44e85a9c027b46b3afc953ecd7af19c3f43167501",
+      "pixels": [
+        1472,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 31,
+        "right": 1472,
+        "bottom": 1501
+      },
+      "display": {
+        "width": 93.4375,
+        "left": 3.53125,
+        "top": 1.033203
+      }
+    },
+    {
+      "name": "2 Euro European Football Championship",
+      "country": "Slovakia",
+      "year": 2026,
+      "file": "2-euro-european-football-championship-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-02-582.jpg",
+      "sha256": "a372234eddcfa271a9c41fd8bfffb8e031df3edb145bd0e30c9cf03a1fe3e003",
+      "pixels": [
+        1510,
+        1599
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 39,
+        "right": 1510,
+        "bottom": 1549
+      },
+      "display": {
+        "width": 93.4375,
+        "left": 3.53125,
+        "top": 0.524214
+      }
+    },
+    {
+      "name": "2 Euro Trenčín - European Capital of Culture",
+      "country": "Slovakia",
+      "year": 2026,
+      "file": "2-euro-trencin-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-02-647.jpg",
+      "sha256": "a65983af7926eeee67767fadff3cbe9f93f2ba723962d67717d77ab471d832eb",
+      "pixels": [
+        1508,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 44,
+        "right": 1508,
+        "bottom": 1553
+      },
+      "display": {
+        "width": 93.37558,
+        "left": 3.56221,
+        "top": 0.213014
+      }
+    },
+    {
+      "name": "2 Euro Rotary",
+      "country": "Portugal",
+      "year": 2026,
+      "file": "2-euro-rotary-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-03-465.jpg",
+      "sha256": "8cab04878e599fd53d4aac2de63cd96e032c61c395026833d9d2a375e742af07",
+      "pixels": [
+        1472,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 53,
+        "right": 1472,
+        "bottom": 1526
+      },
+      "display": {
+        "width": 93.374067,
+        "left": 3.562967,
+        "top": -0.424474
+      }
+    },
+    {
+      "name": "2 Euro Energy Independence",
+      "country": "Lithuania",
+      "year": 2026,
+      "file": "2-euro-energy-independence-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-03-560.jpg",
+      "sha256": "c549611b868a26eb4d14a28e64e44f588a233ef0f3f1d3af9b315539bd17af1b",
+      "pixels": [
+        1401,
+        1599
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 140,
+        "right": 1401,
+        "bottom": 1541
+      },
+      "display": {
+        "width": 93.4375,
+        "left": 3.53125,
+        "top": -6.399581
+      }
+    },
+    {
+      "name": "2 Euro Ireland Presidency of the Council of the EU",
+      "country": "Ireland",
+      "year": 2026,
+      "file": "2-euro-ireland-eu-presidency-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-03-650.jpg",
+      "sha256": "f8f66fcc47ef246943d164caaf850ca8a9b0ab81b00d623c57ad5551c2dcf4fa",
+      "pixels": [
+        1496,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 47,
+        "right": 1496,
+        "bottom": 1540
+      },
+      "display": {
+        "width": 93.4375,
+        "left": 3.53125,
+        "top": 0.095651
+      }
+    },
+    {
+      "name": "2 Euro Carlo Collodi - Pinocchio",
+      "country": "Italy",
+      "year": 2026,
+      "file": "2-euro-carlo-collodi-pinocchio-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-03-730.jpg",
+      "sha256": "d5490ee485e4fd990252af26ceca388b4954349df88f000bb8f7aedb30fa60da",
+      "pixels": [
+        1532,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 35,
+        "right": 1532,
+        "bottom": 1568
+      },
+      "display": {
+        "width": 93.376549,
+        "left": 3.561725,
+        "top": 0.804224
+      }
+    },
+    {
+      "name": "2 Euro Saint Francis of Assisi",
+      "country": "Italy",
+      "year": 2026,
+      "file": "2-euro-saint-francis-of-assisi-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-03-804.jpg",
+      "sha256": "8cf748483c9b9331aff835c79eb7028b927b35607d5bfceeed24929b41f1ec53",
+      "pixels": [
+        1406,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 112,
+        "right": 1406,
+        "bottom": 1518
+      },
+      "display": {
+        "width": 93.4375,
+        "left": 3.53125,
+        "top": -4.505601
+      }
+    },
+    {
+      "name": "2 Euro Academy of Athens",
+      "country": "Greece",
+      "year": 2026,
+      "file": "2-euro-academy-of-athens-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-03-904.jpg",
+      "sha256": "9adff46f8aee1d8dedf035094daff088025fa8fa2bcaeb1e92646a8b7c19d8a3",
+      "pixels": [
+        1358,
+        1599
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 89,
+        "right": 1358,
+        "bottom": 1447
+      },
+      "display": {
+        "width": 93.4375,
+        "left": 3.53125,
+        "top": -3.186165
+      }
+    },
+    {
+      "name": "2 Euro 200th Anniversary - Exodus of Missolonghi",
+      "country": "Greece",
+      "year": 2026,
+      "file": "2-euro-exodus-of-missolonghi-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-04-016.jpg",
+      "sha256": "4e47b00f4b68230e6934dcf3653eaa22a430e7b63fe662d6aaddb7d2bff2d733",
+      "pixels": [
+        1490,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 60,
+        "right": 1490,
+        "bottom": 1551
+      },
+      "display": {
+        "width": 93.374832,
+        "left": 3.562584,
+        "top": -0.82256
+      }
+    },
+    {
+      "name": "2 Euro Konrad Adenauer",
+      "country": "Germany",
+      "year": 2026,
+      "file": "2-euro-konrad-adenauer-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-04-192.jpg",
+      "sha256": "cffc7270f4a36c6ada5acb0c6ad14a2ab1e3a7e5d8c257d784b3f84392b6965f",
+      "pixels": [
+        1447,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 89,
+        "right": 1447,
+        "bottom": 1538
+      },
+      "display": {
+        "width": 93.308532,
+        "left": 3.595734,
+        "top": -2.801587
+      }
+    },
+    {
+      "name": "2 Euro Sipsik",
+      "country": "Estonia",
+      "year": 2026,
+      "file": "2-euro-sipsik-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-04-274.jpg",
+      "sha256": "fb64260910c6bba1125af991061aba7f0dcbb7c8ae7c90c28ae31926b9eb1ffa",
+      "pixels": [
+        1432,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 61,
+        "right": 1432,
+        "bottom": 1493
+      },
+      "display": {
+        "width": 93.4375,
+        "left": 3.53125,
+        "top": -1.042729
+      }
+    },
+    {
+      "name": "2 Euro Cyprus Presidency of the Council of the EU",
+      "country": "Cyprus",
+      "year": 2026,
+      "file": "2-euro-cyprus-eu-presidency-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-04-366.jpg",
+      "sha256": "8744c1d23aca3bbd0da8eeac0e1cd09f3143ee291890e8da271a2afc4fcfdc88",
+      "pixels": [
+        1395,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 104,
+        "right": 1395,
+        "bottom": 1500
+      },
+      "display": {
+        "width": 93.370568,
+        "left": 3.564716,
+        "top": -4.02346
+      }
+    },
+    {
+      "name": "2 Euro Croatian Radiotelevision",
+      "country": "Croatia",
+      "year": 2026,
+      "file": "2-euro-croatian-radiotelevision-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-04-466.jpg",
+      "sha256": "b7dcab2b509bf4f388f6094b20896f85079a14d0ceb4c252cd68557ed6e5aea4",
+      "pixels": [
+        1459,
+        1599
+      ],
+      "bounds": {
+        "left": 9,
+        "top": 53,
+        "right": 1454,
+        "bottom": 1509
+      },
+      "display": {
+        "width": 93.630022,
+        "left": 3.306641,
+        "top": -0.463728
+      }
+    },
+    {
+      "name": "2 Euro Monastery of Poblet",
+      "country": "Spain",
+      "year": 2026,
+      "file": "2-euro-monastery-of-poblet-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-04-670.jpg",
+      "sha256": "9db703ad9583b8af6dbe4bf73abf6cbc83d86b7b81aca8d5985919a36818288a",
+      "pixels": [
+        1397,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 113,
+        "right": 1397,
+        "bottom": 1511
+      },
+      "display": {
+        "width": 93.370663,
+        "left": 3.564668,
+        "top": -4.61503
+      }
+    },
+    {
+      "name": "2 Euro Belgian Railways",
+      "country": "Belgium",
+      "year": 2026,
+      "file": "2-euro-belgian-railways-2026.jpg",
+      "source_file": "εικόνα_Viber_2026-10-13_09-11-04-750.jpg",
+      "sha256": "bb9fcf92d22904cece22dbf9fadfaf1fde2eac1e03bbbfcfb6a72ce5b68582ea",
+      "pixels": [
+        1422,
+        1600
+      ],
+      "bounds": {
+        "left": 0,
+        "top": 77,
+        "right": 1422,
+        "bottom": 1500
+      },
+      "display": {
+        "width": 93.371838,
+        "left": 3.564081,
+        "top": -2.1185
+      }
+    }
+  ]
+}

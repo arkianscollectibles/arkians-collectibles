@@ -181,9 +181,18 @@ Object.assign(window.ARKIANS_TRANSLATIONS.el, {
 
 Object.assign(window.ARKIANS_TRANSLATIONS.en, {
   coin_gallery_2026: '2026 Coin Collection',
-  country_cyprus: 'Cyprus', country_croatia: 'Croatia'
+  country_cyprus: 'Cyprus', country_croatia: 'Croatia', country_ireland: 'Ireland'
 });
 Object.assign(window.ARKIANS_TRANSLATIONS.el, {
   coin_gallery_2026: 'Συλλογή κερμάτων 2026',
-  country_cyprus: 'Κύπρος', country_croatia: 'Κροατία'
+  country_cyprus: 'Κύπρος', country_croatia: 'Κροατία', country_ireland: 'Ιρλανδία'
+});
+
+Object.assign(window.ARKIANS_TRANSLATIONS.en, {
+  coin_gallery_title: 'Coin Collection', country_austria: 'Austria', country_latvia: 'Latvia',
+  country_monaco: 'Monaco', country_netherlands: 'Netherlands'
+});
+Object.assign(window.ARKIANS_TRANSLATIONS.el, {
+  coin_gallery_title: 'Συλλογή κερμάτων', country_austria: 'Αυστρία', country_latvia: 'Λετονία',
+  country_monaco: 'Μονακό', country_netherlands: 'Κάτω Χώρες'
 });

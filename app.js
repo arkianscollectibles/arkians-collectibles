@@ -447,17 +447,8 @@ function applyFilters() {
 
       const searchMatch =
         searchQuery === "" ||
-
-        coin.name
-          .toLowerCase()
-          .includes(searchQuery) ||
-
-        coin.country
-          .toLowerCase()
-          .includes(searchQuery) ||
-
-        String(coin.year)
-          .includes(searchQuery);
+        [coin.name, coin.nameEl, ...(coin.searchAliases || []), coin.country, coin.year]
+          .some(value => String(value ?? '').toLowerCase().includes(searchQuery));
 
 
       return (
@@ -471,11 +462,14 @@ function applyFilters() {
 
 
   const catalog = document.querySelector('[data-catalog]')?.dataset.catalog;
+  const photoCount = catalog === 'coins' ? (window.arkiansFilterPhotoGallery?.({
+    countries: selectedCountries, years: selectedYears, colours: selectedColored, query: searchQuery
+  }) || 0) : 0;
   if (catalog === 'cards' || catalog === 'proof') {
     window.arkiansRenderTemplates(container, filteredCoins);
   } else {
     renderAllCoins(filteredCoins);
-    if (!filteredCoins.length) {
+    if (!filteredCoins.length && !photoCount) {
       container.innerHTML = '<p data-i18n="no_products">No products match these filters.</p>';
     }
   }

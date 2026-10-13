@@ -112,15 +112,35 @@ function checkOutputs(dir) {
 const fixture = mkdtempSync(join(tmpdir(), 'arkians-seo-regression-'));
 try {
   for (const name of readdirSync(root).filter(name => /\.(?:js|css|html)$/.test(name))) copyFileSync(join(root,name),join(fixture,name));
-  for (const name of ['scripts/build-seo.mjs','scripts/build-prices.mjs',sourcePath,'supabase/functions/create-checkout-function/checkout.ts']) {
+  for (const name of ['scripts/build-seo.mjs','scripts/build-prices.mjs','coin-gallery.json',sourcePath,'supabase/functions/create-checkout-function/checkout.ts']) {
     mkdirSync(dirname(join(fixture,name)),{recursive:true}); copyFileSync(join(root,name),join(fixture,name));
   }
   mkdirSync(join(fixture,'supabase/dashboard'),{recursive:true});
   for (const product of Object.values(catalogue(root).products)) if (product.image && existsSync(join(root,product.image))) {
     mkdirSync(dirname(join(fixture,product.image)),{recursive:true}); writeFileSync(join(fixture,product.image),'fixture image: existence only');
   }
+  for (const photo of JSON.parse(read(root,'coin-gallery.json')).images) {
+    mkdirSync(dirname(join(fixture,photo.image)),{recursive:true}); writeFileSync(join(fixture,photo.image),'original photograph fixture: existence only');
+  }
   checkOutputs(root);
   build(fixture); build(fixture,['--check']); checkOutputs(fixture);
+  // Another filename or description must not create a second copy of a coin.
+  const originalPhotos = read(fixture,'coin-gallery.json');
+  const photoCatalog = JSON.parse(originalPhotos);
+  const originalCoinsHTML = read(fixture,'coins.html');
+  const originalPhotoData = read(fixture,'coin-gallery-data.js');
+  for (const duplicate of [
+    {...photoCatalog.images[0], id:'different-photo-file', name:'Another photograph of the same coin'},
+    {...photoCatalog.images[0], id:'existing-purchasable-coin', country:'Estonia', year:2021, feature:'wolf', colored:false}
+  ]) {
+    writeFileSync(join(fixture,'coin-gallery.json'), JSON.stringify({...photoCatalog, images:[...photoCatalog.images,duplicate]}));
+    const rejected = spawnSync(process.execPath,['scripts/build-prices.mjs'],{cwd:fixture,encoding:'utf8'});
+    assert.notEqual(rejected.status,0,'Duplicate coin photograph was accepted');
+    assert.match(rejected.stderr,/Duplicate coin photograph/);
+    assert.equal(read(fixture,'coins.html'),originalCoinsHTML,'Duplicate validation partially changed the catalogue');
+    assert.equal(read(fixture,'coin-gallery-data.js'),originalPhotoData,'Duplicate validation partially changed photograph data');
+  }
+  writeFileSync(join(fixture,'coin-gallery.json'),originalPhotos);
   const catalog = catalogue(fixture);
   const id = Object.keys(catalog.products)[0];
   const changedProduct = catalog.products[id];

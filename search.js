@@ -6,7 +6,8 @@
   const categories = {
     coins: {key:'nav_coins', aliases:'Coins Coin Κέρματα Κέρμα Νομίσματα', url:'coins.html'},
     cards: {key:'nav_cards', aliases:'CoinCard CoinCards Coin Card Cards Κάρτες Νομισμάτων', url:'cards.html'},
-    proof: {key:'nav_proof', aliases:'Proof Proofs Προοφ Προυφ', url:'proof.html'}
+    proof: {key:'nav_proof', aliases:'Proof Proofs Προοφ Προυφ', url:'proof.html'},
+    photos: {key:'nav_coins', aliases:'Coins Coin Κέρματα Κέρμα Νομίσματα', url:'coins.html'}
   };
   document.addEventListener('DOMContentLoaded', () => {
     const container = document.getElementById('globalSearchResults');
@@ -16,6 +17,7 @@
     const tokens = query.split(/\s+/).map(normalize).filter(Boolean);
     const products = [
       ...coins.map(product => ({product, type:'coins'})),
+      ...(window.ARKIANS_PHOTO_CATALOG || []).map(product => ({product, type:'photos'})),
       ...Object.entries(window.ARKIANS_CATALOGS || {}).flatMap(([type, list]) =>
         list.map(product => ({product, type})))
     ];
@@ -38,7 +40,8 @@
       const category = categories[type];
       const link = document.createElement('a');
       link.className = 'coin-card search-result';
-      link.href = type === 'coins' ? window.arkiansProductUrl(product.id)
+      link.href = type === 'photos' ? `coins.html#photo-${encodeURIComponent(product.id)}`
+        : type === 'coins' ? window.arkiansProductUrl(product.id)
         : `${category.url}#product-${encodeURIComponent(product.id)}`;
       const image = document.createElement('img');
       image.className = 'coin-card-image'; image.alt = product.name;
@@ -51,14 +54,16 @@
       country.dataset.i18n = `country_${product.country.toLowerCase()}`;
       country.textContent = product.country;
       meta.append(country, ` · ${product.year}`);
-      if (type === 'coins' && product.colored === false) {
+      if ((type === 'coins' || type === 'photos') && product.colored === false) {
         const variant = document.createElement('span'); variant.dataset.i18n = 'variant_uncolored';
         meta.append(' · ', variant);
       }
       const price = document.createElement('div'); price.className = 'coin-card-price';
       if (type === 'coins') price.textContent = `€${product.price.toFixed(2)}`;
       else price.dataset.i18n = 'coming_soon';
-      link.append(image,title,label,meta,price); container.appendChild(link);
+      link.append(type === 'photos' ? window.arkiansCreatePhotoFrame(product) : image, title, label, meta);
+      if (type !== 'photos') link.append(price);
+      container.appendChild(link);
     });
     window.arkiansTranslate?.();
   });

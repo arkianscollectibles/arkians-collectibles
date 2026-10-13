@@ -3975,15 +3975,35 @@ li {
 .search-result:focus-visible, .template-product:target { outline: 2px solid var(--green); outline-offset: 6px; border-radius: 16px; }
 .template-product { scroll-margin-top: 24px; }
 
-/* Named 2026 coin photographs use the catalogue's square image cards. */
-.coin-gallery-2026 { margin-bottom: 70px; }
-.coin-gallery-2026 h2 { margin: 0 0 28px; font-size: 28px; }
-.coin-gallery-2026 .coin-card-image { height: auto; }
-.coin-gallery-2026 .coin-card-title { margin-bottom: 8px; }
-.coin-gallery-2026 .coin-card-meta { margin: 6px 0; }
+/* Frame the original photographs by their measured coin outlines. */
+.coin-gallery { margin-bottom: 70px; }
+.coin-gallery h2 { margin: 0 0 28px; font-size: 28px; }
+.coin-gallery-image {
+  display: block;
+  position: relative;
+  aspect-ratio: 1 / 1;
+  overflow: hidden;
+  border-radius: 18px;
+  background: #f6f6f6;
+}
+.coin-gallery-image .coin-card-image {
+  position: absolute;
+  width: var(--gallery-image-width);
+  height: auto;
+  aspect-ratio: auto;
+  left: var(--gallery-image-left);
+  top: var(--gallery-image-top);
+  max-width: none;
+  border-radius: 0;
+}
+.coin-gallery .coin-card-title { margin-bottom: 8px; }
+.coin-gallery .coin-card-meta { margin: 6px 0; }
+.coin-gallery-image:focus-visible { outline: 2px solid var(--green); outline-offset: 4px; }
 @media (max-width: 850px) {
-  .coin-gallery-2026 .coin-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .coin-gallery .coin-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
 @media (max-width: 600px) {
-  .coin-gallery-2026 .coin-grid { grid-template-columns: 1fr; }
+  .coin-gallery .coin-grid { grid-template-columns: 1fr; }
 }
+
+.coin-gallery[hidden], .coin-gallery .coin-card[hidden] { display: none !important; }
