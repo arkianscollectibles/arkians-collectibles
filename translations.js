@@ -178,3 +178,12 @@ Object.assign(window.ARKIANS_TRANSLATIONS.el, {
   payment_unverified: 'Δεν ήταν δυνατή η επιβεβαίωση της πληρωμής',
   payment_check_before_retry: 'Ελέγξτε το ιστορικό παραγγελιών ή επικοινωνήστε μαζί μας πριν επιχειρήσετε νέα πληρωμή.'
 });
+
+Object.assign(window.ARKIANS_TRANSLATIONS.en, {
+  coin_gallery_2026: '2026 Coin Collection',
+  country_cyprus: 'Cyprus', country_croatia: 'Croatia'
+});
+Object.assign(window.ARKIANS_TRANSLATIONS.el, {
+  coin_gallery_2026: 'Συλλογή κερμάτων 2026',
+  country_cyprus: 'Κύπρος', country_croatia: 'Κροατία'
+});
