@@ -1,0 +1,153 @@
+{
+  "id": "2026-10-14-batch-004",
+  "tool": "built-in image_gen",
+  "status": "review_candidates_only",
+  "planned_photos": 6,
+  "max_simultaneous_generations": 2,
+  "notes": "Six-photo incremental batch; each pair inspected through resized previews and saved before proceeding. Originals preserved; exact fine engraving and tiny inscription fidelity require verification before live use.",
+  "entries": [
+    {
+      "id": "italy-2026-saint-francis-of-assisi",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2026-saint-francis-of-assisi-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Clean silver/champagne finish and white background improved. Main portrait layout, inscriptions, date and twelve stars visually retained. Exact facial/beard lines, halo line count, maker marks and letterforms remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: Saint Francis of Assisi. Lock the portrait profile, cap, beard and facial contours, robe folds, halo and every radial halo line, country monogram and maker marks. Preserve SAN FRANCESCO D'ASSISI and 1226-2026 exactly as visible, along with every other source glyph and placement.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: Saint Francis of Assisi. Lock the portrait profile, cap, beard and facial contours, robe folds, halo and every radial halo line, country monogram and maker marks. Preserve SAN FRANCESCO D'ASSISI and 1226-2026 exactly as visible, along with every other source glyph and placement."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-saint-francis-of-assisi-2026.jpg",
+      "source_sha256": "8cf748483c9b9331aff835c79eb7028b927b35607d5bfceeed24929b41f1ec53",
+      "applied": false,
+      "candidate_sha256": "ba756131ba92bebc920adac82f95f486ea878561a47ebbd762d8112fdec2a1db",
+      "pixels": [
+        1176,
+        1337
+      ]
+    },
+    {
+      "id": "greece-2026-academy-of-athens",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2026-academy-of-athens-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Clean silver/champagne finish and white background improved. Building layout, main Greek inscriptions, date and twelve stars visually retained. Exact statue/roof relief, column details, mint marks and letterforms remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: Academy of Athens. Lock the building's full classical façade, roof relief, flag and pole, columns and capitals, doors, steps and two statues including their faces, hands and clothing folds. Retain all Greek perimeter lettering, accents and punctuation exactly as source pixels; do not transliterate, translate, rewrite or infer characters. Preserve the 2026 date and every tiny mint/designer mark.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: Academy of Athens. Lock the building's full classical façade, roof relief, flag and pole, columns and capitals, doors, steps and two statues including their faces, hands and clothing folds. Retain all Greek perimeter lettering, accents and punctuation exactly as source pixels; do not transliterate, translate, rewrite or infer characters. Preserve the 2026 date and every tiny mint/designer mark."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-academy-of-athens-2026.jpg",
+      "source_sha256": "9adff46f8aee1d8dedf035094daff088025fa8fa2bcaeb1e92646a8b7c19d8a3",
+      "applied": false,
+      "candidate_sha256": "465f26b833f14e902e473f8f728f00f8288a450ecd69224250ca219a69a93adc",
+      "pixels": [
+        1155,
+        1362
+      ]
+    },
+    {
+      "id": "greece-2026-exodus-of-missolonghi",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2026-exodus-of-missolonghi-attempt2.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Second attempt lowers gold saturation to pale champagne while retaining the earlier scene layout in the resized preview. Main inscriptions/date and twelve stars visually retained. Exact figures, background relief, dots and small glyph fidelity remain unverified. Attempt 1 preserved; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: the Greek 2026 Exodus of Missolonghi commemorative coin. Preserve the existing historical artwork as engraved metal relief without recreating or changing the scene. Lock every figure's outline, clothing fold, face and hand, all masonry lines, water/terrain strokes, flags and every background engraving. Retain all Greek circular inscriptions and tiny mint symbols exactly as visible, including the original 2026 date. Preserve peripheral dotted ornament count and position. This is surface colour cleanup of the same photographed coin only.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "superseded_stronger_gold",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: the Greek 2026 Exodus of Missolonghi commemorative coin. Preserve the existing historical artwork as engraved metal relief without recreating or changing the scene. Lock every figure's outline, clothing fold, face and hand, all masonry lines, water/terrain strokes, flags and every background engraving. Retain all Greek circular inscriptions and tiny mint symbols exactly as visible, including the original 2026 date. Preserve peripheral dotted ornament count and position. This is surface colour cleanup of the same photographed coin only.",
+          "candidate": "PHOTO-REVIEW/clean-retouch/greece-2026-exodus-of-missolonghi-attempt1.png",
+          "candidate_sha256": "c1e696cd1433bae115daafcb03e2a4e397fd931b3de36e6869c10ca6eb88209c"
+        },
+        {
+          "number": 2,
+          "outcome": "candidate_saved",
+          "candidate": "PHOTO-REVIEW/clean-retouch/greece-2026-exodus-of-missolonghi-attempt2.png",
+          "prompt": "Colour correction only of this existing coin image. The gold central disc is too saturated and dark yellow. Change ONLY its metal colour to a VERY PALE cream-beige champagne gold: substantially reduce yellow/orange saturation and slightly lift the midtone brightness. Retain every existing engraved line, scene detail, character, star, dot, date, inscription and relief-shadow shape absolutely unchanged. Do not redraw, add detail or change geometry. Preserve the existing silver ring, white background, coin orientation and framing unchanged. One single coin, conservative photographic recolouring only.",
+          "candidate_sha256": "11f00cf9c1910bf1616a3afc548c50300af89927afc0bb182aec2633df09435a"
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-exodus-of-missolonghi-2026.jpg",
+      "source_sha256": "4e47b00f4b68230e6934dcf3653eaa22a430e7b63fe662d6aaddb7d2bff2d733",
+      "applied": false,
+      "candidate_sha256": "11f00cf9c1910bf1616a3afc548c50300af89927afc0bb182aec2633df09435a",
+      "pixels": [
+        1211,
+        1299
+      ]
+    },
+    {
+      "id": "germany-2026-konrad-adenauer",
+      "candidate": "PHOTO-REVIEW/clean-retouch/germany-2026-konrad-adenauer-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/champagne finish and white background improved. Main name/date, A mint mark, D marking and twelve stars visually retained. Exact portrait contours, facial lines and tiny designer initials remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: Konrad Adenauer. Lock the exact existing engraved portrait profile and all face/head/ear/neck line contours; do not beautify, replace or reconstruct facial features. Preserve KONRAD ADENAUER, 1876-1967, the D 2026 marking, the A mint mark and small designer initials exactly as source pixels. Keep source letter spacing and orientation and the original whole-coin shape.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: Konrad Adenauer. Lock the exact existing engraved portrait profile and all face/head/ear/neck line contours; do not beautify, replace or reconstruct facial features. Preserve KONRAD ADENAUER, 1876-1967, the D 2026 marking, the A mint mark and small designer initials exactly as source pixels. Keep source letter spacing and orientation and the original whole-coin shape."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-konrad-adenauer-2026.jpg",
+      "source_sha256": "cffc7270f4a36c6ada5acb0c6ad14a2ab1e3a7e5d8c257d784b3f84392b6965f",
+      "applied": false,
+      "candidate_sha256": "8486e628ebddeb77183c27dac17ffaeb5807c83383896f5f92c4335f30c0b20b",
+      "pixels": [
+        1192,
+        1319
+      ]
+    },
+    {
+      "id": "estonia-2026-sipsik",
+      "candidate": "PHOTO-REVIEW/clean-retouch/estonia-2026-sipsik-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/champagne finish and white background improved. SIPSIK, EESTI 2026, overall reclining pose and twelve stars visually retained. Exact hair, face, hand/clothing lines and letterforms remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: Estonia Sipsik 2026. Lock the exact source engraved reclining cloth-doll illustration: head outline, hair strands, eyes and pupils, nose, smile, cheek dots, arms, hands, body/clothing folds, legs and feet. Preserve SIPSIK and the vertical EESTI 2026 lettering exactly in their original shapes and spacing. Do not redraw, restyle or change expression/pose or invent tiny details. Colour cleanup of the photographed coin only.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: Estonia Sipsik 2026. Lock the exact source engraved reclining cloth-doll illustration: head outline, hair strands, eyes and pupils, nose, smile, cheek dots, arms, hands, body/clothing folds, legs and feet. Preserve SIPSIK and the vertical EESTI 2026 lettering exactly in their original shapes and spacing. Do not redraw, restyle or change expression/pose or invent tiny details. Colour cleanup of the photographed coin only."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-sipsik-2026.jpg",
+      "source_sha256": "fb64260910c6bba1125af991061aba7f0dcbb7c8ae7c90c28ae31926b9eb1ffa",
+      "applied": false,
+      "candidate_sha256": "17d7c59b104477241a9dc6c6ad1fc61f2f8eb2b0bb50b5319e0e647b587651e9",
+      "pixels": [
+        1187,
+        1326
+      ]
+    },
+    {
+      "id": "cyprus-2026-council-presidency",
+      "candidate": "PHOTO-REVIEW/clean-retouch/cyprus-2026-council-presidency-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/paler-champagne finish and white background improved. Main Greek/Latin inscriptions, date, geometric leaf layout and twelve stars visually retained. Exact leaf count/angles, grooves, mint marks and glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: Cyprus 2026 Council Presidency. The original saturated centre must become LIGHT IVORY-BEIGE champagne gold, low saturation like reference 2, keeping relief shadows intact. Lock the central geometric flower/leaf design: every leaf, ridge, dark groove, radial arm and angular endpoint stays in its EXACT original count, shape, size and location. Preserve the entire original Greek perimeter inscription, EE/2026 characters, bottom ΚΥΠΡΟΣ and right KIBRIS lettering exactly as source pixels. Do not translate or re-typeset characters; retain all original rim stars and tiny marks.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup only: neutral clean satin-silver outer ring, VERY PALE champagne-gold centre and pure white background matching the references. Remove mottled tarnish/noise only from flat metal surfaces. Keep the source relief, rim, orientation, every engraved line, inscription, accent, date, mint mark, designer initial, and all twelve stars EXACTLY unchanged. Preserve natural original relief shading. Never invent unreadable details, redraw, simplify or replace source geometry or lettering. Show the whole coin with slight white margin, one coin only, no saturated yellow gold or chrome. Target: Cyprus 2026 Council Presidency. The original saturated centre must become LIGHT IVORY-BEIGE champagne gold, low saturation like reference 2, keeping relief shadows intact. Lock the central geometric flower/leaf design: every leaf, ridge, dark groove, radial arm and angular endpoint stays in its EXACT original count, shape, size and location. Preserve the entire original Greek perimeter inscription, EE/2026 characters, bottom ΚΥΠΡΟΣ and right KIBRIS lettering exactly as source pixels. Do not translate or re-typeset characters; retain all original rim stars and tiny marks."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-cyprus-eu-presidency-2026.jpg",
+      "source_sha256": "8744c1d23aca3bbd0da8eeac0e1cd09f3143ee291890e8da271a2afc4fcfdc88",
+      "applied": false,
+      "candidate_sha256": "4dfafc917b1c7b7cc521cfc11ebaf8e1ffa63947c5c68eb6dd0d1186a21cea18",
+      "pixels": [
+        1171,
+        1343
+      ]
+    }
+  ],
+  "total_generation_attempts": 7,
+  "attempted_photos": 6
+}

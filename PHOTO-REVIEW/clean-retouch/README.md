@@ -19,3 +19,7 @@ Two additional review attempts are saved: Portugal Rotary and Lithuania Energy I
 ## Batch 003 — 14 October 2026
 
 Ireland 2026 Council Presidency has a new AI review candidate made with Coimbra/Cornflower finish references. Exact bead count/positions and stylized glyph shapes remain unverified. Pinocchio generation was blocked twice at output moderation (category other); no candidate exists. clean-batch-003.json records the original and simplified retry prompts and request IDs. Both original source hashes were checked. No live catalogue references changed. Next untouched source: Italy 2026 Saint Francis of Assisi; keep Pinocchio blocked rather than repeating the failed requests.
+
+## Batch 004 — 14 October 2026
+
+Six new review candidates: Saint Francis of Assisi, Academy of Athens, Exodus of Missolonghi, Konrad Adenauer, Sipsik and Cyprus Council Presidency. Processed in pairs (maximum two simultaneous generations) and checkpointed after every pair. Previews were limited to 448 pixels wide. Missolonghi received one colour-only refinement; both attempts are preserved. Built-in image_gen produced seven images for six source coins. clean-batch-004.json records exact prompts and review results; manifest.json includes source/candidate SHA-256 hashes and PNG dimensions. All source hashes matched the preserved gallery metadata. Exact fine relief and tiny inscriptions remain unverified; no live catalogue references changed. Next untouched sources: Croatia 2026 Radiotelevision and Spain 2026 Monastery of Poblet.
