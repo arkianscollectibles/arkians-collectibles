@@ -296,15 +296,50 @@
       "id": "ireland-2026-council-presidency",
       "name": "2 Euro Ireland Presidency of the Council of the EU",
       "source": "PRODUCT PHOTOS/COINS/2026/2-euro-ireland-eu-presidency-2026.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_bead_and_glyph_fidelity_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/ireland-2026-council-presidency-attempt1.png",
+      "review": "Clean silver/champagne finish and white background improved. Twelve stars, overall bead spiral and inscription/date locations visually retained. Exact bead count/positions and stylized glyph shapes remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Input 1 is the ONLY edit target, the actual Ireland 2026 Council of the EU presidency coin photograph. Inputs 2 and 3 are surface-finish references only. Make a conservative photographic colour/lighting retouch of target 1: clean neutral satin-silver ring, VERY PALE champagne-gold centre, pure white background matching the references. Preserve every original engraved element EXACTLY. The central multi-arm spiral of small raised beads is locked: keep every bead, its number, size, exact location, group spacing, branch curvature and orientation; do not add, delete or move any dots. Preserve the stylized Irish country inscriptions at the top and bottom and the two vertical side inscriptions and dates exactly as source pixels, with accents, letter forms, case and spacing unchanged. Follow the source, do not infer or rewrite ambiguous glyphs. Preserve all twelve original stars, rim outlines and relief shadows. Change only surface colour casts, mottled dirt and background grayness. No regeneration of the dot pattern, no new lettering, no simplified stars, no invented detail or metal texture. Maintain entire coin and original orientation, slight white margin, single catalogue coin. No saturated yellow gold or mirror chrome.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Input 1 is the ONLY edit target, the actual Ireland 2026 Council of the EU presidency coin photograph. Inputs 2 and 3 are surface-finish references only. Make a conservative photographic colour/lighting retouch of target 1: clean neutral satin-silver ring, VERY PALE champagne-gold centre, pure white background matching the references. Preserve every original engraved element EXACTLY. The central multi-arm spiral of small raised beads is locked: keep every bead, its number, size, exact location, group spacing, branch curvature and orientation; do not add, delete or move any dots. Preserve the stylized Irish country inscriptions at the top and bottom and the two vertical side inscriptions and dates exactly as source pixels, with accents, letter forms, case and spacing unchanged. Follow the source, do not infer or rewrite ambiguous glyphs. Preserve all twelve original stars, rim outlines and relief shadows. Change only surface colour casts, mottled dirt and background grayness. No regeneration of the dot pattern, no new lettering, no simplified stars, no invented detail or metal texture. Maintain entire coin and original orientation, slight white margin, single catalogue coin. No saturated yellow gold or mirror chrome."
+        }
+      ],
+      "source_sha256": "f8f66fcc47ef246943d164caaf850ca8a9b0ab81b00d623c57ad5551c2dcf4fa",
+      "batch": "2026-10-14-batch-003",
+      "applied": false,
+      "candidate_sha256": "5b3010be429278cb8175c77921c98faf2ca25d2f4774bc5d056a1dda28b3fc96",
+      "pixels": [
+        1213,
+        1296
+      ]
     },
     {
       "id": "italy-2026-carlo-collodi-pinocchio",
       "name": "2 Euro Carlo Collodi - Pinocchio",
       "source": "PRODUCT PHOTOS/COINS/2026/2-euro-carlo-collodi-pinocchio-2026.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "generation_blocked",
+      "candidate": null,
+      "review": "Two built-in image_gen attempts failed at output moderation with category other. No output image available. Original preserved. Skip automatic retries unless the external tool state changes or user requests another approach.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "moderation_blocked_output",
+          "request_id": "8a4d683d-13ac-452c-a6af-827200ee5436",
+          "prompt": "Use case: precise-object-edit. Input 1 is the ONLY edit target: the actual Italy 2026 Carlo Collodi–Pinocchio commemorative coin photograph. Inputs 2 and 3 are finish references only. Conservatively retouch only photographic blemishes and colour cast on target 1, matching reference clean neutral satin-silver outer ring and VERY PALE champagne-gold centre on white. Preserve EXACTLY the existing two engraved Pinocchio depictions: faces, long noses, eyes, mouths, caps, hair lines, collars, buttons, sleeves, hands and fingers, raised arm pose, shorts, articulated wooden limbs and shoes. Preserve the tiny cricket on the nose, all mint marks/designer initials, overlapped country monogram, lower rim dividing lines, twelve stars and original orientation. Keep all source lettering unchanged, including CARLO COLLODI, 1826 - 2026 and PINOCCHIO; follow source for precise glyphs, small marks, punctuation and placement. Do not invent unreadable details or redraw/simplify character relief. Only remove surface grime/noise and uneven casts from flat metal, retain all original relief edges and natural shading. Complete coin outline visible, slight white margin, one coin only. No additional character, face reconstruction, added letters, extra stars, gold saturation or chrome look."
+        },
+        {
+          "number": 2,
+          "outcome": "moderation_blocked_output",
+          "request_id": "15ee757d-f808-4be6-8e1e-7ee73065f7d0",
+          "prompt": "Conservative photographic retouch of this existing commemorative euro coin image. Change only the background to clean white and correct the metal colour: neutral satin-silver outer ring and pale champagne-gold centre. Keep the original engraved design, all text, dates, symbols, stars, rim, orientation and framing unchanged. Do not redraw or add details. Keep the whole coin visible. Return a single clean catalogue photograph of the same coin."
+        }
+      ],
+      "source_sha256": "d5490ee485e4fd990252af26ceca388b4954349df88f000bb8f7aedb30fa60da",
+      "batch": "2026-10-14-batch-003",
+      "applied": false
     },
     {
       "id": "italy-2026-saint-francis-of-assisi",
@@ -1003,12 +1038,22 @@
         "lithuania-2026-energy-independence"
       ],
       "status": "review_candidates_only"
+    },
+    {
+      "id": "2026-10-14-batch-003",
+      "ids": [
+        "ireland-2026-council-presidency",
+        "italy-2026-carlo-collodi-pinocchio"
+      ],
+      "status": "one_review_candidate_one_generation_blocked"
     }
   ],
   "progress": {
     "source_photos": 104,
-    "with_saved_candidate": 5,
-    "awaiting_first_attempt": 99,
+    "with_saved_candidate": 6,
+    "awaiting_first_attempt": 97,
+    "generation_blocked": 1,
+    "without_saved_candidate": 98,
     "existing_retouched_preserved": 30
   }
 }

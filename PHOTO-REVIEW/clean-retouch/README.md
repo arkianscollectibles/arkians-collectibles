@@ -15,3 +15,7 @@ Two additional review attempts are saved: the Slovak European Football Champions
 ## Batch 002 — 14 October 2026
 
 Two additional review attempts are saved: Portugal Rotary and Lithuania Energy Independence (2026). Generated with built-in image_gen using Coimbra/Cornflower finish references. Exact prompts and review notes are in clean-batch-002.json. Manifest entries include source and candidate SHA-256 hashes plus PNG dimensions. Both finishes improved; Rotary tiny maker text and fine relief, and Lithuania ray/feather/emblem details, still require verification. No live gallery or catalogue references changed. Next untouched source: Ireland 2026 Presidency of the Council of the EU.
+
+## Batch 003 — 14 October 2026
+
+Ireland 2026 Council Presidency has a new AI review candidate made with Coimbra/Cornflower finish references. Exact bead count/positions and stylized glyph shapes remain unverified. Pinocchio generation was blocked twice at output moderation (category other); no candidate exists. clean-batch-003.json records the original and simplified retry prompts and request IDs. Both original source hashes were checked. No live catalogue references changed. Next untouched source: Italy 2026 Saint Francis of Assisi; keep Pinocchio blocked rather than repeating the failed requests.
