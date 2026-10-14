@@ -23,3 +23,7 @@ Ireland 2026 Council Presidency has a new AI review candidate made with Coimbra/
 ## Batch 004 — 14 October 2026
 
 Six new review candidates: Saint Francis of Assisi, Academy of Athens, Exodus of Missolonghi, Konrad Adenauer, Sipsik and Cyprus Council Presidency. Processed in pairs (maximum two simultaneous generations) and checkpointed after every pair. Previews were limited to 448 pixels wide. Missolonghi received one colour-only refinement; both attempts are preserved. Built-in image_gen produced seven images for six source coins. clean-batch-004.json records exact prompts and review results; manifest.json includes source/candidate SHA-256 hashes and PNG dimensions. All source hashes matched the preserved gallery metadata. Exact fine relief and tiny inscriptions remain unverified; no live catalogue references changed. Next untouched sources: Croatia 2026 Radiotelevision and Spain 2026 Monastery of Poblet.
+
+## Batch 005 — 14 October 2026
+
+Fourteen new source coins are being processed in pairs with 384-pixel previews and a checkpoint after every pair. An intermediate push preserves the first eight review candidates before continuing the remaining six. Exact prompts, review findings and source/candidate hashes are recorded in clean-batch-005.json and manifest.json. Original photos and live catalogue references remain unchanged.

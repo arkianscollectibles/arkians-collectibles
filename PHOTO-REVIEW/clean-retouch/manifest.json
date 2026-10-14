@@ -498,57 +498,193 @@
       "id": "croatia-2026-croatian-radiotelevision",
       "name": "2 Euro Croatian Radiotelevision",
       "source": "PRODUCT PHOTOS/COINS/2026/2-euro-croatian-radiotelevision-2026.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/croatia-2026-croatian-radiotelevision-attempt1.png",
+      "review": "Cleaner silver/white finish and overall typographic bands visually retained. Exact narrow letter strokes, vertical line counts and centre colour match require closer verification; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Croatian Radiotelevision. Lock the stretched vertical typographic graphic and all alternating parallel strokes, bands, spaces and letter fragments. Preserve HRVATSKA RADIOTELEVIZIJA, 100 GODINA and 2026 exactly where and how they appear. Do not replace the tall narrow lettering with a conventional font, reconstruct cropped strokes, change band geometry or remove fine vertical lines.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Croatian Radiotelevision. Lock the stretched vertical typographic graphic and all alternating parallel strokes, bands, spaces and letter fragments. Preserve HRVATSKA RADIOTELEVIZIJA, 100 GODINA and 2026 exactly where and how they appear. Do not replace the tall narrow lettering with a conventional font, reconstruct cropped strokes, change band geometry or remove fine vertical lines."
+        }
+      ],
+      "source_sha256": "b7dcab2b509bf4f388f6094b20896f85079a14d0ceb4c252cd68557ed6e5aea4",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "28e77614cfa4c4255fab063486d741a9a0babe0e5fe21045ce16494808de169c",
+      "pixels": [
+        1198,
+        1313
+      ]
     },
     {
       "id": "spain-2026-monastery-of-poblet",
       "name": "2 Euro Monastery of Poblet",
       "source": "PRODUCT PHOTOS/COINS/2026/2-euro-monastery-of-poblet-2026.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2026-monastery-of-poblet-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main inscriptions/date, monastery layout and twelve stars visually retained. Exact windows, roof ornament, mint mark and glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Monastery of Poblet. Lock every tower, spire, dome, wall, façade ornament, window opening, arch and roof line of the engraved monastery. Preserve MONASTERIO DE POBLET, ESPAÑA 2026 and the crowned mint mark exactly as source. No altered window counts or invented architectural ornament.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Monastery of Poblet. Lock every tower, spire, dome, wall, façade ornament, window opening, arch and roof line of the engraved monastery. Preserve MONASTERIO DE POBLET, ESPAÑA 2026 and the crowned mint mark exactly as source. No altered window counts or invented architectural ornament."
+        }
+      ],
+      "source_sha256": "9db703ad9583b8af6dbe4bf73abf6cbc83d86b7b81aca8d5985919a36818288a",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "adda66fc7fa4c4a534404e74dc918df7fabecde3559e74b0c5204bb93e96275d",
+      "pixels": [
+        1172,
+        1342
+      ]
     },
     {
       "id": "belgium-2026-belgian-railways",
       "name": "2 Euro Belgian Railways",
       "source": "PRODUCT PHOTOS/COINS/2026/2-euro-belgian-railways-2026.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2026-belgian-railways-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main logos/dates, two trains, stylized 100 and twelve stars visually retained. Exact vehicle lines/windows/wheels, rim dots and tiny mint marks remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Belgian Railways. Lock the stylized 100 geometry, parallel vertical bars and intersecting circular curves, both locomotives and every original wheel/window/engine line. Preserve oval B logo, 1926, 2026, BE, all rim dots and small mint/designer marks exactly. No changed vehicle geometry or invented extra wheels/windows.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Belgian Railways. Lock the stylized 100 geometry, parallel vertical bars and intersecting circular curves, both locomotives and every original wheel/window/engine line. Preserve oval B logo, 1926, 2026, BE, all rim dots and small mint/designer marks exactly. No changed vehicle geometry or invented extra wheels/windows."
+        }
+      ],
+      "source_sha256": "bb9fcf92d22904cece22dbf9fadfaf1fde2eac1e03bbbfcfb6a72ce5b68582ea",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "c61892d5127a63cd1491c4ad67fd6992a487db9da869e2b5f67d811d8fc6305d",
+      "pixels": [
+        1182,
+        1330
+      ]
     },
     {
       "id": "croatia-2025-king-tomislav",
       "name": "2 Euro The 1100th anniversary of the Croatian Kingdom and coronation of King Tomislav",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-croatia-2025-king-tomislav.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/croatia-2025-king-tomislav-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main inscription/date, horse/human layout and twelve stars visually retained. Exact face, hand, horse contours, grid lines and glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: King Tomislav. Lock the existing engraved horse head and ears, human portrait, crown, clothing, hand/finger lines, torso contours and rectangular grid lines. Preserve all circular Croatian inscriptions and dates in their original glyphs and locations, including REPUBLIKA HRVATSKA and 2025. Do not recreate faces or horse features, add facial detail or change source pose.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: King Tomislav. Lock the existing engraved horse head and ears, human portrait, crown, clothing, hand/finger lines, torso contours and rectangular grid lines. Preserve all circular Croatian inscriptions and dates in their original glyphs and locations, including REPUBLIKA HRVATSKA and 2025. Do not recreate faces or horse features, add facial detail or change source pose."
+        }
+      ],
+      "source_sha256": "4a517727b0f156341723ee9e8a967cf48b2884a2135f5a17e2e63774a517296a",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "26bf5c832c10dc7f0d3de3b3e2d530ba42abc1d9ed6a9d65ae8c0c8a12447682",
+      "pixels": [
+        1176,
+        1337
+      ]
     },
     {
       "id": "greece-2025-mikis-theodorakis",
       "name": "2 Euro 100 years from the birth of Mikis Theodorakis",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-mikis-theodorakis.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2025-mikis-theodorakis-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main Greek lettering/date, portrait/arms, clef/staff layout and twelve stars visually retained. Exact curls, face/hand lines, staff strokes and tiny glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Mikis Theodorakis. Lock the exact engraved portrait profile, curls, face contours, jacket folds, conducting arms, hands and fingers. Preserve the treble clef and each original musical staff line without adding notes. Preserve all Greek perimeter inscriptions, accents, 2025 date and tiny mint/designer marks exactly as source. No replacement or reconstruction of facial features.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Mikis Theodorakis. Lock the exact engraved portrait profile, curls, face contours, jacket folds, conducting arms, hands and fingers. Preserve the treble clef and each original musical staff line without adding notes. Preserve all Greek perimeter inscriptions, accents, 2025 date and tiny mint/designer marks exactly as source. No replacement or reconstruction of facial features."
+        }
+      ],
+      "source_sha256": "bac7472ed7e13482dc34cabf21bedf8ceb15f990096a349dfc64746ba5ea8a57",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "c7176641371949f818265d24611f3397f6b1e4cac83bb3dbd92e3bebd17b36ac",
+      "pixels": [
+        1190,
+        1322
+      ]
     },
     {
       "id": "greece-2025-laskarina-bouboulina",
       "name": "2 Euro 200 Years from the Death of Laskarina Bouboulina",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-laskarina-bouboulina.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2025-laskarina-bouboulina-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main Greek lettering/date, portrait/arm, ship rigging layout and twelve stars visually retained. Exact face, scarf/hand/rigging lines and tiny mint marks remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Laskarina Bouboulina. Lock the exact portrait/headscarf/face, clothing folds, outstretched arm and hand, every ship mast, rigging line, sail and hull stroke. Preserve the original Greek circular inscriptions, punctuation, 2025 date and small mint/designer marks exactly. Do not alter ship geometry or reconstruct facial detail.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Laskarina Bouboulina. Lock the exact portrait/headscarf/face, clothing folds, outstretched arm and hand, every ship mast, rigging line, sail and hull stroke. Preserve the original Greek circular inscriptions, punctuation, 2025 date and small mint/designer marks exactly. Do not alter ship geometry or reconstruct facial detail."
+        }
+      ],
+      "source_sha256": "36f13001a1935c367a576ef8e7469230f99b0406ff16c29db9bb2e3554e2f00b",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "8f868c95bba43db09c2c4d3feec203c1ee8e4402471a9e6b87faa3c44c33d85b",
+      "pixels": [
+        1178,
+        1335
+      ]
     },
     {
       "id": "italy-2025-amerigo-vespucci",
       "name": "2 Euro Amerigo Vespucci Tour Mondiale 2023-2025",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-amerigo-vespucci.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2025-amerigo-vespucci-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main inscriptions/dates, ship layout, monogram, mint mark and twelve stars visually retained. Exact sails, rigging, hull details and tiny designer inscription remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Amerigo Vespucci. Lock the existing sailing ship hull, every mast, spar, sail edge, rigging line, porthole and wave stroke. Preserve AMERIGO VESPUCCI TOUR MONDIALE 2023-2025, 2025 date, RI monogram, R mint mark and tiny lower designer inscription exactly as source. Do not add sails, ropes, windows or alter ship angle.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Amerigo Vespucci. Lock the existing sailing ship hull, every mast, spar, sail edge, rigging line, porthole and wave stroke. Preserve AMERIGO VESPUCCI TOUR MONDIALE 2023-2025, 2025 date, RI monogram, R mint mark and tiny lower designer inscription exactly as source. Do not add sails, ropes, windows or alter ship angle."
+        }
+      ],
+      "source_sha256": "034eedfb07ab12ebb450cac9f4c272a1f8e96e0bab3f24ab6c76b1727a8c40ac",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "134b706051f1f06314f50812c16386a99880836d9dbaaaa5fb1fd48d34ec1a9a",
+      "pixels": [
+        1209,
+        1301
+      ]
     },
     {
       "id": "italy-2025-jubilee",
       "name": "2 Euro Jubilee 2025",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-jubilee.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2025-jubilee-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main inscription/date, portal/linked-oval layout, monogram and twelve stars visually retained. Exact doorway relief, capitals, oval counts and tiny maker marks remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Jubilee. Lock the ornate central doorway/portal, pediment relief, columns, capitals, inset door panels and every existing decorative detail. Preserve IUBILAEUM, 2025, country monogram, mint mark, maker initials and surrounding linked oval ornament exactly as source. Keep count/shape/position of all oval links; no added architectural decoration.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Jubilee. Lock the ornate central doorway/portal, pediment relief, columns, capitals, inset door panels and every existing decorative detail. Preserve IUBILAEUM, 2025, country monogram, mint mark, maker initials and surrounding linked oval ornament exactly as source. Keep count/shape/position of all oval links; no added architectural decoration."
+        }
+      ],
+      "source_sha256": "f7e3ca90ee32406d847502a558f6b37be1f4dfd9cbc156eb77683e29fb09677b",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "82dcc67ea7ef9356b7e6336812b1c836a432301545e7be671276130afd9dd62f",
+      "pixels": [
+        1284,
+        1225
+      ]
     },
     {
       "id": "latvia-2025-selija",
@@ -1170,14 +1306,29 @@
       ],
       "status": "review_candidates_only",
       "planned_photos": 6
+    },
+    {
+      "id": "2026-10-14-batch-005",
+      "ids": [
+        "croatia-2026-croatian-radiotelevision",
+        "spain-2026-monastery-of-poblet",
+        "belgium-2026-belgian-railways",
+        "croatia-2025-king-tomislav",
+        "greece-2025-mikis-theodorakis",
+        "greece-2025-laskarina-bouboulina",
+        "italy-2025-amerigo-vespucci",
+        "italy-2025-jubilee"
+      ],
+      "status": "in_progress",
+      "planned_photos": 14
     }
   ],
   "progress": {
     "source_photos": 104,
-    "with_saved_candidate": 12,
-    "awaiting_first_attempt": 91,
+    "with_saved_candidate": 20,
+    "awaiting_first_attempt": 83,
     "generation_blocked": 1,
-    "without_saved_candidate": 92,
+    "without_saved_candidate": 84,
     "existing_retouched_preserved": 30
   }
 }
