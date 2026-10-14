@@ -855,57 +855,193 @@
       "id": "greece-2024-penelope-delta",
       "name": "2 Euro 150 years from the birth of Penelope Delta",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-penelope-delta.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2024-penelope-delta-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main Greek lettering/dates, portrait layout and twelve stars visually retained. Exact curls, face/cloth contours and tiny glyph/mint fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Penelope Delta. Lock the exact portrait profile, every curl, face/neck contour and clothing fold. Preserve all Greek perimeter lettering, 1874-1941, 2024 and the tiny mint symbol exactly as source. Do not reconstruct facial detail or change portrait identity or orientation.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Penelope Delta. Lock the exact portrait profile, every curl, face/neck contour and clothing fold. Preserve all Greek perimeter lettering, 1874-1941, 2024 and the tiny mint symbol exactly as source. Do not reconstruct facial detail or change portrait identity or orientation."
+        }
+      ],
+      "source_sha256": "2cf94fb90fd76b14186f2c5a4dcf76e8c6d1f54993605811e40e2ebaa1ace000",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "4d0de82836e2af6210063077c25e400ec48a9b0e6363ece7f9f9a7ad18a0d782",
+      "pixels": [
+        1180,
+        1333
+      ]
     },
     {
       "id": "greece-2024-restoration-democracy",
       "name": "2 Euro 50 years from the restoration of democracy in Greece",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-restoration-democracy.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2024-restoration-democracy-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main Greek lettering/dates, building/monument layout and twelve stars visually retained. Exact windows, architectural relief, flag and tiny glyph/mint fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Restoration of Democracy in Greece. Lock the original parliamentary building, each window/column/door/roof line, flag and foreground monument detail. Preserve all Greek circular inscriptions, 1974, 2024 and mint marks exactly. No added or changed architectural elements.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Restoration of Democracy in Greece. Lock the original parliamentary building, each window/column/door/roof line, flag and foreground monument detail. Preserve all Greek circular inscriptions, 1974, 2024 and mint marks exactly. No added or changed architectural elements."
+        }
+      ],
+      "source_sha256": "fbe118c370ef5512f5a11df059a72625488c7568efd8baf2ef0fcf73ac84a54f",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "894b9533169c516dcda8e83eeef3ad82be5b90a8cd5185f352256b55ed0b657e",
+      "pixels": [
+        1195,
+        1316
+      ]
     },
     {
       "id": "italy-2024-rita-levi-montalcini",
       "name": "2 Euro Rita Levi-Montalcini",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-rita-levi-montalcini.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2024-rita-levi-montalcini-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main inscription/date, portrait/microscope layout and twelve stars visually retained. Exact hair/face/scientific detail and tiny glyph/mint fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Rita Levi-Montalcini. Lock the exact engraved portrait, hair, facial contours and clothing lines, background microscope and every original scientific illustration stroke. Preserve RITA LEVI-MONTALCINI, 2024, country monogram, R mint mark and tiny designer marks exactly. No face reconstruction or altered microscope components.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Rita Levi-Montalcini. Lock the exact engraved portrait, hair, facial contours and clothing lines, background microscope and every original scientific illustration stroke. Preserve RITA LEVI-MONTALCINI, 2024, country monogram, R mint mark and tiny designer marks exactly. No face reconstruction or altered microscope components."
+        }
+      ],
+      "source_sha256": "f345e4aff3d3387018144b2f85e5dcbbea10babf7142aa06bf0bbb4ed30bd043",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "3c10371e80c4a6efa59223214161a83a31a2bcada9a962f14394212872917e72",
+      "pixels": [
+        1202,
+        1309
+      ]
     },
     {
       "id": "italy-2024-guardia-di-finanza",
       "name": "2 Euro The 250th anniversary of the foundation of the Guardia di Finanza Corps",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-guardia-di-finanza.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2024-guardia-di-finanza-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main inscription/dates, geometric layout and twelve stars visually retained. Exact polygon/line counts, case/emblem details and tiny designer/mint glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Guardia di Finanza. Lock every original polygon/triangle edge, stylized animal-head outline, mountain, filled/hatched geometric panel, parallel band, case shape and small crenellated symbol. Preserve GUARDIA DI FINANZA, 1774, 2024, RI, R and tiny designer initials exactly. Do not regularize, redraw or change angles/line counts.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Guardia di Finanza. Lock every original polygon/triangle edge, stylized animal-head outline, mountain, filled/hatched geometric panel, parallel band, case shape and small crenellated symbol. Preserve GUARDIA DI FINANZA, 1774, 2024, RI, R and tiny designer initials exactly. Do not regularize, redraw or change angles/line counts."
+        }
+      ],
+      "source_sha256": "608a7a106f2ec0c81b901ce24608430fb4f0b7dc47ed6ef33b05f857288362a2",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "5e5627e6c2ad63ccfedb139563f21a9df5a6644fd23426b8471bcab400edfb13",
+      "pixels": [
+        1154,
+        1363
+      ]
     },
     {
       "id": "lithuania-2024-straw-gardens",
       "name": "2 Euro Lithuanian tradition of straw gardens inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-lithuania-2024-straw-gardens.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2024-straw-gardens-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main lettering/date, lattice/hanging-ornament layout and twelve stars visually retained. Exact lattice/diagonal/ornament counts and tiny mint glyph remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Lithuanian straw gardens. Lock every lattice triangle, shared vertex, intersecting diagonal, hanging string and suspended diamond ornament in its original exact count, shape and position. Preserve LIETUVA, 2024 and tiny mint mark exactly as source. Do not regularize, simplify or add/remove lattice lines or hanging ornaments.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Lithuanian straw gardens. Lock every lattice triangle, shared vertex, intersecting diagonal, hanging string and suspended diamond ornament in its original exact count, shape and position. Preserve LIETUVA, 2024 and tiny mint mark exactly as source. Do not regularize, simplify or add/remove lattice lines or hanging ornaments."
+        }
+      ],
+      "source_sha256": "8068e96d3924a407a13e7f70f4d6d32d83533bc7719566fcb7d875bbe050fad9",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "5c0a9fe654e739b575df9beb19cc54f0c67240bec44a7951328b39f88b5c6585",
+      "pixels": [
+        1175,
+        1339
+      ]
     },
     {
       "id": "portugal-2024-carnation-revolution",
       "name": "2 Euro The 50th anniversary of the 25th of April 1974",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-carnation-revolution.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_needs_colour_and_relief_review",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2024-carnation-revolution-attempt1.png",
+      "review": "Silver/white finish improved and interwoven/circular-text layout retained in preview. Centre is still warmer gold than the references. Exact crossing-line network, dense poem lettering/accents and small mint glyphs remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Carnation Revolution. Lock every interwoven circular stroke and crossing, central circular motif and the full ring of source Portuguese lettering, punctuation, accents and date markings. Preserve original wording and letter orientation exactly; do not transcribe from memory, translate or rewrite the poem/inscription. Colour cleanup only, with no changed line network or text.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Carnation Revolution. Lock every interwoven circular stroke and crossing, central circular motif and the full ring of source Portuguese lettering, punctuation, accents and date markings. Preserve original wording and letter orientation exactly; do not transcribe from memory, translate or rewrite the poem/inscription. Colour cleanup only, with no changed line network or text."
+        }
+      ],
+      "source_sha256": "be697d4e7054a32c420b8c862d6d069cb478a2c1ada3ab051ab04190d5ad7704",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "966d50a2bf3f5fe5e7d2f0a405319de25b61087d6f0e87c3d8fb5a4b6e1f5016",
+      "pixels": [
+        1209,
+        1300
+      ]
     },
     {
       "id": "portugal-2024-paris-olympics",
       "name": "2 Euro Portugal’s participation in the 33rd Olympic Games",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-paris-olympics.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2024-paris-olympics-attempt1.png",
+      "review": "Silver/paler-champagne finish and white background improved. Main lettering/date, heart/person/emblem layout and twelve stars visually retained. Exact border-shape counts, interlocked rings and tiny glyph/mint fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Portugal Olympics. Lock the original heart boundary, every surrounding abstract person/circle/triangle, central emblem and interlocked rings exactly in original count and positions. Preserve EQUIPA OLÍMPICA PORTUGAL, 2024, all mint/designer lettering and diacritics exactly as source. Do not alter ring geometry or add/remove bordering shapes.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Portugal Olympics. Lock the original heart boundary, every surrounding abstract person/circle/triangle, central emblem and interlocked rings exactly in original count and positions. Preserve EQUIPA OLÍMPICA PORTUGAL, 2024, all mint/designer lettering and diacritics exactly as source. Do not alter ring geometry or add/remove bordering shapes."
+        }
+      ],
+      "source_sha256": "c8d681ee6831a6e5fd89c77fbb868ba77d30b89cae5f8773fec23b81e95be336",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "56d22b8a92f96d750e3dea94378c1f62ad006577722dc84cf4b3041e3c356169",
+      "pixels": [
+        1184,
+        1328
+      ]
     },
     {
       "id": "slovenia-2024-national-university-library",
       "name": "2 Euro 250 years of National and University Library (Narodna in univerzitetna knjižnica)",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-slovenia-2024-national-university-library.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2024-national-university-library-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main circular lettering/dates, sculpted handle/bar layout and twelve stars visually retained. Exact sculpted ornament, pivot/bar contours and tiny glyph/mint fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Slovenian National and University Library. Lock the original sculpted head/profile relief, every surface ornament, round pivot and extended lower bar. Preserve all circular Slovenian lettering/diacritics, SLOVENIJA, 1774, 2024 and separator/mint marks exactly as source. Do not reconstruct facial/ornamental detail or change the relief angle.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Slovenian National and University Library. Lock the original sculpted head/profile relief, every surface ornament, round pivot and extended lower bar. Preserve all circular Slovenian lettering/diacritics, SLOVENIJA, 1774, 2024 and separator/mint marks exactly as source. Do not reconstruct facial/ornamental detail or change the relief angle."
+        }
+      ],
+      "source_sha256": "e2c64357030c723ea591b3e42c96a73f8ec69f2ba72b05709524fcd3dff10adb",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "1e1cbef0b8fb4c46481eeeb550b5c4c7fcfb1b75c61a7f44f948865582ee4ab4",
+      "pixels": [
+        1193,
+        1319
+      ]
     },
     {
       "id": "cyprus-2023-central-bank",
@@ -1444,14 +1580,29 @@
       ],
       "status": "review_candidates_only",
       "planned_photos": 15
+    },
+    {
+      "id": "2026-10-14-batch-006",
+      "ids": [
+        "greece-2024-penelope-delta",
+        "greece-2024-restoration-democracy",
+        "italy-2024-rita-levi-montalcini",
+        "italy-2024-guardia-di-finanza",
+        "lithuania-2024-straw-gardens",
+        "portugal-2024-carnation-revolution",
+        "portugal-2024-paris-olympics",
+        "slovenia-2024-national-university-library"
+      ],
+      "status": "in_progress",
+      "planned_photos": 14
     }
   ],
   "progress": {
     "source_photos": 104,
-    "with_saved_candidate": 26,
-    "awaiting_first_attempt": 76,
+    "with_saved_candidate": 34,
+    "awaiting_first_attempt": 68,
     "generation_blocked": 2,
-    "without_saved_candidate": 78,
+    "without_saved_candidate": 70,
     "existing_retouched_preserved": 30
   }
 }

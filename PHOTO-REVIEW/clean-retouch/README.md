@@ -29,3 +29,7 @@ Six new review candidates: Saint Francis of Assisi, Academy of Athens, Exodus of
 Fourteen new source coins are being processed in pairs with 384-pixel previews and a checkpoint after every pair. An intermediate push preserves the first eight review candidates before continuing the remaining six. Exact prompts, review findings and source/candidate hashes are recorded in clean-batch-005.json and manifest.json. Original photos and live catalogue references remain unchanged.
 
 Batch 005 completed: 14 saved review candidates from 15 source attempts. Miki Muster was blocked at output moderation; its original and failure record are preserved, and France 2024 Eiffel Tower supplied the replacement candidate. The first eight were pushed as checkpoint 4f5760e1b7d130ba68265279dd5f3dd4864a1bf4 before the final six. All source hashes matched gallery metadata. Exact fine engraving and tiny inscription fidelity remain unverified; live photos are unchanged. Overall progress: 26 of 104 new sources have saved candidates, 76 await a first attempt, and 2 are blocked.
+
+## Batch 006 — 14 October 2026
+
+Fourteen new source coins are being processed in pairs with 384-pixel previews and saved checkpoints. An intermediate push preserves the first eight candidates before the remaining six. Exact prompts, reviews and source/candidate hashes are recorded in clean-batch-006.json and manifest.json. Fine engraving fidelity remains unverified; source photos and live catalogue references are preserved.
