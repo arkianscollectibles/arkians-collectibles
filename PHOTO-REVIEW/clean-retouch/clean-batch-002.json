@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-14-batch-002",
+  "tool": "built-in image_gen",
+  "status": "review_candidates_only",
+  "notes": "Two new AI attempts from preserved 2026 source photographs using Coimbra/Cornflower finish references. Exact fine-relief and tiny inscription fidelity remain unverified; no live catalogue references changed.",
+  "entries": [
+    {
+      "id": "portugal-2026-rotary",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2026-rotary-attempt1.png",
+      "status": "candidate_finish_reviewed_tiny_inscriptions_and_relief_unverified",
+      "review": "Silver/champagne finish and white background improved. ROTARY, PORTUGAL, 2026 and twelve stars visually retained. Exact tiny maker inscriptions, shield details, hand/finger and gear geometry require closer source verification; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Input 1 is the sole edit target: the actual Portugal 2026 Rotary coin photograph. Inputs 2 and 3 are finish references only. Perform conservative photographic retouching of target 1: neutral clean satin-silver outer ring, very pale champagne-gold centre matching references, white background. Remove grime and uneven colour cast from flat metal areas only. Preserve the EXACT engraved source design and line geometry, the globe meridians, both hands and every finger, gear teeth and cutouts, small round peripheral elements, shield and dots, lower rim tiny maker inscriptions/mint marks, all 12 stars and their positions, raised rim and original orientation. Every source character stays unchanged, including ROTARY, PORTUGAL and 2026. Follow source pixels for other tiny inscriptions; do not invent unreadable characters. No reconstructed details, no redesigned gear, fingers or globe, no new lettering, symbols, stars or patterns. Do not move or reshape the relief. Keep all coin visible, slight white margin. Clean lighting with original relief shadows, no aggressive sharpening, no saturated yellow centre, no chrome. One coin only."
+    },
+    {
+      "id": "lithuania-2026-energy-independence",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2026-energy-independence-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/champagne finish and white background improved. LIETUVA, 2026, twelve stars and overall bird/energy layout visually retained. Exact feather/ray endpoints, intersections and mint-emblem details remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Input 1 is the sole edit target: the actual Lithuanian 2026 Energy Independence coin photograph. Inputs 2 and 3 are silver/champagne finish references only. Conservatively clean target 1 to the reference appearance: neutral satin-silver outer ring, VERY PALE champagne-gold centre, pure white background. Only remove mottled surface tarnish and colour casts from flat metal. Preserve EXACT original engraved geometric bird/flame/energy design, top outline, every fan-shaped wing feather line and its endpoint, every long branching lightning/ray line and intersection extending down the central disc, all original line thicknesses, original tiny mint emblem on the right, twelve outer stars, original rim and orientation. Preserve LIETUVA and 2026 verbatim and in their original locations; no added lettering. Do not invent, replace, join, simplify or redraw any individual line, symbol, feather, star or mark. Follow the source pixels; never reconstruct unreadable detail. Keep entire coin visible, slight white margin, natural original relief shading. No saturated gold, no invented texture or redesign. One single coin image."
+    }
+  ]
+}

@@ -11,3 +11,7 @@ The full retouch batch remains incomplete. Review the original PRODUCT PHOTOS/CO
 ## Batch 001 — 14 October 2026
 
 Two additional review attempts are saved: the Slovak European Football Championship and Trenčín coins. They were generated from preserved source photographs with the Coimbra/Cornflower finish references using built-in image_gen. clean-batch-001.json stores the exact prompts and review notes. The inventory manifest includes source/candidate SHA-256 hashes and dimensions. Football needs a paler centre; exact fine relief for both remains unverified. No gallery or catalogue image references changed. Next untouched source: Portugal 2026 Rotary.
+
+## Batch 002 — 14 October 2026
+
+Two additional review attempts are saved: Portugal Rotary and Lithuania Energy Independence (2026). Generated with built-in image_gen using Coimbra/Cornflower finish references. Exact prompts and review notes are in clean-batch-002.json. Manifest entries include source and candidate SHA-256 hashes plus PNG dimensions. Both finishes improved; Rotary tiny maker text and fine relief, and Lithuania ray/feather/emblem details, still require verification. No live gallery or catalogue references changed. Next untouched source: Ireland 2026 Presidency of the Council of the EU.
