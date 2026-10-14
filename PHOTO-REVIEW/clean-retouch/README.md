@@ -33,3 +33,5 @@ Batch 005 completed: 14 saved review candidates from 15 source attempts. Miki Mu
 ## Batch 006 — 14 October 2026
 
 Fourteen new source coins are being processed in pairs with 384-pixel previews and saved checkpoints. An intermediate push preserves the first eight candidates before the remaining six. Exact prompts, reviews and source/candidate hashes are recorded in clean-batch-006.json and manifest.json. Fine engraving fidelity remains unverified; source photos and live catalogue references are preserved.
+
+Batch 006 completed: 14 additional review candidates, processed two at a time with 384-pixel previews and pair checkpoints. The first eight were pushed as ea86626586486fd1266fe0609877bbd997e21985 before the final six. Prompts, review flags and source/candidate hashes are recorded in clean-batch-006.json and manifest.json. Carnation Revolution still needs a paler centre and Peace needs typography review. Exact engraving fidelity remains unverified; live photos are unchanged. Overall progress: 40 of 104 sources have saved candidates, 62 await a first attempt, and 2 remain blocked. All preserved source hashes and uploaded candidate bytes were checked.

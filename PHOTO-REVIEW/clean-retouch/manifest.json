@@ -1047,43 +1047,145 @@
       "id": "cyprus-2023-central-bank",
       "name": "2 Euro The 60th anniversary of the foundation of the Central Bank of Cyprus",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-cyprus-2023-central-bank.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/cyprus-2023-central-bank-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main Greek/Latin lettering/dates, circle-network layout and twelve stars visually retained. Exact circle counts/crossings, connector lines and tiny glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Central Bank of Cyprus. Lock the complete original network of circles and angular connector lines, preserving each circle's count, size, position and crossings. Preserve all Greek circular lettering, ΚΥΠΡΟΣ, KIBRIS, 1963-2023 and mint/designer marks exactly as source. Do not regularize the diagram or reconstruct glyphs.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Central Bank of Cyprus. Lock the complete original network of circles and angular connector lines, preserving each circle's count, size, position and crossings. Preserve all Greek circular lettering, ΚΥΠΡΟΣ, KIBRIS, 1963-2023 and mint/designer marks exactly as source. Do not regularize the diagram or reconstruct glyphs."
+        }
+      ],
+      "source_sha256": "b4b0f66698cff742e148b748cce83a6b90d12b75d7b9f8c4053d1f2acf3b76ed",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "82f250c8466b6a2aba0b54f7e6aeb81e611d6f92be6e62c6b19bc53d9c680531",
+      "pixels": [
+        1159,
+        1356
+      ]
     },
     {
       "id": "estonia-2023-barn-swallow",
       "name": "2 Euro Estonian national bird – the barn swallow",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-estonia-2023-barn-swallow.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/estonia-2023-barn-swallow-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main lettering/date, three-bird/wire layout and twelve stars visually retained. Exact faint wing/feather/tail lines, small perched birds and glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Barn swallow. Lock the original flying bird outline, wings, beak, tail and every faint feather line, the two small perched birds and all wire lines. Preserve HIRUNDO RUSTICA, EESTI, 2023 and every tiny mark exactly as source. No changed bird anatomy, added feathers or extra birds; do not invent detail hidden by glare.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Barn swallow. Lock the original flying bird outline, wings, beak, tail and every faint feather line, the two small perched birds and all wire lines. Preserve HIRUNDO RUSTICA, EESTI, 2023 and every tiny mark exactly as source. No changed bird anatomy, added feathers or extra birds; do not invent detail hidden by glare."
+        }
+      ],
+      "source_sha256": "e784af117b9e03ab82c2c2d149a6ddf073b0e7e668e1c08ad3914695648e99e6",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "5e6966b7a9e33847a0a74a30d6382dd1cbf85995d34afc5f9c1153a2947310c2",
+      "pixels": [
+        1180,
+        1333
+      ]
     },
     {
       "id": "italy-2023-air-force",
       "name": "2 Euro The 100th anniversary of the Air Force",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-italy-2023-air-force.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2023-air-force-attempt1.png",
+      "review": "Silver/white finish and lighter central tones improved; strong original reflection gradient remains. Main lettering/dates, 100/aircraft layout and twelve stars visually retained. Exact flight curves, silhouettes and tiny designer/mint glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Italy Air Force anniversary. Lock the original stylized 100 curves/straight bar, every aircraft silhouette, diagonal flight path and circular line. Preserve AERONAUTICA MILITARE, RI, R, 1923, 2023 and tiny designer initials exactly in source positions. Do not add aircraft or alter flight-path intersections.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Italy Air Force anniversary. Lock the original stylized 100 curves/straight bar, every aircraft silhouette, diagonal flight path and circular line. Preserve AERONAUTICA MILITARE, RI, R, 1923, 2023 and tiny designer initials exactly in source positions. Do not add aircraft or alter flight-path intersections."
+        }
+      ],
+      "source_sha256": "6c94bbeb127f4837a5d0e1ae18cb7616538903aa9a770cbcfb88f12508ec582a",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "7006a6dca4dfcc2073b29f4a1c587c3a6e9f479fb8492b15dad5844da32ca3b1",
+      "pixels": [
+        1199,
+        1312
+      ]
     },
     {
       "id": "lithuania-2023-together-with-ukraine",
       "name": "2 Euro Together with Ukraine",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-lithuania-2023-together-with-ukraine.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2023-together-with-ukraine-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main lettering/date, hand/bird/dot layout and twelve stars visually retained. Exact fingers/hand outlines, bird/dot counts and tiny mint glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Together with Ukraine. Lock every original raised hand/arm outline, joined gesture, bird silhouette, dense lower dot pattern and mint emblem in exact source count/positions. Preserve LIETUVA, KARTU SU UKRAINA, 2023 and every tiny mark exactly. Do not redraw hands, invent fingers or change dot/bird counts.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Together with Ukraine. Lock every original raised hand/arm outline, joined gesture, bird silhouette, dense lower dot pattern and mint emblem in exact source count/positions. Preserve LIETUVA, KARTU SU UKRAINA, 2023 and every tiny mark exactly. Do not redraw hands, invent fingers or change dot/bird counts."
+        }
+      ],
+      "source_sha256": "3dfd716bf2c958806e9ab2150ad370d6835d9b5880a3584ab8cae50a28fa6022",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "2ffde3ab824168378026a864d62efd359638435c2934f127735e8ea44f47e8b0",
+      "pixels": [
+        1171,
+        1343
+      ]
     },
     {
       "id": "portugal-2023-peace",
       "name": "2 Euro Peace",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-peace.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_needs_typography_and_relief_review",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2023-peace-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Multilingual/rotated-word composition, main country/date lettering and twelve stars retained in preview. Exact non-Latin glyphs, diacritics, word spacing and central crossing lines require close typography/relief verification; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Peace coin. Lock the exact multilingual typographic composition, every word/letter/diacritic including non-Latin glyphs, original rotated orientations and central orb/line motif. Preserve PORTUGAL, 2023 and every tiny mint/designer inscription exactly as source. Do not translate, transliterate, correct spelling, change fonts or substitute similar-looking letters.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Peace coin. Lock the exact multilingual typographic composition, every word/letter/diacritic including non-Latin glyphs, original rotated orientations and central orb/line motif. Preserve PORTUGAL, 2023 and every tiny mint/designer inscription exactly as source. Do not translate, transliterate, correct spelling, change fonts or substitute similar-looking letters."
+        }
+      ],
+      "source_sha256": "992347390c5605c5ae58b63fa3a38f8ab7b463d2432cd6a1dff020961167a02f",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "79b98d9c943677b317c59a7e05c9bf59e4addd48863af1976c7819db62ff8fa0",
+      "pixels": [
+        1161,
+        1354
+      ]
     },
     {
       "id": "portugal-2023-world-youth-day",
       "name": "2 Euro World Youth Day",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-world-youth-day.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2023-world-youth-day-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main lettering/date, cross/figure/hand layout and twelve stars visually retained. Exact participant/finger counts, symbol proportions, tiny mint/designer glyphs and relief fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: World Youth Day. Lock the original central cross, every abstract participant/circle/head/body/arm, lower supporting hands and small shield. Preserve JORNADA MUNDIAL DA JUVENTUDE, LISBOA 2023, PORTUGAL and all tiny mint/designer lettering exactly. Keep each figure's count, outline and placement; no added people, fingers or altered cross proportions.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: World Youth Day. Lock the original central cross, every abstract participant/circle/head/body/arm, lower supporting hands and small shield. Preserve JORNADA MUNDIAL DA JUVENTUDE, LISBOA 2023, PORTUGAL and all tiny mint/designer lettering exactly. Keep each figure's count, outline and placement; no added people, fingers or altered cross proportions."
+        }
+      ],
+      "source_sha256": "63c85868f92f5d82247b702452548cd88e1c59c929512306de4516757937cacc",
+      "batch": "2026-10-14-batch-006",
+      "applied": false,
+      "candidate_sha256": "8591e87b80fe597539910159e545c6f0a475e9a7eb5d1c650f85137bc8ac6c2f",
+      "pixels": [
+        1254,
+        1254
+      ]
     },
     {
       "id": "slovakia-2023-blood-transfusion",
@@ -1591,18 +1693,24 @@
         "lithuania-2024-straw-gardens",
         "portugal-2024-carnation-revolution",
         "portugal-2024-paris-olympics",
-        "slovenia-2024-national-university-library"
+        "slovenia-2024-national-university-library",
+        "cyprus-2023-central-bank",
+        "estonia-2023-barn-swallow",
+        "italy-2023-air-force",
+        "lithuania-2023-together-with-ukraine",
+        "portugal-2023-peace",
+        "portugal-2023-world-youth-day"
       ],
-      "status": "in_progress",
+      "status": "review_candidates_only",
       "planned_photos": 14
     }
   ],
   "progress": {
     "source_photos": 104,
-    "with_saved_candidate": 34,
-    "awaiting_first_attempt": 68,
+    "with_saved_candidate": 40,
+    "awaiting_first_attempt": 62,
     "generation_blocked": 2,
-    "without_saved_candidate": 70,
+    "without_saved_candidate": 64,
     "existing_retouched_preserved": 30
   }
 }
