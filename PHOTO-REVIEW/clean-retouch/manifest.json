@@ -690,50 +690,166 @@
       "id": "latvia-2025-selija",
       "name": "2 Euro Sēlija",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-latvia-2025-selija.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2025-selija-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main inscriptions/diacritic/date, shield/stag layout and twelve stars visually retained. Exact antler branches, mane/hoof lines and glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Sēlija. Lock the exact deer/stag silhouette, every antler branch, mane stroke, leg/hoof pose, shield border and all original relief lines. Preserve LATVIJA, SĒLIJA with its diacritic and 2025 exactly as source. Do not change the stag anatomy or add antler branches or fur detail.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Sēlija. Lock the exact deer/stag silhouette, every antler branch, mane stroke, leg/hoof pose, shield border and all original relief lines. Preserve LATVIJA, SĒLIJA with its diacritic and 2025 exactly as source. Do not change the stag anatomy or add antler branches or fur detail."
+        }
+      ],
+      "source_sha256": "01d46ad4aa0aef24fd7eb40c304a1c711f641b5397f8c2011302c0b6c4b55f49",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "996d4ea08d6962ee99bc4eefc50189d5dbfe189c21344d001c6c076e3d5478a7",
+      "pixels": [
+        1161,
+        1354
+      ]
     },
     {
       "id": "lithuania-2025-national-defence",
       "name": "2 Euro Defence",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-national-defence.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2025-national-defence-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. LIETUVA/date, central outline, radial pattern and twelve stars visually retained. Exact ray count/angles/intersections and tiny mint-emblem detail remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Lithuanian Defence. Lock every original radial pointed triangular element, its exact count, angles, grooves, edges and intersections, and the central Lithuania outline. Preserve LIETUVA, 2025 and the small round mint emblem exactly as source. Do not regularize the pattern or add/remove rays.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Lithuanian Defence. Lock every original radial pointed triangular element, its exact count, angles, grooves, edges and intersections, and the central Lithuania outline. Preserve LIETUVA, 2025 and the small round mint emblem exactly as source. Do not regularize the pattern or add/remove rays."
+        }
+      ],
+      "source_sha256": "e2822c65d7fdec5ff4200a3f8c3dfaa546ad193716f8acd28dff2cf4384dcded",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "14b7b3654049032c2ce9755e74f28b88d252b67122f29f90f710acd72b1b5d74",
+      "pixels": [
+        1171,
+        1343
+      ]
     },
     {
       "id": "lithuania-2025-lithuania-minor",
       "name": "2 Euro Lithuanian Ethnographic Regions – Lithuanian Minor",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-lithuania-minor.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2025-lithuania-minor-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main inscriptions/date, shield/boat/ribbon layout and twelve stars visually retained. Exact heraldic detail, ribbon words/diacritics and mint emblem remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Lithuanian Minor. Lock the original heraldic shield and stag, sun emblem, horizontal bars, flanking sailing boats, masts/pennants, ribbons and every original relief stroke. Preserve LIETUVA, MAŽOJI LIETUVA, 2025, all tiny ribbon words/diacritics and mint emblem exactly as source. Do not rewrite ambiguous ribbon lettering or invent heraldic ornament.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Lithuanian Minor. Lock the original heraldic shield and stag, sun emblem, horizontal bars, flanking sailing boats, masts/pennants, ribbons and every original relief stroke. Preserve LIETUVA, MAŽOJI LIETUVA, 2025, all tiny ribbon words/diacritics and mint emblem exactly as source. Do not rewrite ambiguous ribbon lettering or invent heraldic ornament."
+        }
+      ],
+      "source_sha256": "4a350f26894050278fad8da1979020c45387813c9055020c2199ede5f585cec5",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "a2141b509a0adfabd922b946b00c54e2ab8c94151e95dadfaa936c47572ad6fb",
+      "pixels": [
+        1167,
+        1347
+      ]
     },
     {
       "id": "slovenia-2025-miki-muster",
       "name": "2 Euro The 100th anniversary of birth of Miki Muster",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-slovenia-2025-miki-muster.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "generation_blocked",
+      "candidate": null,
+      "review": "Generation blocked by image_gen output moderation (category other); no candidate exists. Original source preserved. Request ID 7da1be6e-39cf-4cb9-a75f-a79254f097c9. Skip automatic retries.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Miki Muster. Lock the source engraved group of three cartoon figures: every face, nose, eye, mouth, ear, hand, clothing line, body outline and relative position. Preserve 1925, MIKI MUSTER, 2025, SLOVENIJA and tiny marks exactly as source. Do not restyle or replace the characters, alter their expressions or add lines.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "moderation_blocked_output",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Miki Muster. Lock the source engraved group of three cartoon figures: every face, nose, eye, mouth, ear, hand, clothing line, body outline and relative position. Preserve 1925, MIKI MUSTER, 2025, SLOVENIJA and tiny marks exactly as source. Do not restyle or replace the characters, alter their expressions or add lines.",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7da1be6e-39cf-4cb9-a75f-a79254f097c9.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+          "request_id": "7da1be6e-39cf-4cb9-a75f-a79254f097c9"
+        }
+      ],
+      "source_sha256": "b420cc0a846b13fe407fbe9ba5b536424fff8c5cdbfbbc407693fb04c1a7a56f",
+      "batch": "2026-10-14-batch-005",
+      "applied": false
     },
     {
       "id": "spain-2025-salamanca",
       "name": "2 Euro The recognition of Salamanca as a UNESCO World Heritage Site",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-spain-2025-salamanca.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2025-salamanca-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main inscriptions/date, architectural/statue layout, crowned mint mark and twelve stars visually retained. Exact building/window/tracery/statue strokes and glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Salamanca. Lock every original cathedral tower, spire, arch, tracery, façade/window/door line, adjacent building, central statue/pedestal and step. Preserve SALAMANCA, ESPAÑA 2025 and the crowned mint mark exactly as source. Do not add architectural detail, alter window counts or reconstruct the statue.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Salamanca. Lock every original cathedral tower, spire, arch, tracery, façade/window/door line, adjacent building, central statue/pedestal and step. Preserve SALAMANCA, ESPAÑA 2025 and the crowned mint mark exactly as source. Do not add architectural detail, alter window counts or reconstruct the statue."
+        }
+      ],
+      "source_sha256": "06655f145741dd83e1b89e81e1b41fa0e3d24e26d0653b5888f34da5f6a4eaa3",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "119a522b335c08e9b26aabdf5a25e36c1e5cfabfc7ac9786d8e3708d2ea2bcef",
+      "pixels": [
+        1213,
+        1297
+      ]
     },
     {
       "id": "belgium-2024-fight-against-cancer",
       "name": "2 Euro Fight against cancer in Belgium",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-belgium-2024-fight-against-cancer.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2024-fight-against-cancer-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main inscriptions/date, ribbon/heartbeat/arc layout and twelve stars visually retained. Exact wave peaks/crossings, arc counts, letterforms and tiny mint marks remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Belgium fight against cancer. Lock the original ribbon loop and all crossing lines, the complete heartbeat trace and every wave peak, parallel upper arc lines, lower bars and tiny mint marks. Preserve BE 2024 and both French/Dutch source inscriptions exactly with original case/spacing; do not translate, rewrite or correct them. No added loops, wave peaks or altered symbols.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Belgium fight against cancer. Lock the original ribbon loop and all crossing lines, the complete heartbeat trace and every wave peak, parallel upper arc lines, lower bars and tiny mint marks. Preserve BE 2024 and both French/Dutch source inscriptions exactly with original case/spacing; do not translate, rewrite or correct them. No added loops, wave peaks or altered symbols."
+        }
+      ],
+      "source_sha256": "d7bdc580e03002129e360d8f25c87fdd4a05575dc8cf4f900a786416ceb1a1e8",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "0dfd87c7b13d754846e291674faf28b161f1dba572958d99e8539f74e3ed001a",
+      "pixels": [
+        1209,
+        1301
+      ]
     },
     {
       "id": "france-2024-paris-olympics",
       "name": "2 Euro The Eiffel Tower",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-france-2024-paris-olympics.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/france-2024-paris-olympics-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main RF/date/Paris lettering, Eiffel Tower lattice/overlap, floral/flame/mark layout and visible star positions retained in resized preview. Exact lattice intersections, petals, intertwined symbols, mint marks and tiny glyph fidelity remain unverified; no live replacement.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: France Eiffel Tower Paris 2024 coin. Lock the complete stylized Eiffel Tower lattice, beams, platforms and legs including all portions crossing the silver ring, the curved architectural background, every flower/leaf/chain shape, flame symbol and all original small Olympic/Paralympic marks. Preserve RF, 2024, PARIS 2024 and every mint/designer inscription exactly as source. Do not change lattice intersections, petal counts, intertwined symbols or partial star overlaps. Keep the original tower angle and full coin outline.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: France Eiffel Tower Paris 2024 coin. Lock the complete stylized Eiffel Tower lattice, beams, platforms and legs including all portions crossing the silver ring, the curved architectural background, every flower/leaf/chain shape, flame symbol and all original small Olympic/Paralympic marks. Preserve RF, 2024, PARIS 2024 and every mint/designer inscription exactly as source. Do not change lattice intersections, petal counts, intertwined symbols or partial star overlaps. Keep the original tower angle and full coin outline."
+        }
+      ],
+      "source_sha256": "7c8581151ad2e0d10b9bd87c1b11f21f295f97bb5326fdcc2b625c0048fec3af",
+      "batch": "2026-10-14-batch-005",
+      "applied": false,
+      "candidate_sha256": "a772531460be1850074bae338bb81e455301ead2f5e8887ca0ca50ad57432005",
+      "pixels": [
+        1106,
+        1422
+      ]
     },
     {
       "id": "greece-2024-penelope-delta",
@@ -1317,18 +1433,25 @@
         "greece-2025-mikis-theodorakis",
         "greece-2025-laskarina-bouboulina",
         "italy-2025-amerigo-vespucci",
-        "italy-2025-jubilee"
+        "italy-2025-jubilee",
+        "latvia-2025-selija",
+        "lithuania-2025-national-defence",
+        "lithuania-2025-lithuania-minor",
+        "slovenia-2025-miki-muster",
+        "spain-2025-salamanca",
+        "belgium-2024-fight-against-cancer",
+        "france-2024-paris-olympics"
       ],
-      "status": "in_progress",
-      "planned_photos": 14
+      "status": "review_candidates_only",
+      "planned_photos": 15
     }
   ],
   "progress": {
     "source_photos": 104,
-    "with_saved_candidate": 20,
-    "awaiting_first_attempt": 83,
-    "generation_blocked": 1,
-    "without_saved_candidate": 84,
+    "with_saved_candidate": 26,
+    "awaiting_first_attempt": 76,
+    "generation_blocked": 2,
+    "without_saved_candidate": 78,
     "existing_retouched_preserved": 30
   }
 }
