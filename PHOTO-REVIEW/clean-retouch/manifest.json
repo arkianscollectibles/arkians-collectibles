@@ -1,0 +1,950 @@
+{
+  "repository": "https://github.com/arkianscollectibles/arkians-collectibles",
+  "base_commit": "bad70ad447cf0fc2aa5f9491c1153d4895b6c984",
+  "recovered_cloud_candidates": false,
+  "finish": "clean silver ring, pale champagne-gold centre, white background",
+  "invariants": "Preserve exact engravings, inscriptions, dates, mint marks and stars",
+  "entries": [
+    {
+      "id": "38",
+      "name": "2 Euros Barbara of Celje",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/001.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/001-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "40",
+      "name": "2 Euros University of Ljubljana",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/003.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/003-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "41",
+      "name": "2 Euros Italian National Police",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/004.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/004-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "44",
+      "name": "2 Euros Maria Callas",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/007.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/007-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "46",
+      "name": "2 Euros First Flight from Malta",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/009.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/009-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "47",
+      "name": "2 Euros Presidency European Union",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/010.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/010-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "48",
+      "name": "2 Euros Basketball in Lithuania",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/011.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/011-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "49",
+      "name": "2 Euros Belgian Presidency of the Council of the EU",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/012.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/012-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "50",
+      "name": "2 Euros Primož Trubar",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/013.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/013-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "51",
+      "name": "2 Euros Adam Bohorič",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/014.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/014-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "52",
+      "name": "2 Euros Ljubljana Botanical Garden",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/015.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/015-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "54",
+      "name": "2 Euros Glory to Ukraine",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/017.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/017.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "55",
+      "name": "2 Euros Guimarães",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/018.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/018-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "57",
+      "name": "2 Euros Provincial Museum for Carniola",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/020.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/020-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "58",
+      "name": "2 Euros Erasmus Slovenia",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/021.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/021-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "60",
+      "name": "2 Euros Visegrad Group",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/023.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/023-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "61",
+      "name": "2 Euros Centaurea Cyanus",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/024.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/024-slava-gold.png",
+      "status": "reference_preserved"
+    },
+    {
+      "id": "62",
+      "name": "2 Euros Raamat 500",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/025.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/025-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "63",
+      "name": "2 Euros 730 years of the University of Coimbra",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/026.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/026-slava-gold.png",
+      "status": "reference_preserved"
+    },
+    {
+      "id": "65",
+      "name": "2 Euros Constantin Caratheodory",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/028.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/028-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "66",
+      "name": "2 Euros Joana Vasconcelos",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/029.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/029-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "67",
+      "name": "2 Euros Canis Lupus",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/030.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/030-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "68",
+      "name": "2 Euros Fernao Mendes Pinto",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/031.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/031-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "69",
+      "name": "2 Euros Majstrovstva Europy V Hokeji",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/032.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/032-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "70",
+      "name": "2 Euros 10th Anniversary - Accession to the European Union",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/033.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/033-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "72",
+      "name": "2 Euros Belgian Presidency of the Council of the European Union",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/035.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/035-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "73",
+      "name": "2 Euros 2500 years of the Battle of Thermopylae",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/036.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/036-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "74",
+      "name": "2 Euros Erasmus Greece",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/037.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/037-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "59",
+      "name": "2 Euros Marine Nationale 400ans",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/022.jpg",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/022-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "64",
+      "name": "2 Euros Bundesländer II - \"Bremen\"",
+      "source": "PRODUCT PHOTOS/COINS/UNCOLORED/027.png",
+      "existing": "PRODUCT PHOTOS/COINS/RETOUCHED/027-slava-gold.png",
+      "status": "existing_retouched_pending_comparison"
+    },
+    {
+      "id": "slovenia-2026-ivan-cankar",
+      "name": "2 Euro Ivan Cankar",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-ivan-cankar-2026.jpg",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2026-ivan-cankar-attempt3.png",
+      "review": "Attempt 3 has the requested clean silver ring, champagne gold centre and white background. Inscription and 12 stars visually retained. Exact fine engraving against original is not established; not applied to live site. Prior attempts preserved.",
+      "earlier_attempts_location": "Local recovery outputs/clean-coins; excluded from repository because rejected or superseded."
+    },
+    {
+      "id": "slovakia-2026-european-football-championship",
+      "name": "2 Euro European Football Championship",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-european-football-championship-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovakia-2026-trencin",
+      "name": "2 Euro Trenčín - European Capital of Culture",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-trencin-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2026-rotary",
+      "name": "2 Euro Rotary",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-rotary-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "lithuania-2026-energy-independence",
+      "name": "2 Euro Energy Independence",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-energy-independence-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "ireland-2026-council-presidency",
+      "name": "2 Euro Ireland Presidency of the Council of the EU",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-ireland-eu-presidency-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "italy-2026-carlo-collodi-pinocchio",
+      "name": "2 Euro Carlo Collodi - Pinocchio",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-carlo-collodi-pinocchio-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "italy-2026-saint-francis-of-assisi",
+      "name": "2 Euro Saint Francis of Assisi",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-saint-francis-of-assisi-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2026-academy-of-athens",
+      "name": "2 Euro Academy of Athens",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-academy-of-athens-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2026-exodus-of-missolonghi",
+      "name": "2 Euro 200th Anniversary - Exodus of Missolonghi",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-exodus-of-missolonghi-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "germany-2026-konrad-adenauer",
+      "name": "2 Euro Konrad Adenauer",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-konrad-adenauer-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "estonia-2026-sipsik",
+      "name": "2 Euro Sipsik",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-sipsik-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "cyprus-2026-council-presidency",
+      "name": "2 Euro Cyprus Presidency of the Council of the EU",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-cyprus-eu-presidency-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "croatia-2026-croatian-radiotelevision",
+      "name": "2 Euro Croatian Radiotelevision",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-croatian-radiotelevision-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "spain-2026-monastery-of-poblet",
+      "name": "2 Euro Monastery of Poblet",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-monastery-of-poblet-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "belgium-2026-belgian-railways",
+      "name": "2 Euro Belgian Railways",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-belgian-railways-2026.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "croatia-2025-king-tomislav",
+      "name": "2 Euro The 1100th anniversary of the Croatian Kingdom and coronation of King Tomislav",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-croatia-2025-king-tomislav.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2025-mikis-theodorakis",
+      "name": "2 Euro 100 years from the birth of Mikis Theodorakis",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-mikis-theodorakis.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2025-laskarina-bouboulina",
+      "name": "2 Euro 200 Years from the Death of Laskarina Bouboulina",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-laskarina-bouboulina.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "italy-2025-amerigo-vespucci",
+      "name": "2 Euro Amerigo Vespucci Tour Mondiale 2023-2025",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-amerigo-vespucci.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "italy-2025-jubilee",
+      "name": "2 Euro Jubilee 2025",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-jubilee.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "latvia-2025-selija",
+      "name": "2 Euro Sēlija",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-latvia-2025-selija.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "lithuania-2025-national-defence",
+      "name": "2 Euro Defence",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-national-defence.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "lithuania-2025-lithuania-minor",
+      "name": "2 Euro Lithuanian Ethnographic Regions – Lithuanian Minor",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-lithuania-minor.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovenia-2025-miki-muster",
+      "name": "2 Euro The 100th anniversary of birth of Miki Muster",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-slovenia-2025-miki-muster.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "spain-2025-salamanca",
+      "name": "2 Euro The recognition of Salamanca as a UNESCO World Heritage Site",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-spain-2025-salamanca.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "belgium-2024-fight-against-cancer",
+      "name": "2 Euro Fight against cancer in Belgium",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-belgium-2024-fight-against-cancer.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "france-2024-paris-olympics",
+      "name": "2 Euro The Eiffel Tower",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-france-2024-paris-olympics.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2024-penelope-delta",
+      "name": "2 Euro 150 years from the birth of Penelope Delta",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-penelope-delta.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2024-restoration-democracy",
+      "name": "2 Euro 50 years from the restoration of democracy in Greece",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-restoration-democracy.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "italy-2024-rita-levi-montalcini",
+      "name": "2 Euro Rita Levi-Montalcini",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-rita-levi-montalcini.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "italy-2024-guardia-di-finanza",
+      "name": "2 Euro The 250th anniversary of the foundation of the Guardia di Finanza Corps",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-guardia-di-finanza.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "lithuania-2024-straw-gardens",
+      "name": "2 Euro Lithuanian tradition of straw gardens inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-lithuania-2024-straw-gardens.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2024-carnation-revolution",
+      "name": "2 Euro The 50th anniversary of the 25th of April 1974",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-carnation-revolution.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2024-paris-olympics",
+      "name": "2 Euro Portugal’s participation in the 33rd Olympic Games",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-paris-olympics.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovenia-2024-national-university-library",
+      "name": "2 Euro 250 years of National and University Library (Narodna in univerzitetna knjižnica)",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-slovenia-2024-national-university-library.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "cyprus-2023-central-bank",
+      "name": "2 Euro The 60th anniversary of the foundation of the Central Bank of Cyprus",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-cyprus-2023-central-bank.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "estonia-2023-barn-swallow",
+      "name": "2 Euro Estonian national bird – the barn swallow",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-estonia-2023-barn-swallow.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "italy-2023-air-force",
+      "name": "2 Euro The 100th anniversary of the Air Force",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-italy-2023-air-force.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "lithuania-2023-together-with-ukraine",
+      "name": "2 Euro Together with Ukraine",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-lithuania-2023-together-with-ukraine.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2023-peace",
+      "name": "2 Euro Peace",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-peace.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2023-world-youth-day",
+      "name": "2 Euro World Youth Day",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-world-youth-day.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovakia-2023-blood-transfusion",
+      "name": "2 Euro The 100th anniversary of the first blood transfusion in Slovakia",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovakia-2023-blood-transfusion.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovenia-2023-josip-plemelj",
+      "name": "2 Euro The 150th anniversary of the birth of Josip Plemelj (mathematician and astronomer)",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovenia-2023-josip-plemelj.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "spain-2023-caceres",
+      "name": "2 Euro UNESCO: Cáceres",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-caceres.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "austria-2022-erasmus",
+      "name": "2 Euro 35 years of the Erasmus programme",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2022/2-euro-austria-2022-erasmus.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "belgium-2021-belgium-luxembourg-union",
+      "name": "2 Euro The 100th anniversary of the constitution of the Belgium-Luxembourg Economic Union (BLEU)",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-belgium-2021-belgium-luxembourg-union.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2021-greek-revolution",
+      "name": "2 Euro 200 years since the Greek Revolution",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-greece-2021-greek-revolution.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "latvia-2021-de-jure-recognition",
+      "name": "2 Euro The 100th anniversary of Latvia’s international recognition de iure",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-latvia-2021-de-jure-recognition.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "monaco-2021-princely-wedding",
+      "name": "2 Euro 10th anniversary of the marriage of Prince Albert II and Princess Charlene",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-monaco-2021-princely-wedding.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2021-tokyo-olympics",
+      "name": "2 Euro Portugal’s participation in the 2020 Tokyo Olympics",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-portugal-2021-tokyo-olympics.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovakia-2021-alexander-dubcek",
+      "name": "2 Euro The 100th anniversary of the birth of Alexander Dubček",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-slovakia-2021-alexander-dubcek.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "estonia-2020-antarctica",
+      "name": "2 Euro The bicentenary of the discovery of Antarctica",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-estonia-2020-antarctica.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "france-2020-charles-de-gaulle",
+      "name": "2 Euro Charles de Gaulle",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-france-2020-charles-de-gaulle.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "latvia-2020-latgalian-ceramics",
+      "name": "2 Euro Latgalian ceramics",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-latvia-2020-latgalian-ceramics.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2020-united-nations",
+      "name": "2 Euro 75th anniversary of the United Nations",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-portugal-2020-united-nations.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovakia-2020-oecd",
+      "name": "2 Euro 20th anniversary of Slovakia’s accession to the Organisation for Economic Co-operation and Development (OECD)",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-slovakia-2020-oecd.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "spain-2020-aragon-mudejar",
+      "name": "2 Euro UNESCO’s World Cultural and Natural Heritage Sites – Aragón and the Aragonese Mudejar architecture",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-spain-2020-aragon-mudejar.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "estonia-2019-song-celebration",
+      "name": "2 Euro Song Festival’s 150-year anniversary",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-estonia-2019-song-celebration.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2019-andreas-kalvos",
+      "name": "2 Euro Andreas Kalvos — 150 years in memoriam",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-greece-2019-andreas-kalvos.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovakia-2019-milan-rastislav-stefanik",
+      "name": "2 Euro The 100th anniversary of the death of Milan Rastislav Štefánik",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-slovakia-2019-milan-rastislav-stefanik.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "spain-2019-avila",
+      "name": "2 Euro Unesco’s World Cultural and Natural Heritage Sites — the old town of Avila and its churches outside the walls",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-spain-2019-avila.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "estonia-2018-estonian-republic",
+      "name": "2 Euro The centennial of the independence of Estonia",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-estonia-2018-estonian-republic.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2018-kostis-palamas",
+      "name": "2 Euro Kostis Palamas – 75 years in memoriam",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-kostis-palamas.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2018-dodecanese",
+      "name": "2 Euro 70 years since the union of the Dodecanese",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-dodecanese.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "latvia-2018-zemgale",
+      "name": "2 Euro Zemgale",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-latvia-2018-zemgale.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2018-national-printing-office",
+      "name": "2 Euro 250 years of the Official Printing Works (‘Imprensa Nacional’)",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-national-printing-office.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2018-ajuda-botanical-garden",
+      "name": "2 Euro 250 years of the Ajuda Botanical Garden (‘Jardim Botânico da Ajuda’)",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-ajuda-botanical-garden.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovakia-2018-slovak-republic",
+      "name": "2 Euro The 25th anniversary of the establishment of the Slovak Republic",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovakia-2018-slovak-republic.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovenia-2018-world-bee-day",
+      "name": "2 Euro Slovenia World Day of Bees",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovenia-2018-world-bee-day.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "cyprus-2017-pafos",
+      "name": "2 Euro Paphos 2017 – European Capital of Culture",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-cyprus-2017-pafos.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2017-nikos-kazantzakis",
+      "name": "2 Euro 60 years in memoriam of Nikos Kazantzakis",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-nikos-kazantzakis.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2017-philippi",
+      "name": "2 Euro Archaeological site of Philippi",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-philippi.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "latvia-2017-kurzeme",
+      "name": "2 Euro Kurzeme",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-latvia-2017-kurzeme.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2017-public-security-police",
+      "name": "2 Euro 150 Years of Public Security",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-public-security-police.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovenia-2017-euro-introduction",
+      "name": "2 Euro The 10th anniversary of the euro in Slovenia",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-slovenia-2017-euro-introduction.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "spain-2017-asturias-monuments",
+      "name": "2 Euro Unesco’s World Cultural and Natural Heritage Sites – Churches of the Kingdom of Asturias",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-spain-2017-asturias-monuments.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2017-raul-brandao",
+      "name": "2 Euro 150 years of the birth of writer Raul Brandão",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-raul-brandao.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovenia-2016-independence",
+      "name": "2 Euro The 25th anniversary of independence of the Republic of Slovenia",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovenia-2016-independence.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovakia-2016-council-presidency",
+      "name": "2 Euro The first Slovak Presidency of the Council of the European Union",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovakia-2016-council-presidency.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "spain-2016-segovia",
+      "name": "2 Euro Unesco’s World Cultural and and Natural Heritage Sites – Segovia",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-spain-2016-segovia.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "latvia-2015-council-presidency",
+      "name": "2 Euro Latvian Presidency of the Council of the European Union",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-latvia-2015-council-presidency.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "lithuania-2015-lithuanian-language",
+      "name": "2 Euro The Lithuanian language",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-lithuania-2015-lithuanian-language.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "monaco-2015-fortress",
+      "name": "2 Euro 800th anniversary of the construction of the first Castle on the rock",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-monaco-2015-fortress.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovakia-2015-ludovit-stur",
+      "name": "2 Euro 200th anniversary of the birth of Ľudovít Štúr",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-slovakia-2015-ludovit-stur.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "france-2014-world-aids-day",
+      "name": "2 Euro The fight against AIDS by way of World AIDS Day",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-france-2014-world-aids-day.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2014-ionian-islands",
+      "name": "2 Euro 150th anniversary of the union of the Ionian Islands with Greece (1864-2014)",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-greece-2014-ionian-islands.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "netherlands-2014-double-portrait",
+      "name": "2 Euro The official farewell to the former Queen Beatrix",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-netherlands-2014-double-portrait.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2014-carnation-revolution",
+      "name": "2 Euro 40th Anniversary of the 25th April Revolution",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-carnation-revolution.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2014-family-farming",
+      "name": "2 Euro The International Year of Family Farming",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-family-farming.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "spain-2014-king-felipe-vi",
+      "name": "2 Euro Change of the Head of State",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-spain-2014-king-felipe-vi.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "belgium-2013-royal-meteorological-institute",
+      "name": "2 Euro 100th anniversary of the creation of the Royal Meteorological Institute (Koninklijk Meteorologisch Instituut/Institut Royal Météorologique)",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-belgium-2013-royal-meteorological-institute.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "netherlands-2013-queen-beatrix-abdication",
+      "name": "2 Euro The announcement of the abdication of the throne by Her Majesty Queen Beatrix",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-netherlands-2013-queen-beatrix-abdication.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "portugal-2013-clerigos-tower",
+      "name": "2 Euro The 250th anniversary of the construction of ‘Torre dos Clérigos’",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-portugal-2013-clerigos-tower.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovakia-2013-cyril-methodius",
+      "name": "2 Euro 1150th anniversary of the advent of the mission of Constantine and Methodius to Great Moravia",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-slovakia-2013-cyril-methodius.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "slovenia-2013-postojna-cave",
+      "name": "2 Euro 800th anniversary of visits to Postojna Cave",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-slovenia-2013-postojna-cave.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "belgium-2012-euro-cash",
+      "name": "2 Euro Ten years of the euro",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2012/2-euro-belgium-2012-euro-cash.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "spain-2012-burgos",
+      "name": "2 Euro Burgos Cathedral – UNESCO World Heritage series",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2012/2-euro-spain-2012-burgos.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2011-special-olympics",
+      "name": "2 Euro The Special Olympics World Summer Games — Athens 2011",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2011/2-euro-greece-2011-special-olympics.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2010-marathon",
+      "name": "2 Euro 2.500th anniversary of the Battle of Marathon",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2010/2-euro-greece-2010-marathon.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "belgium-2006-atomium",
+      "name": "2 Euro Atomium",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2006/2-euro-belgium-2006-atomium.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "austria-2005-state-treaty",
+      "name": "2 Euro 50th anniversary of the Austrian State Treaty",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2005/2-euro-austria-2005-state-treaty.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "greece-2004-athens-olympics",
+      "name": "2 Euro Olympic Games in Athens 2004",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2004/2-euro-greece-2004-athens-olympics.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    },
+    {
+      "id": "spain-2023-council-presidency",
+      "name": "2 Euro The Spanish Presidency of the Council of the EU",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-council-presidency.jpg",
+      "status": "pending_retouch",
+      "candidate": null
+    }
+  ],
+  "batch_status": "incomplete_no_site_changes"
+}
