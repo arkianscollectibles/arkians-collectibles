@@ -1,0 +1,22 @@
+{
+  "id": "2026-10-14-batch-001",
+  "tool": "built-in image_gen",
+  "status": "review_candidates_only",
+  "notes": "Two new AI attempts from recovered source photographs. Original photos and existing 30 retouches preserved. Exact fine-relief fidelity remains unverified; no live catalogue references changed.",
+  "entries": [
+    {
+      "id": "slovakia-2026-european-football-championship",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2026-european-football-championship-attempt1.png",
+      "status": "candidate_needs_colour_and_relief_review",
+      "review": "Visible inscription, year and 12 stars retained in resized preview. Gold is stronger than Coimbra/Cornflower. Exact footballer, leaves, mint-mark and ball-panel relief fidelity is unverified.",
+      "prompt": "Use case: precise-object-edit. Input image 1 is the only edit target, an actual photograph of the Slovak European under-21 football championship 2026 coin. Images 2 and 3 are finish references only. Photographically clean target 1 with neutral satin silver outer ring, PALE champagne-gold centre and pure white background matching the reference photos. Preserve the EXACT original engraved footballer pose, face, clothing, limbs, shoe, ball and its panel geometry, both leafy wreath branches, all ridges, rim, every mint mark, all 12 stars and their positions. Preserve exactly all source lettering and every accent/date: MAJSTROVSTVÁ EURÓPY, U21, SLOVENSKO 2026 (follow source pixels, no reinterpretation or new text). Change only surface grime/noise and colour cast, remove mottled tarnish on flat metal. Do not redraw, simplify or invent engraving, do not remove/swap any inscription, star, leaf or mint mark. Keep original orientation and entire coin edge. Single coin catalogue photo, slight white margin, no collage. No hard chrome reflections or excessive saturated yellow."
+    },
+    {
+      "id": "slovakia-2026-trencin",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2026-trencin-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/champagne finish and white background match the requested direction. Main inscriptions, year and 12 stars visually retained. Exact palette holes, theatre-mask strokes, small camera details and mint emblems still require source comparison.",
+      "prompt": "Use case: precise-object-edit. Image 1 is the EDIT TARGET, the actual Slovak 2026 Trenčín commemorative coin photograph. Images 2 and 3 are colour and surface-finish references only. Correct only photographic surface blemishes/colour and background on target 1: clean neutral silver outer ring, very PALE champagne-gold central disc, pure white background like the references. The original source relief geometry is locked: preserve EXACTLY the castle tower and roof lines, row of three triangular roofs, music saxophone/notes, paint palette including every hole, film camera including reel circles and lens, theatre masks including each eye and mouth stroke, mint emblems and designer initials, rim and all twelve stars. Every source inscription unchanged with all diacritics and position: SLOVENSKO; 2026; TRENČÍN; EURÓPSKE HLAVNÉ MESTO KULTÚRY. Follow the source image for exact lettering and marks, never infer or rewrite. Keep orientation and complete coin outline. Remove mottled tarnish only from flat silver/gold surfaces, preserve original natural shading and all original engraved edges without adding texture or new detail. No redraw, redesign, simplified lines, extra letters, extra stars or invented relief. Single full coin, no collage, modest white margin. Gold must be light cream champagne, not saturated yellow."
+    }
+  ]
+}
