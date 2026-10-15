@@ -51,3 +51,7 @@ Batch 007 completed: 14 new retouches, generated two at a time with saved pair c
 Fourteen more source coins are being retouched in pairs with 384-pixel previews and pair checkpoints. An intermediate push preserves the first eight before the final six. This continues the user-approved retouch-and-publish workflow, using AI labels and original-photo links. Exact fine engraving remains unverified. clean-batch-008.json stores prompts, review notes, dimensions and hashes. All originals remain preserved.
 
 Batch 008 completed: 14 new AI retouches, generated two at a time with 384-pixel previews and pair checkpoints. The first eight were pushed as 16bd5587d3b782c35a1ad840a775de672303ee37. All 14 are connected to catalogue and search with measured framing, AI labels and preserved original-photo links. Exact fine engraving remains unverified. All source hashes matched preserved metadata. Totals: 68 of 104 sources have active retouches, 34 await first attempts and 2 remain blocked.
+
+## Batch 009 — 15 October 2026
+
+Completing the remaining coins in pairs, using 384-pixel previews and saved pair checkpoints. The first eight candidates are pushed before the rest of this group. This continues the user-authorized full retouch-and-publish task. Exact fine engraving remains unverified; originals remain preserved. Prompts, hashes and review notes are in clean-batch-009.json.

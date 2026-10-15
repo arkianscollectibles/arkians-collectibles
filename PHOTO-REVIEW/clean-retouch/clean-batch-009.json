@@ -1,0 +1,191 @@
+{
+  "id": "2026-10-15-batch-009",
+  "tool": "built-in image_gen",
+  "status": "in_progress",
+  "planned_photos": 14,
+  "desired_candidates": 14,
+  "max_simultaneous_generations": 2,
+  "preview_width": 384,
+  "notes": "Completion of all remaining coins, authorized by the user. Retouch two at a time, preserve originals, publish in manageable groups with AI labels and original-photo links. Exact fine engraving remains unverified.",
+  "entries": [
+    {
+      "id": "cyprus-2017-pafos",
+      "candidate": "PHOTO-REVIEW/clean-retouch/cyprus-2017-pafos-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main theatre seating/stage/masonry and circular inscription layout visually retained. Exact seating/radial counts, stone detail and tiny Greek/mint glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Cyprus 2017 Paphos. Lock the entire ancient theatre: every semicircular seating step/radial aisle, stage block, stone wall and foreground masonry line. Preserve every Greek circular inscription, 2017, ΚΥΠΡΟΣ and KIBRIS exactly. No new seats, rewritten letters or reconstructed architecture.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Cyprus 2017 Paphos. Lock the entire ancient theatre: every semicircular seating step/radial aisle, stage block, stone wall and foreground masonry line. Preserve every Greek circular inscription, 2017, ΚΥΠΡΟΣ and KIBRIS exactly. No new seats, rewritten letters or reconstructed architecture."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-cyprus-2017-pafos.jpg",
+      "source_sha256": "f35da3c4199ef27a389f334d3f53a6b5b92ff81db084d8614922f74ed9d0043f",
+      "applied": false,
+      "candidate_sha256": "8a520c22f9b793ccc5d2a9a4df67be996b306004ef17dc3f67550daaf4a94d5f",
+      "pixels": [
+        1219,
+        1290
+      ]
+    },
+    {
+      "id": "greece-2017-nikos-kazantzakis",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2017-nikos-kazantzakis-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main engraved profile, hair/clothing and Greek inscription/date layout visually retained. Exact facial/hair relief, accents and tiny mint/designer marks remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Nikos Kazantzakis 2017. Lock the original engraved left-facing profile, face/ear/hair contours, neck and clothing lines. Preserve all Greek inscriptions, accents, 2017 and tiny mint/designer symbols exactly from the photograph. No face reconstruction or changed hair/portrait relief.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Nikos Kazantzakis 2017. Lock the original engraved left-facing profile, face/ear/hair contours, neck and clothing lines. Preserve all Greek inscriptions, accents, 2017 and tiny mint/designer symbols exactly from the photograph. No face reconstruction or changed hair/portrait relief."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-nikos-kazantzakis.jpg",
+      "source_sha256": "389c33b9a38a2db6de4dc913b4165b6541b6f35a905b6cb61ecfe3cfde3c50df",
+      "applied": false,
+      "candidate_sha256": "484ae092af960f1f1186298ff64c8e81b66c1e480aeb1653bc9c7b8a167c5eb3",
+      "pixels": [
+        1170,
+        1344
+      ]
+    },
+    {
+      "id": "greece-2017-philippi",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2017-philippi-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main ruins/column/arch and foreground scroll layout visually retained. Exact masonry/scroll counts, small architectural detail and Greek/mint glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2017 Philippi. Lock every original ruin block, column, arch, tower, step, masonry edge and foreground wave/scroll ornament. Preserve the complete Greek circular inscriptions, 2017 and tiny mint/designer marks exactly. No reconstructed architecture, new columns or changed stone/scroll counts.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2017 Philippi. Lock every original ruin block, column, arch, tower, step, masonry edge and foreground wave/scroll ornament. Preserve the complete Greek circular inscriptions, 2017 and tiny mint/designer marks exactly. No reconstructed architecture, new columns or changed stone/scroll counts."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-philippi.jpg",
+      "source_sha256": "ee624c73ae3235f3f3f245ce3446243c23b1256d804bec91263abca50dcc9077",
+      "applied": false,
+      "candidate_sha256": "4695299b92d0514100fd4c595bdbe6a040c018c604c99d1621b5dfcaf6585eb9",
+      "pixels": [
+        1184,
+        1328
+      ]
+    },
+    {
+      "id": "latvia-2017-kurzeme",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2017-kurzeme-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main lion/shield, mane/tail/paw and lettering/date layout visually retained. Exact heraldic microdetail, claw/tail contours and glyph spacing remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Latvia 2017 Kurzeme. Lock the exact heraldic lion, mane, tongue, paws/claws, raised limb, curled tail and shield outline. Preserve LATVIJA, KURZEME and 2017 exactly with original glyph shapes/spacing. No altered anatomy, extra claws or regularized heraldic details.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Latvia 2017 Kurzeme. Lock the exact heraldic lion, mane, tongue, paws/claws, raised limb, curled tail and shield outline. Preserve LATVIJA, KURZEME and 2017 exactly with original glyph shapes/spacing. No altered anatomy, extra claws or regularized heraldic details."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-latvia-2017-kurzeme.jpg",
+      "source_sha256": "4563ec227f715884265a97856841e34bfafa73cc57854afc138d54f73fd4a2c4",
+      "applied": false,
+      "candidate_sha256": "ef588bed2a721e52f6d8c533dd2f8218a7457244ea1ff774425098c39f4fe9a3",
+      "pixels": [
+        1169,
+        1346
+      ]
+    },
+    {
+      "id": "portugal-2017-public-security-police",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2017-public-security-police-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main profile silhouettes, geometric panels, circles, crest and wording layout visually retained. Exact tiny crest/panel marks, outlines and designer/mint lettering remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2017 Public Security Police. Lock the two profile silhouettes, every diagonal stripe, geometric shield/panel, circular opening, PSP lettering and crest. Preserve the full circular Portuguese wording, DIREITOS LIBERDADES GARANTIAS, dates and designer/mint marks exactly. Remove blotchy dirt only on flat metal; no redesigned silhouettes, panels or lettering.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2017 Public Security Police. Lock the two profile silhouettes, every diagonal stripe, geometric shield/panel, circular opening, PSP lettering and crest. Preserve the full circular Portuguese wording, DIREITOS LIBERDADES GARANTIAS, dates and designer/mint marks exactly. Remove blotchy dirt only on flat metal; no redesigned silhouettes, panels or lettering."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-public-security-police.jpg",
+      "source_sha256": "38032619cc2c10d4cc7f189c6aad912f2242d2e6aab72ea3af85ad31a69c8278",
+      "applied": false,
+      "candidate_sha256": "9a0d1451163c64d9726f1147b09a6fef56050d3799d13269991e036d6d4a0045",
+      "pixels": [
+        1215,
+        1295
+      ]
+    },
+    {
+      "id": "slovenia-2017-euro-introduction",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2017-euro-introduction-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main flock arrangement, bird wing/tail silhouettes and curved wording/date layout visually retained. Exact bird contours/counts, accents and tiny glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovenia 2017 euro introduction. Lock every original flying bird silhouette, beak, wing, tail, position and scale, retaining the exact flock count and circular arrangement. Preserve SLOVENIJA 2017 and the complete curved Slovenian inscription and accents exactly. No added birds, regularized flight poses or rewritten lettering.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovenia 2017 euro introduction. Lock every original flying bird silhouette, beak, wing, tail, position and scale, retaining the exact flock count and circular arrangement. Preserve SLOVENIJA 2017 and the complete curved Slovenian inscription and accents exactly. No added birds, regularized flight poses or rewritten lettering."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-slovenia-2017-euro-introduction.jpg",
+      "source_sha256": "f21e306e7ece69031367cbef30bb2d1f6254b9029bc87735344ad5a49908d649",
+      "applied": false,
+      "candidate_sha256": "82cb827764a253e7f5c7d22ce6c564cf6d3d372fdeae6d8724d12cf7870c9989",
+      "pixels": [
+        1164,
+        1351
+      ]
+    },
+    {
+      "id": "spain-2017-asturias-monuments",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2017-asturias-monuments-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main church facade/roof/arches/stairway and inscription layout visually retained. Exact windows, stone lines, architectural microdetail and mint glyph remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2017 Asturias monument. Lock the exact church outline, roof, facade, arches, columns, windows, exterior stairway and every masonry/ground detail. Preserve ESPAÑA, 2017 and crowned-M mint mark exactly. Lighten the yellow cast without new windows, reconstructed architecture or simplified brick/stone lines.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2017 Asturias monument. Lock the exact church outline, roof, facade, arches, columns, windows, exterior stairway and every masonry/ground detail. Preserve ESPAÑA, 2017 and crowned-M mint mark exactly. Lighten the yellow cast without new windows, reconstructed architecture or simplified brick/stone lines."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-spain-2017-asturias-monuments.jpg",
+      "source_sha256": "3e515343ad227572142551568f7fe6ef03c9f41fb20886d41d98fafe58cc99bf",
+      "applied": false,
+      "candidate_sha256": "b8344a54d522c518494d80699d95dd1167f486ddfdd9453d595b2278895c50b6",
+      "pixels": [
+        1195,
+        1316
+      ]
+    },
+    {
+      "id": "portugal-2017-raul-brandao",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2017-raul-brandao-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main stylized face/moustache, bow tie, background arc and stacked text/date layout visually retained. Exact facial contours, tiny upper lettering and glyph overlaps remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2017 Raul Brandão. Lock the exact stylized engraved face, eyes, nose, curled moustache, ear, hair/background arc and bow tie. Preserve the original stacked RAUL BRANDÃO lettering, 1867, 2017, PORTUGAL and tiny upper designer/mint wording exactly. No face reconstruction, altered moustache or re-typeset stacked text.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2017 Raul Brandão. Lock the exact stylized engraved face, eyes, nose, curled moustache, ear, hair/background arc and bow tie. Preserve the original stacked RAUL BRANDÃO lettering, 1867, 2017, PORTUGAL and tiny upper designer/mint wording exactly. No face reconstruction, altered moustache or re-typeset stacked text."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-raul-brandao.jpg",
+      "source_sha256": "00459edb9074660c98b8d678e3a842ee6507c96627d8f414e56a047208b6f6ff",
+      "applied": false,
+      "candidate_sha256": "41d2c0593ab94bebf56edd450739753322392d7ced9705e9842527260ce3c31d",
+      "pixels": [
+        1144,
+        1375
+      ]
+    }
+  ],
+  "attempted_photos": 8,
+  "saved_candidates": 8,
+  "total_generation_attempts": 8
+}
