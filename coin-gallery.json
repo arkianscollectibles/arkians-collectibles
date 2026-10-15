@@ -48,181 +48,313 @@
       "name": "2 Euro Ivan Cankar",
       "country": "Slovenia",
       "year": 2026,
-      "file": "2-euro-ivan-cankar-2026.jpg",
+      "file": "slovenia-2026-ivan-cankar-clean-006416a6.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-02-532.jpg",
-      "sha256": "d8dde4a1a2b8e6fefea565e44e85a9c027b46b3afc953ecd7af19c3f43167501",
+      "sha256": "006416a63f361b881b3afbbbf22295b0350b1adfc3baaea2d83aa9e51ef08110",
       "pixels": [
-        1472,
-        1600
+        1202,
+        1308
       ],
       "bounds": {
         "left": 0,
-        "top": 31,
-        "right": 1472,
-        "bottom": 1501
+        "top": 23,
+        "right": 1199,
+        "bottom": 1235
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": 1.033203
+        "width": 92.666564,
+        "left": 4.032359,
+        "top": 1.164346
       },
       "id": "slovenia-2026-ivan-cankar",
       "feature": "ivan-cankar",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-ivan-cankar-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2026-ivan-cankar-clean-006416a6.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-ivan-cankar-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-ivan-cankar-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-ivan-cankar-2026.jpg",
+        "pixels": [
+          1472,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 31,
+          "right": 1472,
+          "bottom": 1501
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": 1.033203
+        },
+        "sha256": "d8dde4a1a2b8e6fefea565e44e85a9c027b46b3afc953ecd7af19c3f43167501"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro European Football Championship",
       "country": "Slovakia",
       "year": 2026,
-      "file": "2-euro-european-football-championship-2026.jpg",
+      "file": "slovakia-2026-european-football-championship-clean-5da131db.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-02-582.jpg",
-      "sha256": "a372234eddcfa271a9c41fd8bfffb8e031df3edb145bd0e30c9cf03a1fe3e003",
+      "sha256": "5da131db5ed20d375bc7be38367c5dfc537ba8f28942abffe1b8a81f1c3451ac",
       "pixels": [
-        1510,
-        1599
+        1218,
+        1291
       ],
       "bounds": {
-        "left": 0,
-        "top": 39,
-        "right": 1510,
-        "bottom": 1549
+        "left": 1,
+        "top": 30,
+        "right": 1210,
+        "bottom": 1255
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": 0.524214
+        "width": 92.903571,
+        "left": 4.065179,
+        "top": 0.649235
       },
       "id": "slovakia-2026-european-football-championship",
       "feature": "european-football-championship",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-european-football-championship-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2026-european-football-championship-clean-5da131db.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-european-football-championship-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-european-football-championship-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-european-football-championship-2026.jpg",
+        "pixels": [
+          1510,
+          1599
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 39,
+          "right": 1510,
+          "bottom": 1549
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": 0.524214
+        },
+        "sha256": "a372234eddcfa271a9c41fd8bfffb8e031df3edb145bd0e30c9cf03a1fe3e003"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Trenčín - European Capital of Culture",
       "country": "Slovakia",
       "year": 2026,
-      "file": "2-euro-trencin-2026.jpg",
+      "file": "slovakia-2026-trencin-clean-a6c22c66.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-02-647.jpg",
-      "sha256": "a65983af7926eeee67767fadff3cbe9f93f2ba723962d67717d77ab471d832eb",
+      "sha256": "a6c22c66228494bef7f585c114e7e611b8c6982c5e2a6a95676c78362ce42f33",
       "pixels": [
-        1508,
-        1600
+        1217,
+        1292
       ],
       "bounds": {
         "left": 0,
-        "top": 44,
-        "right": 1508,
-        "bottom": 1553
+        "top": 25,
+        "right": 1215,
+        "bottom": 1262
       },
       "display": {
-        "width": 93.37558,
-        "left": 3.56221,
-        "top": 0.213014
+        "width": 91.926789,
+        "left": 4.362141,
+        "top": 1.049111
       },
       "id": "slovakia-2026-trencin",
       "feature": "trencin",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-trencin-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2026-trencin-clean-a6c22c66.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-trencin-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-trencin-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-trencin-2026.jpg",
+        "pixels": [
+          1508,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 44,
+          "right": 1508,
+          "bottom": 1553
+        },
+        "display": {
+          "width": 93.37558,
+          "left": 3.56221,
+          "top": 0.213014
+        },
+        "sha256": "a65983af7926eeee67767fadff3cbe9f93f2ba723962d67717d77ab471d832eb"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Rotary",
       "country": "Portugal",
       "year": 2026,
-      "file": "2-euro-rotary-2026.jpg",
+      "file": "portugal-2026-rotary-clean-67819247.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-03-465.jpg",
-      "sha256": "8cab04878e599fd53d4aac2de63cd96e032c61c395026833d9d2a375e742af07",
+      "sha256": "67819247b19a9cb74be308f8c022d0d98d86f429763154216a1a34a7ea81774d",
       "pixels": [
-        1472,
-        1600
+        1202,
+        1308
       ],
       "bounds": {
-        "left": 0,
-        "top": 53,
-        "right": 1472,
-        "bottom": 1526
+        "left": 2,
+        "top": 40,
+        "right": 1200,
+        "bottom": 1253
       },
       "display": {
-        "width": 93.374067,
-        "left": 3.562967,
-        "top": -0.424474
+        "width": 92.590169,
+        "left": 3.954915,
+        "top": -0.143704
       },
       "id": "portugal-2026-rotary",
       "feature": "rotary",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-rotary-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2026-rotary-clean-67819247.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-rotary-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-rotary-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-rotary-2026.jpg",
+        "pixels": [
+          1472,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 53,
+          "right": 1472,
+          "bottom": 1526
+        },
+        "display": {
+          "width": 93.374067,
+          "left": 3.562967,
+          "top": -0.424474
+        },
+        "sha256": "8cab04878e599fd53d4aac2de63cd96e032c61c395026833d9d2a375e742af07"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Energy Independence",
       "country": "Lithuania",
       "year": 2026,
-      "file": "2-euro-energy-independence-2026.jpg",
+      "file": "lithuania-2026-energy-independence-clean-a58ae6df.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-03-560.jpg",
-      "sha256": "c549611b868a26eb4d14a28e64e44f588a233ef0f3f1d3af9b315539bd17af1b",
+      "sha256": "a58ae6dfb4cfae76b39a1b163b9590a4e61cf481f1d9ac555df2234ad5b873d2",
       "pixels": [
-        1401,
-        1599
+        1174,
+        1340
       ],
       "bounds": {
         "left": 0,
-        "top": 140,
-        "right": 1401,
-        "bottom": 1541
+        "top": 111,
+        "right": 1169,
+        "bottom": 1295
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -6.399581
+        "width": 92.648332,
+        "left": 4.123126,
+        "top": -5.822266
       },
       "id": "lithuania-2026-energy-independence",
       "feature": "energy-independence",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-energy-independence-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2026-energy-independence-clean-a58ae6df.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-energy-independence-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-energy-independence-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-energy-independence-2026.jpg",
+        "pixels": [
+          1401,
+          1599
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 140,
+          "right": 1401,
+          "bottom": 1541
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -6.399581
+        },
+        "sha256": "c549611b868a26eb4d14a28e64e44f588a233ef0f3f1d3af9b315539bd17af1b"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Ireland Presidency of the Council of the EU",
       "country": "Ireland",
       "year": 2026,
-      "file": "2-euro-ireland-eu-presidency-2026.jpg",
+      "file": "ireland-2026-council-presidency-clean-5b3010be.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-03-650.jpg",
-      "sha256": "f8f66fcc47ef246943d164caaf850ca8a9b0ab81b00d623c57ad5551c2dcf4fa",
+      "sha256": "5b3010be429278cb8175c77921c98faf2ca25d2f4774bc5d056a1dda28b3fc96",
       "pixels": [
-        1496,
-        1600
+        1213,
+        1296
       ],
       "bounds": {
         "left": 0,
-        "top": 47,
-        "right": 1496,
-        "bottom": 1540
+        "top": 36,
+        "right": 1206,
+        "bottom": 1249
       },
       "display": {
         "width": 93.4375,
-        "left": 3.53125,
-        "top": 0.095651
+        "left": 3.800855,
+        "top": 0.164417
       },
       "id": "ireland-2026-council-presidency",
       "feature": "council-presidency",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-ireland-eu-presidency-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/ireland-2026-council-presidency-clean-5b3010be.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-ireland-eu-presidency-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-ireland-eu-presidency-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-ireland-eu-presidency-2026.jpg",
+        "pixels": [
+          1496,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 47,
+          "right": 1496,
+          "bottom": 1540
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": 0.095651
+        },
+        "sha256": "f8f66fcc47ef246943d164caaf850ca8a9b0ab81b00d623c57ad5551c2dcf4fa"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Carlo Collodi - Pinocchio",
@@ -258,271 +390,469 @@
       "name": "2 Euro Saint Francis of Assisi",
       "country": "Italy",
       "year": 2026,
-      "file": "2-euro-saint-francis-of-assisi-2026.jpg",
+      "file": "italy-2026-saint-francis-of-assisi-clean-ba756131.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-03-804.jpg",
-      "sha256": "8cf748483c9b9331aff835c79eb7028b927b35607d5bfceeed24929b41f1ec53",
+      "sha256": "ba756131ba92bebc920adac82f95f486ea878561a47ebbd762d8112fdec2a1db",
       "pixels": [
-        1406,
-        1600
+        1176,
+        1337
       ],
       "bounds": {
-        "left": 0,
-        "top": 112,
-        "right": 1406,
-        "bottom": 1518
+        "left": 3,
+        "top": 79,
+        "right": 1158,
+        "bottom": 1247
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -4.505601
+        "width": 94.077483,
+        "left": 3.811243,
+        "top": -3.382331
       },
       "id": "italy-2026-saint-francis-of-assisi",
       "feature": "saint-francis-of-assisi",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-saint-francis-of-assisi-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2026-saint-francis-of-assisi-clean-ba756131.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-saint-francis-of-assisi-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-saint-francis-of-assisi-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-saint-francis-of-assisi-2026.jpg",
+        "pixels": [
+          1406,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 112,
+          "right": 1406,
+          "bottom": 1518
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -4.505601
+        },
+        "sha256": "8cf748483c9b9331aff835c79eb7028b927b35607d5bfceeed24929b41f1ec53"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Academy of Athens",
       "country": "Greece",
       "year": 2026,
-      "file": "2-euro-academy-of-athens-2026.jpg",
+      "file": "greece-2026-academy-of-athens-clean-465f26b8.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-03-904.jpg",
-      "sha256": "9adff46f8aee1d8dedf035094daff088025fa8fa2bcaeb1e92646a8b7c19d8a3",
+      "sha256": "465f26b833f14e902e473f8f728f00f8288a450ecd69224250ca219a69a93adc",
       "pixels": [
-        1358,
-        1599
+        1155,
+        1362
       ],
       "bounds": {
         "left": 0,
-        "top": 89,
-        "right": 1358,
-        "bottom": 1447
+        "top": 70,
+        "right": 1155,
+        "bottom": 1241
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -3.186165
+        "width": 92.160813,
+        "left": 4.169593,
+        "top": -2.648004
       },
       "id": "greece-2026-academy-of-athens",
       "feature": "academy-of-athens",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-academy-of-athens-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2026-academy-of-athens-clean-465f26b8.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-academy-of-athens-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-academy-of-athens-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-academy-of-athens-2026.jpg",
+        "pixels": [
+          1358,
+          1599
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 89,
+          "right": 1358,
+          "bottom": 1447
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -3.186165
+        },
+        "sha256": "9adff46f8aee1d8dedf035094daff088025fa8fa2bcaeb1e92646a8b7c19d8a3"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro 200th Anniversary - Exodus of Missolonghi",
       "country": "Greece",
       "year": 2026,
-      "file": "2-euro-exodus-of-missolonghi-2026.jpg",
+      "file": "greece-2026-exodus-of-missolonghi-clean-11f00cf9.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-04-016.jpg",
-      "sha256": "4e47b00f4b68230e6934dcf3653eaa22a430e7b63fe662d6aaddb7d2bff2d733",
+      "sha256": "11f00cf9c1910bf1616a3afc548c50300af89927afc0bb182aec2633df09435a",
       "pixels": [
-        1490,
-        1600
+        1211,
+        1299
       ],
       "bounds": {
         "left": 0,
-        "top": 60,
-        "right": 1490,
-        "bottom": 1551
+        "top": 45,
+        "right": 1204,
+        "bottom": 1260
       },
       "display": {
-        "width": 93.374832,
-        "left": 3.562584,
-        "top": -0.82256
+        "width": 93.129887,
+        "left": 3.954218,
+        "top": -0.523148
       },
       "id": "greece-2026-exodus-of-missolonghi",
       "feature": "exodus-of-missolonghi",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-exodus-of-missolonghi-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2026-exodus-of-missolonghi-clean-11f00cf9.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-exodus-of-missolonghi-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-exodus-of-missolonghi-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-exodus-of-missolonghi-2026.jpg",
+        "pixels": [
+          1490,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 60,
+          "right": 1490,
+          "bottom": 1551
+        },
+        "display": {
+          "width": 93.374832,
+          "left": 3.562584,
+          "top": -0.82256
+        },
+        "sha256": "4e47b00f4b68230e6934dcf3653eaa22a430e7b63fe662d6aaddb7d2bff2d733"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Konrad Adenauer",
       "country": "Germany",
       "year": 2026,
-      "file": "2-euro-konrad-adenauer-2026.jpg",
+      "file": "germany-2026-konrad-adenauer-clean-8486e628.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-04-192.jpg",
-      "sha256": "cffc7270f4a36c6ada5acb0c6ad14a2ab1e3a7e5d8c257d784b3f84392b6965f",
+      "sha256": "8486e628ebddeb77183c27dac17ffaeb5807c83383896f5f92c4335f30c0b20b",
       "pixels": [
-        1447,
-        1600
+        1192,
+        1319
       ],
       "bounds": {
         "left": 0,
-        "top": 89,
-        "right": 1447,
-        "bottom": 1538
+        "top": 69,
+        "right": 1190,
+        "bottom": 1273
       },
       "display": {
-        "width": 93.308532,
-        "left": 3.595734,
-        "top": -2.801587
+        "width": 92.506229,
+        "left": 4.074491,
+        "top": -2.417307
       },
       "id": "germany-2026-konrad-adenauer",
       "feature": "konrad-adenauer",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-konrad-adenauer-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/germany-2026-konrad-adenauer-clean-8486e628.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-konrad-adenauer-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-konrad-adenauer-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-konrad-adenauer-2026.jpg",
+        "pixels": [
+          1447,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 89,
+          "right": 1447,
+          "bottom": 1538
+        },
+        "display": {
+          "width": 93.308532,
+          "left": 3.595734,
+          "top": -2.801587
+        },
+        "sha256": "cffc7270f4a36c6ada5acb0c6ad14a2ab1e3a7e5d8c257d784b3f84392b6965f"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Sipsik",
       "country": "Estonia",
       "year": 2026,
-      "file": "2-euro-sipsik-2026.jpg",
+      "file": "estonia-2026-sipsik-clean-17d7c59b.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-04-274.jpg",
-      "sha256": "fb64260910c6bba1125af991061aba7f0dcbb7c8ae7c90c28ae31926b9eb1ffa",
+      "sha256": "17d7c59b104477241a9dc6c6ad1fc61f2f8eb2b0bb50b5319e0e647b587651e9",
       "pixels": [
-        1432,
-        1600
+        1187,
+        1326
       ],
       "bounds": {
         "left": 0,
-        "top": 61,
-        "right": 1432,
-        "bottom": 1493
+        "top": 48,
+        "right": 1182,
+        "bottom": 1248
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -1.042729
+        "width": 92.42526,
+        "left": 4.232031,
+        "top": -0.8
       },
       "id": "estonia-2026-sipsik",
       "feature": "sipsik",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-sipsik-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2026-sipsik-clean-17d7c59b.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-sipsik-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-sipsik-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-sipsik-2026.jpg",
+        "pixels": [
+          1432,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 61,
+          "right": 1432,
+          "bottom": 1493
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -1.042729
+        },
+        "sha256": "fb64260910c6bba1125af991061aba7f0dcbb7c8ae7c90c28ae31926b9eb1ffa"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Cyprus Presidency of the Council of the EU",
       "country": "Cyprus",
       "year": 2026,
-      "file": "2-euro-cyprus-eu-presidency-2026.jpg",
+      "file": "cyprus-2026-council-presidency-clean-4dfafc91.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-04-366.jpg",
-      "sha256": "8744c1d23aca3bbd0da8eeac0e1cd09f3143ee291890e8da271a2afc4fcfdc88",
+      "sha256": "4dfafc917b1c7b7cc521cfc11ebaf8e1ffa63947c5c68eb6dd0d1186a21cea18",
       "pixels": [
-        1395,
-        1600
+        1171,
+        1343
       ],
       "bounds": {
-        "left": 0,
-        "top": 104,
-        "right": 1395,
-        "bottom": 1500
+        "left": 2,
+        "top": 84,
+        "right": 1167,
+        "bottom": 1263
       },
       "display": {
-        "width": 93.370568,
-        "left": 3.564716,
-        "top": -4.02346
+        "width": 92.803488,
+        "left": 3.927507,
+        "top": -3.719625
       },
       "id": "cyprus-2026-council-presidency",
       "feature": "council-presidency",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-cyprus-eu-presidency-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2026-council-presidency-clean-4dfafc91.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-cyprus-eu-presidency-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-cyprus-eu-presidency-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-cyprus-eu-presidency-2026.jpg",
+        "pixels": [
+          1395,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 104,
+          "right": 1395,
+          "bottom": 1500
+        },
+        "display": {
+          "width": 93.370568,
+          "left": 3.564716,
+          "top": -4.02346
+        },
+        "sha256": "8744c1d23aca3bbd0da8eeac0e1cd09f3143ee291890e8da271a2afc4fcfdc88"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Croatian Radiotelevision",
       "country": "Croatia",
       "year": 2026,
-      "file": "2-euro-croatian-radiotelevision-2026.jpg",
+      "file": "croatia-2026-croatian-radiotelevision-clean-28e77614.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-04-466.jpg",
-      "sha256": "b7dcab2b509bf4f388f6094b20896f85079a14d0ceb4c252cd68557ed6e5aea4",
+      "sha256": "28e77614cfa4c4255fab063486d741a9a0babe0e5fe21045ce16494808de169c",
       "pixels": [
-        1459,
-        1599
+        1198,
+        1313
       ],
       "bounds": {
-        "left": 9,
-        "top": 53,
-        "right": 1454,
-        "bottom": 1509
+        "left": 5,
+        "top": 41,
+        "right": 1192,
+        "bottom": 1248
       },
       "display": {
-        "width": 93.630022,
-        "left": 3.306641,
-        "top": -0.463728
+        "width": 92.740783,
+        "left": 3.918315,
+        "top": -0.236433
       },
       "id": "croatia-2026-croatian-radiotelevision",
       "feature": "croatian-radiotelevision",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-croatian-radiotelevision-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/croatia-2026-croatian-radiotelevision-clean-28e77614.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-croatian-radiotelevision-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-croatian-radiotelevision-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-croatian-radiotelevision-2026.jpg",
+        "pixels": [
+          1459,
+          1599
+        ],
+        "bounds": {
+          "left": 9,
+          "top": 53,
+          "right": 1454,
+          "bottom": 1509
+        },
+        "display": {
+          "width": 93.630022,
+          "left": 3.306641,
+          "top": -0.463728
+        },
+        "sha256": "b7dcab2b509bf4f388f6094b20896f85079a14d0ceb4c252cd68557ed6e5aea4"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Monastery of Poblet",
       "country": "Spain",
       "year": 2026,
-      "file": "2-euro-monastery-of-poblet-2026.jpg",
+      "file": "spain-2026-monastery-of-poblet-clean-adda66fc.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-04-670.jpg",
-      "sha256": "9db703ad9583b8af6dbe4bf73abf6cbc83d86b7b81aca8d5985919a36818288a",
+      "sha256": "adda66fc7fa4c4a534404e74dc918df7fabecde3559e74b0c5204bb93e96275d",
       "pixels": [
-        1397,
-        1600
+        1172,
+        1342
       ],
       "bounds": {
         "left": 0,
-        "top": 113,
-        "right": 1397,
-        "bottom": 1511
+        "top": 91,
+        "right": 1168,
+        "bottom": 1268
       },
       "display": {
-        "width": 93.370663,
-        "left": 3.564668,
-        "top": -4.61503
+        "width": 93.040569,
+        "left": 3.888488,
+        "top": -4.28664
       },
       "id": "spain-2026-monastery-of-poblet",
       "feature": "monastery-of-poblet",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-monastery-of-poblet-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2026-monastery-of-poblet-clean-adda66fc.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-monastery-of-poblet-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-monastery-of-poblet-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-monastery-of-poblet-2026.jpg",
+        "pixels": [
+          1397,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 113,
+          "right": 1397,
+          "bottom": 1511
+        },
+        "display": {
+          "width": 93.370663,
+          "left": 3.564668,
+          "top": -4.61503
+        },
+        "sha256": "9db703ad9583b8af6dbe4bf73abf6cbc83d86b7b81aca8d5985919a36818288a"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "name": "2 Euro Belgian Railways",
       "country": "Belgium",
       "year": 2026,
-      "file": "2-euro-belgian-railways-2026.jpg",
+      "file": "belgium-2026-belgian-railways-clean-c61892d5.png",
       "source_file": "εικόνα_Viber_2026-10-13_09-11-04-750.jpg",
-      "sha256": "bb9fcf92d22904cece22dbf9fadfaf1fde2eac1e03bbbfcfb6a72ce5b68582ea",
+      "sha256": "c61892d5127a63cd1491c4ad67fd6992a487db9da869e2b5f67d811d8fc6305d",
       "pixels": [
-        1422,
-        1600
+        1182,
+        1330
       ],
       "bounds": {
         "left": 0,
-        "top": 77,
-        "right": 1422,
-        "bottom": 1500
+        "top": 57,
+        "right": 1180,
+        "bottom": 1255
       },
       "display": {
-        "width": 93.371838,
-        "left": 3.564081,
-        "top": -2.1185
+        "width": 92.189587,
+        "left": 4.233201,
+        "top": -1.508191
       },
       "id": "belgium-2026-belgian-railways",
       "feature": "belgian-railways",
-      "image": "PRODUCT PHOTOS/COINS/2026/2-euro-belgian-railways-2026.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2026-belgian-railways-clean-c61892d5.png",
       "colored": false,
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2026.en.html",
       "official_name_verified": false,
-      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending."
+      "official_verification_note": "The ECB 2026 catalogue returned HTTP 404 on 2026-10-13; verification against an issuer or EU Official Journal is pending.",
+      "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-belgian-railways-2026.jpg",
+      "original_metadata": {
+        "file": "2-euro-belgian-railways-2026.jpg",
+        "image": "PRODUCT PHOTOS/COINS/2026/2-euro-belgian-railways-2026.jpg",
+        "pixels": [
+          1422,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 77,
+          "right": 1422,
+          "bottom": 1500
+        },
+        "display": {
+          "width": 93.371838,
+          "left": 3.564081,
+          "top": -2.1185
+        },
+        "sha256": "bb9fcf92d22904cece22dbf9fadfaf1fde2eac1e03bbbfcfb6a72ce5b68582ea"
+      },
+      "image_edit": "ai-retouched"
     },
     {
       "index": 1,
@@ -534,28 +864,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "official_name_verified": true,
       "id": "croatia-2025-king-tomislav",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-croatia-2025-king-tomislav.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/croatia-2025-king-tomislav-clean-26bf5c83.png",
       "colored": false,
-      "sha256": "4a517727b0f156341723ee9e8a967cf48b2884a2135f5a17e2e63774a517296a",
+      "sha256": "26bf5c832c10dc7f0d3de3b3e2d530ba42abc1d9ed6a9d65ae8c0c8a12447682",
       "pixels": [
-        1407,
-        1600
+        1176,
+        1337
       ],
       "bounds": {
-        "left": 0,
-        "top": 138,
-        "right": 1407,
-        "bottom": 1546
+        "left": 3,
+        "top": 88,
+        "right": 1166,
+        "bottom": 1263
       },
       "display": {
-        "width": 93.371138,
-        "left": 3.564431,
-        "top": -6.220437
+        "width": 93.517021,
+        "left": 3.769814,
+        "top": -4.060372
       },
       "official_feature": "The 1100th anniversary of the Croatian Kingdom and coronation of King Tomislav",
       "searchAliases": [
         "2 Euro 1100th anniversary of the coronation of King Tomislav"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-croatia-2025-king-tomislav.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-croatia-2025-king-tomislav.jpg",
+        "pixels": [
+          1407,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 138,
+          "right": 1407,
+          "bottom": 1546
+        },
+        "display": {
+          "width": 93.371138,
+          "left": 3.564431,
+          "top": -6.220437
+        },
+        "sha256": "4a517727b0f156341723ee9e8a967cf48b2884a2135f5a17e2e63774a517296a"
+      },
+      "file": "croatia-2025-king-tomislav-clean-26bf5c83.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 2,
@@ -567,28 +919,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "official_name_verified": true,
       "id": "greece-2025-mikis-theodorakis",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-mikis-theodorakis.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2025-mikis-theodorakis-clean-c7176641.png",
       "colored": false,
-      "sha256": "bac7472ed7e13482dc34cabf21bedf8ceb15f990096a349dfc64746ba5ea8a57",
+      "sha256": "c7176641371949f818265d24611f3397f6b1e4cac83bb3dbd92e3bebd17b36ac",
       "pixels": [
-        1441,
-        1600
+        1190,
+        1322
       ],
       "bounds": {
-        "left": 0,
-        "top": 84,
-        "right": 1441,
-        "bottom": 1526
+        "left": 2,
+        "top": 68,
+        "right": 1175,
+        "bottom": 1252
       },
       "display": {
-        "width": 93.372703,
-        "left": 3.563649,
-        "top": -2.505461
+        "width": 93.911001,
+        "left": 3.807459,
+        "top": -2.428843
       },
       "official_feature": "100 years from the birth of Mikis Theodorakis",
       "searchAliases": [
         "2 Euro 100th anniversary of the birth of Mikis Theodorakis"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-mikis-theodorakis.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-mikis-theodorakis.jpg",
+        "pixels": [
+          1441,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 84,
+          "right": 1441,
+          "bottom": 1526
+        },
+        "display": {
+          "width": 93.372703,
+          "left": 3.563649,
+          "top": -2.505461
+        },
+        "sha256": "bac7472ed7e13482dc34cabf21bedf8ceb15f990096a349dfc64746ba5ea8a57"
+      },
+      "file": "greece-2025-mikis-theodorakis-clean-c7176641.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 3,
@@ -600,28 +974,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "official_name_verified": true,
       "id": "greece-2025-laskarina-bouboulina",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-laskarina-bouboulina.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2025-laskarina-bouboulina-clean-8f868c95.png",
       "colored": false,
-      "sha256": "36f13001a1935c367a576ef8e7469230f99b0406ff16c29db9bb2e3554e2f00b",
+      "sha256": "8f868c95bba43db09c2c4d3feec203c1ee8e4402471a9e6b87faa3c44c33d85b",
       "pixels": [
-        1412,
-        1600
+        1178,
+        1335
       ],
       "bounds": {
-        "left": 0,
-        "top": 106,
-        "right": 1412,
-        "bottom": 1518
+        "left": 1,
+        "top": 82,
+        "right": 1166,
+        "bottom": 1269
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -4.07693
+        "width": 92.729044,
+        "left": 4.318424,
+        "top": -3.517323
       },
       "official_feature": "200 Years from the Death of Laskarina Bouboulina",
       "searchAliases": [
         "2 Euro 200th anniversary of the death of Laskarina Bouboulina"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-laskarina-bouboulina.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-laskarina-bouboulina.jpg",
+        "pixels": [
+          1412,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 106,
+          "right": 1412,
+          "bottom": 1518
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -4.07693
+        },
+        "sha256": "36f13001a1935c367a576ef8e7469230f99b0406ff16c29db9bb2e3554e2f00b"
+      },
+      "file": "greece-2025-laskarina-bouboulina-clean-8f868c95.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 4,
@@ -633,28 +1029,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "official_name_verified": true,
       "id": "italy-2025-amerigo-vespucci",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-amerigo-vespucci.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2025-amerigo-vespucci-clean-134b7060.png",
       "colored": false,
-      "sha256": "034eedfb07ab12ebb450cac9f4c272a1f8e96e0bab3f24ab6c76b1727a8c40ac",
+      "sha256": "134b706051f1f06314f50812c16386a99880836d9dbaaaa5fb1fd48d34ec1a9a",
       "pixels": [
-        1486,
-        1600
+        1209,
+        1301
       ],
       "bounds": {
-        "left": 0,
-        "top": 61,
-        "right": 1482,
-        "bottom": 1548
+        "left": 2,
+        "top": 43,
+        "right": 1202,
+        "bottom": 1265
       },
       "display": {
-        "width": 93.374664,
-        "left": 3.688341,
-        "top": -0.895511
+        "width": 92.443484,
+        "left": 4.219415,
+        "top": -0.350399
       },
       "official_feature": "Amerigo Vespucci Tour Mondiale 2023-2025",
       "searchAliases": [
         "2 Euro Amerigo Vespucci"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-amerigo-vespucci.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-amerigo-vespucci.jpg",
+        "pixels": [
+          1486,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 61,
+          "right": 1482,
+          "bottom": 1548
+        },
+        "display": {
+          "width": 93.374664,
+          "left": 3.688341,
+          "top": -0.895511
+        },
+        "sha256": "034eedfb07ab12ebb450cac9f4c272a1f8e96e0bab3f24ab6c76b1727a8c40ac"
+      },
+      "file": "italy-2025-amerigo-vespucci-clean-134b7060.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 5,
@@ -666,25 +1084,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "official_name_verified": true,
       "id": "italy-2025-jubilee",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-jubilee.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2025-jubilee-clean-82dcc67e.png",
       "colored": false,
-      "sha256": "f7e3ca90ee32406d847502a558f6b37be1f4dfd9cbc156eb77683e29fb09677b",
+      "sha256": "82dcc67ea7ef9356b7e6336812b1c836a432301545e7be671276130afd9dd62f",
       "pixels": [
-        1600,
-        1527
+        1284,
+        1225
       ],
       "bounds": {
-        "left": 164,
-        "top": 168,
-        "right": 1436,
-        "bottom": 1440
+        "left": 83,
+        "top": 54,
+        "right": 1181,
+        "bottom": 1166
       },
       "display": {
-        "width": 117.531447,
-        "left": -8.515723,
-        "top": -9.403302
+        "width": 107.890063,
+        "left": -2.854766,
+        "top": -1.599933
       },
-      "official_feature": "Jubilee 2025"
+      "official_feature": "Jubilee 2025",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-jubilee.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-jubilee.jpg",
+        "pixels": [
+          1600,
+          1527
+        ],
+        "bounds": {
+          "left": 164,
+          "top": 168,
+          "right": 1436,
+          "bottom": 1440
+        },
+        "display": {
+          "width": 117.531447,
+          "left": -8.515723,
+          "top": -9.403302
+        },
+        "sha256": "f7e3ca90ee32406d847502a558f6b37be1f4dfd9cbc156eb77683e29fb09677b"
+      },
+      "file": "italy-2025-jubilee-clean-82dcc67e.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 6,
@@ -696,25 +1136,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "official_name_verified": true,
       "id": "latvia-2025-selija",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-latvia-2025-selija.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2025-selija-clean-996d4ea0.png",
       "colored": false,
-      "sha256": "01d46ad4aa0aef24fd7eb40c304a1c711f641b5397f8c2011302c0b6c4b55f49",
+      "sha256": "996d4ea08d6962ee99bc4eefc50189d5dbfe189c21344d001c6c076e3d5478a7",
       "pixels": [
-        1373,
-        1601
+        1161,
+        1354
       ],
       "bounds": {
         "left": 0,
-        "top": 99,
-        "right": 1373,
-        "bottom": 1473
+        "top": 82,
+        "right": 1151,
+        "bottom": 1255
       },
       "display": {
-        "width": 93.369496,
-        "left": 3.565252,
-        "top": -3.794896
+        "width": 92.481618,
+        "left": 4.407475,
+        "top": -3.594363
       },
-      "official_feature": "Sēlija"
+      "official_feature": "Sēlija",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-latvia-2025-selija.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-latvia-2025-selija.jpg",
+        "pixels": [
+          1373,
+          1601
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 99,
+          "right": 1373,
+          "bottom": 1473
+        },
+        "display": {
+          "width": 93.369496,
+          "left": 3.565252,
+          "top": -3.794896
+        },
+        "sha256": "01d46ad4aa0aef24fd7eb40c304a1c711f641b5397f8c2011302c0b6c4b55f49"
+      },
+      "file": "latvia-2025-selija-clean-996d4ea0.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 7,
@@ -726,28 +1188,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "official_name_verified": true,
       "id": "lithuania-2025-national-defence",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-national-defence.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2025-national-defence-clean-14b7b365.png",
       "colored": false,
-      "sha256": "e2822c65d7fdec5ff4200a3f8c3dfaa546ad193716f8acd28dff2cf4384dcded",
+      "sha256": "14b7b3654049032c2ce9755e74f28b88d252b67122f29f90f710acd72b1b5d74",
       "pixels": [
-        1396,
-        1600
+        1171,
+        1343
       ],
       "bounds": {
-        "left": 0,
-        "top": 111,
-        "right": 1396,
-        "bottom": 1508
+        "left": 2,
+        "top": 88,
+        "right": 1161,
+        "bottom": 1272
       },
       "display": {
-        "width": 93.370616,
-        "left": 3.564692,
-        "top": -4.486668
+        "width": 92.411582,
+        "left": 4.359876,
+        "top": -4.007179
       },
       "official_feature": "Defence",
       "searchAliases": [
         "2 Euro National defence"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-national-defence.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-national-defence.jpg",
+        "pixels": [
+          1396,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 111,
+          "right": 1396,
+          "bottom": 1508
+        },
+        "display": {
+          "width": 93.370616,
+          "left": 3.564692,
+          "top": -4.486668
+        },
+        "sha256": "e2822c65d7fdec5ff4200a3f8c3dfaa546ad193716f8acd28dff2cf4384dcded"
+      },
+      "file": "lithuania-2025-national-defence-clean-14b7b365.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 8,
@@ -759,28 +1243,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "official_name_verified": true,
       "id": "lithuania-2025-lithuania-minor",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-lithuania-minor.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2025-lithuania-minor-clean-a2141b50.png",
       "colored": false,
-      "sha256": "4a350f26894050278fad8da1979020c45387813c9055020c2199ede5f585cec5",
+      "sha256": "a2141b509a0adfabd922b946b00c54e2ab8c94151e95dadfaa936c47572ad6fb",
       "pixels": [
-        1385,
-        1600
+        1167,
+        1347
       ],
       "bounds": {
         "left": 0,
-        "top": 75,
-        "right": 1385,
-        "bottom": 1461
+        "top": 60,
+        "right": 1165,
+        "bottom": 1240
       },
       "display": {
-        "width": 93.370085,
-        "left": 3.564958,
-        "top": -2.118642
+        "width": 92.408104,
+        "left": 4.125132,
+        "top": -1.813559
       },
       "official_feature": "Lithuanian Ethnographic Regions – Lithuanian Minor",
       "searchAliases": [
         "2 Euro Lithuania Minor"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-lithuania-minor.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-lithuania-minor.jpg",
+        "pixels": [
+          1385,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 75,
+          "right": 1385,
+          "bottom": 1461
+        },
+        "display": {
+          "width": 93.370085,
+          "left": 3.564958,
+          "top": -2.118642
+        },
+        "sha256": "4a350f26894050278fad8da1979020c45387813c9055020c2199ede5f585cec5"
+      },
+      "file": "lithuania-2025-lithuania-minor-clean-a2141b50.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 9,
@@ -825,28 +1331,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "official_name_verified": true,
       "id": "spain-2025-salamanca",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-spain-2025-salamanca.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2025-salamanca-clean-119a522b.png",
       "colored": false,
-      "sha256": "06655f145741dd83e1b89e81e1b41fa0e3d24e26d0653b5888f34da5f6a4eaa3",
+      "sha256": "119a522b335c08e9b26aabdf5a25e36c1e5cfabfc7ac9786d8e3708d2ea2bcef",
       "pixels": [
-        1496,
-        1600
+        1213,
+        1297
       ],
       "bounds": {
         "left": 0,
-        "top": 56,
-        "right": 1496,
-        "bottom": 1554
+        "top": 27,
+        "right": 1211,
+        "bottom": 1263
       },
       "display": {
-        "width": 93.31275,
-        "left": 3.593625,
-        "top": -0.555491
+        "width": 91.698776,
+        "left": 4.476209,
+        "top": 0.89639
       },
       "official_feature": "The recognition of Salamanca as a UNESCO World Heritage Site",
       "searchAliases": [
         "2 Euro Old City of Salamanca"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-spain-2025-salamanca.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-spain-2025-salamanca.jpg",
+        "pixels": [
+          1496,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 56,
+          "right": 1496,
+          "bottom": 1554
+        },
+        "display": {
+          "width": 93.31275,
+          "left": 3.593625,
+          "top": -0.555491
+        },
+        "sha256": "06655f145741dd83e1b89e81e1b41fa0e3d24e26d0653b5888f34da5f6a4eaa3"
+      },
+      "file": "spain-2025-salamanca-clean-119a522b.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 11,
@@ -858,28 +1386,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "official_name_verified": true,
       "id": "belgium-2024-fight-against-cancer",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-belgium-2024-fight-against-cancer.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2024-fight-against-cancer-clean-0dfd87c7.png",
       "colored": false,
-      "sha256": "d7bdc580e03002129e360d8f25c87fdd4a05575dc8cf4f900a786416ceb1a1e8",
+      "sha256": "0dfd87c7b13d754846e291674faf28b161f1dba572958d99e8539f74e3ed001a",
       "pixels": [
-        1486,
-        1600
+        1209,
+        1301
       ],
       "bounds": {
-        "left": 0,
-        "top": 41,
-        "right": 1486,
-        "bottom": 1528
+        "left": 3,
+        "top": 31,
+        "right": 1195,
+        "bottom": 1250
       },
       "display": {
-        "width": 93.374664,
-        "left": 3.562668,
-        "top": 0.361214
+        "width": 92.670991,
+        "left": 4.336085,
+        "top": 0.561321
       },
       "official_feature": "Fight against cancer in Belgium",
       "searchAliases": [
         "2 Euro Fight against cancer"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-belgium-2024-fight-against-cancer.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-belgium-2024-fight-against-cancer.jpg",
+        "pixels": [
+          1486,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 41,
+          "right": 1486,
+          "bottom": 1528
+        },
+        "display": {
+          "width": 93.374664,
+          "left": 3.562668,
+          "top": 0.361214
+        },
+        "sha256": "d7bdc580e03002129e360d8f25c87fdd4a05575dc8cf4f900a786416ceb1a1e8"
+      },
+      "file": "belgium-2024-fight-against-cancer-clean-0dfd87c7.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 12,
@@ -891,28 +1441,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "official_name_verified": true,
       "id": "france-2024-paris-olympics",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-france-2024-paris-olympics.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/france-2024-paris-olympics-clean-a7725314.png",
       "colored": false,
-      "sha256": "7c8581151ad2e0d10b9bd87c1b11f21f295f97bb5326fdcc2b625c0048fec3af",
+      "sha256": "a772531460be1850074bae338bb81e455301ead2f5e8887ca0ca50ad57432005",
       "pixels": [
-        1244,
-        1600
+        1106,
+        1422
       ],
       "bounds": {
         "left": 0,
-        "top": 263,
-        "right": 1244,
-        "bottom": 1508
+        "top": 195,
+        "right": 1097,
+        "bottom": 1317
       },
       "display": {
-        "width": 93.36245,
-        "left": 3.568775,
-        "top": -16.800703
+        "width": 92.105058,
+        "left": 4.57222,
+        "top": -13.301638
       },
       "official_feature": "The Eiffel Tower",
       "searchAliases": [
         "2 Euro Paris 2024 Olympic and Paralympic Games"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-france-2024-paris-olympics.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-france-2024-paris-olympics.jpg",
+        "pixels": [
+          1244,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 263,
+          "right": 1244,
+          "bottom": 1508
+        },
+        "display": {
+          "width": 93.36245,
+          "left": 3.568775,
+          "top": -16.800703
+        },
+        "sha256": "7c8581151ad2e0d10b9bd87c1b11f21f295f97bb5326fdcc2b625c0048fec3af"
+      },
+      "file": "france-2024-paris-olympics-clean-a7725314.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 13,
@@ -924,28 +1496,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "official_name_verified": true,
       "id": "greece-2024-penelope-delta",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-penelope-delta.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2024-penelope-delta-clean-4d0de828.png",
       "colored": false,
-      "sha256": "2cf94fb90fd76b14186f2c5a4dcf76e8c6d1f54993605811e40e2ebaa1ace000",
+      "sha256": "4d0de82836e2af6210063077c25e400ec48a9b0e6363ece7f9f9a7ad18a0d782",
       "pixels": [
-        1416,
-        1600
+        1180,
+        1333
       ],
       "bounds": {
-        "left": 0,
-        "top": 80,
-        "right": 1416,
-        "bottom": 1497
+        "left": 2,
+        "top": 63,
+        "right": 1176,
+        "bottom": 1251
       },
       "display": {
-        "width": 93.37156,
-        "left": 3.56422,
-        "top": -2.337729
+        "width": 92.808291,
+        "left": 3.924505,
+        "top": -2.017519
       },
       "official_feature": "150 years from the birth of Penelope Delta",
       "searchAliases": [
         "2 Euro 150th anniversary of the birth of Penelope Delta"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-penelope-delta.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-penelope-delta.jpg",
+        "pixels": [
+          1416,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 80,
+          "right": 1416,
+          "bottom": 1497
+        },
+        "display": {
+          "width": 93.37156,
+          "left": 3.56422,
+          "top": -2.337729
+        },
+        "sha256": "2cf94fb90fd76b14186f2c5a4dcf76e8c6d1f54993605811e40e2ebaa1ace000"
+      },
+      "file": "greece-2024-penelope-delta-clean-4d0de828.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 14,
@@ -957,28 +1551,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "official_name_verified": true,
       "id": "greece-2024-restoration-democracy",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-restoration-democracy.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2024-restoration-democracy-clean-894b9533.png",
       "colored": false,
-      "sha256": "fbe118c370ef5512f5a11df059a72625488c7568efd8baf2ef0fcf73ac84a54f",
+      "sha256": "894b9533169c516dcda8e83eeef3ad82be5b90a8cd5185f352256b55ed0b657e",
       "pixels": [
-        1453,
-        1600
+        1195,
+        1316
       ],
       "bounds": {
         "left": 0,
-        "top": 59,
-        "right": 1453,
-        "bottom": 1513
+        "top": 48,
+        "right": 1186,
+        "bottom": 1248
       },
       "display": {
-        "width": 93.373238,
-        "left": 3.563381,
-        "top": -0.85398
+        "width": 93.048177,
+        "left": 4.076302,
+        "top": -0.8
       },
       "official_feature": "50 years from the restoration of democracy in Greece",
       "searchAliases": [
         "2 Euro 50th anniversary of the restoration of democracy"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-restoration-democracy.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-restoration-democracy.jpg",
+        "pixels": [
+          1453,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 59,
+          "right": 1453,
+          "bottom": 1513
+        },
+        "display": {
+          "width": 93.373238,
+          "left": 3.563381,
+          "top": -0.85398
+        },
+        "sha256": "fbe118c370ef5512f5a11df059a72625488c7568efd8baf2ef0fcf73ac84a54f"
+      },
+      "file": "greece-2024-restoration-democracy-clean-894b9533.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 15,
@@ -990,25 +1606,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "official_name_verified": true,
       "id": "italy-2024-rita-levi-montalcini",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-rita-levi-montalcini.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2024-rita-levi-montalcini-clean-3c10371e.png",
       "colored": false,
-      "sha256": "f345e4aff3d3387018144b2f85e5dcbbea10babf7142aa06bf0bbb4ed30bd043",
+      "sha256": "3c10371e80c4a6efa59223214161a83a31a2bcada9a962f14394212872917e72",
       "pixels": [
-        1471,
-        1600
+        1202,
+        1309
       ],
       "bounds": {
         "left": 0,
-        "top": 109,
-        "right": 1471,
-        "bottom": 1572
+        "top": 82,
+        "right": 1197,
+        "bottom": 1287
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -3.73207
+        "width": 93.204876,
+        "left": 3.841416,
+        "top": -3.420902
       },
-      "official_feature": "Rita Levi-Montalcini"
+      "official_feature": "Rita Levi-Montalcini",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-rita-levi-montalcini.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-rita-levi-montalcini.jpg",
+        "pixels": [
+          1471,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 109,
+          "right": 1471,
+          "bottom": 1572
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -3.73207
+        },
+        "sha256": "f345e4aff3d3387018144b2f85e5dcbbea10babf7142aa06bf0bbb4ed30bd043"
+      },
+      "file": "italy-2024-rita-levi-montalcini-clean-3c10371e.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 16,
@@ -1020,28 +1658,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "official_name_verified": true,
       "id": "italy-2024-guardia-di-finanza",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-guardia-di-finanza.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2024-guardia-di-finanza-clean-5e5627e6.png",
       "colored": false,
-      "sha256": "608a7a106f2ec0c81b901ce24608430fb4f0b7dc47ed6ef33b05f857288362a2",
+      "sha256": "5e5627e6c2ad63ccfedb139563f21a9df5a6644fd23426b8471bcab400edfb13",
       "pixels": [
-        1355,
-        1600
+        1154,
+        1363
       ],
       "bounds": {
         "left": 0,
-        "top": 109,
-        "right": 1355,
-        "bottom": 1457
+        "top": 87,
+        "right": 1151,
+        "bottom": 1250
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -4.337523
+        "width": 92.714424,
+        "left": 4.013301,
+        "top": -4.052236
       },
       "official_feature": "The 250th anniversary of the foundation of the Guardia di Finanza Corps",
       "searchAliases": [
         "2 Euro 250th anniversary of the Guardia di Finanza"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-guardia-di-finanza.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-guardia-di-finanza.jpg",
+        "pixels": [
+          1355,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 109,
+          "right": 1355,
+          "bottom": 1457
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -4.337523
+        },
+        "sha256": "608a7a106f2ec0c81b901ce24608430fb4f0b7dc47ed6ef33b05f857288362a2"
+      },
+      "file": "italy-2024-guardia-di-finanza-clean-5e5627e6.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 17,
@@ -1053,28 +1713,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "official_name_verified": true,
       "id": "lithuania-2024-straw-gardens",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-lithuania-2024-straw-gardens.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2024-straw-gardens-clean-5c0a9fe6.png",
       "colored": false,
-      "sha256": "8068e96d3924a407a13e7f70f4d6d32d83533bc7719566fcb7d875bbe050fad9",
+      "sha256": "5c0a9fe654e739b575df9beb19cc54f0c67240bec44a7951328b39f88b5c6585",
       "pixels": [
-        1404,
-        1600
+        1175,
+        1339
       ],
       "bounds": {
         "left": 0,
-        "top": 119,
-        "right": 1404,
-        "bottom": 1524
+        "top": 95,
+        "right": 1169,
+        "bottom": 1287
       },
       "display": {
-        "width": 93.370996,
-        "left": 3.564502,
-        "top": -4.976423
+        "width": 92.104918,
+        "left": 4.432702,
+        "top": -4.509281
       },
       "official_feature": "Lithuanian tradition of straw gardens inscribed on the UNESCO Representative List of the Intangible Cultural Heritage of Humanity",
       "searchAliases": [
         "2 Euro Straw gardens"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-lithuania-2024-straw-gardens.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-lithuania-2024-straw-gardens.jpg",
+        "pixels": [
+          1404,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 119,
+          "right": 1404,
+          "bottom": 1524
+        },
+        "display": {
+          "width": 93.370996,
+          "left": 3.564502,
+          "top": -4.976423
+        },
+        "sha256": "8068e96d3924a407a13e7f70f4d6d32d83533bc7719566fcb7d875bbe050fad9"
+      },
+      "file": "lithuania-2024-straw-gardens-clean-5c0a9fe6.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 19,
@@ -1086,28 +1768,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "official_name_verified": true,
       "id": "portugal-2024-carnation-revolution",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-carnation-revolution.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2024-carnation-revolution-clean-966d50a2.png",
       "colored": false,
-      "sha256": "be697d4e7054a32c420b8c862d6d069cb478a2c1ada3ab051ab04190d5ad7704",
+      "sha256": "966d50a2bf3f5fe5e7d2f0a405319de25b61087d6f0e87c3d8fb5a4b6e1f5016",
       "pixels": [
-        1487,
-        1600
+        1209,
+        1300
       ],
       "bounds": {
         "left": 0,
-        "top": 55,
-        "right": 1484,
-        "bottom": 1543
+        "top": 37,
+        "right": 1207,
+        "bottom": 1262
       },
       "display": {
-        "width": 93.374706,
-        "left": 3.656838,
-        "top": -0.516171
+        "width": 92.217092,
+        "left": 4.21773,
+        "top": 0.115306
       },
       "official_feature": "The 50th anniversary of the 25th of April 1974",
       "searchAliases": [
         "2 Euro 50th anniversary of the Carnation Revolution"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-carnation-revolution.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-carnation-revolution.jpg",
+        "pixels": [
+          1487,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 55,
+          "right": 1484,
+          "bottom": 1543
+        },
+        "display": {
+          "width": 93.374706,
+          "left": 3.656838,
+          "top": -0.516171
+        },
+        "sha256": "be697d4e7054a32c420b8c862d6d069cb478a2c1ada3ab051ab04190d5ad7704"
+      },
+      "file": "portugal-2024-carnation-revolution-clean-966d50a2.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 20,
@@ -1119,28 +1823,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "official_name_verified": true,
       "id": "portugal-2024-paris-olympics",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-paris-olympics.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2024-paris-olympics-clean-56d22b8a.png",
       "colored": false,
-      "sha256": "c8d681ee6831a6e5fd89c77fbb868ba77d30b89cae5f8773fec23b81e95be336",
+      "sha256": "56d22b8a92f96d750e3dea94378c1f62ad006577722dc84cf4b3041e3c356169",
       "pixels": [
-        1428,
-        1600
+        1184,
+        1328
       ],
       "bounds": {
         "left": 0,
-        "top": 70,
-        "right": 1425,
-        "bottom": 1499
+        "top": 56,
+        "right": 1182,
+        "bottom": 1252
       },
       "display": {
-        "width": 93.372113,
-        "left": 3.662023,
-        "top": -1.639564
+        "width": 92.5,
+        "left": 4.078125,
+        "top": -1.4375
       },
       "official_feature": "Portugal’s participation in the 33rd Olympic Games",
       "searchAliases": [
         "2 Euro Portuguese participation in the 2024 Olympic Games"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-paris-olympics.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-paris-olympics.jpg",
+        "pixels": [
+          1428,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 70,
+          "right": 1425,
+          "bottom": 1499
+        },
+        "display": {
+          "width": 93.372113,
+          "left": 3.662023,
+          "top": -1.639564
+        },
+        "sha256": "c8d681ee6831a6e5fd89c77fbb868ba77d30b89cae5f8773fec23b81e95be336"
+      },
+      "file": "portugal-2024-paris-olympics-clean-56d22b8a.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 21,
@@ -1152,28 +1878,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "official_name_verified": true,
       "id": "slovenia-2024-national-university-library",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-slovenia-2024-national-university-library.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2024-national-university-library-clean-1e1cbef0.png",
       "colored": false,
-      "sha256": "e2c64357030c723ea591b3e42c96a73f8ec69f2ba72b05709524fcd3dff10adb",
+      "sha256": "1e1cbef0b8fb4c46481eeeb550b5c4c7fcfb1b75c61a7f44f948865582ee4ab4",
       "pixels": [
-        1448,
-        1600
+        1193,
+        1319
       ],
       "bounds": {
-        "left": 3,
-        "top": 78,
-        "right": 1445,
-        "bottom": 1524
+        "left": 2,
+        "top": 60,
+        "right": 1188,
+        "bottom": 1262
       },
       "display": {
-        "width": 93.566736,
-        "left": 3.466632,
-        "top": -2.102697
+        "width": 92.737885,
+        "left": 3.99766,
+        "top": -1.726601
       },
       "official_feature": "250 years of National and University Library (Narodna in univerzitetna knjižnica)",
       "searchAliases": [
         "2 Euro 250th anniversary of the National and University Library"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-slovenia-2024-national-university-library.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-slovenia-2024-national-university-library.jpg",
+        "pixels": [
+          1448,
+          1600
+        ],
+        "bounds": {
+          "left": 3,
+          "top": 78,
+          "right": 1445,
+          "bottom": 1524
+        },
+        "display": {
+          "width": 93.566736,
+          "left": 3.466632,
+          "top": -2.102697
+        },
+        "sha256": "e2c64357030c723ea591b3e42c96a73f8ec69f2ba72b05709524fcd3dff10adb"
+      },
+      "file": "slovenia-2024-national-university-library-clean-1e1cbef0.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 22,
@@ -1185,28 +1933,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "official_name_verified": true,
       "id": "cyprus-2023-central-bank",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-cyprus-2023-central-bank.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2023-central-bank-clean-82f250c8.png",
       "colored": false,
-      "sha256": "b4b0f66698cff742e148b748cce83a6b90d12b75d7b9f8c4053d1f2acf3b76ed",
+      "sha256": "82f250c8466b6a2aba0b54f7e6aeb81e611d6f92be6e62c6b19bc53d9c680531",
       "pixels": [
-        1368,
-        1600
+        1159,
+        1356
       ],
       "bounds": {
         "left": 0,
-        "top": 74,
-        "right": 1368,
-        "bottom": 1443
+        "top": 62,
+        "right": 1158,
+        "bottom": 1229
       },
       "display": {
-        "width": 93.369248,
-        "left": 3.565376,
-        "top": -2.113176
+        "width": 92.796969,
+        "left": 3.891549,
+        "top": -2.026617
       },
       "official_feature": "The 60th anniversary of the foundation of the Central Bank of Cyprus",
       "searchAliases": [
         "2 Euro 60th anniversary of the Central Bank of Cyprus"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-cyprus-2023-central-bank.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-cyprus-2023-central-bank.jpg",
+        "pixels": [
+          1368,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 74,
+          "right": 1368,
+          "bottom": 1443
+        },
+        "display": {
+          "width": 93.369248,
+          "left": 3.565376,
+          "top": -2.113176
+        },
+        "sha256": "b4b0f66698cff742e148b748cce83a6b90d12b75d7b9f8c4053d1f2acf3b76ed"
+      },
+      "file": "cyprus-2023-central-bank-clean-82f250c8.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 23,
@@ -1218,28 +1988,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "official_name_verified": true,
       "id": "estonia-2023-barn-swallow",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-estonia-2023-barn-swallow.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2023-barn-swallow-clean-5e6966b7.png",
       "colored": false,
-      "sha256": "e784af117b9e03ab82c2c2d149a6ddf073b0e7e668e1c08ad3914695648e99e6",
+      "sha256": "5e6966b7a9e33847a0a74a30d6382dd1cbf85995d34afc5f9c1153a2947310c2",
       "pixels": [
-        1418,
-        1601
+        1180,
+        1333
       ],
       "bounds": {
-        "left": 2,
-        "top": 124,
-        "right": 1418,
-        "bottom": 1498
+        "left": 0,
+        "top": 63,
+        "right": 1176,
+        "bottom": 1249
       },
       "display": {
-        "width": 93.569474,
-        "left": 3.399276,
-        "top": -3.859154
+        "width": 92.964798,
+        "left": 3.925169,
+        "top": -2.025875
       },
       "official_feature": "Estonian national bird – the barn swallow",
       "searchAliases": [
         "2 Euro The barn swallow – Estonia's national bird"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-estonia-2023-barn-swallow.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-estonia-2023-barn-swallow.jpg",
+        "pixels": [
+          1418,
+          1601
+        ],
+        "bounds": {
+          "left": 2,
+          "top": 124,
+          "right": 1418,
+          "bottom": 1498
+        },
+        "display": {
+          "width": 93.569474,
+          "left": 3.399276,
+          "top": -3.859154
+        },
+        "sha256": "e784af117b9e03ab82c2c2d149a6ddf073b0e7e668e1c08ad3914695648e99e6"
+      },
+      "file": "estonia-2023-barn-swallow-clean-5e6966b7.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 24,
@@ -1251,28 +2043,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "official_name_verified": true,
       "id": "italy-2023-air-force",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-italy-2023-air-force.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2023-air-force-clean-7006a6dc.png",
       "colored": false,
-      "sha256": "6c94bbeb127f4837a5d0e1ae18cb7616538903aa9a770cbcfb88f12508ec582a",
+      "sha256": "7006a6dca4dfcc2073b29f4a1c587c3a6e9f479fb8492b15dad5844da32ca3b1",
       "pixels": [
-        1461,
-        1600
+        1199,
+        1312
       ],
       "bounds": {
-        "left": 0,
-        "top": 90,
-        "right": 1458,
-        "bottom": 1549
+        "left": 1,
+        "top": 72,
+        "right": 1185,
+        "bottom": 1270
       },
       "display": {
-        "width": 93.565584,
-        "left": 3.563271,
-        "top": -2.826294
+        "width": 93.515495,
+        "left": 3.999217,
+        "top": -2.678109
       },
       "official_feature": "The 100th anniversary of the Air Force",
       "searchAliases": [
         "2 Euro 100th anniversary of the Italian Air Force"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-italy-2023-air-force.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-italy-2023-air-force.jpg",
+        "pixels": [
+          1461,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 90,
+          "right": 1458,
+          "bottom": 1549
+        },
+        "display": {
+          "width": 93.565584,
+          "left": 3.563271,
+          "top": -2.826294
+        },
+        "sha256": "6c94bbeb127f4837a5d0e1ae18cb7616538903aa9a770cbcfb88f12508ec582a"
+      },
+      "file": "italy-2023-air-force-clean-7006a6dc.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 25,
@@ -1284,25 +2098,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "official_name_verified": true,
       "id": "lithuania-2023-together-with-ukraine",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-lithuania-2023-together-with-ukraine.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2023-together-with-ukraine-clean-2ffde3ab.png",
       "colored": false,
-      "sha256": "3dfd716bf2c958806e9ab2150ad370d6835d9b5880a3584ab8cae50a28fa6022",
+      "sha256": "2ffde3ab824168378026a864d62efd359638435c2934f127735e8ea44f47e8b0",
       "pixels": [
-        1396,
-        1600
+        1171,
+        1343
       ],
       "bounds": {
         "left": 0,
-        "top": 115,
-        "right": 1396,
-        "bottom": 1511
+        "top": 92,
+        "right": 1168,
+        "bottom": 1283
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -4.759715
+        "width": 91.86844,
+        "left": 4.433459,
+        "top": -4.280174
       },
-      "official_feature": "Together with Ukraine"
+      "official_feature": "Together with Ukraine",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-lithuania-2023-together-with-ukraine.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-lithuania-2023-together-with-ukraine.jpg",
+        "pixels": [
+          1396,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 115,
+          "right": 1396,
+          "bottom": 1511
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -4.759715
+        },
+        "sha256": "3dfd716bf2c958806e9ab2150ad370d6835d9b5880a3584ab8cae50a28fa6022"
+      },
+      "file": "lithuania-2023-together-with-ukraine-clean-2ffde3ab.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 26,
@@ -1314,25 +2150,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "official_name_verified": true,
       "id": "portugal-2023-peace",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-peace.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2023-peace-clean-79b98d9c.png",
       "colored": false,
-      "sha256": "992347390c5605c5ae58b63fa3a38f8ab7b463d2432cd6a1dff020961167a02f",
+      "sha256": "79b98d9c943677b317c59a7e05c9bf59e4addd48863af1976c7819db62ff8fa0",
       "pixels": [
-        1373,
-        1601
+        1161,
+        1354
       ],
       "bounds": {
         "left": 0,
-        "top": 92,
-        "right": 1373,
-        "bottom": 1467
+        "top": 76,
+        "right": 1159,
+        "bottom": 1250
       },
       "display": {
-        "width": 93.301591,
-        "left": 3.599205,
-        "top": -3.314318
+        "width": 92.402843,
+        "left": 4.128168,
+        "top": -3.111265
       },
-      "official_feature": "Peace"
+      "official_feature": "Peace",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-peace.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-peace.jpg",
+        "pixels": [
+          1373,
+          1601
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 92,
+          "right": 1373,
+          "bottom": 1467
+        },
+        "display": {
+          "width": 93.301591,
+          "left": 3.599205,
+          "top": -3.314318
+        },
+        "sha256": "992347390c5605c5ae58b63fa3a38f8ab7b463d2432cd6a1dff020961167a02f"
+      },
+      "file": "portugal-2023-peace-clean-79b98d9c.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 27,
@@ -1344,28 +2202,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "official_name_verified": true,
       "id": "portugal-2023-world-youth-day",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-world-youth-day.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2023-world-youth-day-clean-8591e87b.png",
       "colored": false,
-      "sha256": "63c85868f92f5d82247b702452548cd88e1c59c929512306de4516757937cacc",
+      "sha256": "8591e87b80fe597539910159e545c6f0a475e9a7eb5d1c650f85137bc8ac6c2f",
       "pixels": [
-        1438,
-        1600
+        1254,
+        1254
       ],
       "bounds": {
-        "left": 0,
-        "top": 122,
-        "right": 1438,
-        "bottom": 1561
+        "left": 5,
+        "top": 7,
+        "right": 1240,
+        "bottom": 1245
       },
       "display": {
-        "width": 93.372568,
-        "left": 3.563716,
-        "top": -4.984234
+        "width": 94.645093,
+        "left": 3.267089,
+        "top": 2.409178
       },
       "official_feature": "World Youth Day",
       "searchAliases": [
         "2 Euro World Youth Day Lisbon 2023"
-      ]
+      ],
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-world-youth-day.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-world-youth-day.jpg",
+        "pixels": [
+          1438,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 122,
+          "right": 1438,
+          "bottom": 1561
+        },
+        "display": {
+          "width": 93.372568,
+          "left": 3.563716,
+          "top": -4.984234
+        },
+        "sha256": "63c85868f92f5d82247b702452548cd88e1c59c929512306de4516757937cacc"
+      },
+      "file": "portugal-2023-world-youth-day-clean-8591e87b.png",
+      "image_edit": "ai-retouched"
     },
     {
       "index": 28,

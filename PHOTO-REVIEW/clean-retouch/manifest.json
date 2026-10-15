@@ -222,7 +222,22 @@
       "status": "candidate_finish_reviewed_exact_engraving_unverified",
       "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2026-ivan-cankar-attempt3.png",
       "review": "Attempt 3 has the requested clean silver ring, champagne gold centre and white background. Inscription and 12 stars visually retained. Exact fine engraving against original is not established; not applied to live site. Prior attempts preserved.",
-      "earlier_attempts_location": "Local recovery outputs/clean-coins; excluded from repository because rejected or superseded."
+      "earlier_attempts_location": "Local recovery outputs/clean-coins; excluded from repository because rejected or superseded.",
+      "candidate_sha256": "006416a63f361b881b3afbbbf22295b0350b1adfc3baaea2d83aa9e51ef08110",
+      "applied": true,
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2026-ivan-cankar-clean-006416a6.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 23,
+        "right": 1199,
+        "bottom": 1235
+      },
+      "live_display": {
+        "width": 92.666564,
+        "left": 4.032359,
+        "top": 1.164346
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "slovakia-2026-european-football-championship",
@@ -239,7 +254,20 @@
         1291
       ],
       "batch": "2026-10-14-batch-001",
-      "applied": false
+      "applied": true,
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2026-european-football-championship-clean-5da131db.png",
+      "live_bounds": {
+        "left": 1,
+        "top": 30,
+        "right": 1210,
+        "bottom": 1255
+      },
+      "live_display": {
+        "width": 92.903571,
+        "left": 4.065179,
+        "top": 0.649235
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "slovakia-2026-trencin",
@@ -256,7 +284,20 @@
         1292
       ],
       "batch": "2026-10-14-batch-001",
-      "applied": false
+      "applied": true,
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2026-trencin-clean-a6c22c66.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 25,
+        "right": 1215,
+        "bottom": 1262
+      },
+      "live_display": {
+        "width": 91.926789,
+        "left": 4.362141,
+        "top": 1.049111
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "portugal-2026-rotary",
@@ -273,7 +314,20 @@
         1308
       ],
       "batch": "2026-10-14-batch-002",
-      "applied": false
+      "applied": true,
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2026-rotary-clean-67819247.png",
+      "live_bounds": {
+        "left": 2,
+        "top": 40,
+        "right": 1200,
+        "bottom": 1253
+      },
+      "live_display": {
+        "width": 92.590169,
+        "left": 3.954915,
+        "top": -0.143704
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "lithuania-2026-energy-independence",
@@ -290,7 +344,20 @@
         1340
       ],
       "batch": "2026-10-14-batch-002",
-      "applied": false
+      "applied": true,
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2026-energy-independence-clean-a58ae6df.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 111,
+        "right": 1169,
+        "bottom": 1295
+      },
+      "live_display": {
+        "width": 92.648332,
+        "left": 4.123126,
+        "top": -5.822266
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "ireland-2026-council-presidency",
@@ -309,12 +376,25 @@
       ],
       "source_sha256": "f8f66fcc47ef246943d164caaf850ca8a9b0ab81b00d623c57ad5551c2dcf4fa",
       "batch": "2026-10-14-batch-003",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "5b3010be429278cb8175c77921c98faf2ca25d2f4774bc5d056a1dda28b3fc96",
       "pixels": [
         1213,
         1296
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/ireland-2026-council-presidency-clean-5b3010be.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 36,
+        "right": 1206,
+        "bottom": 1249
+      },
+      "live_display": {
+        "width": 93.4375,
+        "left": 3.800855,
+        "top": 0.164417
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "italy-2026-carlo-collodi-pinocchio",
@@ -358,12 +438,25 @@
       ],
       "source_sha256": "8cf748483c9b9331aff835c79eb7028b927b35607d5bfceeed24929b41f1ec53",
       "batch": "2026-10-14-batch-004",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "ba756131ba92bebc920adac82f95f486ea878561a47ebbd762d8112fdec2a1db",
       "pixels": [
         1176,
         1337
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2026-saint-francis-of-assisi-clean-ba756131.png",
+      "live_bounds": {
+        "left": 3,
+        "top": 79,
+        "right": 1158,
+        "bottom": 1247
+      },
+      "live_display": {
+        "width": 94.077483,
+        "left": 3.811243,
+        "top": -3.382331
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "greece-2026-academy-of-athens",
@@ -382,12 +475,25 @@
       ],
       "source_sha256": "9adff46f8aee1d8dedf035094daff088025fa8fa2bcaeb1e92646a8b7c19d8a3",
       "batch": "2026-10-14-batch-004",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "465f26b833f14e902e473f8f728f00f8288a450ecd69224250ca219a69a93adc",
       "pixels": [
         1155,
         1362
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2026-academy-of-athens-clean-465f26b8.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 70,
+        "right": 1155,
+        "bottom": 1241
+      },
+      "live_display": {
+        "width": 92.160813,
+        "left": 4.169593,
+        "top": -2.648004
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "greece-2026-exodus-of-missolonghi",
@@ -415,12 +521,25 @@
       ],
       "source_sha256": "4e47b00f4b68230e6934dcf3653eaa22a430e7b63fe662d6aaddb7d2bff2d733",
       "batch": "2026-10-14-batch-004",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "11f00cf9c1910bf1616a3afc548c50300af89927afc0bb182aec2633df09435a",
       "pixels": [
         1211,
         1299
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2026-exodus-of-missolonghi-clean-11f00cf9.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 45,
+        "right": 1204,
+        "bottom": 1260
+      },
+      "live_display": {
+        "width": 93.129887,
+        "left": 3.954218,
+        "top": -0.523148
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "germany-2026-konrad-adenauer",
@@ -439,12 +558,25 @@
       ],
       "source_sha256": "cffc7270f4a36c6ada5acb0c6ad14a2ab1e3a7e5d8c257d784b3f84392b6965f",
       "batch": "2026-10-14-batch-004",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "8486e628ebddeb77183c27dac17ffaeb5807c83383896f5f92c4335f30c0b20b",
       "pixels": [
         1192,
         1319
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/germany-2026-konrad-adenauer-clean-8486e628.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 69,
+        "right": 1190,
+        "bottom": 1273
+      },
+      "live_display": {
+        "width": 92.506229,
+        "left": 4.074491,
+        "top": -2.417307
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "estonia-2026-sipsik",
@@ -463,12 +595,25 @@
       ],
       "source_sha256": "fb64260910c6bba1125af991061aba7f0dcbb7c8ae7c90c28ae31926b9eb1ffa",
       "batch": "2026-10-14-batch-004",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "17d7c59b104477241a9dc6c6ad1fc61f2f8eb2b0bb50b5319e0e647b587651e9",
       "pixels": [
         1187,
         1326
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2026-sipsik-clean-17d7c59b.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 48,
+        "right": 1182,
+        "bottom": 1248
+      },
+      "live_display": {
+        "width": 92.42526,
+        "left": 4.232031,
+        "top": -0.8
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "cyprus-2026-council-presidency",
@@ -487,12 +632,25 @@
       ],
       "source_sha256": "8744c1d23aca3bbd0da8eeac0e1cd09f3143ee291890e8da271a2afc4fcfdc88",
       "batch": "2026-10-14-batch-004",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "4dfafc917b1c7b7cc521cfc11ebaf8e1ffa63947c5c68eb6dd0d1186a21cea18",
       "pixels": [
         1171,
         1343
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2026-council-presidency-clean-4dfafc91.png",
+      "live_bounds": {
+        "left": 2,
+        "top": 84,
+        "right": 1167,
+        "bottom": 1263
+      },
+      "live_display": {
+        "width": 92.803488,
+        "left": 3.927507,
+        "top": -3.719625
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "croatia-2026-croatian-radiotelevision",
@@ -511,12 +669,25 @@
       ],
       "source_sha256": "b7dcab2b509bf4f388f6094b20896f85079a14d0ceb4c252cd68557ed6e5aea4",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "28e77614cfa4c4255fab063486d741a9a0babe0e5fe21045ce16494808de169c",
       "pixels": [
         1198,
         1313
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/croatia-2026-croatian-radiotelevision-clean-28e77614.png",
+      "live_bounds": {
+        "left": 5,
+        "top": 41,
+        "right": 1192,
+        "bottom": 1248
+      },
+      "live_display": {
+        "width": 92.740783,
+        "left": 3.918315,
+        "top": -0.236433
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "spain-2026-monastery-of-poblet",
@@ -535,12 +706,25 @@
       ],
       "source_sha256": "9db703ad9583b8af6dbe4bf73abf6cbc83d86b7b81aca8d5985919a36818288a",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "adda66fc7fa4c4a534404e74dc918df7fabecde3559e74b0c5204bb93e96275d",
       "pixels": [
         1172,
         1342
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2026-monastery-of-poblet-clean-adda66fc.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 91,
+        "right": 1168,
+        "bottom": 1268
+      },
+      "live_display": {
+        "width": 93.040569,
+        "left": 3.888488,
+        "top": -4.28664
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "belgium-2026-belgian-railways",
@@ -559,12 +743,25 @@
       ],
       "source_sha256": "bb9fcf92d22904cece22dbf9fadfaf1fde2eac1e03bbbfcfb6a72ce5b68582ea",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "c61892d5127a63cd1491c4ad67fd6992a487db9da869e2b5f67d811d8fc6305d",
       "pixels": [
         1182,
         1330
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2026-belgian-railways-clean-c61892d5.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 57,
+        "right": 1180,
+        "bottom": 1255
+      },
+      "live_display": {
+        "width": 92.189587,
+        "left": 4.233201,
+        "top": -1.508191
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "croatia-2025-king-tomislav",
@@ -583,12 +780,25 @@
       ],
       "source_sha256": "4a517727b0f156341723ee9e8a967cf48b2884a2135f5a17e2e63774a517296a",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "26bf5c832c10dc7f0d3de3b3e2d530ba42abc1d9ed6a9d65ae8c0c8a12447682",
       "pixels": [
         1176,
         1337
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/croatia-2025-king-tomislav-clean-26bf5c83.png",
+      "live_bounds": {
+        "left": 3,
+        "top": 88,
+        "right": 1166,
+        "bottom": 1263
+      },
+      "live_display": {
+        "width": 93.517021,
+        "left": 3.769814,
+        "top": -4.060372
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "greece-2025-mikis-theodorakis",
@@ -607,12 +817,25 @@
       ],
       "source_sha256": "bac7472ed7e13482dc34cabf21bedf8ceb15f990096a349dfc64746ba5ea8a57",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "c7176641371949f818265d24611f3397f6b1e4cac83bb3dbd92e3bebd17b36ac",
       "pixels": [
         1190,
         1322
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2025-mikis-theodorakis-clean-c7176641.png",
+      "live_bounds": {
+        "left": 2,
+        "top": 68,
+        "right": 1175,
+        "bottom": 1252
+      },
+      "live_display": {
+        "width": 93.911001,
+        "left": 3.807459,
+        "top": -2.428843
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "greece-2025-laskarina-bouboulina",
@@ -631,12 +854,25 @@
       ],
       "source_sha256": "36f13001a1935c367a576ef8e7469230f99b0406ff16c29db9bb2e3554e2f00b",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "8f868c95bba43db09c2c4d3feec203c1ee8e4402471a9e6b87faa3c44c33d85b",
       "pixels": [
         1178,
         1335
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2025-laskarina-bouboulina-clean-8f868c95.png",
+      "live_bounds": {
+        "left": 1,
+        "top": 82,
+        "right": 1166,
+        "bottom": 1269
+      },
+      "live_display": {
+        "width": 92.729044,
+        "left": 4.318424,
+        "top": -3.517323
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "italy-2025-amerigo-vespucci",
@@ -655,12 +891,25 @@
       ],
       "source_sha256": "034eedfb07ab12ebb450cac9f4c272a1f8e96e0bab3f24ab6c76b1727a8c40ac",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "134b706051f1f06314f50812c16386a99880836d9dbaaaa5fb1fd48d34ec1a9a",
       "pixels": [
         1209,
         1301
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2025-amerigo-vespucci-clean-134b7060.png",
+      "live_bounds": {
+        "left": 2,
+        "top": 43,
+        "right": 1202,
+        "bottom": 1265
+      },
+      "live_display": {
+        "width": 92.443484,
+        "left": 4.219415,
+        "top": -0.350399
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "italy-2025-jubilee",
@@ -679,12 +928,25 @@
       ],
       "source_sha256": "f7e3ca90ee32406d847502a558f6b37be1f4dfd9cbc156eb77683e29fb09677b",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "82dcc67ea7ef9356b7e6336812b1c836a432301545e7be671276130afd9dd62f",
       "pixels": [
         1284,
         1225
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2025-jubilee-clean-82dcc67e.png",
+      "live_bounds": {
+        "left": 83,
+        "top": 54,
+        "right": 1181,
+        "bottom": 1166
+      },
+      "live_display": {
+        "width": 107.890063,
+        "left": -2.854766,
+        "top": -1.599933
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "latvia-2025-selija",
@@ -703,12 +965,25 @@
       ],
       "source_sha256": "01d46ad4aa0aef24fd7eb40c304a1c711f641b5397f8c2011302c0b6c4b55f49",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "996d4ea08d6962ee99bc4eefc50189d5dbfe189c21344d001c6c076e3d5478a7",
       "pixels": [
         1161,
         1354
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2025-selija-clean-996d4ea0.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 82,
+        "right": 1151,
+        "bottom": 1255
+      },
+      "live_display": {
+        "width": 92.481618,
+        "left": 4.407475,
+        "top": -3.594363
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "lithuania-2025-national-defence",
@@ -727,12 +1002,25 @@
       ],
       "source_sha256": "e2822c65d7fdec5ff4200a3f8c3dfaa546ad193716f8acd28dff2cf4384dcded",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "14b7b3654049032c2ce9755e74f28b88d252b67122f29f90f710acd72b1b5d74",
       "pixels": [
         1171,
         1343
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2025-national-defence-clean-14b7b365.png",
+      "live_bounds": {
+        "left": 2,
+        "top": 88,
+        "right": 1161,
+        "bottom": 1272
+      },
+      "live_display": {
+        "width": 92.411582,
+        "left": 4.359876,
+        "top": -4.007179
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "lithuania-2025-lithuania-minor",
@@ -751,12 +1039,25 @@
       ],
       "source_sha256": "4a350f26894050278fad8da1979020c45387813c9055020c2199ede5f585cec5",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "a2141b509a0adfabd922b946b00c54e2ab8c94151e95dadfaa936c47572ad6fb",
       "pixels": [
         1167,
         1347
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2025-lithuania-minor-clean-a2141b50.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 60,
+        "right": 1165,
+        "bottom": 1240
+      },
+      "live_display": {
+        "width": 92.408104,
+        "left": 4.125132,
+        "top": -1.813559
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "slovenia-2025-miki-muster",
@@ -796,12 +1097,25 @@
       ],
       "source_sha256": "06655f145741dd83e1b89e81e1b41fa0e3d24e26d0653b5888f34da5f6a4eaa3",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "119a522b335c08e9b26aabdf5a25e36c1e5cfabfc7ac9786d8e3708d2ea2bcef",
       "pixels": [
         1213,
         1297
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2025-salamanca-clean-119a522b.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 27,
+        "right": 1211,
+        "bottom": 1263
+      },
+      "live_display": {
+        "width": 91.698776,
+        "left": 4.476209,
+        "top": 0.89639
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "belgium-2024-fight-against-cancer",
@@ -820,12 +1134,25 @@
       ],
       "source_sha256": "d7bdc580e03002129e360d8f25c87fdd4a05575dc8cf4f900a786416ceb1a1e8",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "0dfd87c7b13d754846e291674faf28b161f1dba572958d99e8539f74e3ed001a",
       "pixels": [
         1209,
         1301
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2024-fight-against-cancer-clean-0dfd87c7.png",
+      "live_bounds": {
+        "left": 3,
+        "top": 31,
+        "right": 1195,
+        "bottom": 1250
+      },
+      "live_display": {
+        "width": 92.670991,
+        "left": 4.336085,
+        "top": 0.561321
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "france-2024-paris-olympics",
@@ -844,12 +1171,25 @@
       ],
       "source_sha256": "7c8581151ad2e0d10b9bd87c1b11f21f295f97bb5326fdcc2b625c0048fec3af",
       "batch": "2026-10-14-batch-005",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "a772531460be1850074bae338bb81e455301ead2f5e8887ca0ca50ad57432005",
       "pixels": [
         1106,
         1422
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/france-2024-paris-olympics-clean-a7725314.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 195,
+        "right": 1097,
+        "bottom": 1317
+      },
+      "live_display": {
+        "width": 92.105058,
+        "left": 4.57222,
+        "top": -13.301638
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "greece-2024-penelope-delta",
@@ -868,12 +1208,25 @@
       ],
       "source_sha256": "2cf94fb90fd76b14186f2c5a4dcf76e8c6d1f54993605811e40e2ebaa1ace000",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "4d0de82836e2af6210063077c25e400ec48a9b0e6363ece7f9f9a7ad18a0d782",
       "pixels": [
         1180,
         1333
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2024-penelope-delta-clean-4d0de828.png",
+      "live_bounds": {
+        "left": 2,
+        "top": 63,
+        "right": 1176,
+        "bottom": 1251
+      },
+      "live_display": {
+        "width": 92.808291,
+        "left": 3.924505,
+        "top": -2.017519
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "greece-2024-restoration-democracy",
@@ -892,12 +1245,25 @@
       ],
       "source_sha256": "fbe118c370ef5512f5a11df059a72625488c7568efd8baf2ef0fcf73ac84a54f",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "894b9533169c516dcda8e83eeef3ad82be5b90a8cd5185f352256b55ed0b657e",
       "pixels": [
         1195,
         1316
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2024-restoration-democracy-clean-894b9533.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 48,
+        "right": 1186,
+        "bottom": 1248
+      },
+      "live_display": {
+        "width": 93.048177,
+        "left": 4.076302,
+        "top": -0.8
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "italy-2024-rita-levi-montalcini",
@@ -916,12 +1282,25 @@
       ],
       "source_sha256": "f345e4aff3d3387018144b2f85e5dcbbea10babf7142aa06bf0bbb4ed30bd043",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "3c10371e80c4a6efa59223214161a83a31a2bcada9a962f14394212872917e72",
       "pixels": [
         1202,
         1309
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2024-rita-levi-montalcini-clean-3c10371e.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 82,
+        "right": 1197,
+        "bottom": 1287
+      },
+      "live_display": {
+        "width": 93.204876,
+        "left": 3.841416,
+        "top": -3.420902
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "italy-2024-guardia-di-finanza",
@@ -940,12 +1319,25 @@
       ],
       "source_sha256": "608a7a106f2ec0c81b901ce24608430fb4f0b7dc47ed6ef33b05f857288362a2",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "5e5627e6c2ad63ccfedb139563f21a9df5a6644fd23426b8471bcab400edfb13",
       "pixels": [
         1154,
         1363
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2024-guardia-di-finanza-clean-5e5627e6.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 87,
+        "right": 1151,
+        "bottom": 1250
+      },
+      "live_display": {
+        "width": 92.714424,
+        "left": 4.013301,
+        "top": -4.052236
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "lithuania-2024-straw-gardens",
@@ -964,12 +1356,25 @@
       ],
       "source_sha256": "8068e96d3924a407a13e7f70f4d6d32d83533bc7719566fcb7d875bbe050fad9",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "5c0a9fe654e739b575df9beb19cc54f0c67240bec44a7951328b39f88b5c6585",
       "pixels": [
         1175,
         1339
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2024-straw-gardens-clean-5c0a9fe6.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 95,
+        "right": 1169,
+        "bottom": 1287
+      },
+      "live_display": {
+        "width": 92.104918,
+        "left": 4.432702,
+        "top": -4.509281
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "portugal-2024-carnation-revolution",
@@ -988,12 +1393,25 @@
       ],
       "source_sha256": "be697d4e7054a32c420b8c862d6d069cb478a2c1ada3ab051ab04190d5ad7704",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "966d50a2bf3f5fe5e7d2f0a405319de25b61087d6f0e87c3d8fb5a4b6e1f5016",
       "pixels": [
         1209,
         1300
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2024-carnation-revolution-clean-966d50a2.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 37,
+        "right": 1207,
+        "bottom": 1262
+      },
+      "live_display": {
+        "width": 92.217092,
+        "left": 4.21773,
+        "top": 0.115306
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "portugal-2024-paris-olympics",
@@ -1012,12 +1430,25 @@
       ],
       "source_sha256": "c8d681ee6831a6e5fd89c77fbb868ba77d30b89cae5f8773fec23b81e95be336",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "56d22b8a92f96d750e3dea94378c1f62ad006577722dc84cf4b3041e3c356169",
       "pixels": [
         1184,
         1328
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2024-paris-olympics-clean-56d22b8a.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 56,
+        "right": 1182,
+        "bottom": 1252
+      },
+      "live_display": {
+        "width": 92.5,
+        "left": 4.078125,
+        "top": -1.4375
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "slovenia-2024-national-university-library",
@@ -1036,12 +1467,25 @@
       ],
       "source_sha256": "e2c64357030c723ea591b3e42c96a73f8ec69f2ba72b05709524fcd3dff10adb",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "1e1cbef0b8fb4c46481eeeb550b5c4c7fcfb1b75c61a7f44f948865582ee4ab4",
       "pixels": [
         1193,
         1319
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2024-national-university-library-clean-1e1cbef0.png",
+      "live_bounds": {
+        "left": 2,
+        "top": 60,
+        "right": 1188,
+        "bottom": 1262
+      },
+      "live_display": {
+        "width": 92.737885,
+        "left": 3.99766,
+        "top": -1.726601
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "cyprus-2023-central-bank",
@@ -1060,12 +1504,25 @@
       ],
       "source_sha256": "b4b0f66698cff742e148b748cce83a6b90d12b75d7b9f8c4053d1f2acf3b76ed",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "82f250c8466b6a2aba0b54f7e6aeb81e611d6f92be6e62c6b19bc53d9c680531",
       "pixels": [
         1159,
         1356
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2023-central-bank-clean-82f250c8.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 62,
+        "right": 1158,
+        "bottom": 1229
+      },
+      "live_display": {
+        "width": 92.796969,
+        "left": 3.891549,
+        "top": -2.026617
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "estonia-2023-barn-swallow",
@@ -1084,12 +1541,25 @@
       ],
       "source_sha256": "e784af117b9e03ab82c2c2d149a6ddf073b0e7e668e1c08ad3914695648e99e6",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "5e6966b7a9e33847a0a74a30d6382dd1cbf85995d34afc5f9c1153a2947310c2",
       "pixels": [
         1180,
         1333
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2023-barn-swallow-clean-5e6966b7.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 63,
+        "right": 1176,
+        "bottom": 1249
+      },
+      "live_display": {
+        "width": 92.964798,
+        "left": 3.925169,
+        "top": -2.025875
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "italy-2023-air-force",
@@ -1108,12 +1578,25 @@
       ],
       "source_sha256": "6c94bbeb127f4837a5d0e1ae18cb7616538903aa9a770cbcfb88f12508ec582a",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "7006a6dca4dfcc2073b29f4a1c587c3a6e9f479fb8492b15dad5844da32ca3b1",
       "pixels": [
         1199,
         1312
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2023-air-force-clean-7006a6dc.png",
+      "live_bounds": {
+        "left": 1,
+        "top": 72,
+        "right": 1185,
+        "bottom": 1270
+      },
+      "live_display": {
+        "width": 93.515495,
+        "left": 3.999217,
+        "top": -2.678109
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "lithuania-2023-together-with-ukraine",
@@ -1132,12 +1615,25 @@
       ],
       "source_sha256": "3dfd716bf2c958806e9ab2150ad370d6835d9b5880a3584ab8cae50a28fa6022",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "2ffde3ab824168378026a864d62efd359638435c2934f127735e8ea44f47e8b0",
       "pixels": [
         1171,
         1343
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2023-together-with-ukraine-clean-2ffde3ab.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 92,
+        "right": 1168,
+        "bottom": 1283
+      },
+      "live_display": {
+        "width": 91.86844,
+        "left": 4.433459,
+        "top": -4.280174
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "portugal-2023-peace",
@@ -1156,12 +1652,25 @@
       ],
       "source_sha256": "992347390c5605c5ae58b63fa3a38f8ab7b463d2432cd6a1dff020961167a02f",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "79b98d9c943677b317c59a7e05c9bf59e4addd48863af1976c7819db62ff8fa0",
       "pixels": [
         1161,
         1354
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2023-peace-clean-79b98d9c.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 76,
+        "right": 1159,
+        "bottom": 1250
+      },
+      "live_display": {
+        "width": 92.402843,
+        "left": 4.128168,
+        "top": -3.111265
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "portugal-2023-world-youth-day",
@@ -1180,12 +1689,25 @@
       ],
       "source_sha256": "63c85868f92f5d82247b702452548cd88e1c59c929512306de4516757937cacc",
       "batch": "2026-10-14-batch-006",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "8591e87b80fe597539910159e545c6f0a475e9a7eb5d1c650f85137bc8ac6c2f",
       "pixels": [
         1254,
         1254
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2023-world-youth-day-clean-8591e87b.png",
+      "live_bounds": {
+        "left": 5,
+        "top": 7,
+        "right": 1240,
+        "bottom": 1245
+      },
+      "live_display": {
+        "width": 94.645093,
+        "left": 3.267089,
+        "top": 2.409178
+      },
+      "activation_approval": "User explicitly approved all 40 candidates for the live catalogue despite unverified fine engraving on 2026-10-14."
     },
     {
       "id": "slovakia-2023-blood-transfusion",
@@ -1622,7 +2144,7 @@
       "candidate": null
     }
   ],
-  "batch_status": "incomplete_review_candidates_saved_no_site_changes",
+  "batch_status": "40_candidates_activated_with_user_approval_remaining_sources_pending",
   "batches": [
     {
       "id": "2026-10-14-batch-001",
@@ -1711,6 +2233,12 @@
     "awaiting_first_attempt": 62,
     "generation_blocked": 2,
     "without_saved_candidate": 64,
-    "existing_retouched_preserved": 30
+    "existing_retouched_preserved": 30,
+    "active_candidates": 40
+  },
+  "activation": {
+    "date": "2026-10-14",
+    "approved_candidates": 40,
+    "exact_engraving_verified": false
   }
 }

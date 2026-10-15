@@ -1,0 +1,687 @@
+{
+  "date": "2026-10-14",
+  "user_approved": true,
+  "exact_engraving_verified": false,
+  "images": [
+    {
+      "id": "slovenia-2026-ivan-cankar",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2026-ivan-cankar-clean-006416a6.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2026-ivan-cankar-attempt3.png",
+      "sha256": "006416a63f361b881b3afbbbf22295b0350b1adfc3baaea2d83aa9e51ef08110",
+      "bounds": {
+        "left": 0,
+        "top": 23,
+        "right": 1199,
+        "bottom": 1235
+      },
+      "display": {
+        "width": 92.666564,
+        "left": 4.032359,
+        "top": 1.164346
+      }
+    },
+    {
+      "id": "slovakia-2026-european-football-championship",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2026-european-football-championship-clean-5da131db.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2026-european-football-championship-attempt1.png",
+      "sha256": "5da131db5ed20d375bc7be38367c5dfc537ba8f28942abffe1b8a81f1c3451ac",
+      "bounds": {
+        "left": 1,
+        "top": 30,
+        "right": 1210,
+        "bottom": 1255
+      },
+      "display": {
+        "width": 92.903571,
+        "left": 4.065179,
+        "top": 0.649235
+      }
+    },
+    {
+      "id": "slovakia-2026-trencin",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2026-trencin-clean-a6c22c66.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2026-trencin-attempt1.png",
+      "sha256": "a6c22c66228494bef7f585c114e7e611b8c6982c5e2a6a95676c78362ce42f33",
+      "bounds": {
+        "left": 0,
+        "top": 25,
+        "right": 1215,
+        "bottom": 1262
+      },
+      "display": {
+        "width": 91.926789,
+        "left": 4.362141,
+        "top": 1.049111
+      }
+    },
+    {
+      "id": "portugal-2026-rotary",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2026-rotary-clean-67819247.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2026-rotary-attempt1.png",
+      "sha256": "67819247b19a9cb74be308f8c022d0d98d86f429763154216a1a34a7ea81774d",
+      "bounds": {
+        "left": 2,
+        "top": 40,
+        "right": 1200,
+        "bottom": 1253
+      },
+      "display": {
+        "width": 92.590169,
+        "left": 3.954915,
+        "top": -0.143704
+      }
+    },
+    {
+      "id": "lithuania-2026-energy-independence",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2026-energy-independence-clean-a58ae6df.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2026-energy-independence-attempt1.png",
+      "sha256": "a58ae6dfb4cfae76b39a1b163b9590a4e61cf481f1d9ac555df2234ad5b873d2",
+      "bounds": {
+        "left": 0,
+        "top": 111,
+        "right": 1169,
+        "bottom": 1295
+      },
+      "display": {
+        "width": 92.648332,
+        "left": 4.123126,
+        "top": -5.822266
+      }
+    },
+    {
+      "id": "ireland-2026-council-presidency",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/ireland-2026-council-presidency-clean-5b3010be.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/ireland-2026-council-presidency-attempt1.png",
+      "sha256": "5b3010be429278cb8175c77921c98faf2ca25d2f4774bc5d056a1dda28b3fc96",
+      "bounds": {
+        "left": 0,
+        "top": 36,
+        "right": 1206,
+        "bottom": 1249
+      },
+      "display": {
+        "width": 93.4375,
+        "left": 3.800855,
+        "top": 0.164417
+      }
+    },
+    {
+      "id": "italy-2026-saint-francis-of-assisi",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2026-saint-francis-of-assisi-clean-ba756131.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2026-saint-francis-of-assisi-attempt1.png",
+      "sha256": "ba756131ba92bebc920adac82f95f486ea878561a47ebbd762d8112fdec2a1db",
+      "bounds": {
+        "left": 3,
+        "top": 79,
+        "right": 1158,
+        "bottom": 1247
+      },
+      "display": {
+        "width": 94.077483,
+        "left": 3.811243,
+        "top": -3.382331
+      }
+    },
+    {
+      "id": "greece-2026-academy-of-athens",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2026-academy-of-athens-clean-465f26b8.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2026-academy-of-athens-attempt1.png",
+      "sha256": "465f26b833f14e902e473f8f728f00f8288a450ecd69224250ca219a69a93adc",
+      "bounds": {
+        "left": 0,
+        "top": 70,
+        "right": 1155,
+        "bottom": 1241
+      },
+      "display": {
+        "width": 92.160813,
+        "left": 4.169593,
+        "top": -2.648004
+      }
+    },
+    {
+      "id": "greece-2026-exodus-of-missolonghi",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2026-exodus-of-missolonghi-clean-11f00cf9.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2026-exodus-of-missolonghi-attempt2.png",
+      "sha256": "11f00cf9c1910bf1616a3afc548c50300af89927afc0bb182aec2633df09435a",
+      "bounds": {
+        "left": 0,
+        "top": 45,
+        "right": 1204,
+        "bottom": 1260
+      },
+      "display": {
+        "width": 93.129887,
+        "left": 3.954218,
+        "top": -0.523148
+      }
+    },
+    {
+      "id": "germany-2026-konrad-adenauer",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/germany-2026-konrad-adenauer-clean-8486e628.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/germany-2026-konrad-adenauer-attempt1.png",
+      "sha256": "8486e628ebddeb77183c27dac17ffaeb5807c83383896f5f92c4335f30c0b20b",
+      "bounds": {
+        "left": 0,
+        "top": 69,
+        "right": 1190,
+        "bottom": 1273
+      },
+      "display": {
+        "width": 92.506229,
+        "left": 4.074491,
+        "top": -2.417307
+      }
+    },
+    {
+      "id": "estonia-2026-sipsik",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2026-sipsik-clean-17d7c59b.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/estonia-2026-sipsik-attempt1.png",
+      "sha256": "17d7c59b104477241a9dc6c6ad1fc61f2f8eb2b0bb50b5319e0e647b587651e9",
+      "bounds": {
+        "left": 0,
+        "top": 48,
+        "right": 1182,
+        "bottom": 1248
+      },
+      "display": {
+        "width": 92.42526,
+        "left": 4.232031,
+        "top": -0.8
+      }
+    },
+    {
+      "id": "cyprus-2026-council-presidency",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2026-council-presidency-clean-4dfafc91.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/cyprus-2026-council-presidency-attempt1.png",
+      "sha256": "4dfafc917b1c7b7cc521cfc11ebaf8e1ffa63947c5c68eb6dd0d1186a21cea18",
+      "bounds": {
+        "left": 2,
+        "top": 84,
+        "right": 1167,
+        "bottom": 1263
+      },
+      "display": {
+        "width": 92.803488,
+        "left": 3.927507,
+        "top": -3.719625
+      }
+    },
+    {
+      "id": "croatia-2026-croatian-radiotelevision",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/croatia-2026-croatian-radiotelevision-clean-28e77614.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/croatia-2026-croatian-radiotelevision-attempt1.png",
+      "sha256": "28e77614cfa4c4255fab063486d741a9a0babe0e5fe21045ce16494808de169c",
+      "bounds": {
+        "left": 5,
+        "top": 41,
+        "right": 1192,
+        "bottom": 1248
+      },
+      "display": {
+        "width": 92.740783,
+        "left": 3.918315,
+        "top": -0.236433
+      }
+    },
+    {
+      "id": "spain-2026-monastery-of-poblet",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2026-monastery-of-poblet-clean-adda66fc.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2026-monastery-of-poblet-attempt1.png",
+      "sha256": "adda66fc7fa4c4a534404e74dc918df7fabecde3559e74b0c5204bb93e96275d",
+      "bounds": {
+        "left": 0,
+        "top": 91,
+        "right": 1168,
+        "bottom": 1268
+      },
+      "display": {
+        "width": 93.040569,
+        "left": 3.888488,
+        "top": -4.28664
+      }
+    },
+    {
+      "id": "belgium-2026-belgian-railways",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2026-belgian-railways-clean-c61892d5.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2026-belgian-railways-attempt1.png",
+      "sha256": "c61892d5127a63cd1491c4ad67fd6992a487db9da869e2b5f67d811d8fc6305d",
+      "bounds": {
+        "left": 0,
+        "top": 57,
+        "right": 1180,
+        "bottom": 1255
+      },
+      "display": {
+        "width": 92.189587,
+        "left": 4.233201,
+        "top": -1.508191
+      }
+    },
+    {
+      "id": "croatia-2025-king-tomislav",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/croatia-2025-king-tomislav-clean-26bf5c83.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/croatia-2025-king-tomislav-attempt1.png",
+      "sha256": "26bf5c832c10dc7f0d3de3b3e2d530ba42abc1d9ed6a9d65ae8c0c8a12447682",
+      "bounds": {
+        "left": 3,
+        "top": 88,
+        "right": 1166,
+        "bottom": 1263
+      },
+      "display": {
+        "width": 93.517021,
+        "left": 3.769814,
+        "top": -4.060372
+      }
+    },
+    {
+      "id": "greece-2025-mikis-theodorakis",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2025-mikis-theodorakis-clean-c7176641.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2025-mikis-theodorakis-attempt1.png",
+      "sha256": "c7176641371949f818265d24611f3397f6b1e4cac83bb3dbd92e3bebd17b36ac",
+      "bounds": {
+        "left": 2,
+        "top": 68,
+        "right": 1175,
+        "bottom": 1252
+      },
+      "display": {
+        "width": 93.911001,
+        "left": 3.807459,
+        "top": -2.428843
+      }
+    },
+    {
+      "id": "greece-2025-laskarina-bouboulina",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2025-laskarina-bouboulina-clean-8f868c95.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2025-laskarina-bouboulina-attempt1.png",
+      "sha256": "8f868c95bba43db09c2c4d3feec203c1ee8e4402471a9e6b87faa3c44c33d85b",
+      "bounds": {
+        "left": 1,
+        "top": 82,
+        "right": 1166,
+        "bottom": 1269
+      },
+      "display": {
+        "width": 92.729044,
+        "left": 4.318424,
+        "top": -3.517323
+      }
+    },
+    {
+      "id": "italy-2025-amerigo-vespucci",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2025-amerigo-vespucci-clean-134b7060.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2025-amerigo-vespucci-attempt1.png",
+      "sha256": "134b706051f1f06314f50812c16386a99880836d9dbaaaa5fb1fd48d34ec1a9a",
+      "bounds": {
+        "left": 2,
+        "top": 43,
+        "right": 1202,
+        "bottom": 1265
+      },
+      "display": {
+        "width": 92.443484,
+        "left": 4.219415,
+        "top": -0.350399
+      }
+    },
+    {
+      "id": "italy-2025-jubilee",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2025-jubilee-clean-82dcc67e.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2025-jubilee-attempt1.png",
+      "sha256": "82dcc67ea7ef9356b7e6336812b1c836a432301545e7be671276130afd9dd62f",
+      "bounds": {
+        "left": 83,
+        "top": 54,
+        "right": 1181,
+        "bottom": 1166
+      },
+      "display": {
+        "width": 107.890063,
+        "left": -2.854766,
+        "top": -1.599933
+      }
+    },
+    {
+      "id": "latvia-2025-selija",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2025-selija-clean-996d4ea0.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2025-selija-attempt1.png",
+      "sha256": "996d4ea08d6962ee99bc4eefc50189d5dbfe189c21344d001c6c076e3d5478a7",
+      "bounds": {
+        "left": 0,
+        "top": 82,
+        "right": 1151,
+        "bottom": 1255
+      },
+      "display": {
+        "width": 92.481618,
+        "left": 4.407475,
+        "top": -3.594363
+      }
+    },
+    {
+      "id": "lithuania-2025-national-defence",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2025-national-defence-clean-14b7b365.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2025-national-defence-attempt1.png",
+      "sha256": "14b7b3654049032c2ce9755e74f28b88d252b67122f29f90f710acd72b1b5d74",
+      "bounds": {
+        "left": 2,
+        "top": 88,
+        "right": 1161,
+        "bottom": 1272
+      },
+      "display": {
+        "width": 92.411582,
+        "left": 4.359876,
+        "top": -4.007179
+      }
+    },
+    {
+      "id": "lithuania-2025-lithuania-minor",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2025-lithuania-minor-clean-a2141b50.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2025-lithuania-minor-attempt1.png",
+      "sha256": "a2141b509a0adfabd922b946b00c54e2ab8c94151e95dadfaa936c47572ad6fb",
+      "bounds": {
+        "left": 0,
+        "top": 60,
+        "right": 1165,
+        "bottom": 1240
+      },
+      "display": {
+        "width": 92.408104,
+        "left": 4.125132,
+        "top": -1.813559
+      }
+    },
+    {
+      "id": "spain-2025-salamanca",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2025-salamanca-clean-119a522b.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2025-salamanca-attempt1.png",
+      "sha256": "119a522b335c08e9b26aabdf5a25e36c1e5cfabfc7ac9786d8e3708d2ea2bcef",
+      "bounds": {
+        "left": 0,
+        "top": 27,
+        "right": 1211,
+        "bottom": 1263
+      },
+      "display": {
+        "width": 91.698776,
+        "left": 4.476209,
+        "top": 0.89639
+      }
+    },
+    {
+      "id": "belgium-2024-fight-against-cancer",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2024-fight-against-cancer-clean-0dfd87c7.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2024-fight-against-cancer-attempt1.png",
+      "sha256": "0dfd87c7b13d754846e291674faf28b161f1dba572958d99e8539f74e3ed001a",
+      "bounds": {
+        "left": 3,
+        "top": 31,
+        "right": 1195,
+        "bottom": 1250
+      },
+      "display": {
+        "width": 92.670991,
+        "left": 4.336085,
+        "top": 0.561321
+      }
+    },
+    {
+      "id": "france-2024-paris-olympics",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/france-2024-paris-olympics-clean-a7725314.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/france-2024-paris-olympics-attempt1.png",
+      "sha256": "a772531460be1850074bae338bb81e455301ead2f5e8887ca0ca50ad57432005",
+      "bounds": {
+        "left": 0,
+        "top": 195,
+        "right": 1097,
+        "bottom": 1317
+      },
+      "display": {
+        "width": 92.105058,
+        "left": 4.57222,
+        "top": -13.301638
+      }
+    },
+    {
+      "id": "greece-2024-penelope-delta",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2024-penelope-delta-clean-4d0de828.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2024-penelope-delta-attempt1.png",
+      "sha256": "4d0de82836e2af6210063077c25e400ec48a9b0e6363ece7f9f9a7ad18a0d782",
+      "bounds": {
+        "left": 2,
+        "top": 63,
+        "right": 1176,
+        "bottom": 1251
+      },
+      "display": {
+        "width": 92.808291,
+        "left": 3.924505,
+        "top": -2.017519
+      }
+    },
+    {
+      "id": "greece-2024-restoration-democracy",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2024-restoration-democracy-clean-894b9533.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2024-restoration-democracy-attempt1.png",
+      "sha256": "894b9533169c516dcda8e83eeef3ad82be5b90a8cd5185f352256b55ed0b657e",
+      "bounds": {
+        "left": 0,
+        "top": 48,
+        "right": 1186,
+        "bottom": 1248
+      },
+      "display": {
+        "width": 93.048177,
+        "left": 4.076302,
+        "top": -0.8
+      }
+    },
+    {
+      "id": "italy-2024-rita-levi-montalcini",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2024-rita-levi-montalcini-clean-3c10371e.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2024-rita-levi-montalcini-attempt1.png",
+      "sha256": "3c10371e80c4a6efa59223214161a83a31a2bcada9a962f14394212872917e72",
+      "bounds": {
+        "left": 0,
+        "top": 82,
+        "right": 1197,
+        "bottom": 1287
+      },
+      "display": {
+        "width": 93.204876,
+        "left": 3.841416,
+        "top": -3.420902
+      }
+    },
+    {
+      "id": "italy-2024-guardia-di-finanza",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2024-guardia-di-finanza-clean-5e5627e6.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2024-guardia-di-finanza-attempt1.png",
+      "sha256": "5e5627e6c2ad63ccfedb139563f21a9df5a6644fd23426b8471bcab400edfb13",
+      "bounds": {
+        "left": 0,
+        "top": 87,
+        "right": 1151,
+        "bottom": 1250
+      },
+      "display": {
+        "width": 92.714424,
+        "left": 4.013301,
+        "top": -4.052236
+      }
+    },
+    {
+      "id": "lithuania-2024-straw-gardens",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2024-straw-gardens-clean-5c0a9fe6.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2024-straw-gardens-attempt1.png",
+      "sha256": "5c0a9fe654e739b575df9beb19cc54f0c67240bec44a7951328b39f88b5c6585",
+      "bounds": {
+        "left": 0,
+        "top": 95,
+        "right": 1169,
+        "bottom": 1287
+      },
+      "display": {
+        "width": 92.104918,
+        "left": 4.432702,
+        "top": -4.509281
+      }
+    },
+    {
+      "id": "portugal-2024-carnation-revolution",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2024-carnation-revolution-clean-966d50a2.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2024-carnation-revolution-attempt1.png",
+      "sha256": "966d50a2bf3f5fe5e7d2f0a405319de25b61087d6f0e87c3d8fb5a4b6e1f5016",
+      "bounds": {
+        "left": 0,
+        "top": 37,
+        "right": 1207,
+        "bottom": 1262
+      },
+      "display": {
+        "width": 92.217092,
+        "left": 4.21773,
+        "top": 0.115306
+      }
+    },
+    {
+      "id": "portugal-2024-paris-olympics",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2024-paris-olympics-clean-56d22b8a.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2024-paris-olympics-attempt1.png",
+      "sha256": "56d22b8a92f96d750e3dea94378c1f62ad006577722dc84cf4b3041e3c356169",
+      "bounds": {
+        "left": 0,
+        "top": 56,
+        "right": 1182,
+        "bottom": 1252
+      },
+      "display": {
+        "width": 92.5,
+        "left": 4.078125,
+        "top": -1.4375
+      }
+    },
+    {
+      "id": "slovenia-2024-national-university-library",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2024-national-university-library-clean-1e1cbef0.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2024-national-university-library-attempt1.png",
+      "sha256": "1e1cbef0b8fb4c46481eeeb550b5c4c7fcfb1b75c61a7f44f948865582ee4ab4",
+      "bounds": {
+        "left": 2,
+        "top": 60,
+        "right": 1188,
+        "bottom": 1262
+      },
+      "display": {
+        "width": 92.737885,
+        "left": 3.99766,
+        "top": -1.726601
+      }
+    },
+    {
+      "id": "cyprus-2023-central-bank",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2023-central-bank-clean-82f250c8.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/cyprus-2023-central-bank-attempt1.png",
+      "sha256": "82f250c8466b6a2aba0b54f7e6aeb81e611d6f92be6e62c6b19bc53d9c680531",
+      "bounds": {
+        "left": 0,
+        "top": 62,
+        "right": 1158,
+        "bottom": 1229
+      },
+      "display": {
+        "width": 92.796969,
+        "left": 3.891549,
+        "top": -2.026617
+      }
+    },
+    {
+      "id": "estonia-2023-barn-swallow",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2023-barn-swallow-clean-5e6966b7.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/estonia-2023-barn-swallow-attempt1.png",
+      "sha256": "5e6966b7a9e33847a0a74a30d6382dd1cbf85995d34afc5f9c1153a2947310c2",
+      "bounds": {
+        "left": 0,
+        "top": 63,
+        "right": 1176,
+        "bottom": 1249
+      },
+      "display": {
+        "width": 92.964798,
+        "left": 3.925169,
+        "top": -2.025875
+      }
+    },
+    {
+      "id": "italy-2023-air-force",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2023-air-force-clean-7006a6dc.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/italy-2023-air-force-attempt1.png",
+      "sha256": "7006a6dca4dfcc2073b29f4a1c587c3a6e9f479fb8492b15dad5844da32ca3b1",
+      "bounds": {
+        "left": 1,
+        "top": 72,
+        "right": 1185,
+        "bottom": 1270
+      },
+      "display": {
+        "width": 93.515495,
+        "left": 3.999217,
+        "top": -2.678109
+      }
+    },
+    {
+      "id": "lithuania-2023-together-with-ukraine",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2023-together-with-ukraine-clean-2ffde3ab.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2023-together-with-ukraine-attempt1.png",
+      "sha256": "2ffde3ab824168378026a864d62efd359638435c2934f127735e8ea44f47e8b0",
+      "bounds": {
+        "left": 0,
+        "top": 92,
+        "right": 1168,
+        "bottom": 1283
+      },
+      "display": {
+        "width": 91.86844,
+        "left": 4.433459,
+        "top": -4.280174
+      }
+    },
+    {
+      "id": "portugal-2023-peace",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2023-peace-clean-79b98d9c.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2023-peace-attempt1.png",
+      "sha256": "79b98d9c943677b317c59a7e05c9bf59e4addd48863af1976c7819db62ff8fa0",
+      "bounds": {
+        "left": 0,
+        "top": 76,
+        "right": 1159,
+        "bottom": 1250
+      },
+      "display": {
+        "width": 92.402843,
+        "left": 4.128168,
+        "top": -3.111265
+      }
+    },
+    {
+      "id": "portugal-2023-world-youth-day",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2023-world-youth-day-clean-8591e87b.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2023-world-youth-day-attempt1.png",
+      "sha256": "8591e87b80fe597539910159e545c6f0a475e9a7eb5d1c650f85137bc8ac6c2f",
+      "bounds": {
+        "left": 5,
+        "top": 7,
+        "right": 1240,
+        "bottom": 1245
+      },
+      "display": {
+        "width": 94.645093,
+        "left": 3.267089,
+        "top": 2.409178
+      }
+    }
+  ]
+}

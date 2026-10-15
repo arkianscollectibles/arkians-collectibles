@@ -6,16 +6,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovenia",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-ivan-cankar-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2026-ivan-cankar-clean-006416a6.png",
     "pixels": [
-      1472,
-      1600
+      1202,
+      1308
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": 1.033203
-    }
+      "width": 92.666564,
+      "left": 4.032359,
+      "top": 1.164346
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-ivan-cankar-2026.jpg"
   },
   {
     "id": "slovakia-2026-european-football-championship",
@@ -23,16 +25,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovakia",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-european-football-championship-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2026-european-football-championship-clean-5da131db.png",
     "pixels": [
-      1510,
-      1599
+      1218,
+      1291
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": 0.524214
-    }
+      "width": 92.903571,
+      "left": 4.065179,
+      "top": 0.649235
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-european-football-championship-2026.jpg"
   },
   {
     "id": "slovakia-2026-trencin",
@@ -40,16 +44,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovakia",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-trencin-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2026-trencin-clean-a6c22c66.png",
     "pixels": [
-      1508,
-      1600
+      1217,
+      1292
     ],
     "display": {
-      "width": 93.37558,
-      "left": 3.56221,
-      "top": 0.213014
-    }
+      "width": 91.926789,
+      "left": 4.362141,
+      "top": 1.049111
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-trencin-2026.jpg"
   },
   {
     "id": "portugal-2026-rotary",
@@ -57,16 +63,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-rotary-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2026-rotary-clean-67819247.png",
     "pixels": [
-      1472,
-      1600
+      1202,
+      1308
     ],
     "display": {
-      "width": 93.374067,
-      "left": 3.562967,
-      "top": -0.424474
-    }
+      "width": 92.590169,
+      "left": 3.954915,
+      "top": -0.143704
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-rotary-2026.jpg"
   },
   {
     "id": "lithuania-2026-energy-independence",
@@ -74,16 +82,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Lithuania",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-energy-independence-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2026-energy-independence-clean-a58ae6df.png",
     "pixels": [
-      1401,
-      1599
+      1174,
+      1340
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -6.399581
-    }
+      "width": 92.648332,
+      "left": 4.123126,
+      "top": -5.822266
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-energy-independence-2026.jpg"
   },
   {
     "id": "ireland-2026-council-presidency",
@@ -91,16 +101,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Ireland",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-ireland-eu-presidency-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/ireland-2026-council-presidency-clean-5b3010be.png",
     "pixels": [
-      1496,
-      1600
+      1213,
+      1296
     ],
     "display": {
       "width": 93.4375,
-      "left": 3.53125,
-      "top": 0.095651
-    }
+      "left": 3.800855,
+      "top": 0.164417
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-ireland-eu-presidency-2026.jpg"
   },
   {
     "id": "italy-2026-carlo-collodi-pinocchio",
@@ -125,16 +137,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Italy",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-saint-francis-of-assisi-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2026-saint-francis-of-assisi-clean-ba756131.png",
     "pixels": [
-      1406,
-      1600
+      1176,
+      1337
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -4.505601
-    }
+      "width": 94.077483,
+      "left": 3.811243,
+      "top": -3.382331
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-saint-francis-of-assisi-2026.jpg"
   },
   {
     "id": "greece-2026-academy-of-athens",
@@ -142,16 +156,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-academy-of-athens-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2026-academy-of-athens-clean-465f26b8.png",
     "pixels": [
-      1358,
-      1599
+      1155,
+      1362
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -3.186165
-    }
+      "width": 92.160813,
+      "left": 4.169593,
+      "top": -2.648004
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-academy-of-athens-2026.jpg"
   },
   {
     "id": "greece-2026-exodus-of-missolonghi",
@@ -159,16 +175,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-exodus-of-missolonghi-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2026-exodus-of-missolonghi-clean-11f00cf9.png",
     "pixels": [
-      1490,
-      1600
+      1211,
+      1299
     ],
     "display": {
-      "width": 93.374832,
-      "left": 3.562584,
-      "top": -0.82256
-    }
+      "width": 93.129887,
+      "left": 3.954218,
+      "top": -0.523148
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-exodus-of-missolonghi-2026.jpg"
   },
   {
     "id": "germany-2026-konrad-adenauer",
@@ -176,16 +194,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Germany",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-konrad-adenauer-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/germany-2026-konrad-adenauer-clean-8486e628.png",
     "pixels": [
-      1447,
-      1600
+      1192,
+      1319
     ],
     "display": {
-      "width": 93.308532,
-      "left": 3.595734,
-      "top": -2.801587
-    }
+      "width": 92.506229,
+      "left": 4.074491,
+      "top": -2.417307
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-konrad-adenauer-2026.jpg"
   },
   {
     "id": "estonia-2026-sipsik",
@@ -193,16 +213,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Estonia",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-sipsik-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2026-sipsik-clean-17d7c59b.png",
     "pixels": [
-      1432,
-      1600
+      1187,
+      1326
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -1.042729
-    }
+      "width": 92.42526,
+      "left": 4.232031,
+      "top": -0.8
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-sipsik-2026.jpg"
   },
   {
     "id": "cyprus-2026-council-presidency",
@@ -210,16 +232,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Cyprus",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-cyprus-eu-presidency-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2026-council-presidency-clean-4dfafc91.png",
     "pixels": [
-      1395,
-      1600
+      1171,
+      1343
     ],
     "display": {
-      "width": 93.370568,
-      "left": 3.564716,
-      "top": -4.02346
-    }
+      "width": 92.803488,
+      "left": 3.927507,
+      "top": -3.719625
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-cyprus-eu-presidency-2026.jpg"
   },
   {
     "id": "croatia-2026-croatian-radiotelevision",
@@ -227,16 +251,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Croatia",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-croatian-radiotelevision-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/croatia-2026-croatian-radiotelevision-clean-28e77614.png",
     "pixels": [
-      1459,
-      1599
+      1198,
+      1313
     ],
     "display": {
-      "width": 93.630022,
-      "left": 3.306641,
-      "top": -0.463728
-    }
+      "width": 92.740783,
+      "left": 3.918315,
+      "top": -0.236433
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-croatian-radiotelevision-2026.jpg"
   },
   {
     "id": "spain-2026-monastery-of-poblet",
@@ -244,16 +270,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Spain",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-monastery-of-poblet-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2026-monastery-of-poblet-clean-adda66fc.png",
     "pixels": [
-      1397,
-      1600
+      1172,
+      1342
     ],
     "display": {
-      "width": 93.370663,
-      "left": 3.564668,
-      "top": -4.61503
-    }
+      "width": 93.040569,
+      "left": 3.888488,
+      "top": -4.28664
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-monastery-of-poblet-2026.jpg"
   },
   {
     "id": "belgium-2026-belgian-railways",
@@ -261,16 +289,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Belgium",
     "year": 2026,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/2026/2-euro-belgian-railways-2026.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2026-belgian-railways-clean-c61892d5.png",
     "pixels": [
-      1422,
-      1600
+      1182,
+      1330
     ],
     "display": {
-      "width": 93.371838,
-      "left": 3.564081,
-      "top": -2.1185
-    }
+      "width": 92.189587,
+      "left": 4.233201,
+      "top": -1.508191
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-belgian-railways-2026.jpg"
   },
   {
     "id": "croatia-2025-king-tomislav",
@@ -281,16 +311,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Croatia",
     "year": 2025,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-croatia-2025-king-tomislav.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/croatia-2025-king-tomislav-clean-26bf5c83.png",
     "pixels": [
-      1407,
-      1600
+      1176,
+      1337
     ],
     "display": {
-      "width": 93.371138,
-      "left": 3.564431,
-      "top": -6.220437
-    }
+      "width": 93.517021,
+      "left": 3.769814,
+      "top": -4.060372
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-croatia-2025-king-tomislav.jpg"
   },
   {
     "id": "greece-2025-mikis-theodorakis",
@@ -301,16 +333,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2025,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-mikis-theodorakis.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2025-mikis-theodorakis-clean-c7176641.png",
     "pixels": [
-      1441,
-      1600
+      1190,
+      1322
     ],
     "display": {
-      "width": 93.372703,
-      "left": 3.563649,
-      "top": -2.505461
-    }
+      "width": 93.911001,
+      "left": 3.807459,
+      "top": -2.428843
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-mikis-theodorakis.jpg"
   },
   {
     "id": "greece-2025-laskarina-bouboulina",
@@ -321,16 +355,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2025,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-laskarina-bouboulina.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2025-laskarina-bouboulina-clean-8f868c95.png",
     "pixels": [
-      1412,
-      1600
+      1178,
+      1335
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -4.07693
-    }
+      "width": 92.729044,
+      "left": 4.318424,
+      "top": -3.517323
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-laskarina-bouboulina.jpg"
   },
   {
     "id": "italy-2025-amerigo-vespucci",
@@ -341,16 +377,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Italy",
     "year": 2025,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-amerigo-vespucci.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2025-amerigo-vespucci-clean-134b7060.png",
     "pixels": [
-      1486,
-      1600
+      1209,
+      1301
     ],
     "display": {
-      "width": 93.374664,
-      "left": 3.688341,
-      "top": -0.895511
-    }
+      "width": 92.443484,
+      "left": 4.219415,
+      "top": -0.350399
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-amerigo-vespucci.jpg"
   },
   {
     "id": "italy-2025-jubilee",
@@ -358,16 +396,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Italy",
     "year": 2025,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-jubilee.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2025-jubilee-clean-82dcc67e.png",
     "pixels": [
-      1600,
-      1527
+      1284,
+      1225
     ],
     "display": {
-      "width": 117.531447,
-      "left": -8.515723,
-      "top": -9.403302
-    }
+      "width": 107.890063,
+      "left": -2.854766,
+      "top": -1.599933
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-jubilee.jpg"
   },
   {
     "id": "latvia-2025-selija",
@@ -375,16 +415,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Latvia",
     "year": 2025,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-latvia-2025-selija.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2025-selija-clean-996d4ea0.png",
     "pixels": [
-      1373,
-      1601
+      1161,
+      1354
     ],
     "display": {
-      "width": 93.369496,
-      "left": 3.565252,
-      "top": -3.794896
-    }
+      "width": 92.481618,
+      "left": 4.407475,
+      "top": -3.594363
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-latvia-2025-selija.jpg"
   },
   {
     "id": "lithuania-2025-national-defence",
@@ -395,16 +437,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Lithuania",
     "year": 2025,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-national-defence.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2025-national-defence-clean-14b7b365.png",
     "pixels": [
-      1396,
-      1600
+      1171,
+      1343
     ],
     "display": {
-      "width": 93.370616,
-      "left": 3.564692,
-      "top": -4.486668
-    }
+      "width": 92.411582,
+      "left": 4.359876,
+      "top": -4.007179
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-national-defence.jpg"
   },
   {
     "id": "lithuania-2025-lithuania-minor",
@@ -415,16 +459,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Lithuania",
     "year": 2025,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-lithuania-minor.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2025-lithuania-minor-clean-a2141b50.png",
     "pixels": [
-      1385,
-      1600
+      1167,
+      1347
     ],
     "display": {
-      "width": 93.370085,
-      "left": 3.564958,
-      "top": -2.118642
-    }
+      "width": 92.408104,
+      "left": 4.125132,
+      "top": -1.813559
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-lithuania-minor.jpg"
   },
   {
     "id": "slovenia-2025-miki-muster",
@@ -455,16 +501,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Spain",
     "year": 2025,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-spain-2025-salamanca.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2025-salamanca-clean-119a522b.png",
     "pixels": [
-      1496,
-      1600
+      1213,
+      1297
     ],
     "display": {
-      "width": 93.31275,
-      "left": 3.593625,
-      "top": -0.555491
-    }
+      "width": 91.698776,
+      "left": 4.476209,
+      "top": 0.89639
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-spain-2025-salamanca.jpg"
   },
   {
     "id": "belgium-2024-fight-against-cancer",
@@ -475,16 +523,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Belgium",
     "year": 2024,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-belgium-2024-fight-against-cancer.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2024-fight-against-cancer-clean-0dfd87c7.png",
     "pixels": [
-      1486,
-      1600
+      1209,
+      1301
     ],
     "display": {
-      "width": 93.374664,
-      "left": 3.562668,
-      "top": 0.361214
-    }
+      "width": 92.670991,
+      "left": 4.336085,
+      "top": 0.561321
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-belgium-2024-fight-against-cancer.jpg"
   },
   {
     "id": "france-2024-paris-olympics",
@@ -495,16 +545,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "France",
     "year": 2024,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-france-2024-paris-olympics.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/france-2024-paris-olympics-clean-a7725314.png",
     "pixels": [
-      1244,
-      1600
+      1106,
+      1422
     ],
     "display": {
-      "width": 93.36245,
-      "left": 3.568775,
-      "top": -16.800703
-    }
+      "width": 92.105058,
+      "left": 4.57222,
+      "top": -13.301638
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-france-2024-paris-olympics.jpg"
   },
   {
     "id": "greece-2024-penelope-delta",
@@ -515,16 +567,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2024,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-penelope-delta.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2024-penelope-delta-clean-4d0de828.png",
     "pixels": [
-      1416,
-      1600
+      1180,
+      1333
     ],
     "display": {
-      "width": 93.37156,
-      "left": 3.56422,
-      "top": -2.337729
-    }
+      "width": 92.808291,
+      "left": 3.924505,
+      "top": -2.017519
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-penelope-delta.jpg"
   },
   {
     "id": "greece-2024-restoration-democracy",
@@ -535,16 +589,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2024,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-restoration-democracy.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2024-restoration-democracy-clean-894b9533.png",
     "pixels": [
-      1453,
-      1600
+      1195,
+      1316
     ],
     "display": {
-      "width": 93.373238,
-      "left": 3.563381,
-      "top": -0.85398
-    }
+      "width": 93.048177,
+      "left": 4.076302,
+      "top": -0.8
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-restoration-democracy.jpg"
   },
   {
     "id": "italy-2024-rita-levi-montalcini",
@@ -552,16 +608,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Italy",
     "year": 2024,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-rita-levi-montalcini.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2024-rita-levi-montalcini-clean-3c10371e.png",
     "pixels": [
-      1471,
-      1600
+      1202,
+      1309
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -3.73207
-    }
+      "width": 93.204876,
+      "left": 3.841416,
+      "top": -3.420902
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-rita-levi-montalcini.jpg"
   },
   {
     "id": "italy-2024-guardia-di-finanza",
@@ -572,16 +630,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Italy",
     "year": 2024,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-guardia-di-finanza.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2024-guardia-di-finanza-clean-5e5627e6.png",
     "pixels": [
-      1355,
-      1600
+      1154,
+      1363
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -4.337523
-    }
+      "width": 92.714424,
+      "left": 4.013301,
+      "top": -4.052236
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-guardia-di-finanza.jpg"
   },
   {
     "id": "lithuania-2024-straw-gardens",
@@ -592,16 +652,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Lithuania",
     "year": 2024,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-lithuania-2024-straw-gardens.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2024-straw-gardens-clean-5c0a9fe6.png",
     "pixels": [
-      1404,
-      1600
+      1175,
+      1339
     ],
     "display": {
-      "width": 93.370996,
-      "left": 3.564502,
-      "top": -4.976423
-    }
+      "width": 92.104918,
+      "left": 4.432702,
+      "top": -4.509281
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-lithuania-2024-straw-gardens.jpg"
   },
   {
     "id": "portugal-2024-carnation-revolution",
@@ -612,16 +674,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2024,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-carnation-revolution.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2024-carnation-revolution-clean-966d50a2.png",
     "pixels": [
-      1487,
-      1600
+      1209,
+      1300
     ],
     "display": {
-      "width": 93.374706,
-      "left": 3.656838,
-      "top": -0.516171
-    }
+      "width": 92.217092,
+      "left": 4.21773,
+      "top": 0.115306
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-carnation-revolution.jpg"
   },
   {
     "id": "portugal-2024-paris-olympics",
@@ -632,16 +696,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2024,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-paris-olympics.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2024-paris-olympics-clean-56d22b8a.png",
     "pixels": [
-      1428,
-      1600
+      1184,
+      1328
     ],
     "display": {
-      "width": 93.372113,
-      "left": 3.662023,
-      "top": -1.639564
-    }
+      "width": 92.5,
+      "left": 4.078125,
+      "top": -1.4375
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-paris-olympics.jpg"
   },
   {
     "id": "slovenia-2024-national-university-library",
@@ -652,16 +718,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovenia",
     "year": 2024,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-slovenia-2024-national-university-library.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2024-national-university-library-clean-1e1cbef0.png",
     "pixels": [
-      1448,
-      1600
+      1193,
+      1319
     ],
     "display": {
-      "width": 93.566736,
-      "left": 3.466632,
-      "top": -2.102697
-    }
+      "width": 92.737885,
+      "left": 3.99766,
+      "top": -1.726601
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-slovenia-2024-national-university-library.jpg"
   },
   {
     "id": "cyprus-2023-central-bank",
@@ -672,16 +740,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Cyprus",
     "year": 2023,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-cyprus-2023-central-bank.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2023-central-bank-clean-82f250c8.png",
     "pixels": [
-      1368,
-      1600
+      1159,
+      1356
     ],
     "display": {
-      "width": 93.369248,
-      "left": 3.565376,
-      "top": -2.113176
-    }
+      "width": 92.796969,
+      "left": 3.891549,
+      "top": -2.026617
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-cyprus-2023-central-bank.jpg"
   },
   {
     "id": "estonia-2023-barn-swallow",
@@ -692,16 +762,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Estonia",
     "year": 2023,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-estonia-2023-barn-swallow.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2023-barn-swallow-clean-5e6966b7.png",
     "pixels": [
-      1418,
-      1601
+      1180,
+      1333
     ],
     "display": {
-      "width": 93.569474,
-      "left": 3.399276,
-      "top": -3.859154
-    }
+      "width": 92.964798,
+      "left": 3.925169,
+      "top": -2.025875
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-estonia-2023-barn-swallow.jpg"
   },
   {
     "id": "italy-2023-air-force",
@@ -712,16 +784,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Italy",
     "year": 2023,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-italy-2023-air-force.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/italy-2023-air-force-clean-7006a6dc.png",
     "pixels": [
-      1461,
-      1600
+      1199,
+      1312
     ],
     "display": {
-      "width": 93.565584,
-      "left": 3.563271,
-      "top": -2.826294
-    }
+      "width": 93.515495,
+      "left": 3.999217,
+      "top": -2.678109
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-italy-2023-air-force.jpg"
   },
   {
     "id": "lithuania-2023-together-with-ukraine",
@@ -729,16 +803,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Lithuania",
     "year": 2023,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-lithuania-2023-together-with-ukraine.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2023-together-with-ukraine-clean-2ffde3ab.png",
     "pixels": [
-      1396,
-      1600
+      1171,
+      1343
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -4.759715
-    }
+      "width": 91.86844,
+      "left": 4.433459,
+      "top": -4.280174
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-lithuania-2023-together-with-ukraine.jpg"
   },
   {
     "id": "portugal-2023-peace",
@@ -746,16 +822,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2023,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-peace.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2023-peace-clean-79b98d9c.png",
     "pixels": [
-      1373,
-      1601
+      1161,
+      1354
     ],
     "display": {
-      "width": 93.301591,
-      "left": 3.599205,
-      "top": -3.314318
-    }
+      "width": 92.402843,
+      "left": 4.128168,
+      "top": -3.111265
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-peace.jpg"
   },
   {
     "id": "portugal-2023-world-youth-day",
@@ -766,16 +844,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2023,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-world-youth-day.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2023-world-youth-day-clean-8591e87b.png",
     "pixels": [
-      1438,
-      1600
+      1254,
+      1254
     ],
     "display": {
-      "width": 93.372568,
-      "left": 3.563716,
-      "top": -4.984234
-    }
+      "width": 94.645093,
+      "left": 3.267089,
+      "top": 2.409178
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-world-youth-day.jpg"
   },
   {
     "id": "slovakia-2023-blood-transfusion",

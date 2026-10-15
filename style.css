@@ -4010,3 +4010,6 @@ li {
 }
 
 .coin-gallery[hidden], .coin-gallery .coin-card[hidden] { display: none !important; }
+.coin-gallery-image-retouched .coin-card-image { filter: none; }
+.coin-photo-note { margin: 6px 0; color: #555; font-size: 13px; }
+.coin-photo-note a { color: inherit; text-decoration: underline; }

@@ -58,6 +58,10 @@
         const variant = document.createElement('span'); variant.dataset.i18n = 'variant_uncolored';
         meta.append(' · ', variant);
       }
+      if (type === 'photos' && product.image_edit === 'ai-retouched') {
+        const edited = document.createElement('span'); edited.dataset.i18n = 'photo_retouched';
+        meta.append(' · ', edited);
+      }
       const price = document.createElement('div'); price.className = 'coin-card-price';
       if (type === 'coins') price.textContent = `€${product.price.toFixed(2)}`;
       else price.dataset.i18n = 'coming_soon';

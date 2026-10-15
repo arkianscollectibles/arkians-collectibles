@@ -22,6 +22,7 @@
   window.arkiansCreatePhotoFrame = photo => {
     const frame = document.createElement('span');
     frame.className = 'coin-gallery-image';
+    if (photo.image_edit === 'ai-retouched') frame.classList.add('coin-gallery-image-retouched');
     for (const [key, value] of Object.entries(photo.display)) {
       frame.style.setProperty(`--gallery-image-${key}`, `${value}%`);
     }

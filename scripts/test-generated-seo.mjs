@@ -108,6 +108,22 @@ function checkOutputs(dir) {
   const coins = read(dir,'coins.html').match(/<!-- Generated catalogue: start -->([\s\S]*?)<!-- Generated catalogue: end -->/)?.[1];
   assert.ok(coins, 'Missing crawlable catalogue');
   for (const id of ids) assert.ok(coins.includes(`href="product-${id}.html"`));
+  const galleryInput = JSON.parse(read(dir,'coin-gallery.json')).images;
+  const galleryContext = {};
+  runInNewContext(read(dir,'coin-gallery-data.js'),galleryContext);
+  assert.equal(galleryContext.ARKIANS_PHOTO_CATALOG.length,galleryInput.length);
+  const coinsPage = read(dir,'coins.html');
+  for (const photo of galleryInput.filter(photo => photo.image_edit === 'ai-retouched')) {
+    const generated = galleryContext.ARKIANS_PHOTO_CATALOG.find(item => item.id === photo.id);
+    assert.equal(generated.image,photo.image,'Retouch omitted from search/gallery data');
+    assert.equal(generated.image_edit,'ai-retouched');
+    assert.equal(generated.image_original,photo.image_original);
+    const card = coinsPage.slice(coinsPage.indexOf(`id="photo-${photo.id}"`)).split('</article>')[0];
+    assert.ok(card.includes(`src="${photo.image}"`),'Live catalogue retains original image');
+    assert.ok(card.includes('coin-gallery-image-retouched'),'Retouch still receives the original photo filter');
+    assert.ok(card.includes('data-i18n="photo_retouched"'),'Missing AI retouch label');
+    assert.ok(card.includes(`href="${photo.image_original}"`),'Original photo is unavailable');
+  }
 }
 const fixture = mkdtempSync(join(tmpdir(), 'arkians-seo-regression-'));
 try {
@@ -120,7 +136,9 @@ try {
     mkdirSync(dirname(join(fixture,product.image)),{recursive:true}); writeFileSync(join(fixture,product.image),'fixture image: existence only');
   }
   for (const photo of JSON.parse(read(root,'coin-gallery.json')).images) {
-    mkdirSync(dirname(join(fixture,photo.image)),{recursive:true}); writeFileSync(join(fixture,photo.image),'original photograph fixture: existence only');
+    for (const imagePath of new Set([photo.image, photo.image_original].filter(Boolean))) {
+      mkdirSync(dirname(join(fixture,imagePath)),{recursive:true}); writeFileSync(join(fixture,imagePath),'photograph fixture: existence only');
+    }
   }
   checkOutputs(root);
   build(fixture); build(fixture,['--check']); checkOutputs(fixture);
