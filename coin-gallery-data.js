@@ -1760,16 +1760,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovakia",
     "year": 2015,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-slovakia-2015-ludovit-stur.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2015-ludovit-stur-clean-9f89b705.png",
     "pixels": [
-      1403,
-      1600
+      1174,
+      1339
     ],
     "display": {
-      "width": 93.838806,
-      "left": 3.497808,
-      "top": -5.757471
-    }
+      "width": 93.837147,
+      "left": 3.571215,
+      "top": -5.614949
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-slovakia-2015-ludovit-stur.jpg"
   },
   {
     "id": "france-2014-world-aids-day",
@@ -1780,16 +1782,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "France",
     "year": 2014,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-france-2014-world-aids-day.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/france-2014-world-aids-day-clean-3d73f2bb.png",
     "pixels": [
-      1340,
-      1601
+      1148,
+      1371
     ],
     "display": {
-      "width": 93.367823,
-      "left": 2.69512,
-      "top": -10.301221
-    }
+      "width": 91.995069,
+      "left": 4.372668,
+      "top": -6.838979
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-france-2014-world-aids-day.jpg"
   },
   {
     "id": "greece-2014-ionian-islands",
@@ -1800,16 +1804,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2014,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-greece-2014-ionian-islands.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2014-ionian-islands-clean-cc84b11d.png",
     "pixels": [
-      1509,
-      1600
+      1218,
+      1292
     ],
     "display": {
-      "width": 93.375621,
-      "left": 3.283733,
-      "top": -1.703435
-    }
+      "width": 92.903571,
+      "left": 3.760077,
+      "top": -1.333929
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-greece-2014-ionian-islands.jpg"
   },
   {
     "id": "netherlands-2014-double-portrait",
@@ -1820,16 +1826,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Netherlands",
     "year": 2014,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-netherlands-2014-double-portrait.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/netherlands-2014-double-portrait-clean-766575e6.png",
     "pixels": [
-      1423,
-      1600
+      1183,
+      1330
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -1.264889
-    }
+      "width": 92.576686,
+      "left": 3.961657,
+      "top": -1.131805
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-netherlands-2014-double-portrait.jpg"
   },
   {
     "id": "portugal-2014-carnation-revolution",
@@ -1840,16 +1848,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2014,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-carnation-revolution.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2014-carnation-revolution-clean-87aa3a1e.png",
     "pixels": [
-      1382,
-      1600
+      1166,
+      1349
     ],
     "display": {
       "width": 93.4375,
-      "left": 3.53125,
-      "top": -3.823535
-    }
+      "left": 3.611385,
+      "top": -3.713711
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-carnation-revolution.jpg"
   },
   {
     "id": "portugal-2014-family-farming",
@@ -1860,16 +1870,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2014,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-family-farming.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2014-family-farming-clean-1ff2f67c.png",
     "pixels": [
-      1286,
-      1600
+      1124,
+      1399
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.458593,
-      "top": -10.431474
-    }
+      "width": 92.695278,
+      "left": 3.98483,
+      "top": -9.927681
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-family-farming.jpg"
   },
   {
     "id": "spain-2014-king-felipe-vi",
@@ -1880,16 +1892,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Spain",
     "year": 2014,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-spain-2014-king-felipe-vi.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2014-king-felipe-vi-clean-7e8ad2ee.png",
     "pixels": [
-      1261,
-      1600
+      1114,
+      1412
     ],
     "display": {
-      "width": 93.660324,
-      "left": 3.53125,
-      "top": -13.774295
-    }
+      "width": 93.270049,
+      "left": 3.866151,
+      "top": -13.30522
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-spain-2014-king-felipe-vi.jpg"
   },
   {
     "id": "belgium-2013-royal-meteorological-institute",
@@ -1900,16 +1914,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Belgium",
     "year": 2013,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-belgium-2013-royal-meteorological-institute.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2013-royal-meteorological-institute-clean-283e2a12.png",
     "pixels": [
-      1369,
-      1600
+      1159,
+      1356
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -7.163851
-    }
+      "width": 92.876554,
+      "left": 3.811723,
+      "top": -6.678709
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-belgium-2013-royal-meteorological-institute.jpg"
   },
   {
     "id": "netherlands-2013-queen-beatrix-abdication",
@@ -1920,16 +1936,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Netherlands",
     "year": 2013,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-netherlands-2013-queen-beatrix-abdication.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/netherlands-2013-queen-beatrix-abdication-clean-4c3b63b9.png",
     "pixels": [
-      1462,
-      1600
+      1199,
+      1312
     ],
     "display": {
-      "width": 96.06584,
-      "left": 2.085663,
-      "top": -3.173391
-    }
+      "width": 95.346011,
+      "left": 2.616755,
+      "top": -2.867553
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-netherlands-2013-queen-beatrix-abdication.jpg"
   },
   {
     "id": "portugal-2013-clerigos-tower",
@@ -1940,16 +1958,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2013,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-portugal-2013-clerigos-tower.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2013-clerigos-tower-clean-aab38223.png",
     "pixels": [
-      1291,
-      1601
+      1126,
+      1397
     ],
     "display": {
-      "width": 93.36518,
-      "left": 3.56741,
-      "top": -12.97291
-    }
+      "width": 92.533531,
+      "left": 4.106503,
+      "top": -11.608179
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-portugal-2013-clerigos-tower.jpg"
   },
   {
     "id": "slovakia-2013-cyril-methodius",
@@ -1960,16 +1980,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovakia",
     "year": 2013,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-slovakia-2013-cyril-methodius.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2013-cyril-methodius-clean-d8e3243c.png",
     "pixels": [
-      1411,
-      1600
+      1178,
+      1335
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -2.426382
-    }
+      "width": 92.34008,
+      "left": 4.119154,
+      "top": -1.922504
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-slovakia-2013-cyril-methodius.jpg"
   },
   {
     "id": "slovenia-2013-postojna-cave",
@@ -1977,16 +1999,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovenia",
     "year": 2013,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-slovenia-2013-postojna-cave.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2013-postojna-cave-clean-a2a06a7c.png",
     "pixels": [
-      1344,
-      1600
+      1149,
+      1368
     ],
     "display": {
-      "width": 93.36803,
-      "left": 3.565985,
-      "top": -9.011385
-    }
+      "width": 92.711302,
+      "left": 3.975038,
+      "top": -8.600982
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-slovenia-2013-postojna-cave.jpg"
   },
   {
     "id": "belgium-2012-euro-cash",
@@ -1997,16 +2021,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Belgium",
     "year": 2012,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2012/2-euro-belgium-2012-euro-cash.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2012-euro-cash-clean-1e97e808.png",
     "pixels": [
-      1414,
-      1600
+      1179,
+      1334
     ],
     "display": {
-      "width": 93.371466,
-      "left": 3.564267,
-      "top": -3.797924
-    }
+      "width": 92.807761,
+      "left": 3.846119,
+      "top": -3.517323
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2012/2-euro-belgium-2012-euro-cash.jpg"
   },
   {
     "id": "spain-2012-burgos",
@@ -2017,16 +2043,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Spain",
     "year": 2012,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2012/2-euro-spain-2012-burgos.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2012-burgos-clean-a15f32bd.png",
     "pixels": [
-      1327,
-      1600
+      1142,
+      1377
     ],
     "display": {
-      "width": 93.36714,
-      "left": 3.56643,
-      "top": -10.219738
-    }
+      "width": 92.46588,
+      "left": 4.098029,
+      "top": -9.288724
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2012/2-euro-spain-2012-burgos.jpg"
   },
   {
     "id": "greece-2011-special-olympics",

@@ -1438,6 +1438,258 @@
         "top": -13.013196
       },
       "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "slovakia-2015-ludovit-stur",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2015-ludovit-stur-clean-9f89b705.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2015-ludovit-stur-attempt1.png",
+      "sha256": "9f89b705555f09fc578c52bf4db4898cb615e1a2bb47cc4b5d480cac208b9263",
+      "bounds": {
+        "left": 3,
+        "top": 107,
+        "right": 1165,
+        "bottom": 1276
+      },
+      "display": {
+        "width": 93.837147,
+        "left": 3.571215,
+        "top": -5.614949
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "france-2014-world-aids-day",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/france-2014-world-aids-day-clean-3d73f2bb.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/france-2014-world-aids-day-attempt1.png",
+      "sha256": "3d73f2bbe222dec8a542e8635590c6c5a5f53740e9be5e307f6d7ed7d66385c1",
+      "bounds": {
+        "left": 3,
+        "top": 122,
+        "right": 1142,
+        "bottom": 1288
+      },
+      "display": {
+        "width": 91.995069,
+        "left": 4.372668,
+        "top": -6.838979
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "greece-2014-ionian-islands",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2014-ionian-islands-clean-cc84b11d.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2014-ionian-islands-attempt1.png",
+      "sha256": "cc84b11d43a6fc4ca0b5231ece103e24c5f2f229bdee25714ab8c1c2b8fb87fd",
+      "bounds": {
+        "left": 6,
+        "top": 56,
+        "right": 1213,
+        "bottom": 1281
+      },
+      "display": {
+        "width": 92.903571,
+        "left": 3.760077,
+        "top": -1.333929
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "netherlands-2014-double-portrait",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/netherlands-2014-double-portrait-clean-766575e6.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/netherlands-2014-double-portrait-attempt1.png",
+      "sha256": "766575e674e1c8a94ffadd6e30ec2a45336c5c3dc530aed585e8f536a130134f",
+      "bounds": {
+        "left": 0,
+        "top": 52,
+        "right": 1183,
+        "bottom": 1246
+      },
+      "display": {
+        "width": 92.576686,
+        "left": 3.961657,
+        "top": -1.131805
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "portugal-2014-carnation-revolution",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2014-carnation-revolution-clean-87aa3a1e.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2014-carnation-revolution-attempt1.png",
+      "sha256": "87aa3a1eef9b6ecf5e6643a91d8d9fc863a1a7a3dbca49c498d5d3fb133345b0",
+      "bounds": {
+        "left": 0,
+        "top": 83,
+        "right": 1164,
+        "bottom": 1249
+      },
+      "display": {
+        "width": 93.4375,
+        "left": 3.611385,
+        "top": -3.713711
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "portugal-2014-family-farming",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2014-family-farming-clean-1ff2f67c.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2014-family-farming-attempt1.png",
+      "sha256": "1ff2f67c6e6f9e8831ccb71e315b9857d96058e424576ae24a4df3e5fa44e44e",
+      "bounds": {
+        "left": 0,
+        "top": 156,
+        "right": 1122,
+        "bottom": 1289
+      },
+      "display": {
+        "width": 92.695278,
+        "left": 3.98483,
+        "top": -9.927681
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "spain-2014-king-felipe-vi",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2014-king-felipe-vi-clean-7e8ad2ee.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2014-king-felipe-vi-attempt1.png",
+      "sha256": "7e8ad2ee31470d7cc2021930023569a321c3bc3276aa45f1ddca903ab9bf9d6f",
+      "bounds": {
+        "left": 2,
+        "top": 194,
+        "right": 1106,
+        "bottom": 1310
+      },
+      "display": {
+        "width": 93.270049,
+        "left": 3.866151,
+        "top": -13.30522
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "belgium-2013-royal-meteorological-institute",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2013-royal-meteorological-institute-clean-283e2a12.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2013-royal-meteorological-institute-attempt1.png",
+      "sha256": "283e2a12d0191d9fe3e7ebbd5defe942103aa6e27b5fc22399dbb5bab04850a0",
+      "bounds": {
+        "left": 0,
+        "top": 120,
+        "right": 1159,
+        "bottom": 1286
+      },
+      "display": {
+        "width": 92.876554,
+        "left": 3.811723,
+        "top": -6.678709
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "netherlands-2013-queen-beatrix-abdication",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/netherlands-2013-queen-beatrix-abdication-clean-4c3b63b9.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/netherlands-2013-queen-beatrix-abdication-attempt1.png",
+      "sha256": "4c3b63b9d7e6f81f71e40e1994231beb92f555a82781cb1f09dd9c0b0f8b146b",
+      "bounds": {
+        "left": 21,
+        "top": 73,
+        "right": 1177,
+        "bottom": 1248
+      },
+      "display": {
+        "width": 95.346011,
+        "left": 2.616755,
+        "top": -2.867553
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "portugal-2013-clerigos-tower",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2013-clerigos-tower-clean-aab38223.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2013-clerigos-tower-attempt1.png",
+      "sha256": "aab382237ceb587b2d84a5dd9de3cd1c939170451994d089be2072618151cfae",
+      "bounds": {
+        "left": 1,
+        "top": 177,
+        "right": 1122,
+        "bottom": 1314
+      },
+      "display": {
+        "width": 92.533531,
+        "left": 4.106503,
+        "top": -11.608179
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "slovakia-2013-cyril-methodius",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2013-cyril-methodius-clean-d8e3243c.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2013-cyril-methodius-attempt1.png",
+      "sha256": "d8e3243c3c1326de1e47bfd0f028fe28299a23e01e2d2e52ceadbc4e6b71eb10",
+      "bounds": {
+        "left": 0,
+        "top": 62,
+        "right": 1177,
+        "bottom": 1254
+      },
+      "display": {
+        "width": 92.34008,
+        "left": 4.119154,
+        "top": -1.922504
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "slovenia-2013-postojna-cave",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2013-postojna-cave-clean-a2a06a7c.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2013-postojna-cave-attempt1.png",
+      "sha256": "a2a06a7cd2eaf960c4e9661a8506299ba8c1fc567eed5235868ac93d317598ac",
+      "bounds": {
+        "left": 0,
+        "top": 143,
+        "right": 1147,
+        "bottom": 1301
+      },
+      "display": {
+        "width": 92.711302,
+        "left": 3.975038,
+        "top": -8.600982
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "belgium-2012-euro-cash",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2012-euro-cash-clean-1e97e808.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2012-euro-cash-attempt1.png",
+      "sha256": "1e97e808608b934de4131477fec852eb36fe900708c706f4ab623bc2b3c612f6",
+      "bounds": {
+        "left": 0,
+        "top": 82,
+        "right": 1179,
+        "bottom": 1269
+      },
+      "display": {
+        "width": 92.807761,
+        "left": 3.846119,
+        "top": -3.517323
+      },
+      "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "spain-2012-burgos",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2012-burgos-clean-a15f32bd.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2012-burgos-attempt1.png",
+      "sha256": "a15f32bd7a473a79169c7cfbf8f6c8ce8ed7f4dcfe5b56e89ca65e116c8c90ce",
+      "bounds": {
+        "left": 0,
+        "top": 151,
+        "right": 1140,
+        "bottom": 1305
+      },
+      "display": {
+        "width": 92.46588,
+        "left": 4.098029,
+        "top": -9.288724
+      },
+      "batch": "2026-10-15-batch-010"
     }
   ],
   "updated_date": "2026-10-15",
@@ -1465,6 +1717,14 @@
     {
       "date": "2026-10-15",
       "batch": "2026-10-15-batch-009",
+      "candidates": 14,
+      "user_reply": "ok do the other coins left",
+      "publication_authorization": "Continuation of approved publish-to-live workflow",
+      "exact_engraving_verified": false
+    },
+    {
+      "date": "2026-10-15",
+      "batch": "2026-10-15-batch-010",
       "candidates": 14,
       "user_reply": "ok do the other coins left",
       "publication_authorization": "Continuation of approved publish-to-live workflow",
