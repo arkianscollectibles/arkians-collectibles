@@ -1690,6 +1690,114 @@
         "top": -9.288724
       },
       "batch": "2026-10-15-batch-010"
+    },
+    {
+      "id": "greece-2011-special-olympics",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2011-special-olympics-clean-a4e76c67.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2011-special-olympics-attempt1.png",
+      "sha256": "a4e76c674cb5679ef22d74f11639b72f97d6a8b898b4a4e39d26c44646368058",
+      "bounds": {
+        "left": 0,
+        "top": 109,
+        "right": 1178,
+        "bottom": 1297
+      },
+      "display": {
+        "width": 92.650989,
+        "left": 3.924505,
+        "top": -5.635469
+      },
+      "batch": "2026-10-15-batch-011"
+    },
+    {
+      "id": "greece-2010-marathon",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2010-marathon-clean-ff2e950c.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2010-marathon-attempt1.png",
+      "sha256": "ff2e950c89b2d8b1f917d73f93de198947b2c54f5f702a49f4d9372208f545c9",
+      "bounds": {
+        "left": 2,
+        "top": 87,
+        "right": 1186,
+        "bottom": 1285
+      },
+      "display": {
+        "width": 92.813543,
+        "left": 3.921223,
+        "top": -3.848028
+      },
+      "batch": "2026-10-15-batch-011"
+    },
+    {
+      "id": "belgium-2006-atomium",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2006-atomium-clean-30eb9d83.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2006-atomium-attempt1.png",
+      "sha256": "30eb9d83a3a6ef260aa1cdf49a4a9515a050f4a8b2c106a66413bf8a80f277f5",
+      "bounds": {
+        "left": 0,
+        "top": 156,
+        "right": 1140,
+        "bottom": 1310
+      },
+      "display": {
+        "width": 93.032658,
+        "left": 4.098029,
+        "top": -9.693566
+      },
+      "batch": "2026-10-15-batch-011"
+    },
+    {
+      "id": "austria-2005-state-treaty",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/austria-2005-state-treaty-clean-02ff32e6.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/austria-2005-state-treaty-attempt1.png",
+      "sha256": "02ff32e60f91171eec3bd1d4be9ef8bda0f13d3fe5403fec25342b225a2dd750",
+      "bounds": {
+        "left": 0,
+        "top": 39,
+        "right": 1217,
+        "bottom": 1271
+      },
+      "display": {
+        "width": 92.679079,
+        "left": 4.100066,
+        "top": -0.020343
+      },
+      "batch": "2026-10-15-batch-011"
+    },
+    {
+      "id": "greece-2004-athens-olympics",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2004-athens-olympics-clean-fe9cec1f.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2004-athens-olympics-attempt1.png",
+      "sha256": "fe9cec1f55f557f033125f16319dd8689f2f3ac0b76fc123085c3f5829f97c86",
+      "bounds": {
+        "left": 0,
+        "top": 38,
+        "right": 1208,
+        "bottom": 1254
+      },
+      "display": {
+        "width": 93.0533,
+        "left": 3.83861,
+        "top": 0.017578
+      },
+      "batch": "2026-10-15-batch-011"
+    },
+    {
+      "id": "spain-2023-council-presidency",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2023-council-presidency-clean-b5ec1070.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2023-council-presidency-attempt1.png",
+      "sha256": "b5ec10700b5d36e46f8f5aaf351508dd04d2b2ee231b6edac33a34a982470d3f",
+      "bounds": {
+        "left": 94,
+        "top": 58,
+        "right": 1200,
+        "bottom": 1169
+      },
+      "display": {
+        "width": 109.332808,
+        "left": -4.164098,
+        "top": -1.940425
+      },
+      "batch": "2026-10-15-batch-011"
     }
   ],
   "updated_date": "2026-10-15",
@@ -1726,6 +1834,14 @@
       "date": "2026-10-15",
       "batch": "2026-10-15-batch-010",
       "candidates": 14,
+      "user_reply": "ok do the other coins left",
+      "publication_authorization": "Continuation of approved publish-to-live workflow",
+      "exact_engraving_verified": false
+    },
+    {
+      "date": "2026-10-15",
+      "batch": "2026-10-15-batch-011",
+      "candidates": 6,
       "user_reply": "ok do the other coins left",
       "publication_authorization": "Continuation of approved publish-to-live workflow",
       "exact_engraving_verified": false

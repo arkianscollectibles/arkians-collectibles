@@ -5304,28 +5304,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011.en.html",
       "official_name_verified": true,
       "id": "greece-2011-special-olympics",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2011/2-euro-greece-2011-special-olympics.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2011-special-olympics-clean-a4e76c67.png",
       "colored": false,
-      "sha256": "5f4d2d5d54074a173944421623f20f57b5096491bd1ef325eabcaaf61a8a8ddb",
+      "sha256": "a4e76c674cb5679ef22d74f11639b72f97d6a8b898b4a4e39d26c44646368058",
       "pixels": [
-        1412,
-        1600
+        1178,
+        1335
       ],
       "bounds": {
         "left": 0,
-        "top": 135,
-        "right": 1412,
-        "bottom": 1548
+        "top": 109,
+        "right": 1178,
+        "bottom": 1297
       },
       "display": {
-        "width": 93.371373,
-        "left": 3.564314,
-        "top": -5.98965
+        "width": 92.650989,
+        "left": 3.924505,
+        "top": -5.635469
       },
       "official_feature": "The Special Olympics World Summer Games — Athens 2011",
       "searchAliases": [
         "2 Euro Special Olympics World Summer Games – Athens 2011"
-      ]
+      ],
+      "file": "greece-2011-special-olympics-clean-a4e76c67.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2011/2-euro-greece-2011-special-olympics.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2011/2-euro-greece-2011-special-olympics.jpg",
+        "pixels": [
+          1412,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 135,
+          "right": 1412,
+          "bottom": 1548
+        },
+        "display": {
+          "width": 93.371373,
+          "left": 3.564314,
+          "top": -5.98965
+        },
+        "sha256": "5f4d2d5d54074a173944421623f20f57b5096491bd1ef325eabcaaf61a8a8ddb"
+      }
     },
     {
       "index": 92,
@@ -5337,28 +5359,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010.en.html",
       "official_name_verified": true,
       "id": "greece-2010-marathon",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2010/2-euro-greece-2010-marathon.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2010-marathon-clean-ff2e950c.png",
       "colored": false,
-      "sha256": "6b6af1c76eee606524a80d61c28e9d585c41e03b1d51d6c347442c4292ad4d9d",
+      "sha256": "ff2e950c89b2d8b1f917d73f93de198947b2c54f5f702a49f4d9372208f545c9",
       "pixels": [
-        1441,
-        1600
+        1190,
+        1322
       ],
       "bounds": {
-        "left": 0,
-        "top": 109,
-        "right": 1441,
-        "bottom": 1551
+        "left": 2,
+        "top": 87,
+        "right": 1186,
+        "bottom": 1285
       },
       "display": {
-        "width": 93.372703,
-        "left": 3.563649,
-        "top": -4.12539
+        "width": 92.813543,
+        "left": 3.921223,
+        "top": -3.848028
       },
       "official_feature": "2.500th anniversary of the Battle of Marathon",
       "searchAliases": [
         "2 Euro 2500th anniversary of the Battle of Marathon"
-      ]
+      ],
+      "file": "greece-2010-marathon-clean-ff2e950c.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2010/2-euro-greece-2010-marathon.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2010/2-euro-greece-2010-marathon.jpg",
+        "pixels": [
+          1441,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 109,
+          "right": 1441,
+          "bottom": 1551
+        },
+        "display": {
+          "width": 93.372703,
+          "left": 3.563649,
+          "top": -4.12539
+        },
+        "sha256": "6b6af1c76eee606524a80d61c28e9d585c41e03b1d51d6c347442c4292ad4d9d"
+      }
     },
     {
       "index": 93,
@@ -5370,28 +5414,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2006.en.html",
       "official_name_verified": true,
       "id": "belgium-2006-atomium",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2006/2-euro-belgium-2006-atomium.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2006-atomium-clean-30eb9d83.png",
       "colored": false,
-      "sha256": "b8fa2627b42cb5a306bc4f931a1bff62aae0619a17526e74befe7477b80d6fa5",
+      "sha256": "30eb9d83a3a6ef260aa1cdf49a4a9515a050f4a8b2c106a66413bf8a80f277f5",
       "pixels": [
-        1343,
-        1600
+        1149,
+        1369
       ],
       "bounds": {
         "left": 0,
-        "top": 187,
-        "right": 1343,
-        "bottom": 1530
+        "top": 156,
+        "right": 1140,
+        "bottom": 1310
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -10.072785
+        "width": 93.032658,
+        "left": 4.098029,
+        "top": -9.693566
       },
       "official_feature": "Atomium",
       "searchAliases": [
         "2 Euro The Atomium"
-      ]
+      ],
+      "file": "belgium-2006-atomium-clean-30eb9d83.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2006/2-euro-belgium-2006-atomium.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2006/2-euro-belgium-2006-atomium.jpg",
+        "pixels": [
+          1343,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 187,
+          "right": 1343,
+          "bottom": 1530
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -10.072785
+        },
+        "sha256": "b8fa2627b42cb5a306bc4f931a1bff62aae0619a17526e74befe7477b80d6fa5"
+      }
     },
     {
       "index": 94,
@@ -5403,25 +5469,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2005.en.html",
       "official_name_verified": true,
       "id": "austria-2005-state-treaty",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2005/2-euro-austria-2005-state-treaty.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/austria-2005-state-treaty-clean-02ff32e6.png",
       "colored": false,
-      "sha256": "38e07b79ad3a9e4206b3e086514bdd274f032408012266a0721e6e77e6dd3ec4",
+      "sha256": "02ff32e60f91171eec3bd1d4be9ef8bda0f13d3fe5403fec25342b225a2dd750",
       "pixels": [
-        1521,
-        1600
+        1222,
+        1287
       ],
       "bounds": {
         "left": 0,
-        "top": 60,
-        "right": 1521,
-        "bottom": 1581
+        "top": 39,
+        "right": 1217,
+        "bottom": 1271
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -0.748397
+        "width": 92.679079,
+        "left": 4.100066,
+        "top": -0.020343
       },
-      "official_feature": "50th anniversary of the Austrian State Treaty"
+      "official_feature": "50th anniversary of the Austrian State Treaty",
+      "file": "austria-2005-state-treaty-clean-02ff32e6.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2005/2-euro-austria-2005-state-treaty.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2005/2-euro-austria-2005-state-treaty.jpg",
+        "pixels": [
+          1521,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 60,
+          "right": 1521,
+          "bottom": 1581
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -0.748397
+        },
+        "sha256": "38e07b79ad3a9e4206b3e086514bdd274f032408012266a0721e6e77e6dd3ec4"
+      }
     },
     {
       "index": 95,
@@ -5433,28 +5521,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2004.en.html",
       "official_name_verified": true,
       "id": "greece-2004-athens-olympics",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2004/2-euro-greece-2004-athens-olympics.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2004-athens-olympics-clean-fe9cec1f.png",
       "colored": false,
-      "sha256": "23014c957d784e90d64ea2eaa469cd2c62cd4bf8611a2cef64ea73a0fb465d72",
+      "sha256": "fe9cec1f55f557f033125f16319dd8689f2f3ac0b76fc123085c3f5829f97c86",
       "pixels": [
-        1490,
-        1600
+        1211,
+        1299
       ],
       "bounds": {
         "left": 0,
-        "top": 65,
-        "right": 1490,
-        "bottom": 1540
+        "top": 38,
+        "right": 1208,
+        "bottom": 1254
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -0.66831
+        "width": 93.0533,
+        "left": 3.83861,
+        "top": 0.017578
       },
       "official_feature": "Olympic Games in Athens 2004",
       "searchAliases": [
         "2 Euro Olympic Games – Athens 2004"
-      ]
+      ],
+      "file": "greece-2004-athens-olympics-clean-fe9cec1f.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2004/2-euro-greece-2004-athens-olympics.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2004/2-euro-greece-2004-athens-olympics.jpg",
+        "pixels": [
+          1490,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 65,
+          "right": 1490,
+          "bottom": 1540
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -0.66831
+        },
+        "sha256": "23014c957d784e90d64ea2eaa469cd2c62cd4bf8611a2cef64ea73a0fb465d72"
+      }
     },
     {
       "index": 96,
@@ -5466,28 +5576,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "official_name_verified": true,
       "id": "spain-2023-council-presidency",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-council-presidency.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2023-council-presidency-clean-b5ec1070.png",
       "colored": false,
-      "sha256": "cdd46e1482dd11eb822f0a7b2254961cfd355996e21dab9a53cb31bbc6f44123",
+      "sha256": "b5ec10700b5d36e46f8f5aaf351508dd04d2b2ee231b6edac33a34a982470d3f",
       "pixels": [
-        1600,
-        1487
+        1300,
+        1209
       ],
       "bounds": {
-        "left": 122,
-        "top": 75,
-        "right": 1478,
-        "bottom": 1430
+        "left": 94,
+        "top": 58,
+        "right": 1200,
+        "bottom": 1169
       },
       "display": {
-        "width": 110.250737,
-        "left": -4.875369,
-        "top": -2.19605
+        "width": 109.332808,
+        "left": -4.164098,
+        "top": -1.940425
       },
       "official_feature": "The Spanish Presidency of the Council of the EU",
       "searchAliases": [
         "2 Euro Spanish Presidency of the Council of the European Union"
-      ]
+      ],
+      "file": "spain-2023-council-presidency-clean-b5ec1070.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-council-presidency.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-council-presidency.jpg",
+        "pixels": [
+          1600,
+          1487
+        ],
+        "bounds": {
+          "left": 122,
+          "top": 75,
+          "right": 1478,
+          "bottom": 1430
+        },
+        "display": {
+          "width": 110.250737,
+          "left": -4.875369,
+          "top": -2.19605
+        },
+        "sha256": "cdd46e1482dd11eb822f0a7b2254961cfd355996e21dab9a53cb31bbc6f44123"
+      }
     }
   ],
   "skipped_images": [

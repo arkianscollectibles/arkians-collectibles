@@ -63,3 +63,9 @@ Batch 009 completed: 14 saved AI retouches, generated two at a time with 384-pix
 Completing the remaining coins in pairs with 384-pixel previews and pair checkpoints. The first eight candidates are pushed before the rest of this group. This continues the user-authorized full retouch-and-publish task. Exact fine engraving remains unverified; originals remain preserved. Prompts, hashes and review notes are in clean-batch-010.json.
 
 Batch 010 completed: 14 saved AI retouches, generated in pairs with 384-pixel previews and checkpoints. First eight pushed as c3bf5ee636deabafa22589259dbd1e09e7fbb689. Saved candidates are connected to catalogue/search with measured framing, AI labels and original-photo links. Exact fine engraving remains unverified. Totals: 96 active, 6 untouched, 2 blocked.
+
+## Batch 011 — 15 October 2026
+
+Batch 011 completed: 6 saved AI retouches, generated in pairs with 384-pixel previews and checkpoints. Saved candidates are connected to catalogue/search with measured framing, AI labels and original-photo links. Exact fine engraving remains unverified. Totals: 102 active, 0 untouched, 2 blocked.
+
+Remaining-coins task finished for all 34 previously untouched sources. Pinocchio and Miki Muster were each attempted once more and rejected by image_gen output moderation (category other); their original files remain live. No untouched sources remain. See clean-batch-011.json for failure request IDs and exact prompts. Fine engraving remains unverified on AI retouches.

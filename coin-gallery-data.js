@@ -2065,16 +2065,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2011,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2011/2-euro-greece-2011-special-olympics.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2011-special-olympics-clean-a4e76c67.png",
     "pixels": [
-      1412,
-      1600
+      1178,
+      1335
     ],
     "display": {
-      "width": 93.371373,
-      "left": 3.564314,
-      "top": -5.98965
-    }
+      "width": 92.650989,
+      "left": 3.924505,
+      "top": -5.635469
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2011/2-euro-greece-2011-special-olympics.jpg"
   },
   {
     "id": "greece-2010-marathon",
@@ -2085,16 +2087,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2010,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2010/2-euro-greece-2010-marathon.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2010-marathon-clean-ff2e950c.png",
     "pixels": [
-      1441,
-      1600
+      1190,
+      1322
     ],
     "display": {
-      "width": 93.372703,
-      "left": 3.563649,
-      "top": -4.12539
-    }
+      "width": 92.813543,
+      "left": 3.921223,
+      "top": -3.848028
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2010/2-euro-greece-2010-marathon.jpg"
   },
   {
     "id": "belgium-2006-atomium",
@@ -2105,16 +2109,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Belgium",
     "year": 2006,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2006/2-euro-belgium-2006-atomium.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2006-atomium-clean-30eb9d83.png",
     "pixels": [
-      1343,
-      1600
+      1149,
+      1369
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -10.072785
-    }
+      "width": 93.032658,
+      "left": 4.098029,
+      "top": -9.693566
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2006/2-euro-belgium-2006-atomium.jpg"
   },
   {
     "id": "austria-2005-state-treaty",
@@ -2122,16 +2128,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Austria",
     "year": 2005,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2005/2-euro-austria-2005-state-treaty.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/austria-2005-state-treaty-clean-02ff32e6.png",
     "pixels": [
-      1521,
-      1600
+      1222,
+      1287
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -0.748397
-    }
+      "width": 92.679079,
+      "left": 4.100066,
+      "top": -0.020343
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2005/2-euro-austria-2005-state-treaty.jpg"
   },
   {
     "id": "greece-2004-athens-olympics",
@@ -2142,16 +2150,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2004,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2004/2-euro-greece-2004-athens-olympics.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2004-athens-olympics-clean-fe9cec1f.png",
     "pixels": [
-      1490,
-      1600
+      1211,
+      1299
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -0.66831
-    }
+      "width": 93.0533,
+      "left": 3.83861,
+      "top": 0.017578
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2004/2-euro-greece-2004-athens-olympics.jpg"
   },
   {
     "id": "spain-2023-council-presidency",
@@ -2162,15 +2172,17 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Spain",
     "year": 2023,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-council-presidency.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2023-council-presidency-clean-b5ec1070.png",
     "pixels": [
-      1600,
-      1487
+      1300,
+      1209
     ],
     "display": {
-      "width": 110.250737,
-      "left": -4.875369,
-      "top": -2.19605
-    }
+      "width": 109.332808,
+      "left": -4.164098,
+      "top": -1.940425
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-council-presidency.jpg"
   }
 ];

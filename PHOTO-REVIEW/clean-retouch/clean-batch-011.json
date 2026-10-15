@@ -1,0 +1,290 @@
+{
+  "id": "2026-10-15-batch-011",
+  "tool": "built-in image_gen",
+  "status": "complete_with_two_generation_blocks",
+  "planned_photos": 8,
+  "desired_candidates": 8,
+  "max_simultaneous_generations": 2,
+  "preview_width": 384,
+  "notes": "Complete all remaining coins in pairs. Preserve original files, publish candidates with AI labels and original-photo links; exact fine engraving remains unverified. The final two entries are one fresh attempt each for previously blocked Pinocchio and Miki Muster; originals remain preserved if generation is blocked again.",
+  "entries": [
+    {
+      "id": "greece-2011-special-olympics",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2011-special-olympics-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main spiral/figure/olive branch and inscription/date layout visually retained. Exact leaf/spiral geometry, small symbols and fine text remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2011 Special Olympics. Lock every spiral/circle edge, central stylized figure, olive branch, leaf count/positions and all relief shading. Preserve XIII SPECIAL OLYMPICS W.S.G., ATHENS 2011, all Greek wording and mint/designer marks exactly as source. No standardized replacement logo, extra leaves or reconstructed tiny lettering.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2011 Special Olympics. Lock every spiral/circle edge, central stylized figure, olive branch, leaf count/positions and all relief shading. Preserve XIII SPECIAL OLYMPICS W.S.G., ATHENS 2011, all Greek wording and mint/designer marks exactly as source. No standardized replacement logo, extra leaves or reconstructed tiny lettering."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2011/2-euro-greece-2011-special-olympics.jpg",
+      "source_sha256": "5f4d2d5d54074a173944421623f20f57b5096491bd1ef325eabcaaf61a8a8ddb",
+      "applied": true,
+      "candidate_sha256": "a4e76c674cb5679ef22d74f11639b72f97d6a8b898b4a4e39d26c44646368058",
+      "pixels": [
+        1178,
+        1335
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2011-special-olympics-clean-a4e76c67.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 109,
+        "right": 1178,
+        "bottom": 1297
+      },
+      "live_display": {
+        "width": 92.650989,
+        "left": 3.924505,
+        "top": -5.635469
+      },
+      "activation_approval": "User requested all remaining coins on 2026-10-15, continuing approved publication with original-photo links. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "greece-2010-marathon",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2010-marathon-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main warrior/runner, spear, shield/hatch and Greek inscription/date layout visually retained. Exact anatomical/line intersections, hatch counts and tiny glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2010 Marathon. Lock the exact ancient-warrior/runner outline, shield/bird/helmet motifs, spear crossing the coin/ring, all diagonal hatch lines and original geometric overlaps. Preserve all Greek inscriptions, dates and tiny marks exactly. No redesigned anatomy, spear direction, shield pattern or rewritten lettering.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2010 Marathon. Lock the exact ancient-warrior/runner outline, shield/bird/helmet motifs, spear crossing the coin/ring, all diagonal hatch lines and original geometric overlaps. Preserve all Greek inscriptions, dates and tiny marks exactly. No redesigned anatomy, spear direction, shield pattern or rewritten lettering."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2010/2-euro-greece-2010-marathon.jpg",
+      "source_sha256": "6b6af1c76eee606524a80d61c28e9d585c41e03b1d51d6c347442c4292ad4d9d",
+      "applied": true,
+      "candidate_sha256": "ff2e950c89b2d8b1f917d73f93de198947b2c54f5f702a49f4d9372208f545c9",
+      "pixels": [
+        1190,
+        1322
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2010-marathon-clean-ff2e950c.png",
+      "live_bounds": {
+        "left": 2,
+        "top": 87,
+        "right": 1186,
+        "bottom": 1285
+      },
+      "live_display": {
+        "width": 92.813543,
+        "left": 3.921223,
+        "top": -3.848028
+      },
+      "activation_approval": "User requested all remaining coins on 2026-10-15, continuing approved publication with original-photo links. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "belgium-2006-atomium",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2006-atomium-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main visible spheres/rods/support lattice and B/date/mark layout visually retained. Exact sphere/rod overlaps, tiny lattice/mint details and glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Belgium 2006 Atomium. Lock every visible sphere, connecting rod, exact overlap, support lattice and base, preserving the source perspective and light/shadow relief. Preserve B, 2006 and all tiny mint/designer symbols exactly. No invented hidden spheres/rods, changed framework or extra stars.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Belgium 2006 Atomium. Lock every visible sphere, connecting rod, exact overlap, support lattice and base, preserving the source perspective and light/shadow relief. Preserve B, 2006 and all tiny mint/designer symbols exactly. No invented hidden spheres/rods, changed framework or extra stars."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2006/2-euro-belgium-2006-atomium.jpg",
+      "source_sha256": "b8fa2627b42cb5a306bc4f931a1bff62aae0619a17526e74befe7477b80d6fa5",
+      "applied": true,
+      "candidate_sha256": "30eb9d83a3a6ef260aa1cdf49a4a9515a050f4a8b2c106a66413bf8a80f277f5",
+      "pixels": [
+        1149,
+        1369
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2006-atomium-clean-30eb9d83.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 156,
+        "right": 1140,
+        "bottom": 1310
+      },
+      "live_display": {
+        "width": 93.032658,
+        "left": 4.098029,
+        "top": -9.693566
+      },
+      "activation_approval": "User requested all remaining coins on 2026-10-15, continuing approved publication with original-photo links. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "austria-2005-state-treaty",
+      "candidate": "PHOTO-REVIEW/clean-retouch/austria-2005-state-treaty-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/champagne finish and white background improved. Main seals/signatures/vertical-line layout and anniversary/date wording visually retained. Exact cursive signature strokes, emblem details and tiny glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Austria 2005 State Treaty. Lock every original seal/emblem, cursive signature stroke, vertical divider and background line, preserving the exact arrangement and overlaps. Preserve 50 JAHRE STAATSVERTRAG, 2005 and every signature/initial exactly as photographed. Do not transcribe, guess or replace faint signatures, seals or lettering.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Austria 2005 State Treaty. Lock every original seal/emblem, cursive signature stroke, vertical divider and background line, preserving the exact arrangement and overlaps. Preserve 50 JAHRE STAATSVERTRAG, 2005 and every signature/initial exactly as photographed. Do not transcribe, guess or replace faint signatures, seals or lettering."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2005/2-euro-austria-2005-state-treaty.jpg",
+      "source_sha256": "38e07b79ad3a9e4206b3e086514bdd274f032408012266a0721e6e77e6dd3ec4",
+      "applied": true,
+      "candidate_sha256": "02ff32e60f91171eec3bd1d4be9ef8bda0f13d3fe5403fec25342b225a2dd750",
+      "pixels": [
+        1222,
+        1287
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/austria-2005-state-treaty-clean-02ff32e6.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 39,
+        "right": 1217,
+        "bottom": 1271
+      },
+      "live_display": {
+        "width": 92.679079,
+        "left": 4.100066,
+        "top": -0.020343
+      },
+      "activation_approval": "User requested all remaining coins on 2026-10-15, continuing approved publication with original-photo links. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "greece-2004-athens-olympics",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2004-athens-olympics-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main discus-thrower statue, five-ring layout and inscriptions/date visually retained. Exact anatomy/relief, ring overlaps, small Greek lettering and mint glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2004 Athens Olympics. Lock the exact engraved classical discus-thrower statue, discus, limbs/pose, facial/hair relief and base, plus all five Olympic rings. Preserve ATHENS 2004, the large 2, Greek currency lettering, split outer-ring date and tiny mint symbols exactly. No reconstructed anatomy, changed ring overlaps or new relief.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2004 Athens Olympics. Lock the exact engraved classical discus-thrower statue, discus, limbs/pose, facial/hair relief and base, plus all five Olympic rings. Preserve ATHENS 2004, the large 2, Greek currency lettering, split outer-ring date and tiny mint symbols exactly. No reconstructed anatomy, changed ring overlaps or new relief."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2004/2-euro-greece-2004-athens-olympics.jpg",
+      "source_sha256": "23014c957d784e90d64ea2eaa469cd2c62cd4bf8611a2cef64ea73a0fb465d72",
+      "applied": true,
+      "candidate_sha256": "fe9cec1f55f557f033125f16319dd8689f2f3ac0b76fc123085c3f5829f97c86",
+      "pixels": [
+        1211,
+        1299
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2004-athens-olympics-clean-fe9cec1f.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 38,
+        "right": 1208,
+        "bottom": 1254
+      },
+      "live_display": {
+        "width": 93.0533,
+        "left": 3.83861,
+        "top": 0.017578
+      },
+      "activation_approval": "User requested all remaining coins on 2026-10-15, continuing approved publication with original-photo links. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "spain-2023-council-presidency",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2023-council-presidency-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main UE/23 geometry/hatching and circular Spanish inscription/date layout visually retained. Exact hatch counts, corners, accents and tiny crowned-M glyph remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2023 Council Presidency. Lock every exact contour, rounded corner, horizontal bar and hatched panel of the UE/23 design. Preserve the full circular Spanish presidency/council inscription, ESPAÑA 2023 and crowned-M mint mark exactly. No standardized replacement logo, changed hatch patterns or re-typeset lettering.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2023 Council Presidency. Lock every exact contour, rounded corner, horizontal bar and hatched panel of the UE/23 design. Preserve the full circular Spanish presidency/council inscription, ESPAÑA 2023 and crowned-M mint mark exactly. No standardized replacement logo, changed hatch patterns or re-typeset lettering."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-council-presidency.jpg",
+      "source_sha256": "cdd46e1482dd11eb822f0a7b2254961cfd355996e21dab9a53cb31bbc6f44123",
+      "applied": true,
+      "candidate_sha256": "b5ec10700b5d36e46f8f5aaf351508dd04d2b2ee231b6edac33a34a982470d3f",
+      "pixels": [
+        1300,
+        1209
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2023-council-presidency-clean-b5ec1070.png",
+      "live_bounds": {
+        "left": 94,
+        "top": 58,
+        "right": 1200,
+        "bottom": 1169
+      },
+      "live_display": {
+        "width": 109.332808,
+        "left": -4.164098,
+        "top": -1.940425
+      },
+      "activation_approval": "User requested all remaining coins on 2026-10-15, continuing approved publication with original-photo links. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "italy-2026-carlo-collodi-pinocchio",
+      "source": "PRODUCT PHOTOS/COINS/2026/2-euro-carlo-collodi-pinocchio-2026.jpg",
+      "source_sha256": "d5490ee485e4fd990252af26ceca388b4954349df88f000bb8f7aedb30fa60da",
+      "candidate": null,
+      "status": "generation_blocked",
+      "review": "Fresh AI attempt rejected at output moderation (category other). No candidate was produced; original remains live and preserved.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: the existing Italy 2026 Carlo Collodi–Pinocchio coin photograph. Photographic metal/background cleanup only. Keep the two original engraved illustrated figures, all face/nose/hat/hair/clothing/hand/foot contours and their exact overlap unchanged. Preserve CARLO COLLODI, 1826–2026, PINOCCHIO, RI, R and tiny designer marks exactly. No new illustration, character redesign or changed expression/pose.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "moderation_blocked_output",
+          "request_id": "8a4d683d-13ac-452c-a6af-827200ee5436",
+          "prompt": "Use case: precise-object-edit. Input 1 is the ONLY edit target: the actual Italy 2026 Carlo Collodi–Pinocchio commemorative coin photograph. Inputs 2 and 3 are finish references only. Conservatively retouch only photographic blemishes and colour cast on target 1, matching reference clean neutral satin-silver outer ring and VERY PALE champagne-gold centre on white. Preserve EXACTLY the existing two engraved Pinocchio depictions: faces, long noses, eyes, mouths, caps, hair lines, collars, buttons, sleeves, hands and fingers, raised arm pose, shorts, articulated wooden limbs and shoes. Preserve the tiny cricket on the nose, all mint marks/designer initials, overlapped country monogram, lower rim dividing lines, twelve stars and original orientation. Keep all source lettering unchanged, including CARLO COLLODI, 1826 - 2026 and PINOCCHIO; follow source for precise glyphs, small marks, punctuation and placement. Do not invent unreadable details or redraw/simplify character relief. Only remove surface grime/noise and uneven casts from flat metal, retain all original relief edges and natural shading. Complete coin outline visible, slight white margin, one coin only. No additional character, face reconstruction, added letters, extra stars, gold saturation or chrome look."
+        },
+        {
+          "number": 2,
+          "outcome": "moderation_blocked_output",
+          "request_id": "15ee757d-f808-4be6-8e1e-7ee73065f7d0",
+          "prompt": "Conservative photographic retouch of this existing commemorative euro coin image. Change only the background to clean white and correct the metal colour: neutral satin-silver outer ring and pale champagne-gold centre. Keep the original engraved design, all text, dates, symbols, stars, rim, orientation and framing unchanged. Do not redraw or add details. Keep the whole coin visible. Return a single clean catalogue photograph of the same coin."
+        },
+        {
+          "number": 3,
+          "outcome": "generation_blocked",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: the existing Italy 2026 Carlo Collodi–Pinocchio coin photograph. Photographic metal/background cleanup only. Keep the two original engraved illustrated figures, all face/nose/hat/hair/clothing/hand/foot contours and their exact overlap unchanged. Preserve CARLO COLLODI, 1826–2026, PINOCCHIO, RI, R and tiny designer marks exactly. No new illustration, character redesign or changed expression/pose.",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 19ccbb13-0b95-43f9-99d3-04041562a695.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+          "request_id": "19ccbb13-0b95-43f9-99d3-04041562a695",
+          "moderation_stage": "output",
+          "moderation_category": "other"
+        }
+      ],
+      "applied": false
+    },
+    {
+      "id": "slovenia-2025-miki-muster",
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-slovenia-2025-miki-muster.jpg",
+      "source_sha256": "b420cc0a846b13fe407fbe9ba5b536424fff8c5cdbfbbc407693fb04c1a7a56f",
+      "candidate": null,
+      "status": "generation_blocked",
+      "review": "Fresh AI attempt rejected at output moderation (category other). No candidate was produced; original remains live and preserved.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: the existing Slovenia 2025 Miki Muster commemorative coin photograph. Photographic metal/background cleanup only. Keep every original engraved illustrated character face, ear, muzzle, nose, mouth, eye and small decorative contour in exactly its original shape and position. Preserve 1925 MIKI MUSTER, 2025, SLOVENIJA and every tiny mark exactly. No new illustration, redesigned characters or changed expressions.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "moderation_blocked_output",
+          "prompt": "Use case: precise-object-edit. Image 1 is the ONLY edit target, an existing actual commemorative euro coin photograph. Images 2 and 3 are finish references only. Conservative photographic cleanup: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre and pure white background matching references. Remove blotchy dirt and uneven colour casts only from flat metal. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, rim, coin orientation and all twelve stars EXACTLY. Follow source pixels; never guess unreadable letters or invent details. Keep original relief shading and complete coin outline with modest white margin. No redesigned relief, simplified geometry, new lettering or extra stars. One coin only, no collage, no saturated yellow or mirror chrome. Target: Miki Muster. Lock the source engraved group of three cartoon figures: every face, nose, eye, mouth, ear, hand, clothing line, body outline and relative position. Preserve 1925, MIKI MUSTER, 2025, SLOVENIJA and tiny marks exactly as source. Do not restyle or replace the characters, alter their expressions or add lines.",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 7da1be6e-39cf-4cb9-a75f-a79254f097c9.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+          "request_id": "7da1be6e-39cf-4cb9-a75f-a79254f097c9"
+        },
+        {
+          "number": 2,
+          "outcome": "generation_blocked",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: the existing Slovenia 2025 Miki Muster commemorative coin photograph. Photographic metal/background cleanup only. Keep every original engraved illustrated character face, ear, muzzle, nose, mouth, eye and small decorative contour in exactly its original shape and position. Preserve 1925 MIKI MUSTER, 2025, SLOVENIJA and every tiny mark exactly. No new illustration, redesigned characters or changed expressions.",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID 297bc2d1-f9fb-4234-8380-5cb91dc4a7ca.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"output\\\",\\n      \\\"categories\\\": [\\n        \\\"other\\\"\\n      ]\\n    }\\n  }\\n}\")",
+          "request_id": "297bc2d1-f9fb-4234-8380-5cb91dc4a7ca",
+          "moderation_stage": "output",
+          "moderation_category": "other"
+        }
+      ],
+      "applied": false
+    }
+  ],
+  "attempted_photos": 8,
+  "saved_candidates": 6,
+  "total_generation_attempts": 8,
+  "generation_blocked": 2,
+  "completed_date": "2026-10-15",
+  "active_candidates": 6,
+  "completion_note": "All 34 previously untouched sources were retouched and published across batches 009–011. The two previously blocked coins each received one fresh attempt and were blocked again at output moderation; their originals remain preserved and live."
+}
