@@ -1,0 +1,191 @@
+{
+  "id": "2026-10-15-batch-007",
+  "tool": "built-in image_gen",
+  "status": "in_progress",
+  "planned_photos": 14,
+  "desired_candidates": 14,
+  "max_simultaneous_generations": 2,
+  "preview_width": 384,
+  "notes": "User approved publication of this batch with original-photo links despite exact fine engraving remaining unverified. Preserve originals; checkpoint after each pair and push the first eight candidates before continuing.",
+  "entries": [
+    {
+      "id": "slovakia-2023-blood-transfusion",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2023-blood-transfusion-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Central cross/shield, radial-drop layout and circular inscriptions visually retained. Exact drop geometry, small emblem and glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovakia 2023 blood transfusion. Lock the central cross/shield, all surrounding drop-shaped radial motifs, each small circular emblem and the entire circular Slovak inscription including 1923–2023. Preserve exact element counts and spacing.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovakia 2023 blood transfusion. Lock the central cross/shield, all surrounding drop-shaped radial motifs, each small circular emblem and the entire circular Slovak inscription including 1923–2023. Preserve exact element counts and spacing."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovakia-2023-blood-transfusion.jpg",
+      "source_sha256": "538c910d7e908793cabc753806c18e1962013c4f20e447f7c997875766925bcd",
+      "applied": false,
+      "candidate_sha256": "cdf6038b2084d9f644ffd8d9fbf7feadc817649e395c2dfc49ba0a7eb6396a64",
+      "pixels": [
+        1184,
+        1328
+      ]
+    },
+    {
+      "id": "slovenia-2023-josip-plemelj",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2023-josip-plemelj-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main portrait-free mathematical-arc/dot layout and inscriptions visually retained. Exact mathematical symbols, digits, dot counts and tiny engraving remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Josip Plemelj 2023. Lock all concentric mathematical spirals/arcs, every dot, digit, Greek symbol and equation stroke, and the curved JOSIP PLEMELJ, dates and SLOVENIJA inscriptions. Do not regularize or re-typeset mathematical marks.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Josip Plemelj 2023. Lock all concentric mathematical spirals/arcs, every dot, digit, Greek symbol and equation stroke, and the curved JOSIP PLEMELJ, dates and SLOVENIJA inscriptions. Do not regularize or re-typeset mathematical marks."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovenia-2023-josip-plemelj.jpg",
+      "source_sha256": "3ea261a6d696c3378d4bdb7cb086b1c988c158bd4e512f565789e33a611b93e5",
+      "applied": false,
+      "candidate_sha256": "f41df06e0950792c638ef3e717d6567c73a7c0b54dd4bcaabe6f6891294f8f4a",
+      "pixels": [
+        1232,
+        1277
+      ]
+    },
+    {
+      "id": "spain-2023-caceres",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2023-caceres-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver ring and white background improved; centre remains somewhat warmer than the pale finish references. Main Cáceres building and inscription layout visually retained. Exact masonry, roof/window details and tiny mint glyph remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2023 Cáceres. Lock every original building, roof, stone texture, arch, window, tower and foreground wall. Preserve ESPAÑA, 2023, CÁCERES and crowned-M mint mark exactly. No architectural reconstruction, added windows or simplified masonry.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2023 Cáceres. Lock every original building, roof, stone texture, arch, window, tower and foreground wall. Preserve ESPAÑA, 2023, CÁCERES and crowned-M mint mark exactly. No architectural reconstruction, added windows or simplified masonry."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-caceres.jpg",
+      "source_sha256": "230dcb98d98bd23ff721f93e61f8aa3dc5e464fdac573f800b89f1b379f295e9",
+      "applied": false,
+      "candidate_sha256": "1337886cc98fdbdbb97182b82e484ae21fb1f1b3ee437b5b3b2b3b04f76a9b3b",
+      "pixels": [
+        1200,
+        1311
+      ]
+    },
+    {
+      "id": "austria-2022-erasmus",
+      "candidate": "PHOTO-REVIEW/clean-retouch/austria-2022-erasmus-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main portrait, hand/writing tool, lattice and inscription layout visually retained. Exact lattice intersections, portrait microdetail and tiny glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Austria 2022 Erasmus. Lock the engraved Erasmus portrait, face/hat/clothing, hands and writing instrument, and every triangular lattice line/intersection behind him. Preserve the complete original curved lettering, REPUBLIK ÖSTERREICH and date strings without re-typesetting. No changed polygon network or portrait reconstruction.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Austria 2022 Erasmus. Lock the engraved Erasmus portrait, face/hat/clothing, hands and writing instrument, and every triangular lattice line/intersection behind him. Preserve the complete original curved lettering, REPUBLIK ÖSTERREICH and date strings without re-typesetting. No changed polygon network or portrait reconstruction."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2022/2-euro-austria-2022-erasmus.jpg",
+      "source_sha256": "45fa6b645d0be55b33134aac109b65f2397debbd00e8808f1c0913f4928b7df2",
+      "applied": false,
+      "candidate_sha256": "9e8574d770903775975f769f13da438f6e55b7bafa30533a1acc39ba6f981b1f",
+      "pixels": [
+        1189,
+        1323
+      ]
+    },
+    {
+      "id": "belgium-2021-belgium-luxembourg-union",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2021-belgium-luxembourg-union-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main overlapping profiles, maps, vertical text and date layout visually retained. Exact hair/face/map outlines and tiny mint/designer glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Belgium–Luxembourg Economic Union centenary. Preserve the exact two overlapping engraved profile portraits and their hair, facial contours and overlap. Lock the map contours, vertical ECONOMIC UNION lettering, BE, LUX, 1921, 2021 and every tiny mint/designer mark exactly. No face reconstruction or reshaped maps.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Belgium–Luxembourg Economic Union centenary. Preserve the exact two overlapping engraved profile portraits and their hair, facial contours and overlap. Lock the map contours, vertical ECONOMIC UNION lettering, BE, LUX, 1921, 2021 and every tiny mint/designer mark exactly. No face reconstruction or reshaped maps."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-belgium-2021-belgium-luxembourg-union.jpg",
+      "source_sha256": "fcc17b41cf69ca2afc8dc48be7c43879928e1cc797dec10ace832eb304bfbfc4",
+      "applied": false,
+      "candidate_sha256": "ddd9dc0569fff9984e591e2e27122d9395ff38e7a02598c9c41dd902a6fb0944",
+      "pixels": [
+        1192,
+        1320
+      ]
+    },
+    {
+      "id": "greece-2021-greek-revolution",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2021-greek-revolution-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main laurel/cross/stripe layout and circular Greek inscriptions visually retained. Exact leaf/stripe geometry, accent shapes and tiny marks remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2021 bicentenary of the Greek Revolution. Lock every laurel leaf, twig and crossing, the central Greek cross/shield and each horizontal stripe. Preserve the complete circular Greek inscription, 1821–2021 and tiny mint/designer symbols exactly from the source. No extra leaves, rewritten accents or changed stripe counts.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2021 bicentenary of the Greek Revolution. Lock every laurel leaf, twig and crossing, the central Greek cross/shield and each horizontal stripe. Preserve the complete circular Greek inscription, 1821–2021 and tiny mint/designer symbols exactly from the source. No extra leaves, rewritten accents or changed stripe counts."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-greece-2021-greek-revolution.jpg",
+      "source_sha256": "4320121359f500fa2c38ac4a380915c39089ce63d524876ca96437e0343f18ad",
+      "applied": false,
+      "candidate_sha256": "47a8b1b98fecc9d2616c22540c94b868f2686cac8129873c7dca2d888ef02edd",
+      "pixels": [
+        1173,
+        1341
+      ]
+    },
+    {
+      "id": "latvia-2021-de-jure-recognition",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2021-de-jure-recognition-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main custom lettering, dates and diagonal dividers visually retained. Exact glyph contours, spacing and tiny edge marks remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Latvia 2021 de iure recognition. Lock the exact geometric letter/digit contours and spacing of 100, LATVIJA, DE IURE and 2021, plus both diagonal dividing lines. Preserve the small edge marks and stars exactly; do not re-typeset or regularize the tall custom lettering.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Latvia 2021 de iure recognition. Lock the exact geometric letter/digit contours and spacing of 100, LATVIJA, DE IURE and 2021, plus both diagonal dividing lines. Preserve the small edge marks and stars exactly; do not re-typeset or regularize the tall custom lettering."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-latvia-2021-de-jure-recognition.jpg",
+      "source_sha256": "be06ac612a6ee1a6f4caf2aa7d8e7ab638245be119449711530f7bdfacc6a015",
+      "applied": false,
+      "candidate_sha256": "5f3a0e7119c2470724e79c6411d57f33646b353ebf5e8149d2950518def62118",
+      "pixels": [
+        1153,
+        1364
+      ]
+    },
+    {
+      "id": "monaco-2021-princely-wedding",
+      "candidate": "PHOTO-REVIEW/clean-retouch/monaco-2021-princely-wedding-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main overlapping portraits, curved wording, dates and diamond marks visually retained. Exact facial/hair relief and small typography remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Monaco 2021 princely wedding anniversary. Lock the exact two overlapping engraved profiles, face/hair/ear/neck contours, their overlap and the small diamond marks. Preserve MONACO, the complete curved French MARIAGE PRINCIER wording and both date strings exactly from the source. No face reconstruction, changed profiles or new lettering.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Monaco 2021 princely wedding anniversary. Lock the exact two overlapping engraved profiles, face/hair/ear/neck contours, their overlap and the small diamond marks. Preserve MONACO, the complete curved French MARIAGE PRINCIER wording and both date strings exactly from the source. No face reconstruction, changed profiles or new lettering."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-monaco-2021-princely-wedding.jpg",
+      "source_sha256": "065000517d29bd85ec7faa70c730ec17742d3ed92e652eba3089185205887936",
+      "applied": false,
+      "candidate_sha256": "2a8fe4ea8fb05acb567197b09f1563716bcb4a41d5e1d0ce07751a07b831d56b",
+      "pixels": [
+        1230,
+        1279
+      ]
+    }
+  ],
+  "attempted_photos": 8,
+  "saved_candidates": 8,
+  "total_generation_attempts": 8
+}

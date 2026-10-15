@@ -39,3 +39,7 @@ Batch 006 completed: 14 additional review candidates, processed two at a time wi
 ## Live activation — 14 October 2026
 
 The user approved placing all 40 saved AI candidates in the live catalogue despite exact fine engraving remaining unverified. This supersedes the review-only status in the earlier batch records above. The catalogue and search now use the candidate images, with coin framing recalculated and the source-photo filter disabled. Each edited catalogue card is labelled AI retouch and links to its preserved original photograph. Original files and the 30 previous product retouches remain preserved. activation-manifest.json records the source, candidate and live paths and candidate hashes.
+
+## Batch 007 — 15 October 2026
+
+Fourteen further source coins are being retouched in pairs with 384-pixel previews and a saved checkpoint after each pair. An intermediate push preserves the first eight candidates before the remaining six. The user approved publishing this batch with AI labels and original-photo links despite exact fine engraving remaining unverified. clean-batch-007.json records prompts, reviews, dimensions and hashes. Original source files remain preserved.
