@@ -1162,16 +1162,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovakia",
     "year": 2020,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-slovakia-2020-oecd.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2020-oecd-clean-35a1a1ea.png",
     "pixels": [
-      1422,
-      1600
+      1182,
+      1330
     ],
     "display": {
-      "width": 93.371838,
-      "left": 3.564081,
-      "top": 2.08389
-    }
+      "width": 92.887405,
+      "left": 3.84559,
+      "top": 2.30882
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-slovakia-2020-oecd.jpg"
   },
   {
     "id": "spain-2020-aragon-mudejar",
@@ -1182,16 +1184,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Spain",
     "year": 2020,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-spain-2020-aragon-mudejar.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2020-aragon-mudejar-clean-86eb85f9.png",
     "pixels": [
-      1488,
-      1600
+      1209,
+      1300
     ],
     "display": {
-      "width": 93.374748,
-      "left": 3.562626,
-      "top": -2.082648
-    }
+      "width": 93.12938,
+      "left": 3.993431,
+      "top": -0.759944
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-spain-2020-aragon-mudejar.jpg"
   },
   {
     "id": "estonia-2019-song-celebration",
@@ -1202,16 +1206,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Estonia",
     "year": 2019,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-estonia-2019-song-celebration.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2019-song-celebration-clean-ad678124.png",
     "pixels": [
-      1369,
-      1600
+      1159,
+      1356
     ],
     "display": {
-      "width": 93.369297,
-      "left": 3.565351,
-      "top": -5.928832
-    }
+      "width": 92.717519,
+      "left": 4.011237,
+      "top": -5.702269
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-estonia-2019-song-celebration.jpg"
   },
   {
     "id": "greece-2019-andreas-kalvos",
@@ -1222,16 +1228,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2019,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-greece-2019-andreas-kalvos.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2019-andreas-kalvos-clean-c72b0995.png",
     "pixels": [
-      1600,
-      1585
+      1254,
+      1254
     ],
     "display": {
-      "width": 101.081812,
-      "left": -0.417258,
-      "top": -0.600363
-    }
+      "width": 100.317316,
+      "left": 0.291337,
+      "top": -0.342412
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-greece-2019-andreas-kalvos.jpg"
   },
   {
     "id": "slovakia-2019-milan-rastislav-stefanik",
@@ -1242,16 +1250,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovakia",
     "year": 2019,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-slovakia-2019-milan-rastislav-stefanik.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2019-milan-rastislav-stefanik-clean-4e11a692.png",
     "pixels": [
-      1501,
-      1600
+      1215,
+      1295
     ],
     "display": {
-      "width": 93.313165,
-      "left": 3.593417,
-      "top": 0.823811
-    }
+      "width": 92.373118,
+      "left": 4.253509,
+      "top": 1.340928
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-slovakia-2019-milan-rastislav-stefanik.jpg"
   },
   {
     "id": "spain-2019-avila",
@@ -1262,16 +1272,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Spain",
     "year": 2019,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-spain-2019-avila.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2019-avila-clean-d0ef6543.png",
     "pixels": [
-      1535,
-      1600
+      1229,
+      1280
     ],
     "display": {
-      "width": 93.804161,
-      "left": 3.347919,
-      "top": 0.06532
-    }
+      "width": 93.361535,
+      "left": 3.721164,
+      "top": 0.354675
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-spain-2019-avila.jpg"
   },
   {
     "id": "estonia-2018-estonian-republic",
@@ -1282,16 +1294,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Estonia",
     "year": 2018,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-estonia-2018-estonian-republic.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2018-estonian-republic-clean-7c6115ab.png",
     "pixels": [
-      1558,
-      1600
+      1237,
+      1271
     ],
     "display": {
-      "width": 93.497511,
-      "left": 3.591261,
-      "top": 2.45741
-    }
+      "width": 93.136332,
+      "left": 3.757126,
+      "top": 2.561039
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-estonia-2018-estonian-republic.jpg"
   },
   {
     "id": "greece-2018-kostis-palamas",
@@ -1302,16 +1316,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2018,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-kostis-palamas.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2018-kostis-palamas-clean-94dd648c.png",
     "pixels": [
-      1485,
-      1601
+      1207,
+      1303
     ],
     "display": {
-      "width": 93.374621,
-      "left": 3.562689,
-      "top": -1.463997
-    }
+      "width": 92.822274,
+      "left": 4.184928,
+      "top": -1.138374
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-kostis-palamas.jpg"
   },
   {
     "id": "greece-2018-dodecanese",
@@ -1322,16 +1338,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2018,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-dodecanese.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2018-dodecanese-clean-ffb3381b.png",
     "pixels": [
-      1432,
-      1600
+      1187,
+      1326
     ],
     "display": {
-      "width": 93.372296,
-      "left": 3.563852,
-      "top": -2.735258
-    }
+      "width": 92.967571,
+      "left": 3.844536,
+      "top": -2.545002
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-dodecanese.jpg"
   },
   {
     "id": "latvia-2018-zemgale",
@@ -1339,16 +1357,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Latvia",
     "year": 2018,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-latvia-2018-zemgale.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2018-zemgale-clean-d45a5572.png",
     "pixels": [
-      1600,
-      1391
+      1346,
+      1169
     ],
     "display": {
-      "width": 120.564516,
-      "left": -10.032258,
-      "top": -1.47064
-    }
+      "width": 118.984745,
+      "left": -9.021375,
+      "top": -0.952046
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-latvia-2018-zemgale.jpg"
   },
   {
     "id": "portugal-2018-national-printing-office",
@@ -1359,16 +1379,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2018,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-national-printing-office.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2018-national-printing-office-clean-01037b26.png",
     "pixels": [
-      1491,
-      1600
+      1211,
+      1299
     ],
     "display": {
-      "width": 93.374874,
-      "left": 3.656501,
-      "top": 0.557725
-    }
+      "width": 93.129887,
+      "left": 3.76196,
+      "top": 0.630401
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-national-printing-office.jpg"
   },
   {
     "id": "portugal-2018-ajuda-botanical-garden",
@@ -1379,16 +1401,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2018,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-ajuda-botanical-garden.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2018-ajuda-botanical-garden-clean-a7240bd5.png",
     "pixels": [
-      1567,
-      1600
+      1241,
+      1267
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": 3.056757
-    }
+      "width": 93.287158,
+      "left": 3.606421,
+      "top": 2.9375
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-ajuda-botanical-garden.jpg"
   },
   {
     "id": "slovakia-2018-slovak-republic",
@@ -1399,16 +1423,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovakia",
     "year": 2018,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovakia-2018-slovak-republic.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2018-slovak-republic-clean-414aa83f.png",
     "pixels": [
-      1500,
-      1600
+      1215,
+      1295
     ],
     "display": {
-      "width": 93.875586,
-      "left": 3.155748,
-      "top": -3.070538
-    }
+      "width": 94.056804,
+      "left": 3.608663,
+      "top": -2.868476
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovakia-2018-slovak-republic.jpg"
   },
   {
     "id": "slovenia-2018-world-bee-day",
@@ -1419,16 +1445,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovenia",
     "year": 2018,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovenia-2018-world-bee-day.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2018-world-bee-day-clean-46d699b8.png",
     "pixels": [
-      1455,
-      1601
+      1196,
+      1315
     ],
     "display": {
-      "width": 93.373326,
-      "left": 3.563337,
-      "top": -2.388951
-    }
+      "width": 92.739627,
+      "left": 3.957728,
+      "top": -1.870073
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovenia-2018-world-bee-day.jpg"
   },
   {
     "id": "cyprus-2017-pafos",

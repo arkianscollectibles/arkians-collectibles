@@ -3015,28 +3015,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020.en.html",
       "official_name_verified": true,
       "id": "slovakia-2020-oecd",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-slovakia-2020-oecd.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2020-oecd-clean-35a1a1ea.png",
       "colored": false,
-      "sha256": "35df76ee2629b804aed8637605500ad56162ed0f2fadc9306dec96b8c4cc8c9a",
+      "sha256": "35a1a1ea91197860c307ce85165a4a2b7fbae75ffde5363ccb17322c62282a81",
       "pixels": [
-        1422,
-        1600
+        1182,
+        1330
       ],
       "bounds": {
         "left": 0,
-        "top": 13,
-        "right": 1422,
-        "bottom": 1436
+        "top": 8,
+        "right": 1181,
+        "bottom": 1197
       },
       "display": {
-        "width": 93.371838,
-        "left": 3.564081,
-        "top": 2.08389
+        "width": 92.887405,
+        "left": 3.84559,
+        "top": 2.30882
       },
       "official_feature": "20th anniversary of Slovakia’s accession to the Organisation for Economic Co-operation and Development (OECD)",
       "searchAliases": [
         "2 Euro 20th anniversary of Slovakia's accession to the OECD"
-      ]
+      ],
+      "file": "slovakia-2020-oecd-clean-35a1a1ea.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-slovakia-2020-oecd.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-slovakia-2020-oecd.jpg",
+        "pixels": [
+          1422,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 13,
+          "right": 1422,
+          "bottom": 1436
+        },
+        "display": {
+          "width": 93.371838,
+          "left": 3.564081,
+          "top": 2.08389
+        },
+        "sha256": "35df76ee2629b804aed8637605500ad56162ed0f2fadc9306dec96b8c4cc8c9a"
+      }
     },
     {
       "index": 44,
@@ -3048,28 +3070,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020.en.html",
       "official_name_verified": true,
       "id": "spain-2020-aragon-mudejar",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-spain-2020-aragon-mudejar.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2020-aragon-mudejar-clean-86eb85f9.png",
       "colored": false,
-      "sha256": "3a5d39a5cd179eb7ea5c7c571ddbaf48a4ba22fb495aa2bc404be4f4090a279b",
+      "sha256": "86eb85f9c65e1df54c2c6f7bef9aa4eaa872b473383cabb668e2fc1e9ec07ca3",
       "pixels": [
-        1488,
-        1600
+        1209,
+        1300
       ],
       "bounds": {
         "left": 0,
-        "top": 80,
-        "right": 1488,
-        "bottom": 1569
+        "top": 48,
+        "right": 1201,
+        "bottom": 1261
       },
       "display": {
-        "width": 93.374748,
-        "left": 3.562626,
-        "top": -2.082648
+        "width": 93.12938,
+        "left": 3.993431,
+        "top": -0.759944
       },
       "official_feature": "UNESCO’s World Cultural and Natural Heritage Sites – Aragón and the Aragonese Mudejar architecture",
       "searchAliases": [
         "2 Euro Mudéjar architecture of Aragon"
-      ]
+      ],
+      "file": "spain-2020-aragon-mudejar-clean-86eb85f9.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-spain-2020-aragon-mudejar.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-spain-2020-aragon-mudejar.jpg",
+        "pixels": [
+          1488,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 80,
+          "right": 1488,
+          "bottom": 1569
+        },
+        "display": {
+          "width": 93.374748,
+          "left": 3.562626,
+          "top": -2.082648
+        },
+        "sha256": "3a5d39a5cd179eb7ea5c7c571ddbaf48a4ba22fb495aa2bc404be4f4090a279b"
+      }
     },
     {
       "index": 45,
@@ -3081,28 +3125,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019.en.html",
       "official_name_verified": true,
       "id": "estonia-2019-song-celebration",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-estonia-2019-song-celebration.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2019-song-celebration-clean-ad678124.png",
       "colored": false,
-      "sha256": "8faa4e8d0bfe70e905c20c0679fa68bae5ddc27d54625b8f4f32a0184d8d5578",
+      "sha256": "ad678124ab21f645a9943c129e990cb6c5878c8379f59c999e8e551281fa4c6a",
       "pixels": [
-        1369,
-        1600
+        1159,
+        1356
       ],
       "bounds": {
         "left": 0,
-        "top": 130,
-        "right": 1369,
-        "bottom": 1500
+        "top": 108,
+        "right": 1156,
+        "bottom": 1276
       },
       "display": {
-        "width": 93.369297,
-        "left": 3.565351,
-        "top": -5.928832
+        "width": 92.717519,
+        "left": 4.011237,
+        "top": -5.702269
       },
       "official_feature": "Song Festival’s 150-year anniversary",
       "searchAliases": [
         "2 Euro 150th anniversary of the Estonian Song Celebration"
-      ]
+      ],
+      "file": "estonia-2019-song-celebration-clean-ad678124.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-estonia-2019-song-celebration.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-estonia-2019-song-celebration.jpg",
+        "pixels": [
+          1369,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 130,
+          "right": 1369,
+          "bottom": 1500
+        },
+        "display": {
+          "width": 93.369297,
+          "left": 3.565351,
+          "top": -5.928832
+        },
+        "sha256": "8faa4e8d0bfe70e905c20c0679fa68bae5ddc27d54625b8f4f32a0184d8d5578"
+      }
     },
     {
       "index": 46,
@@ -3114,28 +3180,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019.en.html",
       "official_name_verified": true,
       "id": "greece-2019-andreas-kalvos",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-greece-2019-andreas-kalvos.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2019-andreas-kalvos-clean-c72b0995.png",
       "colored": false,
-      "sha256": "a6bc749ab509dd2508c9f711eec1539d169653742e16f5078ac09f462acd6fb2",
+      "sha256": "c72b0995da4e6f90d3742ff46ae69dcb9346d0bc132ff6463cb1368f4f2495c4",
       "pixels": [
-        1600,
-        1585
+        1254,
+        1254
       ],
       "bounds": {
-        "left": 64,
-        "top": 56,
-        "right": 1540,
-        "bottom": 1535
+        "left": 44,
+        "top": 41,
+        "right": 1205,
+        "bottom": 1209
       },
       "display": {
-        "width": 101.081812,
-        "left": -0.417258,
-        "top": -0.600363
+        "width": 100.317316,
+        "left": 0.291337,
+        "top": -0.342412
       },
       "official_feature": "Andreas Kalvos — 150 years in memoriam",
       "searchAliases": [
         "2 Euro 150th anniversary of the death of Andreas Kalvos"
-      ]
+      ],
+      "file": "greece-2019-andreas-kalvos-clean-c72b0995.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-greece-2019-andreas-kalvos.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-greece-2019-andreas-kalvos.jpg",
+        "pixels": [
+          1600,
+          1585
+        ],
+        "bounds": {
+          "left": 64,
+          "top": 56,
+          "right": 1540,
+          "bottom": 1535
+        },
+        "display": {
+          "width": 101.081812,
+          "left": -0.417258,
+          "top": -0.600363
+        },
+        "sha256": "a6bc749ab509dd2508c9f711eec1539d169653742e16f5078ac09f462acd6fb2"
+      }
     },
     {
       "index": 47,
@@ -3147,28 +3235,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019.en.html",
       "official_name_verified": true,
       "id": "slovakia-2019-milan-rastislav-stefanik",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-slovakia-2019-milan-rastislav-stefanik.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2019-milan-rastislav-stefanik-clean-4e11a692.png",
       "colored": false,
-      "sha256": "1ad399a9b348d1cfc2646d08acd7372c5fee8b689d1a0b0a84b110ef89c635ee",
+      "sha256": "4e11a692140cadd5706d870642d48bcb46a93c1d308628ba77f6582e43179480",
       "pixels": [
-        1501,
-        1600
+        1215,
+        1295
       ],
       "bounds": {
         "left": 0,
-        "top": 34,
-        "right": 1501,
-        "bottom": 1537
+        "top": 21,
+        "right": 1210,
+        "bottom": 1250
       },
       "display": {
-        "width": 93.313165,
-        "left": 3.593417,
-        "top": 0.823811
+        "width": 92.373118,
+        "left": 4.253509,
+        "top": 1.340928
       },
       "official_feature": "The 100th anniversary of the death of Milan Rastislav Štefánik",
       "searchAliases": [
         "2 Euro 100th anniversary of the death of Milan Rastislav Štefánik"
-      ]
+      ],
+      "file": "slovakia-2019-milan-rastislav-stefanik-clean-4e11a692.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-slovakia-2019-milan-rastislav-stefanik.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-slovakia-2019-milan-rastislav-stefanik.jpg",
+        "pixels": [
+          1501,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 34,
+          "right": 1501,
+          "bottom": 1537
+        },
+        "display": {
+          "width": 93.313165,
+          "left": 3.593417,
+          "top": 0.823811
+        },
+        "sha256": "1ad399a9b348d1cfc2646d08acd7372c5fee8b689d1a0b0a84b110ef89c635ee"
+      }
     },
     {
       "index": 49,
@@ -3180,28 +3290,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019.en.html",
       "official_name_verified": true,
       "id": "spain-2019-avila",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-spain-2019-avila.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2019-avila-clean-d0ef6543.png",
       "colored": false,
-      "sha256": "8098510a8822023c71ab383937aeaf67f2a67a6c0ed4f8d69124a3069a61b9bc",
+      "sha256": "d0ef654343c933b6f7d7c672c53d71f5f1f16a7c776c777797c70230cc65fa36",
       "pixels": [
-        1535,
-        1600
+        1229,
+        1280
       ],
       "bounds": {
-        "left": 3,
-        "top": 50,
-        "right": 1532,
-        "bottom": 1573
+        "left": 4,
+        "top": 34,
+        "right": 1221,
+        "bottom": 1264
       },
       "display": {
-        "width": 93.804161,
-        "left": 3.347919,
-        "top": 0.06532
+        "width": 93.361535,
+        "left": 3.721164,
+        "top": 0.354675
       },
       "official_feature": "Unesco’s World Cultural and Natural Heritage Sites — the old town of Avila and its churches outside the walls",
       "searchAliases": [
         "2 Euro Old Town of Ávila"
-      ]
+      ],
+      "file": "spain-2019-avila-clean-d0ef6543.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-spain-2019-avila.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-spain-2019-avila.jpg",
+        "pixels": [
+          1535,
+          1600
+        ],
+        "bounds": {
+          "left": 3,
+          "top": 50,
+          "right": 1532,
+          "bottom": 1573
+        },
+        "display": {
+          "width": 93.804161,
+          "left": 3.347919,
+          "top": 0.06532
+        },
+        "sha256": "8098510a8822023c71ab383937aeaf67f2a67a6c0ed4f8d69124a3069a61b9bc"
+      }
     },
     {
       "index": 50,
@@ -3213,28 +3345,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2018.en.html",
       "official_name_verified": true,
       "id": "estonia-2018-estonian-republic",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-estonia-2018-estonian-republic.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2018-estonian-republic-clean-7c6115ab.png",
       "colored": false,
-      "sha256": "221e59345647dbba4fc0f792d6c024e8ba11453d91aec4515e40b357df7359fd",
+      "sha256": "7c6115abe8f80e79a1610cb6d5813148fa69ef348ec6cb979b30465cf83d771a",
       "pixels": [
-        1558,
-        1600
+        1237,
+        1271
       ],
       "bounds": {
-        "left": 0,
-        "top": 8,
-        "right": 1555,
-        "bottom": 1565
+        "left": 1,
+        "top": 5,
+        "right": 1234,
+        "bottom": 1246
       },
       "display": {
-        "width": 93.497511,
-        "left": 3.591261,
-        "top": 2.45741
+        "width": 93.136332,
+        "left": 3.757126,
+        "top": 2.561039
       },
       "official_feature": "The centennial of the independence of Estonia",
       "searchAliases": [
         "2 Euro 100th anniversary of the Republic of Estonia"
-      ]
+      ],
+      "file": "estonia-2018-estonian-republic-clean-7c6115ab.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-estonia-2018-estonian-republic.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-estonia-2018-estonian-republic.jpg",
+        "pixels": [
+          1558,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 8,
+          "right": 1555,
+          "bottom": 1565
+        },
+        "display": {
+          "width": 93.497511,
+          "left": 3.591261,
+          "top": 2.45741
+        },
+        "sha256": "221e59345647dbba4fc0f792d6c024e8ba11453d91aec4515e40b357df7359fd"
+      }
     },
     {
       "index": 51,
@@ -3246,28 +3400,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2018.en.html",
       "official_name_verified": true,
       "id": "greece-2018-kostis-palamas",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-kostis-palamas.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2018-kostis-palamas-clean-94dd648c.png",
       "colored": false,
-      "sha256": "f981ea97c0d4af69b79656a98507c031dac61db86dd77d88b74de36271f16841",
+      "sha256": "94dd648c831cb08d04e83b21fc7c6081f583d94b959644a328975126a1c4b600",
       "pixels": [
-        1485,
-        1601
+        1207,
+        1303
       ],
       "bounds": {
-        "left": 0,
-        "top": 70,
-        "right": 1485,
-        "bottom": 1556
+        "left": 3,
+        "top": 53,
+        "right": 1195,
+        "bottom": 1268
       },
       "display": {
-        "width": 93.374621,
-        "left": 3.562689,
-        "top": -1.463997
+        "width": 92.822274,
+        "left": 4.184928,
+        "top": -1.138374
       },
       "official_feature": "Kostis Palamas – 75 years in memoriam",
       "searchAliases": [
         "2 Euro 75th anniversary of the death of Kostis Palamas"
-      ]
+      ],
+      "file": "greece-2018-kostis-palamas-clean-94dd648c.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-kostis-palamas.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-kostis-palamas.jpg",
+        "pixels": [
+          1485,
+          1601
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 70,
+          "right": 1485,
+          "bottom": 1556
+        },
+        "display": {
+          "width": 93.374621,
+          "left": 3.562689,
+          "top": -1.463997
+        },
+        "sha256": "f981ea97c0d4af69b79656a98507c031dac61db86dd77d88b74de36271f16841"
+      }
     },
     {
       "index": 52,
@@ -3279,28 +3455,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2018.en.html",
       "official_name_verified": true,
       "id": "greece-2018-dodecanese",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-dodecanese.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2018-dodecanese-clean-ffb3381b.png",
       "colored": false,
-      "sha256": "fe50b0f466f5152c0e174c193b1a4002c082134adac0bfee3fda5038b85b9a6c",
+      "sha256": "ffb3381baeac3ae68202b5492c48e03ecf022a24e563a9518468fa7999e0efd2",
       "pixels": [
-        1432,
-        1600
+        1187,
+        1326
       ],
       "bounds": {
         "left": 0,
-        "top": 87,
-        "right": 1432,
-        "bottom": 1520
+        "top": 70,
+        "right": 1185,
+        "bottom": 1263
       },
       "display": {
-        "width": 93.372296,
-        "left": 3.563852,
-        "top": -2.735258
+        "width": 92.967571,
+        "left": 3.844536,
+        "top": -2.545002
       },
       "official_feature": "70 years since the union of the Dodecanese",
       "searchAliases": [
         "2 Euro 70th anniversary of the union of the Dodecanese with Greece"
-      ]
+      ],
+      "file": "greece-2018-dodecanese-clean-ffb3381b.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-dodecanese.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-dodecanese.jpg",
+        "pixels": [
+          1432,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 87,
+          "right": 1432,
+          "bottom": 1520
+        },
+        "display": {
+          "width": 93.372296,
+          "left": 3.563852,
+          "top": -2.735258
+        },
+        "sha256": "fe50b0f466f5152c0e174c193b1a4002c082134adac0bfee3fda5038b85b9a6c"
+      }
     },
     {
       "index": 53,
@@ -3312,25 +3510,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2018.en.html",
       "official_name_verified": true,
       "id": "latvia-2018-zemgale",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-latvia-2018-zemgale.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2018-zemgale-clean-d45a5572.png",
       "colored": false,
-      "sha256": "5e13c02a47424e81205abdd5b7ea0eb8d9e1c278055c33e0ba85886c98ffecec",
+      "sha256": "d45a5572574590aeeaf79df91c18b2e430189d9d908a8c2b14c156cc136b11ab",
       "pixels": [
-        1600,
-        1391
+        1346,
+        1169
       ],
       "bounds": {
-        "left": 180,
-        "top": 59,
-        "right": 1420,
-        "bottom": 1298
+        "left": 147,
+        "top": 44,
+        "right": 1194,
+        "bottom": 1101
       },
       "display": {
-        "width": 120.564516,
-        "left": -10.032258,
-        "top": -1.47064
+        "width": 118.984745,
+        "left": -9.021375,
+        "top": -0.952046
       },
-      "official_feature": "Zemgale"
+      "official_feature": "Zemgale",
+      "file": "latvia-2018-zemgale-clean-d45a5572.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-latvia-2018-zemgale.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-latvia-2018-zemgale.jpg",
+        "pixels": [
+          1600,
+          1391
+        ],
+        "bounds": {
+          "left": 180,
+          "top": 59,
+          "right": 1420,
+          "bottom": 1298
+        },
+        "display": {
+          "width": 120.564516,
+          "left": -10.032258,
+          "top": -1.47064
+        },
+        "sha256": "5e13c02a47424e81205abdd5b7ea0eb8d9e1c278055c33e0ba85886c98ffecec"
+      }
     },
     {
       "index": 55,
@@ -3342,28 +3562,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2018.en.html",
       "official_name_verified": true,
       "id": "portugal-2018-national-printing-office",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-national-printing-office.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2018-national-printing-office-clean-01037b26.png",
       "colored": false,
-      "sha256": "4a21e1eff03461fdbda9f817f1db21b820b735e1c82c9746eba5e096954c796b",
+      "sha256": "01037b26dd129249cd7eeb7a0d7ac5944e821b1cdccc8fdb7d83bb5c4dcc429b",
       "pixels": [
-        1491,
-        1600
+        1211,
+        1299
       ],
       "bounds": {
         "left": 0,
-        "top": 38,
-        "right": 1488,
-        "bottom": 1530
+        "top": 30,
+        "right": 1209,
+        "bottom": 1245
       },
       "display": {
-        "width": 93.374874,
-        "left": 3.656501,
-        "top": 0.557725
+        "width": 93.129887,
+        "left": 3.76196,
+        "top": 0.630401
       },
       "official_feature": "250 years of the Official Printing Works (‘Imprensa Nacional’)",
       "searchAliases": [
         "2 Euro 250th anniversary of the National Printing Office"
-      ]
+      ],
+      "file": "portugal-2018-national-printing-office-clean-01037b26.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-national-printing-office.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-national-printing-office.jpg",
+        "pixels": [
+          1491,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 38,
+          "right": 1488,
+          "bottom": 1530
+        },
+        "display": {
+          "width": 93.374874,
+          "left": 3.656501,
+          "top": 0.557725
+        },
+        "sha256": "4a21e1eff03461fdbda9f817f1db21b820b735e1c82c9746eba5e096954c796b"
+      }
     },
     {
       "index": 56,
@@ -3375,28 +3617,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2018.en.html",
       "official_name_verified": true,
       "id": "portugal-2018-ajuda-botanical-garden",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-ajuda-botanical-garden.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2018-ajuda-botanical-garden-clean-a7240bd5.png",
       "colored": false,
-      "sha256": "c7d3b60f7f3835c9f79f59e97f5be335ac8e773fa8f151809e6b1fd29c26fda0",
+      "sha256": "a7240bd5708858a1651a610f0a3ef0fb79e06d93e267243e2e3f589a0d5b606a",
       "pixels": [
-        1567,
-        1600
+        1241,
+        1267
       ],
       "bounds": {
         "left": 0,
         "top": 0,
-        "right": 1567,
-        "bottom": 1563
+        "right": 1241,
+        "bottom": 1243
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": 3.056757
+        "width": 93.287158,
+        "left": 3.606421,
+        "top": 2.9375
       },
       "official_feature": "250 years of the Ajuda Botanical Garden (‘Jardim Botânico da Ajuda’)",
       "searchAliases": [
         "2 Euro 250th anniversary of the Ajuda Botanical Garden"
-      ]
+      ],
+      "file": "portugal-2018-ajuda-botanical-garden-clean-a7240bd5.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-ajuda-botanical-garden.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-ajuda-botanical-garden.jpg",
+        "pixels": [
+          1567,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 0,
+          "right": 1567,
+          "bottom": 1563
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": 3.056757
+        },
+        "sha256": "c7d3b60f7f3835c9f79f59e97f5be335ac8e773fa8f151809e6b1fd29c26fda0"
+      }
     },
     {
       "index": 57,
@@ -3408,28 +3672,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2018.en.html",
       "official_name_verified": true,
       "id": "slovakia-2018-slovak-republic",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovakia-2018-slovak-republic.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2018-slovak-republic-clean-414aa83f.png",
       "colored": false,
-      "sha256": "455374092fd4b07cdcf68e06e864ec9a1779b73f6bafde6e74968a72c9f6a374",
+      "sha256": "414aa83f2f6981a36c89e27d039b9e4ac6d8eb517850d4a9d1539bd0a851eb80",
       "pixels": [
-        1500,
-        1600
+        1215,
+        1295
       ],
       "bounds": {
         "left": 8,
-        "top": 96,
-        "right": 1497,
-        "bottom": 1589
+        "top": 75,
+        "right": 1197,
+        "bottom": 1282
       },
       "display": {
-        "width": 93.875586,
-        "left": 3.155748,
-        "top": -3.070538
+        "width": 94.056804,
+        "left": 3.608663,
+        "top": -2.868476
       },
       "official_feature": "The 25th anniversary of the establishment of the Slovak Republic",
       "searchAliases": [
         "2 Euro 25th anniversary of the Slovak Republic"
-      ]
+      ],
+      "file": "slovakia-2018-slovak-republic-clean-414aa83f.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovakia-2018-slovak-republic.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovakia-2018-slovak-republic.jpg",
+        "pixels": [
+          1500,
+          1600
+        ],
+        "bounds": {
+          "left": 8,
+          "top": 96,
+          "right": 1497,
+          "bottom": 1589
+        },
+        "display": {
+          "width": 93.875586,
+          "left": 3.155748,
+          "top": -3.070538
+        },
+        "sha256": "455374092fd4b07cdcf68e06e864ec9a1779b73f6bafde6e74968a72c9f6a374"
+      }
     },
     {
       "index": 58,
@@ -3441,28 +3727,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2018.en.html",
       "official_name_verified": true,
       "id": "slovenia-2018-world-bee-day",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovenia-2018-world-bee-day.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2018-world-bee-day-clean-46d699b8.png",
       "colored": false,
-      "sha256": "d4896c05aecf25d96221c7f7bd055bdb7faa163433fb65adc206a092425fe7c4",
+      "sha256": "46d699b82ab67881eb028a374e2da6df3a68fad9b32d459b20e19e2cb56dba48",
       "pixels": [
-        1455,
-        1601
+        1196,
+        1315
       ],
       "bounds": {
         "left": 0,
-        "top": 83,
-        "right": 1455,
-        "bottom": 1539
+        "top": 62,
+        "right": 1194,
+        "bottom": 1267
       },
       "display": {
-        "width": 93.373326,
-        "left": 3.563337,
-        "top": -2.388951
+        "width": 92.739627,
+        "left": 3.957728,
+        "top": -1.870073
       },
       "official_feature": "Slovenia World Day of Bees",
       "searchAliases": [
         "2 Euro World Bee Day"
-      ]
+      ],
+      "file": "slovenia-2018-world-bee-day-clean-46d699b8.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovenia-2018-world-bee-day.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovenia-2018-world-bee-day.jpg",
+        "pixels": [
+          1455,
+          1601
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 83,
+          "right": 1455,
+          "bottom": 1539
+        },
+        "display": {
+          "width": 93.373326,
+          "left": 3.563337,
+          "top": -2.388951
+        },
+        "sha256": "d4896c05aecf25d96221c7f7bd055bdb7faa163433fb65adc206a092425fe7c4"
+      }
     },
     {
       "index": 59,

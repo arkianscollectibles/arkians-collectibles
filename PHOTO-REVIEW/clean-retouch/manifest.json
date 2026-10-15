@@ -2229,12 +2229,25 @@
         }
       ],
       "source_sha256": "35df76ee2629b804aed8637605500ad56162ed0f2fadc9306dec96b8c4cc8c9a",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "35a1a1ea91197860c307ce85165a4a2b7fbae75ffde5363ccb17322c62282a81",
       "pixels": [
         1182,
         1330
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2020-oecd-clean-35a1a1ea.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 8,
+        "right": 1181,
+        "bottom": 1197
+      },
+      "live_display": {
+        "width": 92.887405,
+        "left": 3.84559,
+        "top": 2.30882
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "spain-2020-aragon-mudejar",
@@ -2252,12 +2265,25 @@
         }
       ],
       "source_sha256": "3a5d39a5cd179eb7ea5c7c571ddbaf48a4ba22fb495aa2bc404be4f4090a279b",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "86eb85f9c65e1df54c2c6f7bef9aa4eaa872b473383cabb668e2fc1e9ec07ca3",
       "pixels": [
         1209,
         1300
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2020-aragon-mudejar-clean-86eb85f9.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 48,
+        "right": 1201,
+        "bottom": 1261
+      },
+      "live_display": {
+        "width": 93.12938,
+        "left": 3.993431,
+        "top": -0.759944
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "estonia-2019-song-celebration",
@@ -2275,12 +2301,25 @@
         }
       ],
       "source_sha256": "8faa4e8d0bfe70e905c20c0679fa68bae5ddc27d54625b8f4f32a0184d8d5578",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "ad678124ab21f645a9943c129e990cb6c5878c8379f59c999e8e551281fa4c6a",
       "pixels": [
         1159,
         1356
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2019-song-celebration-clean-ad678124.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 108,
+        "right": 1156,
+        "bottom": 1276
+      },
+      "live_display": {
+        "width": 92.717519,
+        "left": 4.011237,
+        "top": -5.702269
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "greece-2019-andreas-kalvos",
@@ -2298,12 +2337,25 @@
         }
       ],
       "source_sha256": "a6bc749ab509dd2508c9f711eec1539d169653742e16f5078ac09f462acd6fb2",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "c72b0995da4e6f90d3742ff46ae69dcb9346d0bc132ff6463cb1368f4f2495c4",
       "pixels": [
         1254,
         1254
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2019-andreas-kalvos-clean-c72b0995.png",
+      "live_bounds": {
+        "left": 44,
+        "top": 41,
+        "right": 1205,
+        "bottom": 1209
+      },
+      "live_display": {
+        "width": 100.317316,
+        "left": 0.291337,
+        "top": -0.342412
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "slovakia-2019-milan-rastislav-stefanik",
@@ -2321,12 +2373,25 @@
         }
       ],
       "source_sha256": "1ad399a9b348d1cfc2646d08acd7372c5fee8b689d1a0b0a84b110ef89c635ee",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "4e11a692140cadd5706d870642d48bcb46a93c1d308628ba77f6582e43179480",
       "pixels": [
         1215,
         1295
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2019-milan-rastislav-stefanik-clean-4e11a692.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 21,
+        "right": 1210,
+        "bottom": 1250
+      },
+      "live_display": {
+        "width": 92.373118,
+        "left": 4.253509,
+        "top": 1.340928
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "spain-2019-avila",
@@ -2344,12 +2409,25 @@
         }
       ],
       "source_sha256": "8098510a8822023c71ab383937aeaf67f2a67a6c0ed4f8d69124a3069a61b9bc",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "d0ef654343c933b6f7d7c672c53d71f5f1f16a7c776c777797c70230cc65fa36",
       "pixels": [
         1229,
         1280
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2019-avila-clean-d0ef6543.png",
+      "live_bounds": {
+        "left": 4,
+        "top": 34,
+        "right": 1221,
+        "bottom": 1264
+      },
+      "live_display": {
+        "width": 93.361535,
+        "left": 3.721164,
+        "top": 0.354675
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "estonia-2018-estonian-republic",
@@ -2367,12 +2445,25 @@
         }
       ],
       "source_sha256": "221e59345647dbba4fc0f792d6c024e8ba11453d91aec4515e40b357df7359fd",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "7c6115abe8f80e79a1610cb6d5813148fa69ef348ec6cb979b30465cf83d771a",
       "pixels": [
         1237,
         1271
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2018-estonian-republic-clean-7c6115ab.png",
+      "live_bounds": {
+        "left": 1,
+        "top": 5,
+        "right": 1234,
+        "bottom": 1246
+      },
+      "live_display": {
+        "width": 93.136332,
+        "left": 3.757126,
+        "top": 2.561039
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "greece-2018-kostis-palamas",
@@ -2390,54 +2481,241 @@
         }
       ],
       "source_sha256": "f981ea97c0d4af69b79656a98507c031dac61db86dd77d88b74de36271f16841",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "94dd648c831cb08d04e83b21fc7c6081f583d94b959644a328975126a1c4b600",
       "pixels": [
         1207,
         1303
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2018-kostis-palamas-clean-94dd648c.png",
+      "live_bounds": {
+        "left": 3,
+        "top": 53,
+        "right": 1195,
+        "bottom": 1268
+      },
+      "live_display": {
+        "width": 92.822274,
+        "left": 4.184928,
+        "top": -1.138374
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "greece-2018-dodecanese",
       "name": "2 Euro 70 years since the union of the Dodecanese",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-dodecanese.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2018-dodecanese-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main rose/concentric-ripple layout and Greek inscription/date ring visually retained. Exact ripple-band counts/intersections, rose relief and tiny glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2018 Dodecanese union anniversary. Lock the central stylized rose and every concentric wavy/ripple band, preserving their exact count, spacing, curvature and intersections. Preserve the complete circular Greek wording, 1948–2018 and tiny mint/designer marks exactly. No redrawn rose, extra ripple bands, re-typeset Greek or invented relief.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2018 Dodecanese union anniversary. Lock the central stylized rose and every concentric wavy/ripple band, preserving their exact count, spacing, curvature and intersections. Preserve the complete circular Greek wording, 1948–2018 and tiny mint/designer marks exactly. No redrawn rose, extra ripple bands, re-typeset Greek or invented relief."
+        }
+      ],
+      "source_sha256": "fe50b0f466f5152c0e174c193b1a4002c082134adac0bfee3fda5038b85b9a6c",
+      "applied": true,
+      "candidate_sha256": "ffb3381baeac3ae68202b5492c48e03ecf022a24e563a9518468fa7999e0efd2",
+      "pixels": [
+        1187,
+        1326
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2018-dodecanese-clean-ffb3381b.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 70,
+        "right": 1185,
+        "bottom": 1263
+      },
+      "live_display": {
+        "width": 92.967571,
+        "left": 3.844536,
+        "top": -2.545002
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "latvia-2018-zemgale",
       "name": "2 Euro Zemgale",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-latvia-2018-zemgale.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2018-zemgale-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main stag/shield, antler/leg layout and lettering/date visually retained. Exact antler/manetail/hoof contours, tiny relief and glyph spacing remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Latvia 2018 Zemgale. Lock the exact heraldic stag, each antler branch, mane stroke, eye/muzzle contour, leg/hoof position, tail and shield outline. Preserve LATVIJA, ZEMGALE and 2018 exactly with original letter shapes and spacing. No anatomical reconstruction, new antler points or regularized shield geometry.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Latvia 2018 Zemgale. Lock the exact heraldic stag, each antler branch, mane stroke, eye/muzzle contour, leg/hoof position, tail and shield outline. Preserve LATVIJA, ZEMGALE and 2018 exactly with original letter shapes and spacing. No anatomical reconstruction, new antler points or regularized shield geometry."
+        }
+      ],
+      "source_sha256": "5e13c02a47424e81205abdd5b7ea0eb8d9e1c278055c33e0ba85886c98ffecec",
+      "applied": true,
+      "candidate_sha256": "d45a5572574590aeeaf79df91c18b2e430189d9d908a8c2b14c156cc136b11ab",
+      "pixels": [
+        1346,
+        1169
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2018-zemgale-clean-d45a5572.png",
+      "live_bounds": {
+        "left": 147,
+        "top": 44,
+        "right": 1194,
+        "bottom": 1101
+      },
+      "live_display": {
+        "width": 118.984745,
+        "left": -9.021375,
+        "top": -0.952046
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "portugal-2018-national-printing-office",
       "name": "2 Euro 250 years of the Official Printing Works (‘Imprensa Nacional’)",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-national-printing-office.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2018-national-printing-office-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main interlocking typography, horizontal dividers and date layout visually retained. Exact glyph overlaps/spacing, anniversary wording contours and tiny bottom designer/mint text remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2018 National Printing Office. Lock every contour, spacing and overlap of the tall outlined typography and every horizontal baseline/divider. Preserve 1768–2018, IMPRENSA NACIONAL, the full Portuguese anniversary wording, 250 ANOS, PORTUGAL, MMXVIII and tiny bottom designer/mint inscriptions exactly as photographed. Do not re-typeset, correct or simplify the interlocking lettering.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2018 National Printing Office. Lock every contour, spacing and overlap of the tall outlined typography and every horizontal baseline/divider. Preserve 1768–2018, IMPRENSA NACIONAL, the full Portuguese anniversary wording, 250 ANOS, PORTUGAL, MMXVIII and tiny bottom designer/mint inscriptions exactly as photographed. Do not re-typeset, correct or simplify the interlocking lettering."
+        }
+      ],
+      "source_sha256": "4a21e1eff03461fdbda9f817f1db21b820b735e1c82c9746eba5e096954c796b",
+      "applied": true,
+      "candidate_sha256": "01037b26dd129249cd7eeb7a0d7ac5944e821b1cdccc8fdb7d83bb5c4dcc429b",
+      "pixels": [
+        1211,
+        1299
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2018-national-printing-office-clean-01037b26.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 30,
+        "right": 1209,
+        "bottom": 1245
+      },
+      "live_display": {
+        "width": 93.129887,
+        "left": 3.76196,
+        "top": 0.630401
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "portugal-2018-ajuda-botanical-garden",
       "name": "2 Euro 250 years of the Ajuda Botanical Garden (‘Jardim Botânico da Ajuda’)",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-ajuda-botanical-garden.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2018-ajuda-botanical-garden-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main tree/branch/foliage and curved Portuguese inscription/date layout visually retained. Exact leaf/branch counts, small signature and accent/glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2018 Ajuda Botanical Garden. Lock every original trunk/branch/fork and foliage stroke of the stylized tree, preserving exact leaf-cluster shapes/counts and the bottom ground line/signature. Preserve the complete curved 250 ANOS JARDIM BOTÂNICO DA AJUDA and PORTUGAL 2018 wording, accents and tiny marks exactly. No extra leaves, regularized tree symmetry or invented branches.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2018 Ajuda Botanical Garden. Lock every original trunk/branch/fork and foliage stroke of the stylized tree, preserving exact leaf-cluster shapes/counts and the bottom ground line/signature. Preserve the complete curved 250 ANOS JARDIM BOTÂNICO DA AJUDA and PORTUGAL 2018 wording, accents and tiny marks exactly. No extra leaves, regularized tree symmetry or invented branches."
+        }
+      ],
+      "source_sha256": "c7d3b60f7f3835c9f79f59e97f5be335ac8e773fa8f151809e6b1fd29c26fda0",
+      "applied": true,
+      "candidate_sha256": "a7240bd5708858a1651a610f0a3ef0fb79e06d93e267243e2e3f589a0d5b606a",
+      "pixels": [
+        1241,
+        1267
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2018-ajuda-botanical-garden-clean-a7240bd5.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1241,
+        "bottom": 1243
+      },
+      "live_display": {
+        "width": 93.287158,
+        "left": 3.606421,
+        "top": 2.9375
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "slovakia-2018-slovak-republic",
       "name": "2 Euro The 25th anniversary of the establishment of the Slovak Republic",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovakia-2018-slovak-republic.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2018-slovak-republic-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main arch/map/euro-symbol/inner-star/shield layout and dates visually retained. Exact arc/star counts, map texture, tiny shield details and glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovakia 2018 republic anniversary. Lock every arched parallel band, the exact map outline/texture, euro symbol and small surrounding inner stars, Slovak shield/cross, and each mint/designer mark. Preserve SLOVENSKÁ REPUBLIKA, 1.1.1993 and 2018 exactly with original curved lettering and spacing. No changed arc counts, map contours, inner-star count or shield design.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovakia 2018 republic anniversary. Lock every arched parallel band, the exact map outline/texture, euro symbol and small surrounding inner stars, Slovak shield/cross, and each mint/designer mark. Preserve SLOVENSKÁ REPUBLIKA, 1.1.1993 and 2018 exactly with original curved lettering and spacing. No changed arc counts, map contours, inner-star count or shield design."
+        }
+      ],
+      "source_sha256": "455374092fd4b07cdcf68e06e864ec9a1779b73f6bafde6e74968a72c9f6a374",
+      "applied": true,
+      "candidate_sha256": "414aa83f2f6981a36c89e27d039b9e4ac6d8eb517850d4a9d1539bd0a851eb80",
+      "pixels": [
+        1215,
+        1295
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2018-slovak-republic-clean-414aa83f.png",
+      "live_bounds": {
+        "left": 8,
+        "top": 75,
+        "right": 1197,
+        "bottom": 1282
+      },
+      "live_display": {
+        "width": 94.056804,
+        "left": 3.608663,
+        "top": -2.868476
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "slovenia-2018-world-bee-day",
       "name": "2 Euro Slovenia World Day of Bees",
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovenia-2018-world-bee-day.jpg",
-      "status": "pending_retouch",
-      "candidate": null
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2018-world-bee-day-attempt1.png",
+      "review": "Silver/pale-champagne finish and white background improved. Main spherical honeycomb and curved inscription/date layout visually retained. Exact cell topology/counts, relief highlights and accent/glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovenia 2018 World Bee Day. Lock the entire spherical honeycomb, every hexagonal cell edge, exact cell network/perspective and all original relief light/shadow geometry. Preserve SVETOVNI DAN ČEBEL, SLOVENIJA and 2018 exactly as photographed, including accents. No regularized/remeshed honeycomb, extra cells, flattened sphere, new highlights or invented engraving. Lighten metal colour cast only while keeping the photographed relief.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovenia 2018 World Bee Day. Lock the entire spherical honeycomb, every hexagonal cell edge, exact cell network/perspective and all original relief light/shadow geometry. Preserve SVETOVNI DAN ČEBEL, SLOVENIJA and 2018 exactly as photographed, including accents. No regularized/remeshed honeycomb, extra cells, flattened sphere, new highlights or invented engraving. Lighten metal colour cast only while keeping the photographed relief."
+        }
+      ],
+      "source_sha256": "d4896c05aecf25d96221c7f7bd055bdb7faa163433fb65adc206a092425fe7c4",
+      "applied": true,
+      "candidate_sha256": "46d699b82ab67881eb028a374e2da6df3a68fad9b32d459b20e19e2cb56dba48",
+      "pixels": [
+        1196,
+        1315
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2018-world-bee-day-clean-46d699b8.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 62,
+        "right": 1194,
+        "bottom": 1267
+      },
+      "live_display": {
+        "width": 92.739627,
+        "left": 3.957728,
+        "top": -1.870073
+      },
+      "activation_approval": "Continuation on 2026-10-15 of the approved retouch-and-publish workflow. User requested: retouch more. Prior publication approval: Publish the new batch too. Exact fine engraving remains unverified."
     },
     {
       "id": "cyprus-2017-pafos",
@@ -2678,7 +2956,7 @@
       "candidate": null
     }
   ],
-  "batch_status": "Batch 008 in progress; previous 54 remain live. Continuing the approved publication workflow.",
+  "batch_status": "Batch 008 complete: 14 more retouches activated in catalogue/search source; 68 total active, 34 awaiting first attempt and 2 blocked. Exact fine engraving remains unverified.",
   "batches": [
     {
       "id": "2026-10-14-batch-001",
@@ -2802,21 +3080,23 @@
         "slovenia-2018-world-bee-day"
       ],
       "planned_photos": 14,
-      "status": "in_progress_user_approved_for_activation"
+      "status": "complete_activated_user_approved_exact_engraving_unverified",
+      "active_candidates": 14,
+      "checkpoint_commit": "16bd5587d3b782c35a1ad840a775de672303ee37"
     }
   ],
   "progress": {
     "source_photos": 104,
-    "with_saved_candidate": 62,
-    "awaiting_first_attempt": 40,
+    "with_saved_candidate": 68,
+    "awaiting_first_attempt": 34,
     "generation_blocked": 2,
-    "without_saved_candidate": 42,
+    "without_saved_candidate": 36,
     "existing_retouched_preserved": 30,
-    "active_candidates": 54
+    "active_candidates": 68
   },
   "activation": {
     "date": "2026-10-14",
-    "approved_candidates": 54,
+    "approved_candidates": 68,
     "exact_engraving_verified": false,
     "updated_date": "2026-10-15"
   }

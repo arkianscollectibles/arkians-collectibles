@@ -934,6 +934,258 @@
         "top": -4.09798
       },
       "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "slovakia-2020-oecd",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2020-oecd-clean-35a1a1ea.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2020-oecd-attempt1.png",
+      "sha256": "35a1a1ea91197860c307ce85165a4a2b7fbae75ffde5363ccb17322c62282a81",
+      "bounds": {
+        "left": 0,
+        "top": 8,
+        "right": 1181,
+        "bottom": 1197
+      },
+      "display": {
+        "width": 92.887405,
+        "left": 3.84559,
+        "top": 2.30882
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "spain-2020-aragon-mudejar",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2020-aragon-mudejar-clean-86eb85f9.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2020-aragon-mudejar-attempt1.png",
+      "sha256": "86eb85f9c65e1df54c2c6f7bef9aa4eaa872b473383cabb668e2fc1e9ec07ca3",
+      "bounds": {
+        "left": 0,
+        "top": 48,
+        "right": 1201,
+        "bottom": 1261
+      },
+      "display": {
+        "width": 93.12938,
+        "left": 3.993431,
+        "top": -0.759944
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "estonia-2019-song-celebration",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2019-song-celebration-clean-ad678124.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/estonia-2019-song-celebration-attempt1.png",
+      "sha256": "ad678124ab21f645a9943c129e990cb6c5878c8379f59c999e8e551281fa4c6a",
+      "bounds": {
+        "left": 0,
+        "top": 108,
+        "right": 1156,
+        "bottom": 1276
+      },
+      "display": {
+        "width": 92.717519,
+        "left": 4.011237,
+        "top": -5.702269
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "greece-2019-andreas-kalvos",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2019-andreas-kalvos-clean-c72b0995.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2019-andreas-kalvos-attempt1.png",
+      "sha256": "c72b0995da4e6f90d3742ff46ae69dcb9346d0bc132ff6463cb1368f4f2495c4",
+      "bounds": {
+        "left": 44,
+        "top": 41,
+        "right": 1205,
+        "bottom": 1209
+      },
+      "display": {
+        "width": 100.317316,
+        "left": 0.291337,
+        "top": -0.342412
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "slovakia-2019-milan-rastislav-stefanik",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2019-milan-rastislav-stefanik-clean-4e11a692.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2019-milan-rastislav-stefanik-attempt1.png",
+      "sha256": "4e11a692140cadd5706d870642d48bcb46a93c1d308628ba77f6582e43179480",
+      "bounds": {
+        "left": 0,
+        "top": 21,
+        "right": 1210,
+        "bottom": 1250
+      },
+      "display": {
+        "width": 92.373118,
+        "left": 4.253509,
+        "top": 1.340928
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "spain-2019-avila",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2019-avila-clean-d0ef6543.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2019-avila-attempt1.png",
+      "sha256": "d0ef654343c933b6f7d7c672c53d71f5f1f16a7c776c777797c70230cc65fa36",
+      "bounds": {
+        "left": 4,
+        "top": 34,
+        "right": 1221,
+        "bottom": 1264
+      },
+      "display": {
+        "width": 93.361535,
+        "left": 3.721164,
+        "top": 0.354675
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "estonia-2018-estonian-republic",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2018-estonian-republic-clean-7c6115ab.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/estonia-2018-estonian-republic-attempt1.png",
+      "sha256": "7c6115abe8f80e79a1610cb6d5813148fa69ef348ec6cb979b30465cf83d771a",
+      "bounds": {
+        "left": 1,
+        "top": 5,
+        "right": 1234,
+        "bottom": 1246
+      },
+      "display": {
+        "width": 93.136332,
+        "left": 3.757126,
+        "top": 2.561039
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "greece-2018-kostis-palamas",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2018-kostis-palamas-clean-94dd648c.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2018-kostis-palamas-attempt1.png",
+      "sha256": "94dd648c831cb08d04e83b21fc7c6081f583d94b959644a328975126a1c4b600",
+      "bounds": {
+        "left": 3,
+        "top": 53,
+        "right": 1195,
+        "bottom": 1268
+      },
+      "display": {
+        "width": 92.822274,
+        "left": 4.184928,
+        "top": -1.138374
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "greece-2018-dodecanese",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2018-dodecanese-clean-ffb3381b.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2018-dodecanese-attempt1.png",
+      "sha256": "ffb3381baeac3ae68202b5492c48e03ecf022a24e563a9518468fa7999e0efd2",
+      "bounds": {
+        "left": 0,
+        "top": 70,
+        "right": 1185,
+        "bottom": 1263
+      },
+      "display": {
+        "width": 92.967571,
+        "left": 3.844536,
+        "top": -2.545002
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "latvia-2018-zemgale",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2018-zemgale-clean-d45a5572.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2018-zemgale-attempt1.png",
+      "sha256": "d45a5572574590aeeaf79df91c18b2e430189d9d908a8c2b14c156cc136b11ab",
+      "bounds": {
+        "left": 147,
+        "top": 44,
+        "right": 1194,
+        "bottom": 1101
+      },
+      "display": {
+        "width": 118.984745,
+        "left": -9.021375,
+        "top": -0.952046
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "portugal-2018-national-printing-office",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2018-national-printing-office-clean-01037b26.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2018-national-printing-office-attempt1.png",
+      "sha256": "01037b26dd129249cd7eeb7a0d7ac5944e821b1cdccc8fdb7d83bb5c4dcc429b",
+      "bounds": {
+        "left": 0,
+        "top": 30,
+        "right": 1209,
+        "bottom": 1245
+      },
+      "display": {
+        "width": 93.129887,
+        "left": 3.76196,
+        "top": 0.630401
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "portugal-2018-ajuda-botanical-garden",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2018-ajuda-botanical-garden-clean-a7240bd5.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2018-ajuda-botanical-garden-attempt1.png",
+      "sha256": "a7240bd5708858a1651a610f0a3ef0fb79e06d93e267243e2e3f589a0d5b606a",
+      "bounds": {
+        "left": 0,
+        "top": 0,
+        "right": 1241,
+        "bottom": 1243
+      },
+      "display": {
+        "width": 93.287158,
+        "left": 3.606421,
+        "top": 2.9375
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "slovakia-2018-slovak-republic",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2018-slovak-republic-clean-414aa83f.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2018-slovak-republic-attempt1.png",
+      "sha256": "414aa83f2f6981a36c89e27d039b9e4ac6d8eb517850d4a9d1539bd0a851eb80",
+      "bounds": {
+        "left": 8,
+        "top": 75,
+        "right": 1197,
+        "bottom": 1282
+      },
+      "display": {
+        "width": 94.056804,
+        "left": 3.608663,
+        "top": -2.868476
+      },
+      "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "slovenia-2018-world-bee-day",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2018-world-bee-day-clean-46d699b8.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2018-world-bee-day-attempt1.png",
+      "sha256": "46d699b82ab67881eb028a374e2da6df3a68fad9b32d459b20e19e2cb56dba48",
+      "bounds": {
+        "left": 0,
+        "top": 62,
+        "right": 1194,
+        "bottom": 1267
+      },
+      "display": {
+        "width": 92.739627,
+        "left": 3.957728,
+        "top": -1.870073
+      },
+      "batch": "2026-10-15-batch-008"
     }
   ],
   "updated_date": "2026-10-15",
@@ -948,6 +1200,14 @@
       "batch": "2026-10-15-batch-007",
       "candidates": 14,
       "user_reply": "Publish the new batch too",
+      "exact_engraving_verified": false
+    },
+    {
+      "date": "2026-10-15",
+      "batch": "2026-10-15-batch-008",
+      "candidates": 14,
+      "user_reply": "retouch more",
+      "publication_authorization": "Continuation of prior Publish the new batch too instruction",
       "exact_engraving_verified": false
     }
   ]
