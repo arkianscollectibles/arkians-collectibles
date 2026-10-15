@@ -682,6 +682,273 @@
         "left": 3.267089,
         "top": 2.409178
       }
+    },
+    {
+      "id": "slovakia-2023-blood-transfusion",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2023-blood-transfusion-clean-cdf6038b.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2023-blood-transfusion-attempt1.png",
+      "sha256": "cdf6038b2084d9f644ffd8d9fbf7feadc817649e395c2dfc49ba0a7eb6396a64",
+      "bounds": {
+        "left": 0,
+        "top": 91,
+        "right": 1184,
+        "bottom": 1280
+      },
+      "display": {
+        "width": 93.044575,
+        "left": 3.727712,
+        "top": -4.21373
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "slovenia-2023-josip-plemelj",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2023-josip-plemelj-clean-f41df06e.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2023-josip-plemelj-attempt1.png",
+      "sha256": "f41df06e0950792c638ef3e717d6567c73a7c0b54dd4bcaabe6f6891294f8f4a",
+      "bounds": {
+        "left": 0,
+        "top": 8,
+        "right": 1227,
+        "bottom": 1258
+      },
+      "display": {
+        "width": 92.092,
+        "left": 4.390875,
+        "top": 2.3395
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "spain-2023-caceres",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2023-caceres-clean-1337886c.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2023-caceres-attempt1.png",
+      "sha256": "1337886cc98fdbdbb97182b82e484ae21fb1f1b3ee437b5b3b2b3b04f76a9b3b",
+      "bounds": {
+        "left": 2,
+        "top": 41,
+        "right": 1195,
+        "bottom": 1255
+      },
+      "display": {
+        "width": 92.359967,
+        "left": 4.185466,
+        "top": -0.218132
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "austria-2022-erasmus",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/austria-2022-erasmus-clean-9e8574d7.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/austria-2022-erasmus-attempt1.png",
+      "sha256": "9e8574d770903775975f769f13da438f6e55b7bafa30533a1acc39ba6f981b1f",
+      "bounds": {
+        "left": 0,
+        "top": 79,
+        "right": 1172,
+        "bottom": 1270
+      },
+      "display": {
+        "width": 93.280594,
+        "left": 4.276553,
+        "top": -3.260285
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "belgium-2021-belgium-luxembourg-union",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2021-belgium-luxembourg-union-clean-ddd9dc05.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2021-belgium-luxembourg-union-attempt1.png",
+      "sha256": "ddd9dc0569fff9984e591e2e27122d9395ff38e7a02598c9c41dd902a6fb0944",
+      "bounds": {
+        "left": 0,
+        "top": 60,
+        "right": 1189,
+        "bottom": 1261
+      },
+      "display": {
+        "width": 92.737302,
+        "left": 3.998049,
+        "top": -1.730485
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "greece-2021-greek-revolution",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2021-greek-revolution-clean-47a8b1b9.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2021-greek-revolution-attempt1.png",
+      "sha256": "47a8b1b98fecc9d2616c22540c94b868f2686cac8129873c7dca2d888ef02edd",
+      "bounds": {
+        "left": 51,
+        "top": 76,
+        "right": 1116,
+        "bottom": 1137
+      },
+      "display": {
+        "width": 102.912852,
+        "left": -0.943222,
+        "top": -3.554871
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "latvia-2021-de-jure-recognition",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2021-de-jure-recognition-clean-5f3a0e71.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2021-de-jure-recognition-attempt1.png",
+      "sha256": "5f3a0e7119c2470724e79c6411d57f33646b353ebf5e8149d2950518def62118",
+      "bounds": {
+        "left": 42,
+        "top": 133,
+        "right": 1102,
+        "bottom": 1206
+      },
+      "display": {
+        "width": 100.403949,
+        "left": 0.439888,
+        "top": -8.644222
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "monaco-2021-princely-wedding",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/monaco-2021-princely-wedding-clean-2a8fe4ea.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/monaco-2021-princely-wedding-attempt1.png",
+      "sha256": "2a8fe4ea8fb05acb567197b09f1563716bcb4a41d5e1d0ce07751a07b831d56b",
+      "bounds": {
+        "left": 37,
+        "top": 46,
+        "right": 1183,
+        "bottom": 1203
+      },
+      "display": {
+        "width": 99.332865,
+        "left": 0.98736,
+        "top": -0.777388
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "portugal-2021-tokyo-olympics",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2021-tokyo-olympics-clean-1e5cb28b.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2021-tokyo-olympics-attempt1.png",
+      "sha256": "1e5cb28b359403cc285645117226d5a92789de15eaabf89c9f3768c94bdb6f12",
+      "bounds": {
+        "left": 0,
+        "top": 133,
+        "right": 1155,
+        "bottom": 1305
+      },
+      "display": {
+        "width": 92.401077,
+        "left": 4.208911,
+        "top": -7.665902
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "slovakia-2021-alexander-dubcek",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2021-alexander-dubcek-clean-c0735a69.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2021-alexander-dubcek-attempt1.png",
+      "sha256": "c0735a692c0e7e1a550cbd799793431a6cd36f3d7256263e7f8d6a2ef32716e6",
+      "bounds": {
+        "left": 0,
+        "top": 100,
+        "right": 1161,
+        "bottom": 1273
+      },
+      "display": {
+        "width": 92.481618,
+        "left": 4.009191,
+        "top": -5.028186
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "estonia-2020-antarctica",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2020-antarctica-clean-5dbe1094.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/estonia-2020-antarctica-attempt1.png",
+      "sha256": "5dbe10948e4aad34aeeac4e3e780b4fb7a9f870e886a42daaabf7624f9703d80",
+      "bounds": {
+        "left": 2,
+        "top": 126,
+        "right": 1155,
+        "bottom": 1289
+      },
+      "display": {
+        "width": 93.116133,
+        "left": 3.772275,
+        "top": -7.185565
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "france-2020-charles-de-gaulle",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/france-2020-charles-de-gaulle-clean-d7bfc22b.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/france-2020-charles-de-gaulle-attempt1.png",
+      "sha256": "d7bfc22b3efaa16fa1e88ba0cc408c03ea0a8b096071c234c52223dfa8a59ccd",
+      "bounds": {
+        "left": 0,
+        "top": 85,
+        "right": 1160,
+        "bottom": 1249
+      },
+      "display": {
+        "width": 93.357227,
+        "left": 3.691796,
+        "top": -3.885685
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "latvia-2020-latgalian-ceramics",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2020-latgalian-ceramics-clean-abbb5e28.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2020-latgalian-ceramics-attempt1.png",
+      "sha256": "abbb5e28749309be35c16f29a4acf667c2d2483e2e9afc1533a77cb82440cbb8",
+      "bounds": {
+        "left": 0,
+        "top": 31,
+        "right": 1174,
+        "bottom": 1221
+      },
+      "display": {
+        "width": 92.181197,
+        "left": 4.159401,
+        "top": 0.503414
+      },
+      "batch": "2026-10-15-batch-007"
+    },
+    {
+      "id": "portugal-2020-united-nations",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2020-united-nations-clean-5087cbf4.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2020-united-nations-attempt1.png",
+      "sha256": "5087cbf402bb0352c7d6b24d00cad1490198d3b506555f444019d4c5bdb0ddf3",
+      "bounds": {
+        "left": 3,
+        "top": 89,
+        "right": 1178,
+        "bottom": 1271
+      },
+      "display": {
+        "width": 93.595601,
+        "left": 3.570775,
+        "top": -4.09798
+      },
+      "batch": "2026-10-15-batch-007"
+    }
+  ],
+  "updated_date": "2026-10-15",
+  "approvals": [
+    {
+      "date": "2026-10-14",
+      "candidates": 40,
+      "exact_engraving_verified": false
+    },
+    {
+      "date": "2026-10-15",
+      "batch": "2026-10-15-batch-007",
+      "candidates": 14,
+      "user_reply": "Publish the new batch too",
+      "exact_engraving_verified": false
     }
   ]
 }

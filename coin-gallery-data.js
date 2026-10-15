@@ -866,16 +866,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovakia",
     "year": 2023,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovakia-2023-blood-transfusion.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2023-blood-transfusion-clean-cdf6038b.png",
     "pixels": [
-      1428,
-      1600
+      1184,
+      1328
     ],
     "display": {
-      "width": 93.372113,
-      "left": 3.563943,
-      "top": -4.45119
-    }
+      "width": 93.044575,
+      "left": 3.727712,
+      "top": -4.21373
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovakia-2023-blood-transfusion.jpg"
   },
   {
     "id": "slovenia-2023-josip-plemelj",
@@ -886,16 +888,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovenia",
     "year": 2023,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovenia-2023-josip-plemelj.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2023-josip-plemelj-clean-f41df06e.png",
     "pixels": [
-      1543,
-      1600
+      1232,
+      1277
     ],
     "display": {
-      "width": 93.376983,
-      "left": 3.561508,
-      "top": 1.848203
-    }
+      "width": 92.092,
+      "left": 4.390875,
+      "top": 2.3395
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovenia-2023-josip-plemelj.jpg"
   },
   {
     "id": "spain-2023-caceres",
@@ -906,16 +910,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Spain",
     "year": 2023,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-caceres.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2023-caceres-clean-1337886c.png",
     "pixels": [
-      1464,
-      1600
+      1200,
+      1311
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.435515,
-      "top": -1.083376
-    }
+      "width": 92.359967,
+      "left": 4.185466,
+      "top": -0.218132
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-caceres.jpg"
   },
   {
     "id": "austria-2022-erasmus",
@@ -923,16 +929,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Austria",
     "year": 2022,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2022/2-euro-austria-2022-erasmus.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/austria-2022-erasmus-clean-9e8574d7.png",
     "pixels": [
-      1439,
-      1600
+      1189,
+      1323
     ],
     "display": {
-      "width": 93.372613,
-      "left": 3.563694,
-      "top": -3.486328
-    }
+      "width": 93.280594,
+      "left": 4.276553,
+      "top": -3.260285
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2022/2-euro-austria-2022-erasmus.jpg"
   },
   {
     "id": "belgium-2021-belgium-luxembourg-union",
@@ -943,16 +951,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Belgium",
     "year": 2021,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-belgium-2021-belgium-luxembourg-union.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/belgium-2021-belgium-luxembourg-union-clean-ddd9dc05.png",
     "pixels": [
-      1444,
-      1600
+      1192,
+      1320
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -1.947909
-    }
+      "width": 92.737302,
+      "left": 3.998049,
+      "top": -1.730485
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-belgium-2021-belgium-luxembourg-union.jpg"
   },
   {
     "id": "greece-2021-greek-revolution",
@@ -963,16 +973,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2021,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-greece-2021-greek-revolution.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2021-greek-revolution-clean-47a8b1b9.png",
     "pixels": [
-      1399,
-      1600
+      1173,
+      1341
     ],
     "display": {
-      "width": 104.158616,
-      "left": -1.829308,
-      "top": -3.651519
-    }
+      "width": 102.912852,
+      "left": -0.943222,
+      "top": -3.554871
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-greece-2021-greek-revolution.jpg"
   },
   {
     "id": "latvia-2021-de-jure-recognition",
@@ -983,16 +995,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Latvia",
     "year": 2021,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-latvia-2021-de-jure-recognition.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2021-de-jure-recognition-clean-5f3a0e71.png",
     "pixels": [
-      1353,
-      1600
+      1153,
+      1364
     ],
     "display": {
-      "width": 102.86488,
-      "left": -1.18244,
-      "top": -12.87617
-    }
+      "width": 100.403949,
+      "left": 0.439888,
+      "top": -8.644222
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-latvia-2021-de-jure-recognition.jpg"
   },
   {
     "id": "monaco-2021-princely-wedding",
@@ -1003,16 +1017,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Monaco",
     "year": 2021,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-monaco-2021-princely-wedding.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/monaco-2021-princely-wedding-clean-2a8fe4ea.png",
     "pixels": [
-      1539,
-      1600
+      1230,
+      1279
     ],
     "display": {
-      "width": 110.530601,
-      "left": -5.015301,
-      "top": -9.271858
-    }
+      "width": 99.332865,
+      "left": 0.98736,
+      "top": -0.777388
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-monaco-2021-princely-wedding.jpg"
   },
   {
     "id": "portugal-2021-tokyo-olympics",
@@ -1023,16 +1039,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2021,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-portugal-2021-tokyo-olympics.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2021-tokyo-olympics-clean-1e5cb28b.png",
     "pixels": [
-      1369,
-      1600
+      1159,
+      1356
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -8.597151
-    }
+      "width": 92.401077,
+      "left": 4.208911,
+      "top": -7.665902
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-portugal-2021-tokyo-olympics.jpg"
   },
   {
     "id": "slovakia-2021-alexander-dubcek",
@@ -1043,16 +1061,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovakia",
     "year": 2021,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-slovakia-2021-alexander-dubcek.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2021-alexander-dubcek-clean-c0735a69.png",
     "pixels": [
-      1371,
-      1600
+      1161,
+      1355
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -5.717907
-    }
+      "width": 92.481618,
+      "left": 4.009191,
+      "top": -5.028186
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-slovakia-2021-alexander-dubcek.jpg"
   },
   {
     "id": "estonia-2020-antarctica",
@@ -1063,16 +1083,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Estonia",
     "year": 2020,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-estonia-2020-antarctica.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/estonia-2020-antarctica-clean-5dbe1094.png",
     "pixels": [
-      1368,
-      1600
+      1159,
+      1356
     ],
     "display": {
-      "width": 93.642857,
-      "left": 3.325893,
-      "top": -7.39881
-    }
+      "width": 93.116133,
+      "left": 3.772275,
+      "top": -7.185565
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-estonia-2020-antarctica.jpg"
   },
   {
     "id": "france-2020-charles-de-gaulle",
@@ -1080,16 +1102,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "France",
     "year": 2020,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-france-2020-charles-de-gaulle.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/france-2020-charles-de-gaulle-clean-d7bfc22b.png",
     "pixels": [
-      1376,
-      1600
+      1163,
+      1352
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -4.056731
-    }
+      "width": 93.357227,
+      "left": 3.691796,
+      "top": -3.885685
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-france-2020-charles-de-gaulle.jpg"
   },
   {
     "id": "latvia-2020-latgalian-ceramics",
@@ -1097,16 +1121,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Latvia",
     "year": 2020,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-latvia-2020-latgalian-ceramics.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2020-latgalian-ceramics-clean-abbb5e28.png",
     "pixels": [
-      1401,
-      1599
+      1174,
+      1340
     ],
     "display": {
-      "width": 93.370854,
-      "left": 3.564573,
-      "top": 0.138374
-    }
+      "width": 92.181197,
+      "left": 4.159401,
+      "top": 0.503414
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-latvia-2020-latgalian-ceramics.jpg"
   },
   {
     "id": "portugal-2020-united-nations",
@@ -1114,16 +1140,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2020,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-portugal-2020-united-nations.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2020-united-nations-clean-5087cbf4.png",
     "pixels": [
-      1426,
-      1600
+      1184,
+      1328
     ],
     "display": {
-      "width": 93.634487,
-      "left": 3.53125,
-      "top": -4.08837
-    }
+      "width": 93.595601,
+      "left": 3.570775,
+      "top": -4.09798
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-portugal-2020-united-nations.jpg"
   },
   {
     "id": "slovakia-2020-oecd",
