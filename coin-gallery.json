@@ -3782,28 +3782,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2017.en.html",
       "official_name_verified": true,
       "id": "cyprus-2017-pafos",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-cyprus-2017-pafos.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2017-pafos-clean-8a520c22.png",
       "colored": false,
-      "sha256": "f35da3c4199ef27a389f334d3f53a6b5b92ff81db084d8614922f74ed9d0043f",
+      "sha256": "8a520c22f9b793ccc5d2a9a4df67be996b306004ef17dc3f67550daaf4a94d5f",
       "pixels": [
-        1513,
-        1600
+        1219,
+        1290
       ],
       "bounds": {
         "left": 0,
-        "top": 56,
-        "right": 1513,
-        "bottom": 1570
+        "top": 39,
+        "right": 1215,
+        "bottom": 1271
       },
       "display": {
-        "width": 93.375784,
-        "left": 3.562108,
-        "top": -0.518577
+        "width": 92.451552,
+        "left": 4.175908,
+        "top": -0.020343
       },
       "official_feature": "Paphos 2017 – European Capital of Culture",
       "searchAliases": [
         "2 Euro Pafos – European Capital of Culture 2017"
-      ]
+      ],
+      "file": "cyprus-2017-pafos-clean-8a520c22.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-cyprus-2017-pafos.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-cyprus-2017-pafos.jpg",
+        "pixels": [
+          1513,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 56,
+          "right": 1513,
+          "bottom": 1570
+        },
+        "display": {
+          "width": 93.375784,
+          "left": 3.562108,
+          "top": -0.518577
+        },
+        "sha256": "f35da3c4199ef27a389f334d3f53a6b5b92ff81db084d8614922f74ed9d0043f"
+      }
     },
     {
       "index": 60,
@@ -3815,28 +3837,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2017.en.html",
       "official_name_verified": true,
       "id": "greece-2017-nikos-kazantzakis",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-nikos-kazantzakis.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2017-nikos-kazantzakis-clean-484ae092.png",
       "colored": false,
-      "sha256": "389c33b9a38a2db6de4dc913b4165b6541b6f35a905b6cb61ecfe3cfde3c50df",
+      "sha256": "484ae092af960f1f1186298ff64c8e81b66c1e480aeb1653bc9c7b8a167c5eb3",
       "pixels": [
-        1394,
-        1601
+        1170,
+        1344
       ],
       "bounds": {
         "left": 0,
-        "top": 107,
-        "right": 1394,
-        "bottom": 1502
+        "top": 83,
+        "right": 1166,
+        "bottom": 1269
       },
       "display": {
-        "width": 93.37052,
-        "left": 3.56474,
-        "top": -4.229391
+        "width": 92.17696,
+        "left": 4.319087,
+        "top": -3.601549
       },
       "official_feature": "60 years in memoriam of Nikos Kazantzakis",
       "searchAliases": [
         "2 Euro 60th anniversary of the death of Nikos Kazantzakis"
-      ]
+      ],
+      "file": "greece-2017-nikos-kazantzakis-clean-484ae092.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-nikos-kazantzakis.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-nikos-kazantzakis.jpg",
+        "pixels": [
+          1394,
+          1601
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 107,
+          "right": 1394,
+          "bottom": 1502
+        },
+        "display": {
+          "width": 93.37052,
+          "left": 3.56474,
+          "top": -4.229391
+        },
+        "sha256": "389c33b9a38a2db6de4dc913b4165b6541b6f35a905b6cb61ecfe3cfde3c50df"
+      }
     },
     {
       "index": 61,
@@ -3848,25 +3892,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2017.en.html",
       "official_name_verified": true,
       "id": "greece-2017-philippi",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-philippi.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2017-philippi-clean-4695299b.png",
       "colored": false,
-      "sha256": "ee624c73ae3235f3f3f245ce3446243c23b1256d804bec91263abca50dcc9077",
+      "sha256": "4695299b92d0514100fd4c595bdbe6a040c018c604c99d1621b5dfcaf6585eb9",
       "pixels": [
-        1425,
-        1600
+        1184,
+        1328
       ],
       "bounds": {
         "left": 0,
-        "top": 61,
-        "right": 1425,
-        "bottom": 1487
+        "top": 49,
+        "right": 1182,
+        "bottom": 1246
       },
       "display": {
-        "width": 93.371976,
-        "left": 3.564012,
-        "top": -1.059476
+        "width": 92.422723,
+        "left": 4.116698,
+        "top": -0.887427
       },
-      "official_feature": "Archaeological site of Philippi"
+      "official_feature": "Archaeological site of Philippi",
+      "file": "greece-2017-philippi-clean-4695299b.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-philippi.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-philippi.jpg",
+        "pixels": [
+          1425,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 61,
+          "right": 1425,
+          "bottom": 1487
+        },
+        "display": {
+          "width": 93.371976,
+          "left": 3.564012,
+          "top": -1.059476
+        },
+        "sha256": "ee624c73ae3235f3f3f245ce3446243c23b1256d804bec91263abca50dcc9077"
+      }
     },
     {
       "index": 62,
@@ -3878,25 +3944,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2017.en.html",
       "official_name_verified": true,
       "id": "latvia-2017-kurzeme",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-latvia-2017-kurzeme.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2017-kurzeme-clean-ef588bed.png",
       "colored": false,
-      "sha256": "4563ec227f715884265a97856841e34bfafa73cc57854afc138d54f73fd4a2c4",
+      "sha256": "ef588bed2a721e52f6d8c533dd2f8218a7457244ea1ff774425098c39f4fe9a3",
       "pixels": [
-        1389,
-        1600
+        1169,
+        1346
       ],
       "bounds": {
         "left": 5,
-        "top": 137,
-        "right": 1389,
-        "bottom": 1527
+        "top": 114,
+        "right": 1167,
+        "bottom": 1288
       },
       "display": {
-        "width": 93.370279,
-        "left": 3.396808,
-        "top": -6.271808
+        "width": 93.039555,
+        "left": 3.610839,
+        "top": -6.135647
       },
-      "official_feature": "Kurzeme"
+      "official_feature": "Kurzeme",
+      "file": "latvia-2017-kurzeme-clean-ef588bed.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-latvia-2017-kurzeme.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-latvia-2017-kurzeme.jpg",
+        "pixels": [
+          1389,
+          1600
+        ],
+        "bounds": {
+          "left": 5,
+          "top": 137,
+          "right": 1389,
+          "bottom": 1527
+        },
+        "display": {
+          "width": 93.370279,
+          "left": 3.396808,
+          "top": -6.271808
+        },
+        "sha256": "4563ec227f715884265a97856841e34bfafa73cc57854afc138d54f73fd4a2c4"
+      }
     },
     {
       "index": 63,
@@ -3908,28 +3996,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2017.en.html",
       "official_name_verified": true,
       "id": "portugal-2017-public-security-police",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-public-security-police.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2017-public-security-police-clean-9a0d1451.png",
       "colored": false,
-      "sha256": "38032619cc2c10d4cc7f189c6aad912f2242d2e6aab72ea3af85ad31a69c8278",
+      "sha256": "9a0d1451163c64d9726f1147b09a6fef56050d3799d13269991e036d6d4a0045",
       "pixels": [
-        1500,
-        1600
+        1215,
+        1295
       ],
       "bounds": {
         "left": 0,
-        "top": 51,
-        "right": 1500,
-        "bottom": 1552
+        "top": 34,
+        "right": 1215,
+        "bottom": 1264
       },
       "display": {
-        "width": 93.37525,
-        "left": 3.562375,
-        "top": -0.237258
+        "width": 92.298018,
+        "left": 4.100991,
+        "top": 0.354675
       },
       "official_feature": "150 Years of Public Security",
       "searchAliases": [
         "2 Euro 150th anniversary of the Public Security Police"
-      ]
+      ],
+      "file": "portugal-2017-public-security-police-clean-9a0d1451.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-public-security-police.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-public-security-police.jpg",
+        "pixels": [
+          1500,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 51,
+          "right": 1500,
+          "bottom": 1552
+        },
+        "display": {
+          "width": 93.37525,
+          "left": 3.562375,
+          "top": -0.237258
+        },
+        "sha256": "38032619cc2c10d4cc7f189c6aad912f2242d2e6aab72ea3af85ad31a69c8278"
+      }
     },
     {
       "index": 64,
@@ -3941,28 +4051,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2017.en.html",
       "official_name_verified": true,
       "id": "slovenia-2017-euro-introduction",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-slovenia-2017-euro-introduction.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2017-euro-introduction-clean-82cb8277.png",
       "colored": false,
-      "sha256": "f21e306e7ece69031367cbef30bb2d1f6254b9029bc87735344ad5a49908d649",
+      "sha256": "82cb827764a253e7f5c7d22ce6c564cf6d3d372fdeae6d8724d12cf7870c9989",
       "pixels": [
-        1377,
-        1600
+        1164,
+        1351
       ],
       "bounds": {
-        "left": 0,
-        "top": 153,
-        "right": 1375,
-        "bottom": 1528
+        "left": 2,
+        "top": 127,
+        "right": 1160,
+        "bottom": 1293
       },
       "display": {
-        "width": 93.573409,
-        "left": 3.53125,
-        "top": -7.459545
+        "width": 93.27723,
+        "left": 3.69152,
+        "top": -7.239655
       },
       "official_feature": "The 10th anniversary of the euro in Slovenia",
       "searchAliases": [
         "2 Euro 10th anniversary of the introduction of the euro"
-      ]
+      ],
+      "file": "slovenia-2017-euro-introduction-clean-82cb8277.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-slovenia-2017-euro-introduction.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-slovenia-2017-euro-introduction.jpg",
+        "pixels": [
+          1377,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 153,
+          "right": 1375,
+          "bottom": 1528
+        },
+        "display": {
+          "width": 93.573409,
+          "left": 3.53125,
+          "top": -7.459545
+        },
+        "sha256": "f21e306e7ece69031367cbef30bb2d1f6254b9029bc87735344ad5a49908d649"
+      }
     },
     {
       "index": 65,
@@ -3974,28 +4106,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2017.en.html",
       "official_name_verified": true,
       "id": "spain-2017-asturias-monuments",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-spain-2017-asturias-monuments.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2017-asturias-monuments-clean-b8344a54.png",
       "colored": false,
-      "sha256": "3e515343ad227572142551568f7fe6ef03c9f41fb20886d41d98fafe58cc99bf",
+      "sha256": "b8344a54d522c518494d80699d95dd1167f486ddfdd9453d595b2278895c50b6",
       "pixels": [
-        1453,
-        1600
+        1195,
+        1316
       ],
       "bounds": {
         "left": 0,
-        "top": 102,
-        "right": 1453,
-        "bottom": 1556
+        "top": 76,
+        "right": 1189,
+        "bottom": 1280
       },
       "display": {
-        "width": 93.373238,
-        "left": 3.563381,
-        "top": -3.617263
+        "width": 92.739047,
+        "left": 4.113294,
+        "top": -2.960548
       },
       "official_feature": "Unesco’s World Cultural and Natural Heritage Sites – Churches of the Kingdom of Asturias",
       "searchAliases": [
         "2 Euro Monuments of Oviedo and the Kingdom of the Asturias"
-      ]
+      ],
+      "file": "spain-2017-asturias-monuments-clean-b8344a54.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-spain-2017-asturias-monuments.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-spain-2017-asturias-monuments.jpg",
+        "pixels": [
+          1453,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 102,
+          "right": 1453,
+          "bottom": 1556
+        },
+        "display": {
+          "width": 93.373238,
+          "left": 3.563381,
+          "top": -3.617263
+        },
+        "sha256": "3e515343ad227572142551568f7fe6ef03c9f41fb20886d41d98fafe58cc99bf"
+      }
     },
     {
       "index": 66,
@@ -4007,28 +4161,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2017.en.html",
       "official_name_verified": true,
       "id": "portugal-2017-raul-brandao",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-raul-brandao.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2017-raul-brandao-clean-41d2c059.png",
       "colored": false,
-      "sha256": "00459edb9074660c98b8d678e3a842ee6507c96627d8f414e56a047208b6f6ff",
+      "sha256": "41d2c0593ab94bebf56edd450739753322392d7ced9705e9842527260ce3c31d",
       "pixels": [
-        1332,
-        1600
+        1144,
+        1375
       ],
       "bounds": {
         "left": 0,
-        "top": 172,
-        "right": 1332,
-        "bottom": 1505
+        "top": 145,
+        "right": 1142,
+        "bottom": 1296
       },
       "display": {
-        "width": 93.367404,
-        "left": 3.566298,
-        "top": -9.118952
+        "width": 92.869244,
+        "left": 3.896557,
+        "top": -8.833514
       },
       "official_feature": "150 years of the birth of writer Raul Brandão",
       "searchAliases": [
         "2 Euro 150th anniversary of the birth of Raul Brandão"
-      ]
+      ],
+      "file": "portugal-2017-raul-brandao-clean-41d2c059.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-raul-brandao.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-raul-brandao.jpg",
+        "pixels": [
+          1332,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 172,
+          "right": 1332,
+          "bottom": 1505
+        },
+        "display": {
+          "width": 93.367404,
+          "left": 3.566298,
+          "top": -9.118952
+        },
+        "sha256": "00459edb9074660c98b8d678e3a842ee6507c96627d8f414e56a047208b6f6ff"
+      }
     },
     {
       "index": 67,
@@ -4040,28 +4216,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2016.en.html",
       "official_name_verified": true,
       "id": "slovenia-2016-independence",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovenia-2016-independence.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2016-independence-clean-2d352a7e.png",
       "colored": false,
-      "sha256": "bed08b3ce8b93e57b0021f0fce9df9c2516f352da4aeefd7cac200db083421cc",
+      "sha256": "2d352a7e836007c9445198681fa90e0fdabaf6621422025875078ffe2facb3e5",
       "pixels": [
-        1425,
-        1600
+        1184,
+        1328
       ],
       "bounds": {
         "left": 0,
-        "top": 113,
-        "right": 1425,
-        "bottom": 1539
+        "top": 84,
+        "right": 1180,
+        "bottom": 1288
       },
       "display": {
-        "width": 93.371976,
-        "left": 3.564012,
-        "top": -4.466734
+        "width": 91.885382,
+        "left": 4.462521,
+        "top": -3.581395
       },
       "official_feature": "The 25th anniversary of independence of the Republic of Slovenia",
       "searchAliases": [
         "2 Euro 25th anniversary of Slovenia's independence"
-      ]
+      ],
+      "file": "slovenia-2016-independence-clean-2d352a7e.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovenia-2016-independence.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovenia-2016-independence.jpg",
+        "pixels": [
+          1425,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 113,
+          "right": 1425,
+          "bottom": 1539
+        },
+        "display": {
+          "width": 93.371976,
+          "left": 3.564012,
+          "top": -4.466734
+        },
+        "sha256": "bed08b3ce8b93e57b0021f0fce9df9c2516f352da4aeefd7cac200db083421cc"
+      }
     },
     {
       "index": 68,
@@ -4073,28 +4271,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2016.en.html",
       "official_name_verified": true,
       "id": "slovakia-2016-council-presidency",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovakia-2016-council-presidency.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2016-council-presidency-clean-5bcb05e9.png",
       "colored": false,
-      "sha256": "9777b45a3ab47ee3f10f923b6a3a8bf3fa0c4d624f6040379da5f38876b02d98",
+      "sha256": "5bcb05e970d4bf937b8294543d5671d5220eb4c67ff007a9f350b1f17a9faf69",
       "pixels": [
-        1438,
-        1600
+        1189,
+        1323
       ],
       "bounds": {
         "left": 0,
-        "top": 98,
-        "right": 1438,
-        "bottom": 1537
+        "top": 77,
+        "right": 1187,
+        "bottom": 1271
       },
       "display": {
-        "width": 93.372568,
-        "left": 3.563716,
-        "top": -3.42586
+        "width": 93.046221,
+        "left": 3.805146,
+        "top": -3.088201
       },
       "official_feature": "The first Slovak Presidency of the Council of the European Union",
       "searchAliases": [
         "2 Euro Slovak Presidency of the Council of the European Union"
-      ]
+      ],
+      "file": "slovakia-2016-council-presidency-clean-5bcb05e9.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovakia-2016-council-presidency.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovakia-2016-council-presidency.jpg",
+        "pixels": [
+          1438,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 98,
+          "right": 1438,
+          "bottom": 1537
+        },
+        "display": {
+          "width": 93.372568,
+          "left": 3.563716,
+          "top": -3.42586
+        },
+        "sha256": "9777b45a3ab47ee3f10f923b6a3a8bf3fa0c4d624f6040379da5f38876b02d98"
+      }
     },
     {
       "index": 69,
@@ -4106,28 +4326,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2016.en.html",
       "official_name_verified": true,
       "id": "spain-2016-segovia",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-spain-2016-segovia.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2016-segovia-clean-0a6f1162.png",
       "colored": false,
-      "sha256": "c1f72690af8e2f2575cda1a13261ffdff9cf1d7cb44c6f845d4a4b6767115dc8",
+      "sha256": "0a6f1162ff4d2ab538548d5c8ff1702bfdcceb32b3bc47ae988815a0d1fc35a2",
       "pixels": [
-        1418,
-        1601
+        1180,
+        1333
       ],
       "bounds": {
-        "left": 4,
-        "top": 84,
-        "right": 1418,
-        "bottom": 1503
+        "left": 1,
+        "top": 68,
+        "right": 1180,
+        "bottom": 1257
       },
       "display": {
-        "width": 93.371653,
-        "left": 3.432479,
-        "top": -2.593684
+        "width": 92.730235,
+        "left": 3.84559,
+        "top": -2.406276
       },
       "official_feature": "Unesco’s World Cultural and and Natural Heritage Sites – Segovia",
       "searchAliases": [
         "2 Euro Old Town of Segovia and its Aqueduct"
-      ]
+      ],
+      "file": "spain-2016-segovia-clean-0a6f1162.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-spain-2016-segovia.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-spain-2016-segovia.jpg",
+        "pixels": [
+          1418,
+          1601
+        ],
+        "bounds": {
+          "left": 4,
+          "top": 84,
+          "right": 1418,
+          "bottom": 1503
+        },
+        "display": {
+          "width": 93.371653,
+          "left": 3.432479,
+          "top": -2.593684
+        },
+        "sha256": "c1f72690af8e2f2575cda1a13261ffdff9cf1d7cb44c6f845d4a4b6767115dc8"
+      }
     },
     {
       "index": 70,
@@ -4139,25 +4381,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2015.en.html",
       "official_name_verified": true,
       "id": "latvia-2015-council-presidency",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-latvia-2015-council-presidency.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2015-council-presidency-clean-7a4a62de.png",
       "colored": false,
-      "sha256": "f1eae5610b1a433e3987645ceb5d3ff4c17fed5f3cc9ca2be3f86c2feb5728a7",
+      "sha256": "7a4a62ded8751db16bc1bdd5f59c3d7045caf07066080188b7608e36862b7f0d",
       "pixels": [
-        1451,
-        1600
+        1194,
+        1317
       ],
       "bounds": {
         "left": 0,
-        "top": 87,
-        "right": 1451,
-        "bottom": 1535
+        "top": 64,
+        "right": 1189,
+        "bottom": 1271
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -2.568293
+        "width": 92.431131,
+        "left": 4.227967,
+        "top": -2.016932
       },
-      "official_feature": "Latvian Presidency of the Council of the European Union"
+      "official_feature": "Latvian Presidency of the Council of the European Union",
+      "file": "latvia-2015-council-presidency-clean-7a4a62de.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-latvia-2015-council-presidency.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-latvia-2015-council-presidency.jpg",
+        "pixels": [
+          1451,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 87,
+          "right": 1451,
+          "bottom": 1535
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -2.568293
+        },
+        "sha256": "f1eae5610b1a433e3987645ceb5d3ff4c17fed5f3cc9ca2be3f86c2feb5728a7"
+      }
     },
     {
       "index": 71,
@@ -4169,25 +4433,47 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2015.en.html",
       "official_name_verified": true,
       "id": "lithuania-2015-lithuanian-language",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-lithuania-2015-lithuanian-language.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2015-lithuanian-language-clean-12afe2a8.png",
       "colored": false,
-      "sha256": "3c7f722b277009c89b85011d864342c9a8db2374db8fdba8898ced0ea86c535f",
+      "sha256": "12afe2a81667c3d500951101696c12e4bd288eb05b19380003a04781541cff59",
       "pixels": [
-        1448,
-        1600
+        1193,
+        1319
       ],
       "bounds": {
-        "left": 7,
-        "top": 108,
-        "right": 1441,
-        "bottom": 1533
+        "left": 4,
+        "top": 76,
+        "right": 1185,
+        "bottom": 1271
       },
       "display": {
-        "width": 94.349721,
-        "left": 3.075139,
-        "top": -3.80642
+        "width": 93.281119,
+        "left": 3.765821,
+        "top": -3.004969
       },
-      "official_feature": "The Lithuanian language"
+      "official_feature": "The Lithuanian language",
+      "file": "lithuania-2015-lithuanian-language-clean-12afe2a8.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-lithuania-2015-lithuanian-language.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-lithuania-2015-lithuanian-language.jpg",
+        "pixels": [
+          1448,
+          1600
+        ],
+        "bounds": {
+          "left": 7,
+          "top": 108,
+          "right": 1441,
+          "bottom": 1533
+        },
+        "display": {
+          "width": 94.349721,
+          "left": 3.075139,
+          "top": -3.80642
+        },
+        "sha256": "3c7f722b277009c89b85011d864342c9a8db2374db8fdba8898ced0ea86c535f"
+      }
     },
     {
       "index": 73,
@@ -4199,28 +4485,50 @@
       "official_source": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2015.en.html",
       "official_name_verified": true,
       "id": "monaco-2015-fortress",
-      "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-monaco-2015-fortress.jpg",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/monaco-2015-fortress-clean-9f8a4c6d.png",
       "colored": false,
-      "sha256": "4df0086f2d6b524fdb42d19ca5a2a4f1845c5ff55ad1bb6952d2eed56a8eed17",
+      "sha256": "9f8a4c6dcab597380707ca376602243d918b75e5a5503f42ed8d725c0443d305",
       "pixels": [
-        1245,
-        1600
+        1106,
+        1422
       ],
       "bounds": {
         "left": 0,
-        "top": 217,
-        "right": 1245,
-        "bottom": 1462
+        "top": 190,
+        "right": 1104,
+        "bottom": 1303
       },
       "display": {
-        "width": 93.4375,
-        "left": 3.53125,
-        "top": -13.348394
+        "width": 92.849843,
+        "left": 3.90903,
+        "top": -13.013196
       },
       "official_feature": "800th anniversary of the construction of the first Castle on the rock",
       "searchAliases": [
         "2 Euro 800th anniversary of the construction of the first fortress on the rock"
-      ]
+      ],
+      "file": "monaco-2015-fortress-clean-9f8a4c6d.png",
+      "image_edit": "ai-retouched",
+      "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-monaco-2015-fortress.jpg",
+      "original_metadata": {
+        "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-monaco-2015-fortress.jpg",
+        "pixels": [
+          1245,
+          1600
+        ],
+        "bounds": {
+          "left": 0,
+          "top": 217,
+          "right": 1245,
+          "bottom": 1462
+        },
+        "display": {
+          "width": 93.4375,
+          "left": 3.53125,
+          "top": -13.348394
+        },
+        "sha256": "4df0086f2d6b524fdb42d19ca5a2a4f1845c5ff55ad1bb6952d2eed56a8eed17"
+      }
     },
     {
       "index": 74,

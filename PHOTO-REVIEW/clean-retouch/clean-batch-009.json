@@ -1,7 +1,7 @@
 {
   "id": "2026-10-15-batch-009",
   "tool": "built-in image_gen",
-  "status": "in_progress",
+  "status": "complete_activated_user_approved_exact_engraving_unverified",
   "planned_photos": 14,
   "desired_candidates": 14,
   "max_simultaneous_generations": 2,
@@ -23,12 +23,25 @@
       ],
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-cyprus-2017-pafos.jpg",
       "source_sha256": "f35da3c4199ef27a389f334d3f53a6b5b92ff81db084d8614922f74ed9d0043f",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "8a520c22f9b793ccc5d2a9a4df67be996b306004ef17dc3f67550daaf4a94d5f",
       "pixels": [
         1219,
         1290
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2017-pafos-clean-8a520c22.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 39,
+        "right": 1215,
+        "bottom": 1271
+      },
+      "live_display": {
+        "width": 92.451552,
+        "left": 4.175908,
+        "top": -0.020343
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
     },
     {
       "id": "greece-2017-nikos-kazantzakis",
@@ -45,12 +58,25 @@
       ],
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-nikos-kazantzakis.jpg",
       "source_sha256": "389c33b9a38a2db6de4dc913b4165b6541b6f35a905b6cb61ecfe3cfde3c50df",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "484ae092af960f1f1186298ff64c8e81b66c1e480aeb1653bc9c7b8a167c5eb3",
       "pixels": [
         1170,
         1344
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2017-nikos-kazantzakis-clean-484ae092.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 83,
+        "right": 1166,
+        "bottom": 1269
+      },
+      "live_display": {
+        "width": 92.17696,
+        "left": 4.319087,
+        "top": -3.601549
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
     },
     {
       "id": "greece-2017-philippi",
@@ -67,12 +93,25 @@
       ],
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-philippi.jpg",
       "source_sha256": "ee624c73ae3235f3f3f245ce3446243c23b1256d804bec91263abca50dcc9077",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "4695299b92d0514100fd4c595bdbe6a040c018c604c99d1621b5dfcaf6585eb9",
       "pixels": [
         1184,
         1328
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2017-philippi-clean-4695299b.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 49,
+        "right": 1182,
+        "bottom": 1246
+      },
+      "live_display": {
+        "width": 92.422723,
+        "left": 4.116698,
+        "top": -0.887427
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
     },
     {
       "id": "latvia-2017-kurzeme",
@@ -89,12 +128,25 @@
       ],
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-latvia-2017-kurzeme.jpg",
       "source_sha256": "4563ec227f715884265a97856841e34bfafa73cc57854afc138d54f73fd4a2c4",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "ef588bed2a721e52f6d8c533dd2f8218a7457244ea1ff774425098c39f4fe9a3",
       "pixels": [
         1169,
         1346
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2017-kurzeme-clean-ef588bed.png",
+      "live_bounds": {
+        "left": 5,
+        "top": 114,
+        "right": 1167,
+        "bottom": 1288
+      },
+      "live_display": {
+        "width": 93.039555,
+        "left": 3.610839,
+        "top": -6.135647
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
     },
     {
       "id": "portugal-2017-public-security-police",
@@ -111,12 +163,25 @@
       ],
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-public-security-police.jpg",
       "source_sha256": "38032619cc2c10d4cc7f189c6aad912f2242d2e6aab72ea3af85ad31a69c8278",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "9a0d1451163c64d9726f1147b09a6fef56050d3799d13269991e036d6d4a0045",
       "pixels": [
         1215,
         1295
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2017-public-security-police-clean-9a0d1451.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 34,
+        "right": 1215,
+        "bottom": 1264
+      },
+      "live_display": {
+        "width": 92.298018,
+        "left": 4.100991,
+        "top": 0.354675
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
     },
     {
       "id": "slovenia-2017-euro-introduction",
@@ -133,12 +198,25 @@
       ],
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-slovenia-2017-euro-introduction.jpg",
       "source_sha256": "f21e306e7ece69031367cbef30bb2d1f6254b9029bc87735344ad5a49908d649",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "82cb827764a253e7f5c7d22ce6c564cf6d3d372fdeae6d8724d12cf7870c9989",
       "pixels": [
         1164,
         1351
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2017-euro-introduction-clean-82cb8277.png",
+      "live_bounds": {
+        "left": 2,
+        "top": 127,
+        "right": 1160,
+        "bottom": 1293
+      },
+      "live_display": {
+        "width": 93.27723,
+        "left": 3.69152,
+        "top": -7.239655
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
     },
     {
       "id": "spain-2017-asturias-monuments",
@@ -155,12 +233,25 @@
       ],
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-spain-2017-asturias-monuments.jpg",
       "source_sha256": "3e515343ad227572142551568f7fe6ef03c9f41fb20886d41d98fafe58cc99bf",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "b8344a54d522c518494d80699d95dd1167f486ddfdd9453d595b2278895c50b6",
       "pixels": [
         1195,
         1316
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2017-asturias-monuments-clean-b8344a54.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 76,
+        "right": 1189,
+        "bottom": 1280
+      },
+      "live_display": {
+        "width": 92.739047,
+        "left": 4.113294,
+        "top": -2.960548
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
     },
     {
       "id": "portugal-2017-raul-brandao",
@@ -177,15 +268,241 @@
       ],
       "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-raul-brandao.jpg",
       "source_sha256": "00459edb9074660c98b8d678e3a842ee6507c96627d8f414e56a047208b6f6ff",
-      "applied": false,
+      "applied": true,
       "candidate_sha256": "41d2c0593ab94bebf56edd450739753322392d7ced9705e9842527260ce3c31d",
       "pixels": [
         1144,
         1375
-      ]
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2017-raul-brandao-clean-41d2c059.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 145,
+        "right": 1142,
+        "bottom": 1296
+      },
+      "live_display": {
+        "width": 92.869244,
+        "left": 3.896557,
+        "top": -8.833514
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "slovenia-2016-independence",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2016-independence-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Green/blotchy cast reduced; silver/pale-champagne finish and white background improved. Main diagonal division, serif/cursive lettering and date layout visually retained. Exact cursive strokes, division texture and tiny glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovenia 2016 independence anniversary. Remove greenish/blotchy metal colour casts while preserving the exact diagonal division/wedge boundary and original relief shading. Lock all serif and cursive source lettering, including 25 LET, REPUBLIKA SLOVENIJA, the handwritten inscription and 2016. Do not translate, rewrite or reconstruct cursive letters, or erase the design division.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovenia 2016 independence anniversary. Remove greenish/blotchy metal colour casts while preserving the exact diagonal division/wedge boundary and original relief shading. Lock all serif and cursive source lettering, including 25 LET, REPUBLIKA SLOVENIJA, the handwritten inscription and 2016. Do not translate, rewrite or reconstruct cursive letters, or erase the design division."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovenia-2016-independence.jpg",
+      "source_sha256": "bed08b3ce8b93e57b0021f0fce9df9c2516f352da4aeefd7cac200db083421cc",
+      "applied": true,
+      "candidate_sha256": "2d352a7e836007c9445198681fa90e0fdabaf6621422025875078ffe2facb3e5",
+      "pixels": [
+        1184,
+        1328
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2016-independence-clean-2d352a7e.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 84,
+        "right": 1180,
+        "bottom": 1288
+      },
+      "live_display": {
+        "width": 91.885382,
+        "left": 4.462521,
+        "top": -3.581395
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "slovakia-2016-council-presidency",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2016-council-presidency-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main spiral/ribbon, shield/cross and circular wording/date layout visually retained. Exact segment/line counts, shield relief and small mint/designer glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovakia 2016 Council Presidency. Lock every curved spiral/ribbon segment, exact boundary and crossing, central shield/double-cross, 2016 and the tiny mint/designer marks. Preserve the complete circular Slovak wording and accents exactly. No changed spiral-segment count, simplified shield or re-typeset curved inscription.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovakia 2016 Council Presidency. Lock every curved spiral/ribbon segment, exact boundary and crossing, central shield/double-cross, 2016 and the tiny mint/designer marks. Preserve the complete circular Slovak wording and accents exactly. No changed spiral-segment count, simplified shield or re-typeset curved inscription."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovakia-2016-council-presidency.jpg",
+      "source_sha256": "9777b45a3ab47ee3f10f923b6a3a8bf3fa0c4d624f6040379da5f38876b02d98",
+      "applied": true,
+      "candidate_sha256": "5bcb05e970d4bf937b8294543d5671d5220eb4c67ff007a9f350b1f17a9faf69",
+      "pixels": [
+        1189,
+        1323
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2016-council-presidency-clean-5bcb05e9.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 77,
+        "right": 1187,
+        "bottom": 1271
+      },
+      "live_display": {
+        "width": 93.046221,
+        "left": 3.805146,
+        "top": -3.088201
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "spain-2016-segovia",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2016-segovia-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main aqueduct rows, pillars, partial edge arches and inscription layout visually retained. Exact arch/brick counts, fine stone joints and tiny mint glyph remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2016 Segovia. Lock every visible aqueduct arch, pillar, brick/stone joint and partial edge arch exactly, including the existing perspective and relief shading. Preserve ESPAÑA, 2016 and crowned-M mint mark exactly. No invented missing arches, regularized masonry or reconstructed fine detail.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2016 Segovia. Lock every visible aqueduct arch, pillar, brick/stone joint and partial edge arch exactly, including the existing perspective and relief shading. Preserve ESPAÑA, 2016 and crowned-M mint mark exactly. No invented missing arches, regularized masonry or reconstructed fine detail."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-spain-2016-segovia.jpg",
+      "source_sha256": "c1f72690af8e2f2575cda1a13261ffdff9cf1d7cb44c6f845d4a4b6767115dc8",
+      "applied": true,
+      "candidate_sha256": "0a6f1162ff4d2ab538548d5c8ff1702bfdcceb32b3bc47ae988815a0d1fc35a2",
+      "pixels": [
+        1180,
+        1333
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2016-segovia-clean-0a6f1162.png",
+      "live_bounds": {
+        "left": 1,
+        "top": 68,
+        "right": 1180,
+        "bottom": 1257
+      },
+      "live_display": {
+        "width": 92.730235,
+        "left": 3.84559,
+        "top": -2.406276
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "latvia-2015-council-presidency",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2015-council-presidency-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main angular/radiating logo and curved wording/date layout visually retained. Exact stripe/pattern counts, accents and small web-address glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Latvia 2015 Council Presidency. Lock every angular/radiating logo stroke, triangular opening, parallel stripe and tiny patterned segment exactly in its source count and spacing. Preserve LATVIJAS PREZIDENTŪRA ES PADOMĒ, EU2015.LV and all accents/marks exactly. No standardized replacement logo, simplified lines or new lettering.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Latvia 2015 Council Presidency. Lock every angular/radiating logo stroke, triangular opening, parallel stripe and tiny patterned segment exactly in its source count and spacing. Preserve LATVIJAS PREZIDENTŪRA ES PADOMĒ, EU2015.LV and all accents/marks exactly. No standardized replacement logo, simplified lines or new lettering."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-latvia-2015-council-presidency.jpg",
+      "source_sha256": "f1eae5610b1a433e3987645ceb5d3ff4c17fed5f3cc9ca2be3f86c2feb5728a7",
+      "applied": true,
+      "candidate_sha256": "7a4a62ded8751db16bc1bdd5f59c3d7045caf07066080188b7608e36862b7f0d",
+      "pixels": [
+        1194,
+        1317
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2015-council-presidency-clean-7a4a62de.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 64,
+        "right": 1189,
+        "bottom": 1271
+      },
+      "live_display": {
+        "width": 92.431131,
+        "left": 4.227967,
+        "top": -2.016932
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "lithuania-2015-lithuanian-language",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2015-lithuanian-language-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main large AČIŪ and dense background-letter layout visually retained. Exact alphabet character positions/overlaps, accent strokes and tiny mint glyph remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Lithuania 2015 Lithuanian language. Lock every contour/overlap of the large AČIŪ lettering, all accent strokes and every small background alphabet character in its exact position. Preserve LIETUVA, 2015 and tiny mint marks exactly. Do not re-typeset, replace or invent background letters or change the foreground/background letter overlaps.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Lithuania 2015 Lithuanian language. Lock every contour/overlap of the large AČIŪ lettering, all accent strokes and every small background alphabet character in its exact position. Preserve LIETUVA, 2015 and tiny mint marks exactly. Do not re-typeset, replace or invent background letters or change the foreground/background letter overlaps."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-lithuania-2015-lithuanian-language.jpg",
+      "source_sha256": "3c7f722b277009c89b85011d864342c9a8db2374db8fdba8898ced0ea86c535f",
+      "applied": true,
+      "candidate_sha256": "12afe2a81667c3d500951101696c12e4bd288eb05b19380003a04781541cff59",
+      "pixels": [
+        1193,
+        1319
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2015-lithuanian-language-clean-12afe2a8.png",
+      "live_bounds": {
+        "left": 4,
+        "top": 76,
+        "right": 1185,
+        "bottom": 1271
+      },
+      "live_display": {
+        "width": 93.281119,
+        "left": 3.765821,
+        "top": -3.004969
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
+    },
+    {
+      "id": "monaco-2015-fortress",
+      "candidate": "PHOTO-REVIEW/clean-retouch/monaco-2015-fortress-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main cliff/tower/coast/sea and French inscription/date layout visually retained. Exact rock/window/shoreline relief, tiny symbols and glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Monaco 2015 fortress. Lock the exact cliff/coast/sea relief, central stone tower and every existing wall, rock and shoreline line. Preserve MONACO, 1215, 2015, the complete curved French foundation wording and small mint/designer symbols exactly. No invented tower windows, reconstructed rocks or re-typeset inscription.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Monaco 2015 fortress. Lock the exact cliff/coast/sea relief, central stone tower and every existing wall, rock and shoreline line. Preserve MONACO, 1215, 2015, the complete curved French foundation wording and small mint/designer symbols exactly. No invented tower windows, reconstructed rocks or re-typeset inscription."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-monaco-2015-fortress.jpg",
+      "source_sha256": "4df0086f2d6b524fdb42d19ca5a2a4f1845c5ff55ad1bb6952d2eed56a8eed17",
+      "applied": true,
+      "candidate_sha256": "9f8a4c6dcab597380707ca376602243d918b75e5a5503f42ed8d725c0443d305",
+      "pixels": [
+        1106,
+        1422
+      ],
+      "live_asset": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/monaco-2015-fortress-clean-9f8a4c6d.png",
+      "live_bounds": {
+        "left": 0,
+        "top": 190,
+        "right": 1104,
+        "bottom": 1303
+      },
+      "live_display": {
+        "width": 92.849843,
+        "left": 3.90903,
+        "top": -13.013196
+      },
+      "activation_approval": "User requested completion of all remaining coins on 2026-10-15, continuing the approved publish-to-live workflow. Exact fine engraving remains unverified."
     }
   ],
-  "attempted_photos": 8,
-  "saved_candidates": 8,
-  "total_generation_attempts": 8
+  "attempted_photos": 14,
+  "saved_candidates": 14,
+  "total_generation_attempts": 14,
+  "checkpoint_commit": "7f4eb4754d094c8c52fe2bc58b52f0977e225aa9",
+  "completed_date": "2026-10-15",
+  "active_candidates": 14
 }

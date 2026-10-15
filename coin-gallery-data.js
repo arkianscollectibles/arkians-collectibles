@@ -1467,16 +1467,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Cyprus",
     "year": 2017,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-cyprus-2017-pafos.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2017-pafos-clean-8a520c22.png",
     "pixels": [
-      1513,
-      1600
+      1219,
+      1290
     ],
     "display": {
-      "width": 93.375784,
-      "left": 3.562108,
-      "top": -0.518577
-    }
+      "width": 92.451552,
+      "left": 4.175908,
+      "top": -0.020343
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-cyprus-2017-pafos.jpg"
   },
   {
     "id": "greece-2017-nikos-kazantzakis",
@@ -1487,16 +1489,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2017,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-nikos-kazantzakis.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2017-nikos-kazantzakis-clean-484ae092.png",
     "pixels": [
-      1394,
-      1601
+      1170,
+      1344
     ],
     "display": {
-      "width": 93.37052,
-      "left": 3.56474,
-      "top": -4.229391
-    }
+      "width": 92.17696,
+      "left": 4.319087,
+      "top": -3.601549
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-nikos-kazantzakis.jpg"
   },
   {
     "id": "greece-2017-philippi",
@@ -1504,16 +1508,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Greece",
     "year": 2017,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-philippi.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2017-philippi-clean-4695299b.png",
     "pixels": [
-      1425,
-      1600
+      1184,
+      1328
     ],
     "display": {
-      "width": 93.371976,
-      "left": 3.564012,
-      "top": -1.059476
-    }
+      "width": 92.422723,
+      "left": 4.116698,
+      "top": -0.887427
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-philippi.jpg"
   },
   {
     "id": "latvia-2017-kurzeme",
@@ -1521,16 +1527,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Latvia",
     "year": 2017,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-latvia-2017-kurzeme.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2017-kurzeme-clean-ef588bed.png",
     "pixels": [
-      1389,
-      1600
+      1169,
+      1346
     ],
     "display": {
-      "width": 93.370279,
-      "left": 3.396808,
-      "top": -6.271808
-    }
+      "width": 93.039555,
+      "left": 3.610839,
+      "top": -6.135647
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-latvia-2017-kurzeme.jpg"
   },
   {
     "id": "portugal-2017-public-security-police",
@@ -1541,16 +1549,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2017,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-public-security-police.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2017-public-security-police-clean-9a0d1451.png",
     "pixels": [
-      1500,
-      1600
+      1215,
+      1295
     ],
     "display": {
-      "width": 93.37525,
-      "left": 3.562375,
-      "top": -0.237258
-    }
+      "width": 92.298018,
+      "left": 4.100991,
+      "top": 0.354675
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-public-security-police.jpg"
   },
   {
     "id": "slovenia-2017-euro-introduction",
@@ -1561,16 +1571,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovenia",
     "year": 2017,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-slovenia-2017-euro-introduction.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2017-euro-introduction-clean-82cb8277.png",
     "pixels": [
-      1377,
-      1600
+      1164,
+      1351
     ],
     "display": {
-      "width": 93.573409,
-      "left": 3.53125,
-      "top": -7.459545
-    }
+      "width": 93.27723,
+      "left": 3.69152,
+      "top": -7.239655
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-slovenia-2017-euro-introduction.jpg"
   },
   {
     "id": "spain-2017-asturias-monuments",
@@ -1581,16 +1593,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Spain",
     "year": 2017,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-spain-2017-asturias-monuments.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2017-asturias-monuments-clean-b8344a54.png",
     "pixels": [
-      1453,
-      1600
+      1195,
+      1316
     ],
     "display": {
-      "width": 93.373238,
-      "left": 3.563381,
-      "top": -3.617263
-    }
+      "width": 92.739047,
+      "left": 4.113294,
+      "top": -2.960548
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-spain-2017-asturias-monuments.jpg"
   },
   {
     "id": "portugal-2017-raul-brandao",
@@ -1601,16 +1615,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Portugal",
     "year": 2017,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-raul-brandao.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2017-raul-brandao-clean-41d2c059.png",
     "pixels": [
-      1332,
-      1600
+      1144,
+      1375
     ],
     "display": {
-      "width": 93.367404,
-      "left": 3.566298,
-      "top": -9.118952
-    }
+      "width": 92.869244,
+      "left": 3.896557,
+      "top": -8.833514
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-raul-brandao.jpg"
   },
   {
     "id": "slovenia-2016-independence",
@@ -1621,16 +1637,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovenia",
     "year": 2016,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovenia-2016-independence.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2016-independence-clean-2d352a7e.png",
     "pixels": [
-      1425,
-      1600
+      1184,
+      1328
     ],
     "display": {
-      "width": 93.371976,
-      "left": 3.564012,
-      "top": -4.466734
-    }
+      "width": 91.885382,
+      "left": 4.462521,
+      "top": -3.581395
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovenia-2016-independence.jpg"
   },
   {
     "id": "slovakia-2016-council-presidency",
@@ -1641,16 +1659,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Slovakia",
     "year": 2016,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovakia-2016-council-presidency.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2016-council-presidency-clean-5bcb05e9.png",
     "pixels": [
-      1438,
-      1600
+      1189,
+      1323
     ],
     "display": {
-      "width": 93.372568,
-      "left": 3.563716,
-      "top": -3.42586
-    }
+      "width": 93.046221,
+      "left": 3.805146,
+      "top": -3.088201
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovakia-2016-council-presidency.jpg"
   },
   {
     "id": "spain-2016-segovia",
@@ -1661,16 +1681,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Spain",
     "year": 2016,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-spain-2016-segovia.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2016-segovia-clean-0a6f1162.png",
     "pixels": [
-      1418,
-      1601
+      1180,
+      1333
     ],
     "display": {
-      "width": 93.371653,
-      "left": 3.432479,
-      "top": -2.593684
-    }
+      "width": 92.730235,
+      "left": 3.84559,
+      "top": -2.406276
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-spain-2016-segovia.jpg"
   },
   {
     "id": "latvia-2015-council-presidency",
@@ -1678,16 +1700,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Latvia",
     "year": 2015,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-latvia-2015-council-presidency.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2015-council-presidency-clean-7a4a62de.png",
     "pixels": [
-      1451,
-      1600
+      1194,
+      1317
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -2.568293
-    }
+      "width": 92.431131,
+      "left": 4.227967,
+      "top": -2.016932
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-latvia-2015-council-presidency.jpg"
   },
   {
     "id": "lithuania-2015-lithuanian-language",
@@ -1695,16 +1719,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Lithuania",
     "year": 2015,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-lithuania-2015-lithuanian-language.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2015-lithuanian-language-clean-12afe2a8.png",
     "pixels": [
-      1448,
-      1600
+      1193,
+      1319
     ],
     "display": {
-      "width": 94.349721,
-      "left": 3.075139,
-      "top": -3.80642
-    }
+      "width": 93.281119,
+      "left": 3.765821,
+      "top": -3.004969
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-lithuania-2015-lithuanian-language.jpg"
   },
   {
     "id": "monaco-2015-fortress",
@@ -1715,16 +1741,18 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
     "country": "Monaco",
     "year": 2015,
     "colored": false,
-    "image": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-monaco-2015-fortress.jpg",
+    "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/monaco-2015-fortress-clean-9f8a4c6d.png",
     "pixels": [
-      1245,
-      1600
+      1106,
+      1422
     ],
     "display": {
-      "width": 93.4375,
-      "left": 3.53125,
-      "top": -13.348394
-    }
+      "width": 92.849843,
+      "left": 3.90903,
+      "top": -13.013196
+    },
+    "image_edit": "ai-retouched",
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-monaco-2015-fortress.jpg"
   },
   {
     "id": "slovakia-2015-ludovit-stur",

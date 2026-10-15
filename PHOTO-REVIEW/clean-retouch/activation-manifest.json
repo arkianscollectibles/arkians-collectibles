@@ -1186,6 +1186,258 @@
         "top": -1.870073
       },
       "batch": "2026-10-15-batch-008"
+    },
+    {
+      "id": "cyprus-2017-pafos",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/cyprus-2017-pafos-clean-8a520c22.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/cyprus-2017-pafos-attempt1.png",
+      "sha256": "8a520c22f9b793ccc5d2a9a4df67be996b306004ef17dc3f67550daaf4a94d5f",
+      "bounds": {
+        "left": 0,
+        "top": 39,
+        "right": 1215,
+        "bottom": 1271
+      },
+      "display": {
+        "width": 92.451552,
+        "left": 4.175908,
+        "top": -0.020343
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "greece-2017-nikos-kazantzakis",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2017-nikos-kazantzakis-clean-484ae092.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2017-nikos-kazantzakis-attempt1.png",
+      "sha256": "484ae092af960f1f1186298ff64c8e81b66c1e480aeb1653bc9c7b8a167c5eb3",
+      "bounds": {
+        "left": 0,
+        "top": 83,
+        "right": 1166,
+        "bottom": 1269
+      },
+      "display": {
+        "width": 92.17696,
+        "left": 4.319087,
+        "top": -3.601549
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "greece-2017-philippi",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/greece-2017-philippi-clean-4695299b.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2017-philippi-attempt1.png",
+      "sha256": "4695299b92d0514100fd4c595bdbe6a040c018c604c99d1621b5dfcaf6585eb9",
+      "bounds": {
+        "left": 0,
+        "top": 49,
+        "right": 1182,
+        "bottom": 1246
+      },
+      "display": {
+        "width": 92.422723,
+        "left": 4.116698,
+        "top": -0.887427
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "latvia-2017-kurzeme",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2017-kurzeme-clean-ef588bed.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2017-kurzeme-attempt1.png",
+      "sha256": "ef588bed2a721e52f6d8c533dd2f8218a7457244ea1ff774425098c39f4fe9a3",
+      "bounds": {
+        "left": 5,
+        "top": 114,
+        "right": 1167,
+        "bottom": 1288
+      },
+      "display": {
+        "width": 93.039555,
+        "left": 3.610839,
+        "top": -6.135647
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "portugal-2017-public-security-police",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2017-public-security-police-clean-9a0d1451.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2017-public-security-police-attempt1.png",
+      "sha256": "9a0d1451163c64d9726f1147b09a6fef56050d3799d13269991e036d6d4a0045",
+      "bounds": {
+        "left": 0,
+        "top": 34,
+        "right": 1215,
+        "bottom": 1264
+      },
+      "display": {
+        "width": 92.298018,
+        "left": 4.100991,
+        "top": 0.354675
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "slovenia-2017-euro-introduction",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2017-euro-introduction-clean-82cb8277.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2017-euro-introduction-attempt1.png",
+      "sha256": "82cb827764a253e7f5c7d22ce6c564cf6d3d372fdeae6d8724d12cf7870c9989",
+      "bounds": {
+        "left": 2,
+        "top": 127,
+        "right": 1160,
+        "bottom": 1293
+      },
+      "display": {
+        "width": 93.27723,
+        "left": 3.69152,
+        "top": -7.239655
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "spain-2017-asturias-monuments",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2017-asturias-monuments-clean-b8344a54.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2017-asturias-monuments-attempt1.png",
+      "sha256": "b8344a54d522c518494d80699d95dd1167f486ddfdd9453d595b2278895c50b6",
+      "bounds": {
+        "left": 0,
+        "top": 76,
+        "right": 1189,
+        "bottom": 1280
+      },
+      "display": {
+        "width": 92.739047,
+        "left": 4.113294,
+        "top": -2.960548
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "portugal-2017-raul-brandao",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/portugal-2017-raul-brandao-clean-41d2c059.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2017-raul-brandao-attempt1.png",
+      "sha256": "41d2c0593ab94bebf56edd450739753322392d7ced9705e9842527260ce3c31d",
+      "bounds": {
+        "left": 0,
+        "top": 145,
+        "right": 1142,
+        "bottom": 1296
+      },
+      "display": {
+        "width": 92.869244,
+        "left": 3.896557,
+        "top": -8.833514
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "slovenia-2016-independence",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovenia-2016-independence-clean-2d352a7e.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovenia-2016-independence-attempt1.png",
+      "sha256": "2d352a7e836007c9445198681fa90e0fdabaf6621422025875078ffe2facb3e5",
+      "bounds": {
+        "left": 0,
+        "top": 84,
+        "right": 1180,
+        "bottom": 1288
+      },
+      "display": {
+        "width": 91.885382,
+        "left": 4.462521,
+        "top": -3.581395
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "slovakia-2016-council-presidency",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/slovakia-2016-council-presidency-clean-5bcb05e9.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2016-council-presidency-attempt1.png",
+      "sha256": "5bcb05e970d4bf937b8294543d5671d5220eb4c67ff007a9f350b1f17a9faf69",
+      "bounds": {
+        "left": 0,
+        "top": 77,
+        "right": 1187,
+        "bottom": 1271
+      },
+      "display": {
+        "width": 93.046221,
+        "left": 3.805146,
+        "top": -3.088201
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "spain-2016-segovia",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/spain-2016-segovia-clean-0a6f1162.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2016-segovia-attempt1.png",
+      "sha256": "0a6f1162ff4d2ab538548d5c8ff1702bfdcceb32b3bc47ae988815a0d1fc35a2",
+      "bounds": {
+        "left": 1,
+        "top": 68,
+        "right": 1180,
+        "bottom": 1257
+      },
+      "display": {
+        "width": 92.730235,
+        "left": 3.84559,
+        "top": -2.406276
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "latvia-2015-council-presidency",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/latvia-2015-council-presidency-clean-7a4a62de.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/latvia-2015-council-presidency-attempt1.png",
+      "sha256": "7a4a62ded8751db16bc1bdd5f59c3d7045caf07066080188b7608e36862b7f0d",
+      "bounds": {
+        "left": 0,
+        "top": 64,
+        "right": 1189,
+        "bottom": 1271
+      },
+      "display": {
+        "width": 92.431131,
+        "left": 4.227967,
+        "top": -2.016932
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "lithuania-2015-lithuanian-language",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/lithuania-2015-lithuanian-language-clean-12afe2a8.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/lithuania-2015-lithuanian-language-attempt1.png",
+      "sha256": "12afe2a81667c3d500951101696c12e4bd288eb05b19380003a04781541cff59",
+      "bounds": {
+        "left": 4,
+        "top": 76,
+        "right": 1185,
+        "bottom": 1271
+      },
+      "display": {
+        "width": 93.281119,
+        "left": 3.765821,
+        "top": -3.004969
+      },
+      "batch": "2026-10-15-batch-009"
+    },
+    {
+      "id": "monaco-2015-fortress",
+      "image": "PRODUCT PHOTOS/COINS/RETOUCHED/RECOVERED/monaco-2015-fortress-clean-9f8a4c6d.png",
+      "candidate": "PHOTO-REVIEW/clean-retouch/monaco-2015-fortress-attempt1.png",
+      "sha256": "9f8a4c6dcab597380707ca376602243d918b75e5a5503f42ed8d725c0443d305",
+      "bounds": {
+        "left": 0,
+        "top": 190,
+        "right": 1104,
+        "bottom": 1303
+      },
+      "display": {
+        "width": 92.849843,
+        "left": 3.90903,
+        "top": -13.013196
+      },
+      "batch": "2026-10-15-batch-009"
     }
   ],
   "updated_date": "2026-10-15",
@@ -1208,6 +1460,14 @@
       "candidates": 14,
       "user_reply": "retouch more",
       "publication_authorization": "Continuation of prior Publish the new batch too instruction",
+      "exact_engraving_verified": false
+    },
+    {
+      "date": "2026-10-15",
+      "batch": "2026-10-15-batch-009",
+      "candidates": 14,
+      "user_reply": "ok do the other coins left",
+      "publication_authorization": "Continuation of approved publish-to-live workflow",
       "exact_engraving_verified": false
     }
   ]
