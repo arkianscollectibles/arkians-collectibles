@@ -1,0 +1,191 @@
+{
+  "id": "2026-10-15-batch-010",
+  "tool": "built-in image_gen",
+  "status": "in_progress",
+  "planned_photos": 14,
+  "desired_candidates": 14,
+  "max_simultaneous_generations": 2,
+  "preview_width": 384,
+  "notes": "Complete all remaining coins in pairs. Preserve original files, publish candidates with AI labels and original-photo links; exact fine engraving remains unverified.",
+  "entries": [
+    {
+      "id": "slovakia-2015-ludovit-stur",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2015-ludovit-stur-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Strong yellow cast reduced; silver/pale-champagne finish and white background improved. Main portrait/hair/beard and inscription/date layout visually retained. Exact facial/hair relief, accents and tiny mint/designer glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovakia 2015 Ľudovít Štúr. Reduce the strong yellow/gold cast to very pale champagne while preserving all original engraved portrait relief, hair, beard, eyes, nose and facial shadows. Preserve ĽUDOVÍT ŠTÚR, dates, SLOVENSKO, accents and tiny mint/designer marks exactly. No face reconstruction or smoothed hair/beard strokes.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovakia 2015 Ľudovít Štúr. Reduce the strong yellow/gold cast to very pale champagne while preserving all original engraved portrait relief, hair, beard, eyes, nose and facial shadows. Preserve ĽUDOVÍT ŠTÚR, dates, SLOVENSKO, accents and tiny mint/designer marks exactly. No face reconstruction or smoothed hair/beard strokes."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-slovakia-2015-ludovit-stur.jpg",
+      "source_sha256": "d0484bb0182d475199fea586fa3129c55ed28fcde878305c0f0bd5fc5bb85555",
+      "applied": false,
+      "candidate_sha256": "9f89b705555f09fc578c52bf4db4898cb615e1a2bb47cc4b5d480cac208b9263",
+      "pixels": [
+        1174,
+        1339
+      ]
+    },
+    {
+      "id": "france-2014-world-aids-day",
+      "candidate": "PHOTO-REVIEW/clean-retouch/france-2014-world-aids-day-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main three-ribbon/hatch-line layout and French wording/date visually retained. Exact ribbon overlaps, hatch counts and tiny typography/marks remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: France 2014 World AIDS Day. Lock all three ribbon shapes, exact overlaps, fold edges and fine parallel hatch lines. Preserve 1er DÉCEMBRE, JOURNÉE MONDIALE, CONTRE LE SIDA, RF, 2014 and tiny marks exactly from the source. No redesigned ribbon geometry, new lettering or changed hatch-line network.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: France 2014 World AIDS Day. Lock all three ribbon shapes, exact overlaps, fold edges and fine parallel hatch lines. Preserve 1er DÉCEMBRE, JOURNÉE MONDIALE, CONTRE LE SIDA, RF, 2014 and tiny marks exactly from the source. No redesigned ribbon geometry, new lettering or changed hatch-line network."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-france-2014-world-aids-day.jpg",
+      "source_sha256": "f43171da41cc736e9f1665c1f8963e0c9d2f0c807aac080389224d5f7117c967",
+      "applied": false,
+      "candidate_sha256": "3d73f2bbe222dec8a542e8635590c6c5a5f53740e9be5e307f6d7ed7d66385c1",
+      "pixels": [
+        1148,
+        1371
+      ]
+    },
+    {
+      "id": "greece-2014-ionian-islands",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2014-ionian-islands-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main multi-point star, emblem/scroll layout and Greek date/text visually retained. Exact emblem relief, scroll/star counts and tiny Greek/mint glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2014 Ionian Islands. Lock the central multi-point star, every surrounding island emblem, exact wave-scroll border and all small symbols. Preserve every line of the central Greek wording, 1864–2014, accents and mint/designer marks exactly. No added emblems, changed star points, scrolls or rewritten Greek.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Greece 2014 Ionian Islands. Lock the central multi-point star, every surrounding island emblem, exact wave-scroll border and all small symbols. Preserve every line of the central Greek wording, 1864–2014, accents and mint/designer marks exactly. No added emblems, changed star points, scrolls or rewritten Greek."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-greece-2014-ionian-islands.jpg",
+      "source_sha256": "4560c53e8924a3bf29194fb072723f0e31f73797f675274d3ed63d4cb6d15656",
+      "applied": false,
+      "candidate_sha256": "cc84b11d43a6fc4ca0b5231ece103e24c5f2f229bdee25714ab8c1c2b8fb87fd",
+      "pixels": [
+        1218,
+        1292
+      ]
+    },
+    {
+      "id": "netherlands-2014-double-portrait",
+      "candidate": "PHOTO-REVIEW/clean-retouch/netherlands-2014-double-portrait-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main overlapping engraved profiles and circular Dutch inscription/date visually retained. Exact facial/hair/neck relief, portrait overlap and tiny glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Netherlands 2014 double portrait. Lock the exact two overlapping right-facing engraved profiles, their overlap, facial/hair/neck contours and original relief shading. Neutralize uneven ring colour without altering relief. Preserve the complete circular Dutch wording, names, 2014 and tiny symbols exactly. No face reconstruction or changed portrait overlap.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Netherlands 2014 double portrait. Lock the exact two overlapping right-facing engraved profiles, their overlap, facial/hair/neck contours and original relief shading. Neutralize uneven ring colour without altering relief. Preserve the complete circular Dutch wording, names, 2014 and tiny symbols exactly. No face reconstruction or changed portrait overlap."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-netherlands-2014-double-portrait.jpg",
+      "source_sha256": "39ad73dbdec59c06e0f2b118ae950fbf62269230df0eb4d5053670f9a72e8c86",
+      "applied": false,
+      "candidate_sha256": "766575e674e1c8a94ffadd6e30ec2a45336c5c3dc530aed585e8f536a130134f",
+      "pixels": [
+        1183,
+        1330
+      ]
+    },
+    {
+      "id": "portugal-2014-carnation-revolution",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2014-carnation-revolution-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main outlined lettering/numerals, dividing lines and coat-of-arms layout visually retained. Exact crest microdetail, typography contours and tiny designer/mint text remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2014 Carnation Revolution. Lock every large outlined letter/digit, diagonal division line continuing across the ring, and tiny national coat-of-arms detail. Preserve PORTUGAL, 25 DE ABRIL, 40 ANOS, 2014 and all designer/mint wording exactly from the source. No re-typesetting, simplified crest or changed division geometry.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2014 Carnation Revolution. Lock every large outlined letter/digit, diagonal division line continuing across the ring, and tiny national coat-of-arms detail. Preserve PORTUGAL, 25 DE ABRIL, 40 ANOS, 2014 and all designer/mint wording exactly from the source. No re-typesetting, simplified crest or changed division geometry."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-carnation-revolution.jpg",
+      "source_sha256": "3b3b6d8d1f1f9987904089624a0192afaeecfccf3260405081c64d20ff22f577",
+      "applied": false,
+      "candidate_sha256": "87aa3a1eef9b6ecf5e6643a91d8d9fc863a1a7a3dbca49c498d5d3fb133345b0",
+      "pixels": [
+        1166,
+        1349
+      ]
+    },
+    {
+      "id": "portugal-2014-family-farming",
+      "candidate": "PHOTO-REVIEW/clean-retouch/portugal-2014-family-farming-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main tools, plants/produce/basket and central silhouette layout visually retained. Exact leaf/tool/produce detail, overlaps and tiny lettering remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2014 Family Farming. Lock every original farming tool, handle/blade, plant/leaf, vegetable, basket and central soil/ground silhouette, preserving their exact count, shape and overlap. Preserve AGRICULTURA FAMILIAR, PORTUGAL 2014 and small bottom designer/mint text exactly. No invented produce, changed tools or simplified plant detail.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Portugal 2014 Family Farming. Lock every original farming tool, handle/blade, plant/leaf, vegetable, basket and central soil/ground silhouette, preserving their exact count, shape and overlap. Preserve AGRICULTURA FAMILIAR, PORTUGAL 2014 and small bottom designer/mint text exactly. No invented produce, changed tools or simplified plant detail."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-family-farming.jpg",
+      "source_sha256": "907734f6f1289c47336eec99a05051d196de3a6b593050e371dba640520b3a1b",
+      "applied": false,
+      "candidate_sha256": "1ff2f67c6e6f9e8831ccb71e315b9857d96058e424576ae24a4df3e5fa44e44e",
+      "pixels": [
+        1124,
+        1399
+      ]
+    },
+    {
+      "id": "spain-2014-king-felipe-vi",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2014-king-felipe-vi-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Strong yellow cast reduced; silver/pale-champagne finish and white background improved. Main two-profile/inscription/date layout visually retained. Exact facial/hair/neck relief, overlap and tiny crowned-M glyph remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2014 change of head of state. Lock the exact two overlapping left-facing engraved profiles, hair, ears, facial/neck contours and overlap. Preserve ESPAÑA-2014 and the crowned-M mint mark exactly. Reduce yellow cast only; no reconstructed faces, changed hair or altered portrait spacing.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2014 change of head of state. Lock the exact two overlapping left-facing engraved profiles, hair, ears, facial/neck contours and overlap. Preserve ESPAÑA-2014 and the crowned-M mint mark exactly. Reduce yellow cast only; no reconstructed faces, changed hair or altered portrait spacing."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-spain-2014-king-felipe-vi.jpg",
+      "source_sha256": "278bc8ef0059b2bcaab15d36571ea3385d26a9e312fe67393bcfb72b3af374b0",
+      "applied": false,
+      "candidate_sha256": "7e8ad2ee31470d7cc2021930023569a321c3bc3276aa45f1ddca903ab9bf9d6f",
+      "pixels": [
+        1114,
+        1412
+      ]
+    },
+    {
+      "id": "belgium-2013-royal-meteorological-institute",
+      "candidate": "PHOTO-REVIEW/clean-retouch/belgium-2013-royal-meteorological-institute-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main circular/100, radial-segment, isobar and small weather-icon layout visually retained. Exact segment/line counts, faint institute initials and tiny mint glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Belgium 2013 meteorological institute. Lock the original stylized 100/circular design, every radial segment, isobar curve, small weather icon and geometric line. Preserve 2013, BE, all original institute initials and mint/designer symbols exactly as photographed, without guessing faint letters. Keep all line/circle intersections and segment counts unchanged.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Belgium 2013 meteorological institute. Lock the original stylized 100/circular design, every radial segment, isobar curve, small weather icon and geometric line. Preserve 2013, BE, all original institute initials and mint/designer symbols exactly as photographed, without guessing faint letters. Keep all line/circle intersections and segment counts unchanged."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-belgium-2013-royal-meteorological-institute.jpg",
+      "source_sha256": "6311193b7b75fa2d023a4022c86337b1d4131cf04377329806b25079155ab522",
+      "applied": false,
+      "candidate_sha256": "283e2a12d0191d9fe3e7ebbd5defe942103aa6e27b5fc22399dbb5bab04850a0",
+      "pixels": [
+        1159,
+        1356
+      ]
+    }
+  ],
+  "attempted_photos": 8,
+  "saved_candidates": 8,
+  "total_generation_attempts": 8
+}
