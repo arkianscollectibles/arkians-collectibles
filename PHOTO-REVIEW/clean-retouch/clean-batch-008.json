@@ -1,0 +1,191 @@
+{
+  "id": "2026-10-15-batch-008",
+  "tool": "built-in image_gen",
+  "status": "in_progress",
+  "planned_photos": 14,
+  "desired_candidates": 14,
+  "max_simultaneous_generations": 2,
+  "preview_width": 384,
+  "notes": "Continued user-approved retouch-and-publish workflow. Work two at a time; checkpoint each pair and push after eight. Preserve original photos and link them from live AI-labelled cards. Exact fine engraving remains unverified.",
+  "entries": [
+    {
+      "id": "slovakia-2020-oecd",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2020-oecd-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main circuit-brain/open-circle, text-panel and shield layout visually retained. Exact trace/terminal counts, tiny shield details and inscription glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovakia 2020 OECD accession anniversary. Lock the exact circuit-board/brain outline, every branching trace, circular terminal and connection, the central open circle, the geometric text panel and small Slovak shield. Preserve all source Slovak wording, OECD, SLOVENSKO, 2020, accents and mint/designer marks exactly. No regularized or invented circuit paths.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Slovakia 2020 OECD accession anniversary. Lock the exact circuit-board/brain outline, every branching trace, circular terminal and connection, the central open circle, the geometric text panel and small Slovak shield. Preserve all source Slovak wording, OECD, SLOVENSKO, 2020, accents and mint/designer marks exactly. No regularized or invented circuit paths."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-slovakia-2020-oecd.jpg",
+      "source_sha256": "35df76ee2629b804aed8637605500ad56162ed0f2fadc9306dec96b8c4cc8c9a",
+      "applied": false,
+      "candidate_sha256": "35a1a1ea91197860c307ce85165a4a2b7fbae75ffde5363ccb17322c62282a81",
+      "pixels": [
+        1182,
+        1330
+      ]
+    },
+    {
+      "id": "spain-2020-aragon-mudejar",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2020-aragon-mudejar-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Saturated yellow/brown cast reduced; silver/pale-champagne finish and white background improved. Main tower/inscription layout visually retained. Exact brick, arch, window and crenellation details and tiny mint glyph remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2020 Aragonese Mudejar architecture. Lighten the saturated yellow/brown metal cast into the very pale champagne reference finish while preserving every original tower edge, crenellation, arch, opening, brick/masonry detail and decorative band. Preserve ARQUITECTURA MUDÉJAR DE ARAGÓN, ESPAÑA, 2020 and crowned-M mint mark exactly. No architectural reconstruction, new windows or simplified brick patterns.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2020 Aragonese Mudejar architecture. Lighten the saturated yellow/brown metal cast into the very pale champagne reference finish while preserving every original tower edge, crenellation, arch, opening, brick/masonry detail and decorative band. Preserve ARQUITECTURA MUDÉJAR DE ARAGÓN, ESPAÑA, 2020 and crowned-M mint mark exactly. No architectural reconstruction, new windows or simplified brick patterns."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-spain-2020-aragon-mudejar.jpg",
+      "source_sha256": "3a5d39a5cd179eb7ea5c7c571ddbaf48a4ba22fb495aa2bc404be4f4090a279b",
+      "applied": false,
+      "candidate_sha256": "86eb85f9c65e1df54c2c6f7bef9aa4eaa872b473383cabb668e2fc1e9ec07ca3",
+      "pixels": [
+        1209,
+        1300
+      ]
+    },
+    {
+      "id": "estonia-2019-song-celebration",
+      "candidate": "PHOTO-REVIEW/clean-retouch/estonia-2019-song-celebration-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main singer/oval-mouth, musical-staff/note and spiral-border layout visually retained. Exact note/staff intersections, segmented edge and custom glyph details remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Estonia 2019 Song Festival. Lock the exact stylized singing faces/open oval mouths, every curved musical staff line and note, spiral border pattern and small segmented circular edge. Preserve 2019, EESTI and LAULUPIDU 150 exactly, with the original letter shapes and spacing. No added notes, rewritten digits or regularized curves.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Estonia 2019 Song Festival. Lock the exact stylized singing faces/open oval mouths, every curved musical staff line and note, spiral border pattern and small segmented circular edge. Preserve 2019, EESTI and LAULUPIDU 150 exactly, with the original letter shapes and spacing. No added notes, rewritten digits or regularized curves."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-estonia-2019-song-celebration.jpg",
+      "source_sha256": "8faa4e8d0bfe70e905c20c0679fa68bae5ddc27d54625b8f4f32a0184d8d5578",
+      "applied": false,
+      "candidate_sha256": "ad678124ab21f645a9943c129e990cb6c5878c8379f59c999e8e551281fa4c6a",
+      "pixels": [
+        1159,
+        1356
+      ]
+    },
+    {
+      "id": "greece-2019-andreas-kalvos",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2019-andreas-kalvos-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved while retaining textured hair/beard relief. Main portrait and curved Greek wording/date layout visually retained. Exact facial/hair lines, accents and tiny mint/designer glyphs remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Andreas Kalvos 2019. Clean blotchy flat-metal colour only while retaining the photographed engraved hair, beard, eye, nose and facial contours. Preserve the complete curved Greek inscriptions, dates, 2019 and tiny mint/designer marks exactly as visible. Do not reconstruct facial relief, smooth away the engraved beard/hair strokes or invent unreadable Greek letters.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Andreas Kalvos 2019. Clean blotchy flat-metal colour only while retaining the photographed engraved hair, beard, eye, nose and facial contours. Preserve the complete curved Greek inscriptions, dates, 2019 and tiny mint/designer marks exactly as visible. Do not reconstruct facial relief, smooth away the engraved beard/hair strokes or invent unreadable Greek letters."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-greece-2019-andreas-kalvos.jpg",
+      "source_sha256": "a6bc749ab509dd2508c9f711eec1539d169653742e16f5078ac09f462acd6fb2",
+      "applied": false,
+      "candidate_sha256": "c72b0995da4e6f90d3742ff46ae69dcb9346d0bc132ff6463cb1368f4f2495c4",
+      "pixels": [
+        1254,
+        1254
+      ]
+    },
+    {
+      "id": "slovakia-2019-milan-rastislav-stefanik",
+      "candidate": "PHOTO-REVIEW/clean-retouch/slovakia-2019-milan-rastislav-stefanik-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main portrait, cap ornament, uniform and inscription/date layout visually retained. Exact face/cap relief, tiny symbols and letter/accent fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Milan Rastislav Štefánik 2019. Lock the exact engraved portrait, face/ear/neck contours, uniform collar and every band/leaf/ornament on the military cap. Preserve SLOVENSKO, MILAN RASTISLAV ŠTEFÁNIK, 1880, 1919, 2019, accents and all tiny mint/designer marks exactly from the source. No face reconstruction or redesigned cap decoration.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Milan Rastislav Štefánik 2019. Lock the exact engraved portrait, face/ear/neck contours, uniform collar and every band/leaf/ornament on the military cap. Preserve SLOVENSKO, MILAN RASTISLAV ŠTEFÁNIK, 1880, 1919, 2019, accents and all tiny mint/designer marks exactly from the source. No face reconstruction or redesigned cap decoration."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-slovakia-2019-milan-rastislav-stefanik.jpg",
+      "source_sha256": "1ad399a9b348d1cfc2646d08acd7372c5fee8b689d1a0b0a84b110ef89c635ee",
+      "applied": false,
+      "candidate_sha256": "4e11a692140cadd5706d870642d48bcb46a93c1d308628ba77f6582e43179480",
+      "pixels": [
+        1215,
+        1295
+      ]
+    },
+    {
+      "id": "spain-2019-avila",
+      "candidate": "PHOTO-REVIEW/clean-retouch/spain-2019-avila-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main wall/tower/foreground and inscription layout visually retained. Exact brick network, crenellation count, masonry texture and tiny mint glyph remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2019 Ávila. Lock the exact city-wall towers, curves, crenellations, mortar/brick network, foreground ground texture and every visible architectural edge. Preserve ESPAÑA, 2019 and the crowned-M mint mark exactly. No added battlements, altered tower count, regularized bricks or invented masonry.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Spain 2019 Ávila. Lock the exact city-wall towers, curves, crenellations, mortar/brick network, foreground ground texture and every visible architectural edge. Preserve ESPAÑA, 2019 and the crowned-M mint mark exactly. No added battlements, altered tower count, regularized bricks or invented masonry."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-spain-2019-avila.jpg",
+      "source_sha256": "8098510a8822023c71ab383937aeaf67f2a67a6c0ed4f8d69124a3069a61b9bc",
+      "applied": false,
+      "candidate_sha256": "d0ef654343c933b6f7d7c672c53d71f5f1f16a7c776c777797c70230cc65fa36",
+      "pixels": [
+        1229,
+        1280
+      ]
+    },
+    {
+      "id": "estonia-2018-estonian-republic",
+      "candidate": "PHOTO-REVIEW/clean-retouch/estonia-2018-estonian-republic-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved. Main stylized-100 circles/bird layout and curved inscription visually retained. Exact bird silhouettes/counts, spacing and tiny glyph fidelity remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Estonia 2018 independence centenary. Lock the exact stylized 100 design: the vertical bird silhouettes, upper open circle, lower circular flock and every small bird contour/count/position. Preserve SADA AASTAT EESTI VABARIIKI, EESTI 2018 and the original curved inscription orientation exactly. No new birds, regularized silhouette shapes or changed circles.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Estonia 2018 independence centenary. Lock the exact stylized 100 design: the vertical bird silhouettes, upper open circle, lower circular flock and every small bird contour/count/position. Preserve SADA AASTAT EESTI VABARIIKI, EESTI 2018 and the original curved inscription orientation exactly. No new birds, regularized silhouette shapes or changed circles."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-estonia-2018-estonian-republic.jpg",
+      "source_sha256": "221e59345647dbba4fc0f792d6c024e8ba11453d91aec4515e40b357df7359fd",
+      "applied": false,
+      "candidate_sha256": "7c6115abe8f80e79a1610cb6d5813148fa69ef348ec6cb979b30465cf83d771a",
+      "pixels": [
+        1237,
+        1271
+      ]
+    },
+    {
+      "id": "greece-2018-kostis-palamas",
+      "candidate": "PHOTO-REVIEW/clean-retouch/greece-2018-kostis-palamas-attempt1.png",
+      "status": "candidate_finish_reviewed_exact_engraving_unverified",
+      "review": "Silver/pale-champagne finish and white background improved while retaining textured source portrait relief. Main portrait/clothing and Greek inscription/date layout visually retained. Exact hair/face/coat lines, accents and tiny mint/designer marks remain unverified.",
+      "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Kostis Palamas 2018. Lock the exact engraved portrait, textured hair, brows, eyes, moustache, beard, ear, tie, collar and jacket lines. Preserve every source Greek inscription, accent, 2018 and tiny mint/designer mark exactly. Clean colour casts on flat metal without reconstructing/beautifying the face or smoothing away portrait relief.",
+      "attempts": [
+        {
+          "number": 1,
+          "outcome": "candidate_saved",
+          "prompt": "Use case: precise-object-edit. Asset: an actual commemorative euro coin photograph for an online catalogue. Image 1 is the ONLY edit target. Images 2 and 3 are finish references only. Change only the photographed surface colour, blotchy dirt and background: clean neutral satin-silver outer ring, VERY PALE low-saturation cream-beige champagne-gold centre, pure white background, matching the references. Keep the same photographed coin, orientation, outline, relief shading and modest white margin. Preserve EVERY original engraved line and shape, all inscriptions/accents/spacing, dates, mint marks, initials, and all twelve stars EXACTLY as in Image 1. Follow visible source edges; do not reconstruct or guess tiny unreadable details. No redrawing, new lettering, simplified geometry, extra symbols or invented relief. Do not copy a motif from the finish references. One coin only, no collage; avoid saturated yellow, dark gold and mirror chrome. Target: Kostis Palamas 2018. Lock the exact engraved portrait, textured hair, brows, eyes, moustache, beard, ear, tie, collar and jacket lines. Preserve every source Greek inscription, accent, 2018 and tiny mint/designer mark exactly. Clean colour casts on flat metal without reconstructing/beautifying the face or smoothing away portrait relief."
+        }
+      ],
+      "source": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-kostis-palamas.jpg",
+      "source_sha256": "f981ea97c0d4af69b79656a98507c031dac61db86dd77d88b74de36271f16841",
+      "applied": false,
+      "candidate_sha256": "94dd648c831cb08d04e83b21fc7c6081f583d94b959644a328975126a1c4b600",
+      "pixels": [
+        1207,
+        1303
+      ]
+    }
+  ],
+  "attempted_photos": 8,
+  "saved_candidates": 8,
+  "total_generation_attempts": 8
+}

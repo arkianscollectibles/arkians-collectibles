@@ -45,3 +45,7 @@ The user approved placing all 40 saved AI candidates in the live catalogue despi
 Fourteen further source coins are being retouched in pairs with 384-pixel previews and a saved checkpoint after each pair. An intermediate push preserves the first eight candidates before the remaining six. The user approved publishing this batch with AI labels and original-photo links despite exact fine engraving remaining unverified. clean-batch-007.json records prompts, reviews, dimensions and hashes. Original source files remain preserved.
 
 Batch 007 completed: 14 new retouches, generated two at a time with saved pair checkpoints. The first eight were pushed as c6590a17eea099712680c40062e5501cab7f1096. All 14 are connected to the gallery and search, with AI retouch labels and preserved original-photo links. Their coin bounds were measured for consistent framing. Exact fine engraving remains unverified; Cáceres retains a somewhat warmer centre than the finish references. All source hashes matched preserved metadata. Totals: 54 of 104 sources now have active retouches, 48 await a first attempt and 2 remain blocked.
+
+## Batch 008 — 15 October 2026
+
+Fourteen more source coins are being retouched in pairs with 384-pixel previews and pair checkpoints. An intermediate push preserves the first eight before the final six. This continues the user-approved retouch-and-publish workflow, using AI labels and original-photo links. Exact fine engraving remains unverified. clean-batch-008.json stores prompts, review notes, dimensions and hashes. All originals remain preserved.
