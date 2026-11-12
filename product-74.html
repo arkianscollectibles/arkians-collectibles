@@ -34,7 +34,7 @@
   rel="stylesheet"
 >
 
-  <link rel="stylesheet" href="style.css?v=02183c1d976b">
+  <link rel="stylesheet" href="style.css?v=ea19d3bc4fd0">
 </head>
 
 <body data-product-id="74">
@@ -42,7 +42,19 @@
 
   <!-- HEADER -->
 
-  <header class="site-header">
+  <div class="top-contact-strip">
+  <div class="top-contact-inner">
+    <a href="tel:+306977195195" class="top-contact-link">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3.1 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3.1-8.7A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1 1 .4 1.9.7 2.8a2 2 0 0 1-.5 2.1L8 9.9a16 16 0 0 0 6 6l1.3-1.3a2 2 0 0 1 2.1-.5c.9.3 1.8.6 2.8.7a2 2 0 0 1 1.8 2.1Z" /></svg>
+      <span>69 77 195 195</span>
+    </a>
+    <a href="mailto:arkians.gr@gmail.com" class="top-contact-link">
+      <svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><rect x="3" y="5" width="18" height="14" rx="2" /><path d="m3 6 9 7 9-7" /></svg>
+      <span>arkians.gr@gmail.com</span>
+    </a>
+  </div>
+</div>
+<header class="site-header">
 
     <div class="header-inner">
 
@@ -69,13 +81,7 @@
 >
   ×
 </button>
-<button
-  class="language-switch language-switch-mobile"
-  type="button"
-  aria-label="Change language"
->
-  EN / GR
-</button>
+<div class="language-switch language-switch-mobile" role="group" aria-label="Language"><button type="button" class="language-option" data-language="en" aria-pressed="true" lang="en">English</button><button type="button" class="language-option" data-language="el" aria-pressed="false" lang="el">Greek</button></div>
 
   <!-- PRODUCTS -->
 
@@ -83,7 +89,7 @@
   <div class="nav-item dropdown">
 
     <button class="nav-link dropdown-trigger">
-  <span data-i18n="nav_products">Products</span>
+  <svg class="nav-label-icon nav-products-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M4 6h11M4 12h16M4 18h16" /></svg><span data-i18n="nav_products">Products</span>
   <span>⌄</span>
 </button>
 
@@ -99,7 +105,7 @@
 
   <!-- ABOUT -->
 
-  <a href="about.html" class="nav-link" data-i18n="nav_about">About Us</a>
+  <a href="about.html" class="nav-link"><svg class="nav-label-icon nav-about-icon" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="9" /><path d="M12 11v6M12 7h.01" /></svg><span data-i18n="nav_about">About Us</span></a>
 
 </nav>
 
@@ -133,13 +139,7 @@
 
       <!-- ICONS -->
 
-      <button
-  class="language-switch language-switch-desktop"
-  type="button"
-  aria-label="Change language"
->
-  EN / GR
-</button>
+      <div class="language-switch language-switch-desktop" role="group" aria-label="Language"><button type="button" class="language-option" data-language="en" aria-pressed="true" lang="en">English</button><button type="button" class="language-option" data-language="el" aria-pressed="false" lang="el">Greek</button></div>
       <div class="header-icons">
 
         <a href="account.html" class="icon-button" aria-label="My Account">
@@ -355,8 +355,8 @@
 
   <script src="supabase-sdk.js?v=fad135ee226c"></script>
 <script src="supabase.js?v=575ee8a06d03"></script>
-<script src="translations.js?v=fa41119aaae0"></script>
-<script src="language.js?v=e20e0e581dd8"></script>
+<script src="translations.js?v=5a52835805de"></script>
+<script src="language.js?v=2de44bb2ddd4"></script>
 <script src="catalog-data.js?v=3d9281dfe9c6"></script>
 <script src="coin-gallery-data.js?v=76114e626f2b"></script>
 <script src="coin-gallery.js?v=7afe3cc8f185"></script>

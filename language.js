@@ -18,20 +18,20 @@
       });
     }
     document.documentElement.lang = language;
-    document.querySelectorAll('.language-switch').forEach(button => {
-      button.textContent = language === 'en' ? 'EN / GR' : 'GR / EN';
+    document.querySelectorAll('.language-option').forEach(button => {
+      button.setAttribute('aria-pressed', String(button.dataset.language === language));
     });
     document.querySelector('.main-nav')?.setAttribute('data-drawer-title', strings.nav_products);
   }
   window.arkiansTranslate = translate;
   document.addEventListener('DOMContentLoaded', () => {
     const aria = {'.mobile-menu-toggle': 'menu_open', '.mobile-menu-close': 'menu_close',
-      '.language-switch': 'language_change', '.search-bar button': 'search_label',
+      '.search-bar button': 'search_label',
       '.header-icons a[href="account.html"]': 'footer_account_title',
       '.header-icons a[href="wishlist.html"]': 'footer_wishlist', '.header-icons a[href="cart.html"]': 'footer_cart'};
     Object.entries(aria).forEach(([selector,key]) => document.querySelectorAll(selector).forEach(el=>el.setAttribute('data-i18n-aria',key)));
-    document.querySelectorAll('.language-switch').forEach(button => button.addEventListener('click', () => {
-      language = language === 'en' ? 'el' : 'en';
+    document.querySelectorAll('.language-option').forEach(button => button.addEventListener('click', () => {
+      language = button.dataset.language === 'el' ? 'el' : 'en';
       try { localStorage.setItem('arkians-language', language); } catch { /* Storage can be unavailable. */ }
       translate();
     }));

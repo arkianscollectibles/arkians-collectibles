@@ -53,7 +53,7 @@ window.ARKIANS_TRANSLATIONS = {
     nav_coins: "Κέρματα",
     nav_cards: "Κάρτες Νομισμάτων",
     nav_proof: "Proof",
-    nav_about: "Για Εμάς",
+    nav_about: "Σχετικά με εμάς",
 
 
     /* HOME */

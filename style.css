@@ -4002,3 +4002,108 @@ h1, h2, h3, h4, h5, h6,
 .coin-gallery-image-retouched .coin-card-image { filter: none; }
 .coin-photo-note { margin: 6px 0; color: #555; font-size: 13px; }
 .coin-photo-note a { color: inherit; text-decoration: underline; }
+
+/* Navigation label icons and spacing. */
+.main-nav .nav-link { gap: 10px; }
+.nav-label-icon {
+  width: 20px;
+  height: 20px;
+  flex: 0 0 20px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+@media (min-width: 701px) {
+  .header-inner > .main-nav { margin-left: 12px; gap: 10px; }
+}
+/* Direct language selection without an outer button border. */
+.language-switch {
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: 0;
+  gap: 4px;
+  cursor: default;
+}
+.language-option {
+  min-height: 36px;
+  padding: 6px 8px;
+  border: 1.5px solid transparent;
+  border-radius: 18px;
+  background: transparent;
+  color: #222;
+  font-size: 13px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.language-option[aria-pressed="true"] {
+  border-color: #333;
+  background: rgba(0, 0, 0, .08);
+  font-weight: 600;
+}
+.language-option:hover { background: rgba(0, 0, 0, .06); }
+.language-option:focus-visible { outline: 2px solid #222; outline-offset: 2px; }
+@media (min-width: 701px) {
+  .header-inner > .language-switch-desktop {
+    width: auto;
+    min-width: 120px;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+  }
+}
+@media (min-width: 1201px) {
+  .header-inner { gap: 10px; }
+  .header-inner > .search-wrapper {
+    flex: 1 1 300px;
+    min-width: 120px;
+    margin-left: 0 !important;
+  }
+  .header-inner > .search-wrapper .search-bar { width: 100%; }
+}
+@media (min-width: 701px) and (max-width: 1200px) {
+  .header-inner { grid-template-columns: minmax(0, 1fr) 120px auto; }
+}
+@media (max-width: 700px) {
+  .language-switch-mobile { width: auto; min-width: 120px; right: 16px; }
+}
+/* Contact strip above the main navigation, matching the products dropdown. */
+.top-contact-strip { background: var(--green-dark); color: #fff; }
+.top-contact-inner {
+  width: calc(100% - 48px);
+  max-width: var(--content);
+  min-height: 34px;
+  margin: 0 auto;
+  padding: 6px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px 24px;
+}
+.top-contact-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  font-size: 14px;
+  line-height: 1.5;
+  white-space: nowrap;
+}
+.top-contact-link svg {
+  width: 16px;
+  height: 16px;
+  flex: 0 0 16px;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 1.8;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+.top-contact-link:hover span { text-decoration: underline; text-underline-offset: 3px; }
+.top-contact-link:focus-visible { outline: 2px solid currentColor; outline-offset: 3px; border-radius: 3px; }
+@media (max-width: 700px) {
+  .top-contact-inner { width: calc(100% - 24px); justify-content: center; column-gap: 16px; }
+  .top-contact-link { font-size: 12px; gap: 5px; }
+  .top-contact-link svg { width: 14px; height: 14px; flex-basis: 14px; }
+}
