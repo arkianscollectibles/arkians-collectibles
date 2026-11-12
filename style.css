@@ -23,7 +23,7 @@ body {
   margin: 0;
   background: #ffffff;
   color: #111111;
-  font-family: "Jost", sans-serif;
+  font-family: "Barlow", sans-serif;
 }
 
 a {
@@ -2417,7 +2417,7 @@ input {
     border: none;
     background: transparent;
 
-    font-family: "Jost", sans-serif;
+    font-family: "Barlow", sans-serif;
     font-size: 18px;
     font-weight: 700;
 
@@ -2435,7 +2435,7 @@ input {
   align-items: center;
   gap: 9px;
 
-    font-family: "Jost", sans-serif;
+    font-family: "Barlow", sans-serif;
     font-size: 16px;
 
     cursor: pointer;
@@ -2492,7 +2492,7 @@ input {
 .legal-header p {
   margin: 0;
 
-    font-family: "Jost", sans-serif;
+    font-family: "Barlow", sans-serif;
     font-size: 15px;
     line-height: 1.7;
 
@@ -2504,7 +2504,7 @@ input {
 /* LEGAL CONTENT */
 
 .legal-content {
-  font-family: "Jost", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 16px;
   line-height: 1.8;
 
@@ -2621,7 +2621,7 @@ input {
 }
 
 .withdrawal-field label {
-  font-family: "Jost", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: #222;
@@ -2634,7 +2634,7 @@ input {
 
     padding: 14px 16px;
 
-    font-family: "Jost", sans-serif;
+    font-family: "Barlow", sans-serif;
     font-size: 16px;
 
     border: 1px solid #cfcfcf;
@@ -2670,7 +2670,7 @@ input {
 .withdrawal-message {
   margin-top: 18px;
 
-    font-family: "Jost", sans-serif;
+    font-family: "Barlow", sans-serif;
     font-size: 14px;
     line-height: 1.6;
 }
@@ -3696,7 +3696,7 @@ input {
 .language-switch {
   border: 0;
   cursor: pointer;
-  font-family: "Jost", sans-serif;
+  font-family: "Barlow", sans-serif;
   font-weight: 700;
 }
 
@@ -3913,9 +3913,12 @@ input {
   }
 }
 
-/* Shared typography: Jost body, Barlow Condensed headings and brand. */
+/* Shared typography: Barlow body, Barlow Condensed headings and brand. */
+body, .nav-link, .dropdown-trigger, .dropdown-menu a {
+  font-weight: 400;
+}
 body, p, a, span, button, input, select, textarea, label, li {
-  font-family: "Jost", sans-serif !important;
+  font-family: "Barlow", sans-serif !important;
 }
 
 h1, h2, h3, h4, h5, h6,
