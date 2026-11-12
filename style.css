@@ -4143,7 +4143,7 @@ h1, h2, h3, h4, h5, h6,
   position: fixed;
   inset: 0;
   z-index: 900;
-  background: rgba(0, 0, 0, .18);
+  background: transparent;
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
 }
@@ -4172,7 +4172,7 @@ h1, h2, h3, h4, h5, h6,
     padding: 10px;
     background: var(--green-dark);
     border-radius: 0 0 22px 22px;
-    box-shadow: 0 12px 28px rgba(0, 0, 0, .18);
+    box-shadow: none;
     z-index: 10;
   }
   .main-nav.categories-open .dropdown > .dropdown-menu { display: block; }

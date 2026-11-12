@@ -17,9 +17,18 @@
     const icon = trigger.querySelector('.nav-products-icon');
     if (icon) icon.innerHTML = '<path class="menu-line menu-line-top" d="M4 6h11"/><path class="menu-line menu-line-middle" d="M4 12h16"/><path class="menu-line menu-line-bottom" d="M4 18h16"/>';
     let open = false;
+    const header = nav.closest('.site-header');
+    function positionBackdrop() {
+      if (backdrop.hidden) return;
+      backdrop.style.top = Math.max(0, header?.getBoundingClientRect().bottom || 0) + 'px';
+    }
     function syncBackdrop() {
       backdrop.hidden = !(open || nav.classList.contains('mobile-open'));
+      positionBackdrop();
     }
+    window.addEventListener('scroll', positionBackdrop, {passive: true});
+    window.addEventListener('resize', positionBackdrop, {passive: true});
+    if (header) new ResizeObserver(positionBackdrop).observe(header);
     function setOpen(value, restoreFocus = false) {
       open = Boolean(value && desktop.matches);
       nav.classList.toggle('categories-open', open);
