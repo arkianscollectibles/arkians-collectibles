@@ -1,5 +1,5 @@
 :root {
-  --green: #8dce00;
+  --green: #9dc73f;
   --green-dark: #6f9300;
   --green-mid: #77aa00;
   --radius: 38px;
@@ -23,7 +23,7 @@ body {
   margin: 0;
   background: #ffffff;
   color: #111111;
-  font-family: "Inter", sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 a {
@@ -58,7 +58,7 @@ input {
 }
 
 .logo {
-  font-family: "Zen Dots", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   font-size: 26px;
   font-weight: 400;
   color: #ffffff;
@@ -331,7 +331,7 @@ input {
 .home-hero-content h1 {
   margin: 0;
 
-    font-family: "Zen Dots", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 48px;
     font-weight: 400;
     line-height: 1.15;
@@ -555,7 +555,7 @@ input {
 }
 
 .footer-brand {
-  font-family: "Zen Dots", sans-serif;
+  font-family: "Barlow Condensed", sans-serif;
   font-size: 20px;
  font-weight: 400;
 
@@ -685,7 +685,7 @@ input {
 }
 
 .filter-options input[type="checkbox"]:checked {
-  border: 5px solid #8dce00;
+  border: 5px solid #9dc73f;
 }
 
 
@@ -2402,7 +2402,7 @@ input {
     margin-top: 18px;
     padding: 20px 28px;
 
-    border: 2px solid #8dce00;
+    border: 2px solid #9dc73f;
     border-radius: 38px;
 
     box-sizing: border-box;
@@ -2417,7 +2417,7 @@ input {
     border: none;
     background: transparent;
 
-    font-family: Inter, sans-serif;
+    font-family: "Jost", sans-serif;
     font-size: 18px;
     font-weight: 700;
 
@@ -2435,7 +2435,7 @@ input {
   align-items: center;
   gap: 9px;
 
-    font-family: Inter, sans-serif;
+    font-family: "Jost", sans-serif;
     font-size: 16px;
 
     cursor: pointer;
@@ -2456,7 +2456,7 @@ input {
 }
 
 .colored-filter input[type="checkbox"]:checked {
-  border: 6px solid #8dce00;
+  border: 6px solid #9dc73f;
 }
 
 /* =========================
@@ -2483,7 +2483,7 @@ input {
 .legal-header h1 {
   margin: 0 0 16px;
 
-    font-family: "Zen Dots", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 42px;
     font-weight: 400;
     line-height: 1.2;
@@ -2492,7 +2492,7 @@ input {
 .legal-header p {
   margin: 0;
 
-    font-family: "Inter", sans-serif;
+    font-family: "Jost", sans-serif;
     font-size: 15px;
     line-height: 1.7;
 
@@ -2504,7 +2504,7 @@ input {
 /* LEGAL CONTENT */
 
 .legal-content {
-  font-family: "Inter", sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 16px;
   line-height: 1.8;
 
@@ -2621,7 +2621,7 @@ input {
 }
 
 .withdrawal-field label {
-  font-family: "Inter", sans-serif;
+  font-family: "Jost", sans-serif;
   font-size: 15px;
   font-weight: 600;
   color: #222;
@@ -2634,7 +2634,7 @@ input {
 
     padding: 14px 16px;
 
-    font-family: "Inter", sans-serif;
+    font-family: "Jost", sans-serif;
     font-size: 16px;
 
     border: 1px solid #cfcfcf;
@@ -2670,7 +2670,7 @@ input {
 .withdrawal-message {
   margin-top: 18px;
 
-    font-family: "Inter", sans-serif;
+    font-family: "Jost", sans-serif;
     font-size: 14px;
     line-height: 1.6;
 }
@@ -3535,7 +3535,7 @@ input {
 
     color: #ffffff;
 
-    font-family: "Zen Dots", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 22px;
     font-weight: 400;
   }
@@ -3684,7 +3684,7 @@ input {
 
     color: #ffffff;
 
-    font-family: "Zen Dots", sans-serif;
+    font-family: "Barlow Condensed", sans-serif;
     font-size: 20px;
     font-weight: 400;
 
@@ -3696,7 +3696,7 @@ input {
 .language-switch {
   border: 0;
   cursor: pointer;
-  font-family: "Inter", sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 700;
 }
 
@@ -3913,37 +3913,23 @@ input {
   }
 }
 
-/* ALL SITE TEXT = SOURCE SANS 3 */
-
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-a,
-span,
-button,
-input,
-select,
-textarea,
-label,
-li {
-  font-family: "Source Sans 3", sans-serif !important;
+/* Shared typography: Jost body, Barlow Condensed headings and brand. */
+body, p, a, span, button, input, select, textarea, label, li {
+  font-family: "Jost", sans-serif !important;
 }
 
-.logo,
-.home-hero-content h1 {
-  font-family: "Zen Dots", sans-serif !important;
+h1, h2, h3, h4, h5, h6,
+:is(h1, h2, h3, h4, h5, h6) *,
+.filter-title, .filter-title * {
+  font-family: "Barlow Condensed", sans-serif !important;
+  font-weight: 500;
 }
 
-/* ONLY ARKIANS COLLECTIBLES = ZEN DOTS */
-
-.logo,
-.home-hero-content h1 {
-  font-family: "Zen Dots", sans-serif !important;
+.logo, .logo *,
+.footer-brand, .footer-brand *,
+.home-hero-content h1, .home-hero-content h1 * {
+  font-family: "Barlow Condensed", sans-serif !important;
+  font-weight: 600;
 }
 /* Collapsed filters on first entry, including the coloured filter. */
 .filter-options[hidden], .cookie-banner[hidden] { display: none !important; }
