@@ -20,7 +20,15 @@
     const header = nav.closest('.site-header');
     function positionBackdrop() {
       if (backdrop.hidden) return;
-      backdrop.style.top = Math.max(0, header?.getBoundingClientRect().bottom || 0) + 'px';
+      const bottom = Math.max(0, header?.getBoundingClientRect().bottom || 0);
+      backdrop.style.top = bottom + 'px';
+      if (open && desktop.matches) {
+        const viewportWidth = document.documentElement.clientWidth;
+        const panelWidth = menu.getBoundingClientRect().width;
+        const left = Math.max(12, Math.min(trigger.getBoundingClientRect().left, viewportWidth - panelWidth - 12));
+        menu.style.setProperty('--category-panel-top', bottom + 'px');
+        menu.style.setProperty('--category-panel-left', left + 'px');
+      }
     }
     function syncBackdrop() {
       backdrop.hidden = !(open || nav.classList.contains('mobile-open'));

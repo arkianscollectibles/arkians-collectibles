@@ -4162,16 +4162,18 @@ h1, h2, h3, h4, h5, h6,
   .main-nav .dropdown > .dropdown-menu,
   .main-nav .dropdown:hover > .dropdown-menu,
   .main-nav .dropdown:focus-within > .dropdown-menu {
-    position: absolute;
-    top: 100%;
-    left: 0;
+    position: fixed;
+    top: var(--category-panel-top, 80px);
+    left: var(--category-panel-left, 12px);
     display: none;
     width: max-content;
     min-width: 220px;
     max-width: min(320px, calc(100vw - 48px));
-    padding: 10px;
+    padding: 14px;
+    max-height: calc(100dvh - var(--category-panel-top, 80px) - 16px);
+    overflow-y: auto;
     background: var(--green-dark);
-    border-radius: 0 0 22px 22px;
+    border-radius: 32px;
     box-shadow: none;
     z-index: 10;
   }
@@ -4183,4 +4185,8 @@ h1, h2, h3, h4, h5, h6,
 }
 @media (prefers-reduced-motion: reduce) {
   .filter-title .filter-arrow, .nav-products-icon .menu-line { transition: none; }
+}
+/* Lower only the navigation labels; keep the other header controls centered. */
+@media (min-width: 701px) {
+  .header-inner > .main-nav { position: relative; top: 4px; }
 }
