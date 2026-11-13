@@ -13,7 +13,7 @@ window.ARKIANS_TRANSLATIONS = {
 
     /* HOME */
 
-    home_hero_title: "Add rare pieces to your collection.",
+    home_hero_title: "add rare coins to your collection",
     home_shop_coins: "Shop Coins",
     home_new_arrivals: "New Arrivals",
     home_view_all: "View All",
@@ -58,7 +58,7 @@ window.ARKIANS_TRANSLATIONS = {
 
     /* HOME */
 
-    home_hero_title: "Βάλε σπάνια κομμάτια στη συλλογή σου.",
+    home_hero_title: "βάλε σπάνια κέρματα στη συλλογή σου",
     home_shop_coins: "Αγόρασε Κέρματα",
     home_new_arrivals: "Νέες Αφίξεις",
     home_view_all: "Όλα τα Κέρματα",
