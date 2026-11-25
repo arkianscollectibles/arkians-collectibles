@@ -131,9 +131,9 @@ function installMetadata(current, values) {
 }
 const store = {'@context':'https://schema.org', '@graph':[
   {'@type':'OnlineStore', '@id':domain+'#organization', name:brand, legalName:'ARKIANS MOBILE CENTERS E.E.', url:domain,
-    description:pages['index.html'][1], email:'arkians.gr@gmail.com', telephone:'+302160023648',
+    description:pages['index.html'][1], email:'arkians.gr@gmail.com', telephone:'+306977195195',
     address:{'@type':'PostalAddress',addressLocality:'Perama',addressCountry:'GR'},
-    contactPoint:{'@type':'ContactPoint',contactType:'customer service',email:'arkians.gr@gmail.com',telephone:'+302160023648',availableLanguage:['English','Greek']},
+    contactPoint:{'@type':'ContactPoint',contactType:'customer service',email:'arkians.gr@gmail.com',telephone:'+306977195195',availableLanguage:['English','Greek']},
     hasMerchantReturnPolicy:helper.returnPolicy(), hasShippingService:helper.shippingService(catalog)},
   {'@type':'WebSite','@id':domain+'#website',name:brand,url:domain,inLanguage:['en','el'],publisher:{'@id':domain+'#organization'}},
 ]};
