@@ -59,7 +59,7 @@ input {
 }
 
 .logo {
-  font-family: "Barlow Condensed", "Manrope", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 26px;
   font-weight: 400;
   color: #ffffff;
@@ -332,7 +332,7 @@ input {
 .home-hero-content h1 {
   margin: 0;
 
-    font-family: "Barlow Condensed", "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 48px;
     font-weight: 400;
     line-height: 1.15;
@@ -556,7 +556,7 @@ input {
 }
 
 .footer-brand {
-  font-family: "Barlow Condensed", "Manrope", sans-serif;
+  font-family: "Manrope", sans-serif;
   font-size: 20px;
  font-weight: 400;
 
@@ -2484,7 +2484,7 @@ input {
 .legal-header h1 {
   margin: 0 0 16px;
 
-    font-family: "Barlow Condensed", "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 42px;
     font-weight: 400;
     line-height: 1.2;
@@ -3536,7 +3536,7 @@ input {
 
     color: #ffffff;
 
-    font-family: "Barlow Condensed", "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 22px;
     font-weight: 400;
   }
@@ -3685,7 +3685,7 @@ input {
 
     color: #ffffff;
 
-    font-family: "Barlow Condensed", "Manrope", sans-serif;
+    font-family: "Manrope", sans-serif;
     font-size: 20px;
     font-weight: 400;
 
@@ -3914,7 +3914,7 @@ input {
   }
 }
 
-/* Shared typography: Manrope body and Greek; Barlow Condensed Latin headings and brand. */
+/* Manrope throughout the interface; Condensed is reserved for coin titles below. */
 body { font-weight: 400; }
 .nav-link, .dropdown-trigger, .dropdown-menu a { font-weight: 500; }
 body, p, a, span, button, input, select, textarea, label, li {
@@ -3923,14 +3923,14 @@ body, p, a, span, button, input, select, textarea, label, li {
 
 h1, h2, h3, h4, h5, h6,
 :is(h1, h2, h3, h4, h5, h6) * {
-  font-family: "Barlow Condensed", "Manrope", sans-serif !important;
+  font-family: "Manrope", sans-serif !important;
   font-weight: 500;
 }
 
 .logo, .logo *,
 .footer-brand, .footer-brand *,
 .home-hero-content h1, .home-hero-content h1 * {
-  font-family: "Barlow Condensed", "Manrope", sans-serif !important;
+  font-family: "Manrope", sans-serif !important;
   font-weight: 600;
 }
 /* Collapsed filters on first entry, including the coloured filter. */
@@ -4189,10 +4189,10 @@ h1, h2, h3, h4, h5, h6,
   .header-inner > .main-nav { position: relative; top: 4px; }
 }
 
-/* Homepage tagline: italic serif with Greek and Latin support. */
+/* Homepage tagline uses the shared site font. */
 .home-hero-content [data-i18n="home_hero_title"] {
-  font-family: "Noto Serif Display", Georgia, serif !important;
-  font-style: italic;
+  font-family: "Manrope", sans-serif !important;
+  font-style: normal;
   font-weight: 400;
   line-height: 1.5;
   text-transform: none;
@@ -4241,4 +4241,11 @@ html:lang(el) :is(h1, h2, h3, h4, h5, h6)[data-i18n] *,
 html:lang(el) :is(h1, h2, h3, h4, h5, h6) [data-i18n] {
   font-family: "Manrope", sans-serif !important;
   font-style: normal;
+}
+
+/* Barlow Condensed is used only for product/coin names. */
+:is(.coin-card-title, #productName, .wishlist-card h3, .cart-card-info h3, .order-item-name),
+:is(.coin-card-title, #productName, .wishlist-card h3, .cart-card-info h3, .order-item-name) * {
+  font-family: "Barlow Condensed", "Manrope", sans-serif !important;
+  font-weight: 500;
 }
