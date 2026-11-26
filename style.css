@@ -4249,3 +4249,14 @@ html:lang(el) :is(h1, h2, h3, h4, h5, h6) [data-i18n] {
   font-family: "Barlow Condensed", "Manrope", sans-serif !important;
   font-weight: 500;
 }
+
+/* Compact catalogue and search titles, sized for browsing products. */
+.coins-page > .page-intro h1 {
+  font-size: 32px;
+  line-height: 1.25;
+  margin-bottom: 14px;
+}
+.coins-page > .page-intro p { font-size: 16px; }
+@media (max-width: 700px) {
+  .coins-page > .page-intro h1 { font-size: 26px; }
+}
