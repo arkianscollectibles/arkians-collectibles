@@ -17,7 +17,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 1.164346
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-ivan-cankar-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-ivan-cankar-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovakia-2026-european-football-championship",
@@ -36,7 +37,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 0.649235
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-european-football-championship-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-european-football-championship-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovakia-2026-trencin",
@@ -55,7 +57,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 1.049111
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-trencin-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-trencin-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2026-rotary",
@@ -74,7 +77,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.143704
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-rotary-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-rotary-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "lithuania-2026-energy-independence",
@@ -93,7 +97,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -5.822266
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-energy-independence-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-energy-independence-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "ireland-2026-council-presidency",
@@ -112,7 +117,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 0.164417
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-ireland-eu-presidency-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-ireland-eu-presidency-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "italy-2026-carlo-collodi-pinocchio",
@@ -129,7 +135,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "width": 93.376549,
       "left": 3.561725,
       "top": 0.804224
-    }
+    },
+    "availability": "OutOfStock"
   },
   {
     "id": "italy-2026-saint-francis-of-assisi",
@@ -148,7 +155,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.382331
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-saint-francis-of-assisi-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-saint-francis-of-assisi-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2026-academy-of-athens",
@@ -167,7 +175,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.648004
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-academy-of-athens-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-academy-of-athens-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2026-exodus-of-missolonghi",
@@ -186,7 +195,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.523148
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-exodus-of-missolonghi-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-exodus-of-missolonghi-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "germany-2026-konrad-adenauer",
@@ -205,7 +215,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.417307
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-konrad-adenauer-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-konrad-adenauer-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "estonia-2026-sipsik",
@@ -224,7 +235,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.8
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-sipsik-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-sipsik-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "cyprus-2026-council-presidency",
@@ -243,7 +255,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.719625
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-cyprus-eu-presidency-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-cyprus-eu-presidency-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "croatia-2026-croatian-radiotelevision",
@@ -262,7 +275,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.236433
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-croatian-radiotelevision-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-croatian-radiotelevision-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "spain-2026-monastery-of-poblet",
@@ -281,7 +295,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -4.28664
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-monastery-of-poblet-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-monastery-of-poblet-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "belgium-2026-belgian-railways",
@@ -300,7 +315,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.508191
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-belgian-railways-2026.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/2026/2-euro-belgian-railways-2026.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "croatia-2025-king-tomislav",
@@ -322,7 +338,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -4.060372
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-croatia-2025-king-tomislav.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-croatia-2025-king-tomislav.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2025-mikis-theodorakis",
@@ -344,7 +361,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.428843
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-mikis-theodorakis.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-mikis-theodorakis.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2025-laskarina-bouboulina",
@@ -366,7 +384,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.517323
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-laskarina-bouboulina.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-greece-2025-laskarina-bouboulina.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "italy-2025-amerigo-vespucci",
@@ -388,7 +407,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.350399
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-amerigo-vespucci.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-amerigo-vespucci.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "italy-2025-jubilee",
@@ -407,7 +427,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.599933
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-jubilee.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-italy-2025-jubilee.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "latvia-2025-selija",
@@ -426,7 +447,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.594363
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-latvia-2025-selija.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-latvia-2025-selija.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "lithuania-2025-national-defence",
@@ -448,7 +470,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -4.007179
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-national-defence.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-national-defence.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "lithuania-2025-lithuania-minor",
@@ -470,7 +493,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.813559
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-lithuania-minor.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-lithuania-2025-lithuania-minor.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovenia-2025-miki-muster",
@@ -490,7 +514,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "width": 118.088468,
       "left": -8.794234,
       "top": -0.531349
-    }
+    },
+    "availability": "OutOfStock"
   },
   {
     "id": "spain-2025-salamanca",
@@ -512,7 +537,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 0.89639
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-spain-2025-salamanca.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2025/2-euro-spain-2025-salamanca.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "belgium-2024-fight-against-cancer",
@@ -534,7 +560,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 0.561321
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-belgium-2024-fight-against-cancer.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-belgium-2024-fight-against-cancer.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "france-2024-paris-olympics",
@@ -556,7 +583,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -13.301638
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-france-2024-paris-olympics.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-france-2024-paris-olympics.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2024-penelope-delta",
@@ -578,7 +606,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.017519
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-penelope-delta.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-penelope-delta.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2024-restoration-democracy",
@@ -600,7 +629,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.8
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-restoration-democracy.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-greece-2024-restoration-democracy.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "italy-2024-rita-levi-montalcini",
@@ -619,7 +649,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.420902
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-rita-levi-montalcini.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-rita-levi-montalcini.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "italy-2024-guardia-di-finanza",
@@ -641,7 +672,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -4.052236
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-guardia-di-finanza.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-italy-2024-guardia-di-finanza.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "lithuania-2024-straw-gardens",
@@ -663,7 +695,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -4.509281
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-lithuania-2024-straw-gardens.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-lithuania-2024-straw-gardens.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2024-carnation-revolution",
@@ -685,7 +718,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 0.115306
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-carnation-revolution.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-carnation-revolution.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2024-paris-olympics",
@@ -707,7 +741,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.4375
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-paris-olympics.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-portugal-2024-paris-olympics.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovenia-2024-national-university-library",
@@ -729,7 +764,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.726601
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-slovenia-2024-national-university-library.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2024/2-euro-slovenia-2024-national-university-library.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "cyprus-2023-central-bank",
@@ -751,7 +787,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.026617
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-cyprus-2023-central-bank.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-cyprus-2023-central-bank.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "estonia-2023-barn-swallow",
@@ -773,7 +810,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.025875
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-estonia-2023-barn-swallow.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-estonia-2023-barn-swallow.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "italy-2023-air-force",
@@ -795,7 +833,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.678109
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-italy-2023-air-force.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-italy-2023-air-force.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "lithuania-2023-together-with-ukraine",
@@ -814,7 +853,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -4.280174
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-lithuania-2023-together-with-ukraine.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-lithuania-2023-together-with-ukraine.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2023-peace",
@@ -833,7 +873,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.111265
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-peace.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-peace.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2023-world-youth-day",
@@ -855,7 +896,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 2.409178
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-world-youth-day.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-portugal-2023-world-youth-day.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovakia-2023-blood-transfusion",
@@ -877,7 +919,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -4.21373
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovakia-2023-blood-transfusion.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovakia-2023-blood-transfusion.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovenia-2023-josip-plemelj",
@@ -899,7 +942,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 2.3395
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovenia-2023-josip-plemelj.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-slovenia-2023-josip-plemelj.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "spain-2023-caceres",
@@ -921,7 +965,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.218132
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-caceres.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-caceres.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "austria-2022-erasmus",
@@ -940,7 +985,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.260285
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2022/2-euro-austria-2022-erasmus.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2022/2-euro-austria-2022-erasmus.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "belgium-2021-belgium-luxembourg-union",
@@ -962,7 +1008,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.730485
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-belgium-2021-belgium-luxembourg-union.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-belgium-2021-belgium-luxembourg-union.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2021-greek-revolution",
@@ -984,7 +1031,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.554871
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-greece-2021-greek-revolution.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-greece-2021-greek-revolution.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "latvia-2021-de-jure-recognition",
@@ -1006,7 +1054,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -8.644222
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-latvia-2021-de-jure-recognition.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-latvia-2021-de-jure-recognition.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "monaco-2021-princely-wedding",
@@ -1028,7 +1077,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.777388
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-monaco-2021-princely-wedding.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-monaco-2021-princely-wedding.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2021-tokyo-olympics",
@@ -1050,7 +1100,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -7.665902
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-portugal-2021-tokyo-olympics.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-portugal-2021-tokyo-olympics.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovakia-2021-alexander-dubcek",
@@ -1072,7 +1123,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -5.028186
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-slovakia-2021-alexander-dubcek.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2021/2-euro-slovakia-2021-alexander-dubcek.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "estonia-2020-antarctica",
@@ -1094,7 +1146,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -7.185565
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-estonia-2020-antarctica.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-estonia-2020-antarctica.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "france-2020-charles-de-gaulle",
@@ -1113,7 +1166,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.885685
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-france-2020-charles-de-gaulle.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-france-2020-charles-de-gaulle.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "latvia-2020-latgalian-ceramics",
@@ -1132,7 +1186,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 0.503414
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-latvia-2020-latgalian-ceramics.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-latvia-2020-latgalian-ceramics.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2020-united-nations",
@@ -1151,7 +1206,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -4.09798
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-portugal-2020-united-nations.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-portugal-2020-united-nations.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovakia-2020-oecd",
@@ -1173,7 +1229,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 2.30882
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-slovakia-2020-oecd.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-slovakia-2020-oecd.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "spain-2020-aragon-mudejar",
@@ -1195,7 +1252,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.759944
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-spain-2020-aragon-mudejar.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2020/2-euro-spain-2020-aragon-mudejar.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "estonia-2019-song-celebration",
@@ -1217,7 +1275,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -5.702269
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-estonia-2019-song-celebration.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-estonia-2019-song-celebration.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2019-andreas-kalvos",
@@ -1239,7 +1298,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.342412
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-greece-2019-andreas-kalvos.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-greece-2019-andreas-kalvos.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovakia-2019-milan-rastislav-stefanik",
@@ -1261,7 +1321,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 1.340928
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-slovakia-2019-milan-rastislav-stefanik.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-slovakia-2019-milan-rastislav-stefanik.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "spain-2019-avila",
@@ -1283,7 +1344,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 0.354675
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-spain-2019-avila.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2019/2-euro-spain-2019-avila.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "estonia-2018-estonian-republic",
@@ -1305,7 +1367,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 2.561039
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-estonia-2018-estonian-republic.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-estonia-2018-estonian-republic.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2018-kostis-palamas",
@@ -1327,7 +1390,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.138374
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-kostis-palamas.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-kostis-palamas.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2018-dodecanese",
@@ -1349,7 +1413,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.545002
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-dodecanese.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-greece-2018-dodecanese.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "latvia-2018-zemgale",
@@ -1368,7 +1433,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.952046
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-latvia-2018-zemgale.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-latvia-2018-zemgale.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2018-national-printing-office",
@@ -1390,7 +1456,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 0.630401
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-national-printing-office.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-national-printing-office.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2018-ajuda-botanical-garden",
@@ -1412,7 +1479,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 2.9375
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-ajuda-botanical-garden.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-portugal-2018-ajuda-botanical-garden.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovakia-2018-slovak-republic",
@@ -1434,7 +1502,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.868476
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovakia-2018-slovak-republic.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovakia-2018-slovak-republic.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovenia-2018-world-bee-day",
@@ -1456,7 +1525,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.870073
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovenia-2018-world-bee-day.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2018/2-euro-slovenia-2018-world-bee-day.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "cyprus-2017-pafos",
@@ -1478,7 +1548,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.020343
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-cyprus-2017-pafos.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-cyprus-2017-pafos.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2017-nikos-kazantzakis",
@@ -1500,7 +1571,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.601549
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-nikos-kazantzakis.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-nikos-kazantzakis.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2017-philippi",
@@ -1519,7 +1591,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.887427
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-philippi.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-greece-2017-philippi.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "latvia-2017-kurzeme",
@@ -1538,7 +1611,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -6.135647
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-latvia-2017-kurzeme.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-latvia-2017-kurzeme.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2017-public-security-police",
@@ -1560,7 +1634,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 0.354675
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-public-security-police.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-public-security-police.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovenia-2017-euro-introduction",
@@ -1582,7 +1657,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -7.239655
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-slovenia-2017-euro-introduction.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-slovenia-2017-euro-introduction.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "spain-2017-asturias-monuments",
@@ -1604,7 +1680,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.960548
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-spain-2017-asturias-monuments.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-spain-2017-asturias-monuments.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2017-raul-brandao",
@@ -1626,7 +1703,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -8.833514
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-raul-brandao.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2017/2-euro-portugal-2017-raul-brandao.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovenia-2016-independence",
@@ -1648,7 +1726,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.581395
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovenia-2016-independence.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovenia-2016-independence.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovakia-2016-council-presidency",
@@ -1670,7 +1749,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.088201
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovakia-2016-council-presidency.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-slovakia-2016-council-presidency.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "spain-2016-segovia",
@@ -1692,7 +1772,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.406276
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-spain-2016-segovia.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2016/2-euro-spain-2016-segovia.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "latvia-2015-council-presidency",
@@ -1711,7 +1792,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.016932
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-latvia-2015-council-presidency.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-latvia-2015-council-presidency.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "lithuania-2015-lithuanian-language",
@@ -1730,7 +1812,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.004969
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-lithuania-2015-lithuanian-language.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-lithuania-2015-lithuanian-language.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "monaco-2015-fortress",
@@ -1752,7 +1835,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -13.013196
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-monaco-2015-fortress.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-monaco-2015-fortress.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovakia-2015-ludovit-stur",
@@ -1771,7 +1855,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -5.614949
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-slovakia-2015-ludovit-stur.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2015/2-euro-slovakia-2015-ludovit-stur.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "france-2014-world-aids-day",
@@ -1793,7 +1878,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -6.838979
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-france-2014-world-aids-day.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-france-2014-world-aids-day.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2014-ionian-islands",
@@ -1815,7 +1901,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.333929
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-greece-2014-ionian-islands.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-greece-2014-ionian-islands.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "netherlands-2014-double-portrait",
@@ -1837,7 +1924,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.131805
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-netherlands-2014-double-portrait.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-netherlands-2014-double-portrait.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2014-carnation-revolution",
@@ -1859,7 +1947,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.713711
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-carnation-revolution.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-carnation-revolution.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2014-family-farming",
@@ -1881,7 +1970,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -9.927681
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-family-farming.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-portugal-2014-family-farming.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "spain-2014-king-felipe-vi",
@@ -1903,7 +1993,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -13.30522
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-spain-2014-king-felipe-vi.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2014/2-euro-spain-2014-king-felipe-vi.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "belgium-2013-royal-meteorological-institute",
@@ -1925,7 +2016,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -6.678709
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-belgium-2013-royal-meteorological-institute.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-belgium-2013-royal-meteorological-institute.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "netherlands-2013-queen-beatrix-abdication",
@@ -1947,7 +2039,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -2.867553
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-netherlands-2013-queen-beatrix-abdication.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-netherlands-2013-queen-beatrix-abdication.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "portugal-2013-clerigos-tower",
@@ -1969,7 +2062,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -11.608179
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-portugal-2013-clerigos-tower.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-portugal-2013-clerigos-tower.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovakia-2013-cyril-methodius",
@@ -1991,7 +2085,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.922504
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-slovakia-2013-cyril-methodius.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-slovakia-2013-cyril-methodius.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "slovenia-2013-postojna-cave",
@@ -2010,7 +2105,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -8.600982
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-slovenia-2013-postojna-cave.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2013/2-euro-slovenia-2013-postojna-cave.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "belgium-2012-euro-cash",
@@ -2032,7 +2128,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.517323
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2012/2-euro-belgium-2012-euro-cash.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2012/2-euro-belgium-2012-euro-cash.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "spain-2012-burgos",
@@ -2054,7 +2151,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -9.288724
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2012/2-euro-spain-2012-burgos.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2012/2-euro-spain-2012-burgos.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2011-special-olympics",
@@ -2076,7 +2174,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -5.635469
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2011/2-euro-greece-2011-special-olympics.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2011/2-euro-greece-2011-special-olympics.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2010-marathon",
@@ -2098,7 +2197,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -3.848028
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2010/2-euro-greece-2010-marathon.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2010/2-euro-greece-2010-marathon.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "belgium-2006-atomium",
@@ -2120,7 +2220,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -9.693566
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2006/2-euro-belgium-2006-atomium.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2006/2-euro-belgium-2006-atomium.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "austria-2005-state-treaty",
@@ -2139,7 +2240,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -0.020343
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2005/2-euro-austria-2005-state-treaty.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2005/2-euro-austria-2005-state-treaty.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "greece-2004-athens-olympics",
@@ -2161,7 +2263,8 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": 0.017578
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2004/2-euro-greece-2004-athens-olympics.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2004/2-euro-greece-2004-athens-olympics.jpg",
+    "availability": "OutOfStock"
   },
   {
     "id": "spain-2023-council-presidency",
@@ -2183,6 +2286,7 @@ globalThis.ARKIANS_PHOTO_CATALOG = [
       "top": -1.940425
     },
     "image_edit": "ai-retouched",
-    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-council-presidency.jpg"
+    "image_original": "PRODUCT PHOTOS/COINS/ORIGINALS/2023/2-euro-spain-2023-council-presidency.jpg",
+    "availability": "OutOfStock"
   }
 ];

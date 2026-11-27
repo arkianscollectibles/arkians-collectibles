@@ -5,7 +5,7 @@ Authoritative file: `supabase/functions/_shared/product-prices.json`.
 - Prices are euro cents: `100` = €1.00, `1499` = €14.99, `1999` = €19.99.
 - `shipping_cents` is the shipping charge per order (currently `300`, i.e. €3.00 for every supported destination).
 - Product IDs match `app.js`. All 67 current products are included: 37 coloured coins and 30 matching uncoloured editions. Uncoloured IDs are their coloured counterpart's ID plus 37; the 7 remaining IDs are reserved but inactive until genuine images are acquired.
-- All current coins are priced at €14.99 each. Cards/Proof are still display-only templates.
+- Latest owner workbook: 31 priced name/edition rows map to 32 catalogue products (one shared Erasmus title matches two IDs). Thirty products are €10.00 and two are €14.00. The other 35 catalogue products have `availability: "OutOfStock"` and `price_cents: null`; all 104 photo-gallery entries are also unavailable. Cards/Proof remain display-only templates.
 - Stripe receives the price from the server catalogue and the quantity from the authenticated user's database cart. Request-body prices are ignored.
 
 After changing a price, run from the repository root:
@@ -21,7 +21,7 @@ This generates `product-prices.js` for the website and `supabase/dashboard/creat
 
 The price generator also rebuilds each `product-N.html`, its initial Product JSON-LD, canonical link, visible price, availability and shipping charge, as well as the sitemap and store policies. This keeps Google's data tied to the same authoritative price source. Run `node scripts/test-product-seo.mjs` and `node scripts/test-generated-seo.mjs` before publication. If a product is removed, the generator removes only its explicitly marked generated page; it does not remove a hand-written HTML page.
 
-Optional `availability` accepts a Schema.org availability name or HTTPS URL. All 67 products were confirmed available on 8 October 2026. Real manufacturer identifiers can be supplied as strings in `brand`, `mpn`, `gtin`, or the specific `gtin8`, `gtin12`, `gtin13`, `gtin14`. Do not invent identifiers; checksum validation does not establish that the manufacturer assigned one. Changing product availability must also be enforced in the backend before publication, so unavailable stock cannot be paid for through an existing cart.
+Optional `availability` accepts a Schema.org availability name or HTTPS URL. Availability now follows the supplied price workbook: a blank price or a NOT IN STOCK entry means OutOfStock. No price is shown or published as a zero-price offer for these products. The server rejects unavailable products, including items remaining in old carts, before contacting Stripe. Real manufacturer identifiers can be supplied as strings in `brand`, `mpn`, `gtin`, or the specific `gtin8`, `gtin12`, `gtin13`, `gtin14`. Do not invent identifiers; checksum validation does not establish that the manufacturer assigned one. Changing product availability must also be enforced in the backend before publication, so unavailable stock cannot be paid for through an existing cart.
 
 A Git push publishes the website, not the Supabase function. Updating the source does not automatically update either live deployment.
 

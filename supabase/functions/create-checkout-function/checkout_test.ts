@@ -36,19 +36,15 @@ function request(body: unknown = {}, authorized = true) {
   });
 }
 
-Deno.test("all coloured and uncoloured products have server-authoritative prices", async () => {
-  const cart = Object.keys(catalogue.products).map(id=>({coin_id:Number(id),quantity:1}));
+Deno.test("all available products have server-authoritative prices", async () => {
+  const cart = Object.entries(catalogue.products).filter(([, p]) => p.price_cents !== null && p.availability === "InStock").map(([id])=>({coin_id:Number(id),quantity:1}));
   const {handler,captured} = fixture(cart);
   const response = await handler(request({price_cents:1,user_id:"user-B"}));
   assert.equal(response.status,200); assert.equal(captured.userFilter,"user-A");
   const params = captured.stripeParams!;
-  assert.equal(params.line_items.length,Object.keys(catalogue.products).length);
-  assert.ok(cart.some(item => item.coin_id === 38), "uncoloured Barbara is purchasable");
-  assert.ok(cart.some(item => item.coin_id === 74), "uncoloured Erasmus Greece is purchasable");
-  const plainBarbara = params.line_items[cart.findIndex(item => item.coin_id === 38)];
-  assert.equal(plainBarbara.price_data.product_data.name, "2 Euro The 600th anniversary of the crowning of Barbara Celjska (Uncoloured)");
+  assert.equal(params.line_items.length,cart.length);
   assert.equal(params.line_items[0].price_data.product_data.name, "2 Euro The 600th anniversary of the crowning of Barbara Celjska");
-  assert.equal(params.line_items.reduce((sum:number,item:any)=>sum+item.price_data.unit_amount,0),Object.values(catalogue.products).reduce((sum, product) => sum + product.price_cents, 0));
+  assert.equal(params.line_items.reduce((sum:number,item:any)=>sum+item.price_data.unit_amount,0),Object.values(catalogue.products).reduce((sum, product) => sum + (product.price_cents ?? 0), 0));
   assert.equal(params.line_items[0].price_data.unit_amount,catalogue.products[1].price_cents);
   assert.equal(params.shipping_options[0].shipping_rate_data.fixed_amount.amount,catalogue.shipping_cents);
   assert.equal(params.customer_email,"buyer@example.invalid");
@@ -84,5 +80,20 @@ Deno.test("preflight and unsupported methods never invoke payment creation", asy
   const {handler,captured}=fixture([]);
   assert.equal((await handler(new Request("https://example.invalid",{method:"OPTIONS"}))).status,200);
   assert.equal((await handler(new Request("https://example.invalid"))).status,405);
+  assert.equal(captured.stripeCalls,0);
+});
+
+Deno.test("every unpriced or out-of-stock coin is rejected before Stripe", async () => {
+  for (const [id, product] of Object.entries(catalogue.products)) {
+    if (product.price_cents !== null && product.availability === "InStock") continue;
+    const {handler,captured} = fixture([{coin_id:Number(id),quantity:1}]);
+    assert.equal((await handler(request())).status,409, `Unavailable coin ${id} reached checkout`);
+    assert.equal(captured.stripeCalls,0);
+  }
+});
+Deno.test("a mixed cart cannot pay for available and unavailable items together", async () => {
+  const unavailable = Object.entries(catalogue.products).find(([,p]) => p.price_cents === null)!;
+  const {handler,captured} = fixture([{coin_id:1,quantity:1},{coin_id:Number(unavailable[0]),quantity:1}]);
+  assert.equal((await handler(request())).status,409);
   assert.equal(captured.stripeCalls,0);
 });

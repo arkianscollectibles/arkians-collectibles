@@ -74,6 +74,16 @@ function checkOutputs(dir) {
     assert.match(html, /<meta name="robots" content="index,follow">/);
     assert.ok(html.includes(`<link rel="canonical" href="${canonical}">`));
     assert.equal(node.url, canonical);
+    assert.equal(text(html,'productShipping'), `€${(catalog.shipping_cents / 100).toFixed(2)}`);
+    assert.equal(text(html,'productName'), node.name);
+    assert.equal(text(html,'productDescription'), node.description);
+    assert.ok(!('aggregateRating' in node));
+    if (product.price_cents === null) {
+      assert.equal(node.offers, undefined);
+      assert.equal(text(html,'productPrice'), '');
+      assert.equal(text(html,'productAvailability'), 'Out of stock');
+      assert.match(html, /<button\b[^>]*id="productAddToCart"[^>]*\bdisabled/s);
+    } else {
     assert.equal(node.offers.url, canonical);
     assert.equal(node.offers.price, (product.price_cents / 100).toFixed(2));
     assert.equal(text(html,'productPrice'), `€${(product.price_cents / 100).toFixed(2)}`);
@@ -84,6 +94,7 @@ function checkOutputs(dir) {
     assert.ok(!('deliveryTime' in node.offers.shippingDetails));
     assert.ok(!('aggregateRating' in node));
     assert.ok(!('priceValidUntil' in node.offers));
+    }
     if (!product.image || !existsSync(join(dir,product.image))) {
       assert.ok(!node.image, `${name}: nonexistent image in rich data`);
       assert.ok(!html.includes('property="og:image"'), `${name}: nonexistent OG image`);

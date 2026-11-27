@@ -45,10 +45,16 @@ for (const [id, product] of Object.entries(catalog.products)) {
   assert.equal(schema.image, imageURL);
   assert.equal(schema.url, `https://arkianscollectibles.com/product-${id}.html`);
   assert.equal(metadata.canonical, schema.url);
+  if (product.price_cents === null) {
+    assert.equal(schema.offers, undefined, 'Unpriced stock must not advertise a zero-price offer');
+    assert.equal(product.availability, 'OutOfStock');
+    assert.equal(seo.canPurchase(product), false);
+    continue;
+  }
   assert.equal(schema.offers.url, schema.url);
   assert.equal(schema.offers.price, (product.price_cents / 100).toFixed(2));
   assert.equal(schema.offers.priceCurrency, 'EUR');
-  assert.equal(schema.offers.availability, 'https://schema.org/InStock');
+  assert.equal(schema.offers.availability, seo.availability(product));
   assert.deepEqual(schema.offers.shippingDetails, {
     '@type': 'OfferShippingDetails', hasShippingService: { '@id': shipping['@id'] },
   }, 'Use the documented reference to the standard merchant shipping service');

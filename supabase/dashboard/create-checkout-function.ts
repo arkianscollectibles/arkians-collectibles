@@ -7,7 +7,7 @@ const priceCatalog = {
   "products": {
     "1": {
       "name": "2 Euro The 600th anniversary of the crowning of Barbara Celjska",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Slovenia",
       "year": 2014,
       "colored": true,
@@ -17,21 +17,23 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Barbara of Celje"
-      ]
+      ],
+      "availability": "InStock"
     },
     "2": {
       "name": "2 Euro Sipsik",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Estonia",
       "year": 2026,
       "colored": true,
       "image": "PRODUCT PHOTOS/COINS/002.jpg",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "InStock"
     },
     "3": {
       "name": "2 Euro The 100th anniversary of the foundation of the University of Ljubljana",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Slovenia",
       "year": 2019,
       "colored": true,
@@ -41,11 +43,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros University of Ljubljana"
-      ]
+      ],
+      "availability": "InStock"
     },
     "4": {
       "name": "2 Euro 170th Anniversary of the foundation of the Italian National Police",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Italy",
       "year": 2022,
       "colored": true,
@@ -55,31 +58,34 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Italian National Police"
-      ]
+      ],
+      "availability": "InStock"
     },
     "5": {
       "name": "2 Euro Academy of Athens",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Greece",
       "year": 2026,
       "colored": true,
       "image": "PRODUCT PHOTOS/COINS/005.jpg",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "InStock"
     },
     "6": {
       "name": "2 Euro Monastery of Poblet",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Spain",
       "year": 2026,
       "colored": true,
       "image": "PRODUCT PHOTOS/COINS/006.jpg",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "InStock"
     },
     "7": {
       "name": "2 Euro 100 years from the birth of Maria Callas",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Greece",
       "year": 2023,
       "colored": true,
@@ -89,21 +95,23 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Maria Callas"
-      ]
+      ],
+      "availability": "InStock"
     },
     "8": {
       "name": "2 Euro Rotary",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Portugal",
       "year": 2026,
       "colored": true,
       "image": "PRODUCT PHOTOS/COINS/008.jpg",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "InStock"
     },
     "9": {
       "name": "2 Euro First flight from Malta",
-      "price_cents": 1499,
+      "price_cents": 1400,
       "country": "Malta",
       "year": 2015,
       "colored": true,
@@ -113,11 +121,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros First Flight from Malta"
-      ]
+      ],
+      "availability": "InStock"
     },
     "10": {
       "name": "2 Euro Portuguese Presidency of the Council of the European Union",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Portugal",
       "year": 2021,
       "colored": true,
@@ -127,11 +136,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Presidency European Union"
-      ]
+      ],
+      "availability": "InStock"
     },
     "11": {
       "name": "2 Euro 100 years of basketball in Lithuania",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Lithuania",
       "year": 2022,
       "colored": true,
@@ -141,11 +151,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Basketball in Lithuania"
-      ]
+      ],
+      "availability": "InStock"
     },
     "12": {
       "name": "2 Euro The Belgian presidency of the Council of the EU",
-      "price_cents": 1499,
+      "price_cents": null,
       "country": "Belgium",
       "year": 2024,
       "colored": true,
@@ -155,11 +166,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Belgian Presidency of the Council of the EU"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "13": {
       "name": "2 Euro 500th anniversary of Primož Trubar's birth",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Slovenia",
       "year": 2008,
       "colored": true,
@@ -169,11 +181,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Primož Trubar"
-      ]
+      ],
+      "availability": "InStock"
     },
     "14": {
       "name": "2 Euro The 500th anniversary of the birth of Adam Bohorič",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Slovenia",
       "year": 2020,
       "colored": true,
@@ -183,11 +196,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Adam Bohorič"
-      ]
+      ],
+      "availability": "InStock"
     },
     "15": {
       "name": "2 Euro 200th anniversary of the Botanical Garden in Ljubljana",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Slovenia",
       "year": 2010,
       "colored": true,
@@ -197,21 +211,23 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Ljubljana Botanical Garden"
-      ]
+      ],
+      "availability": "InStock"
     },
     "16": {
       "name": "2 Euro Energy Independence",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Lithuania",
       "year": 2026,
       "colored": true,
       "image": "PRODUCT PHOTOS/COINS/016.jpg",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "InStock"
     },
     "17": {
       "name": "2 Euro Ukraine and Freedom",
-      "price_cents": 1499,
+      "price_cents": null,
       "country": "Estonia",
       "year": 2022,
       "colored": true,
@@ -221,11 +237,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Glory to Ukraine"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "18": {
       "name": "2 Euro European Capital of Culture 2012, the city of Guimarães in northern Portugal",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Portugal",
       "year": 2012,
       "colored": true,
@@ -235,21 +252,23 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Guimarães"
-      ]
+      ],
+      "availability": "InStock"
     },
     "19": {
       "name": "2 Euro Ivan Cankar",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Slovenia",
       "year": 2026,
       "colored": true,
       "image": "PRODUCT PHOTOS/COINS/019.jpg",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "InStock"
     },
     "20": {
       "name": "2 Euro The 200th anniversary of the establishment of Provincial Museum for Carniola, the first museum in Slovenia",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Slovenia",
       "year": 2021,
       "colored": true,
@@ -259,11 +278,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Provincial Museum for Carniola"
-      ]
+      ],
+      "availability": "InStock"
     },
     "21": {
       "name": "2 Euro 35 years of the Erasmus programme",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Slovenia",
       "year": 2022,
       "colored": true,
@@ -273,21 +293,23 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Erasmus Slovenia"
-      ]
+      ],
+      "availability": "InStock"
     },
     "22": {
       "name": "2 Euro Marine Nationale 400ans",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "France",
       "year": 2026,
       "colored": true,
       "image": "PRODUCT PHOTOS/COINS/022.jpg",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "InStock"
     },
     "23": {
       "name": "2 Euro 20th anniversary of the formation of the Visegrad Group",
-      "price_cents": 1499,
+      "price_cents": null,
       "country": "Slovakia",
       "year": 2011,
       "colored": true,
@@ -297,11 +319,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Visegrad Group"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "24": {
       "name": "2 Euro The cornflower – Estonian national flower",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Estonia",
       "year": 2024,
       "colored": true,
@@ -311,11 +334,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Centaurea Cyanus"
-      ]
+      ],
+      "availability": "InStock"
     },
     "25": {
       "name": "2 Euro The 500th anniversary of the first publication containing words in Estonian and the start of the Estonian literary language",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Estonia",
       "year": 2025,
       "colored": true,
@@ -325,11 +349,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Raamat 500"
-      ]
+      ],
+      "availability": "InStock"
     },
     "26": {
       "name": "2 Euro 730th anniversary of the University of Coimbra",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Portugal",
       "year": 2020,
       "colored": true,
@@ -339,21 +364,23 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros 730 years of the University of Coimbra"
-      ]
+      ],
+      "availability": "InStock"
     },
     "27": {
       "name": "2 Euro Bundesländer II - \"Bremen\"",
-      "price_cents": 1499,
+      "price_cents": null,
       "country": "Germany",
       "year": 2026,
       "colored": true,
       "image": "PRODUCT PHOTOS/COINS/027.jpg",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "OutOfStock"
     },
     "28": {
       "name": "2 Euro 150 years from the birth of Constantin Carathéodory",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Greece",
       "year": 2023,
       "colored": true,
@@ -363,11 +390,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Constantin Caratheodory"
-      ]
+      ],
+      "availability": "InStock"
     },
     "29": {
       "name": "2 Euro Portuguese team participating in the Rio 2016 Olympic Games",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Portugal",
       "year": 2016,
       "colored": true,
@@ -377,11 +405,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Joana Vasconcelos"
-      ]
+      ],
+      "availability": "InStock"
     },
     "30": {
       "name": "2 Euro The Estonian national animal – the wolf",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Estonia",
       "year": 2021,
       "colored": true,
@@ -391,11 +420,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Canis Lupus"
-      ]
+      ],
+      "availability": "InStock"
     },
     "31": {
       "name": "2 Euro 500th anniversary of Fernão Mendes Pinto’s birth",
-      "price_cents": 1499,
+      "price_cents": 1400,
       "country": "Portugal",
       "year": 2011,
       "colored": true,
@@ -405,11 +435,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Fernao Mendes Pinto"
-      ]
+      ],
+      "availability": "InStock"
     },
     "32": {
       "name": "2 Euro 100th anniversary of the first international sports tournament in the territory of the Slovak Republic – the Ice Hockey European Championship",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Slovakia",
       "year": 2025,
       "colored": true,
@@ -419,11 +450,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Majstrovstva Europy V Hokeji"
-      ]
+      ],
+      "availability": "InStock"
     },
     "33": {
       "name": "2 Euro 10th anniversary of the accession of the Slovak Republic to the European Union",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Slovakia",
       "year": 2014,
       "colored": true,
@@ -433,21 +465,23 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros 10th Anniversary - Accession to the European Union"
-      ]
+      ],
+      "availability": "InStock"
     },
     "34": {
       "name": "2 Euro 200th Anniversary - Exodus of Missolonghi",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Greece",
       "year": 2026,
       "colored": true,
       "image": "PRODUCT PHOTOS/COINS/034.jpg",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "InStock"
     },
     "35": {
       "name": "2 Euro Belgian Presidency of the Council of the European Union in 2010",
-      "price_cents": 1499,
+      "price_cents": null,
       "country": "Belgium",
       "year": 2010,
       "colored": true,
@@ -457,11 +491,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Belgian Presidency of the Council of the European Union"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "36": {
       "name": "2 Euro 2 500 years since the Battle of Thermopylae",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Greece",
       "year": 2020,
       "colored": true,
@@ -471,11 +506,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros 2500 years of the Battle of Thermopylae"
-      ]
+      ],
+      "availability": "InStock"
     },
     "37": {
       "name": "2 Euro 35 years of the Erasmus programme",
-      "price_cents": 1499,
+      "price_cents": 1000,
       "country": "Greece",
       "year": 2022,
       "colored": true,
@@ -485,7 +521,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Erasmus Greece"
-      ]
+      ],
+      "availability": "InStock"
     },
     "38": {
       "name": "2 Euro The 600th anniversary of the crowning of Barbara Celjska",
@@ -494,7 +531,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/001-slava-gold.png",
       "source_coin_id": 1,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014/comm_2014_Slovenia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014.en.html",
       "image_frame": {
@@ -518,7 +555,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Barbara of Celje"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "40": {
       "name": "2 Euro The 100th anniversary of the foundation of the University of Ljubljana",
@@ -527,7 +565,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/003-slava-gold.png",
       "source_coin_id": 3,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019/comm_2019_sv_100anni_university_ljublja.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2019.en.html",
       "image_frame": {
@@ -551,7 +589,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros University of Ljubljana"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "41": {
       "name": "2 Euro 170th Anniversary of the foundation of the Italian National Police",
@@ -560,7 +599,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/004-slava-gold.png",
       "source_coin_id": 4,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/2022_1comm_Italy-polizia_540x540.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
@@ -584,7 +623,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Italian National Police"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "44": {
       "name": "2 Euro 100 years from the birth of Maria Callas",
@@ -593,7 +633,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/007-slava-gold.png",
       "source_coin_id": 7,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023/IMG_0007.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "image_frame": {
@@ -617,7 +657,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Maria Callas"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "46": {
       "name": "2 Euro First flight from Malta",
@@ -626,7 +667,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/009-slava-gold.png",
       "source_coin_id": 9,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2015/comm_2015_Malta.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2015.en.html",
       "image_frame": {
@@ -650,7 +691,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros First Flight from Malta"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "47": {
       "name": "2 Euro Portuguese Presidency of the Council of the European Union",
@@ -659,7 +701,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/010-slava-gold.png",
       "source_coin_id": 10,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/PT 2021 EU presidency.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021.en.html",
       "image_frame": {
@@ -683,7 +725,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Presidency European Union"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "48": {
       "name": "2 Euro 100 years of basketball in Lithuania",
@@ -692,7 +735,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/011-slava-gold.png",
       "source_coin_id": 11,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/0429-23r.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
@@ -716,7 +759,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Basketball in Lithuania"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "49": {
       "name": "2 Euro The Belgian presidency of the Council of the EU",
@@ -725,7 +769,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/012-slava-gold.png",
       "source_coin_id": 12,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024/2024_comm_Belgium2.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "image_frame": {
@@ -749,7 +793,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Belgian Presidency of the Council of the EU"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "50": {
       "name": "2 Euro 500th anniversary of Primož Trubar's birth",
@@ -758,7 +803,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/013-slava-gold.png",
       "source_coin_id": 13,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2008/comm_2008_Slovenia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2008.en.html",
       "image_frame": {
@@ -782,7 +827,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Primož Trubar"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "51": {
       "name": "2 Euro The 500th anniversary of the birth of Adam Bohorič",
@@ -791,7 +837,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/014-slava-gold.png",
       "source_coin_id": 14,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_sl_birth_bohoric.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020.en.html",
       "image_frame": {
@@ -815,7 +861,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Adam Bohorič"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "52": {
       "name": "2 Euro 200th anniversary of the Botanical Garden in Ljubljana",
@@ -824,7 +871,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/015-slava-gold.png",
       "source_coin_id": 15,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010/comm_2010_sl.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010.en.html",
       "image_frame": {
@@ -848,7 +895,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Ljubljana Botanical Garden"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "54": {
       "name": "2 Euro Ukraine and Freedom",
@@ -857,7 +905,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/017.png",
       "source_coin_id": 17,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/0424-23r.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
@@ -881,7 +929,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Glory to Ukraine"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "55": {
       "name": "2 Euro European Capital of Culture 2012, the city of Guimarães in northern Portugal",
@@ -890,7 +939,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/018-slava-gold.png",
       "source_coin_id": 18,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2012/comm_2012_pt.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2012.en.html",
       "image_frame": {
@@ -914,7 +963,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Guimarães"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "57": {
       "name": "2 Euro The 200th anniversary of the establishment of Provincial Museum for Carniola, the first museum in Slovenia",
@@ -923,7 +973,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/020-slava-gold.png",
       "source_coin_id": 20,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/SL_Oct21.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021.en.html",
       "image_frame": {
@@ -947,7 +997,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Provincial Museum for Carniola"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "58": {
       "name": "2 Euro 35 years of the Erasmus programme",
@@ -956,7 +1007,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/021-slava-gold.png",
       "source_coin_id": 21,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/Slovenia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
@@ -980,11 +1031,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Erasmus Slovenia"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "59": {
       "name": "2 Euro Marine Nationale 400ans",
-      "price_cents": 1499,
+      "price_cents": null,
       "country": "France",
       "year": 2026,
       "colored": false,
@@ -1010,7 +1062,8 @@ const priceCatalog = {
       "image_edit": "ai-retouched",
       "image_color_reference": "017",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "OutOfStock"
     },
     "60": {
       "name": "2 Euro 20th anniversary of the formation of the Visegrad Group",
@@ -1019,7 +1072,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/023-slava-gold.png",
       "source_coin_id": 23,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011/comm_2011_sk.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011.en.html",
       "image_frame": {
@@ -1043,7 +1096,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Visegrad Group"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "61": {
       "name": "2 Euro The cornflower – Estonian national flower",
@@ -1052,7 +1106,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/024-slava-gold.png",
       "source_coin_id": 24,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024/IMG_0060.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2024.en.html",
       "image_frame": {
@@ -1076,7 +1130,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Centaurea Cyanus"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "62": {
       "name": "2 Euro The 500th anniversary of the first publication containing words in Estonian and the start of the Estonian literary language",
@@ -1085,7 +1140,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/025-slava-gold.png",
       "source_coin_id": 25,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025/Estonia_540x540.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "image_frame": {
@@ -1109,7 +1164,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Raamat 500"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "63": {
       "name": "2 Euro 730th anniversary of the University of Coimbra",
@@ -1118,7 +1174,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/026-slava-gold.png",
       "source_coin_id": 26,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_pt_university_coimbra.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020.en.html",
       "image_frame": {
@@ -1142,11 +1198,12 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros 730 years of the University of Coimbra"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "64": {
       "name": "2 Euro Bundesländer II - \"Bremen\"",
-      "price_cents": 1499,
+      "price_cents": null,
       "country": "Germany",
       "year": 2026,
       "colored": false,
@@ -1172,7 +1229,8 @@ const priceCatalog = {
       "image_edit": "ai-retouched",
       "image_color_reference": "017",
       "official_name_verified": false,
-      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending."
+      "official_verification_note": "Verification against the 2026 issuer or EU Official Journal is pending.",
+      "availability": "OutOfStock"
     },
     "65": {
       "name": "2 Euro 150 years from the birth of Constantin Carathéodory",
@@ -1181,7 +1239,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/028-slava-gold.png",
       "source_coin_id": 28,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023/IMG_0023_540x540.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2023.en.html",
       "image_frame": {
@@ -1205,7 +1263,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Constantin Caratheodory"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "66": {
       "name": "2 Euro Portuguese team participating in the Rio 2016 Olympic Games",
@@ -1214,7 +1273,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/029-slava-gold.png",
       "source_coin_id": 29,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2016/comm_2016_portugal_olympics_270.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2016.en.html",
       "image_frame": {
@@ -1238,7 +1297,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Joana Vasconcelos"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "67": {
       "name": "2 Euro The Estonian national animal – the wolf",
@@ -1247,7 +1307,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/030-slava-gold.png",
       "source_coin_id": 30,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021/comm_2021_estonia-wolf.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2021.en.html",
       "image_frame": {
@@ -1271,7 +1331,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Canis Lupus"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "68": {
       "name": "2 Euro 500th anniversary of Fernão Mendes Pinto’s birth",
@@ -1280,7 +1341,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/031-slava-gold.png",
       "source_coin_id": 31,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011/comm_2011_pt.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2011.en.html",
       "image_frame": {
@@ -1304,7 +1365,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Fernao Mendes Pinto"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "69": {
       "name": "2 Euro 100th anniversary of the first international sports tournament in the territory of the Slovak Republic – the Ice Hockey European Championship",
@@ -1313,7 +1375,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/032-slava-gold.png",
       "source_coin_id": 32,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025/Slovakia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2025.en.html",
       "image_frame": {
@@ -1337,7 +1399,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Majstrovstva Europy V Hokeji"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "70": {
       "name": "2 Euro 10th anniversary of the accession of the Slovak Republic to the European Union",
@@ -1346,7 +1409,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/033-slava-gold.png",
       "source_coin_id": 33,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014/comm_2014_Slovakia.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2014.en.html",
       "image_frame": {
@@ -1370,7 +1433,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros 10th Anniversary - Accession to the European Union"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "72": {
       "name": "2 Euro Belgian Presidency of the Council of the European Union in 2010",
@@ -1379,7 +1443,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/035-slava-gold.png",
       "source_coin_id": 35,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010/comm_2010_be.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2010.en.html",
       "image_frame": {
@@ -1403,7 +1467,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Belgian Presidency of the Council of the European Union"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "73": {
       "name": "2 Euro 2 500 years since the Battle of Thermopylae",
@@ -1412,7 +1477,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/036-slava-gold.png",
       "source_coin_id": 36,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020/comm_2020_gr_battle_thermopylae.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2020.en.html",
       "image_frame": {
@@ -1436,7 +1501,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros 2500 years of the Battle of Thermopylae"
-      ]
+      ],
+      "availability": "OutOfStock"
     },
     "74": {
       "name": "2 Euro 35 years of the Erasmus programme",
@@ -1445,7 +1511,7 @@ const priceCatalog = {
       "colored": false,
       "image": "PRODUCT PHOTOS/COINS/RETOUCHED/037-slava-gold.png",
       "source_coin_id": 37,
-      "price_cents": 1499,
+      "price_cents": null,
       "image_source_url": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022/Greece.jpg",
       "image_source_page": "https://www.ecb.europa.eu/euro/coins/comm/html/comm_2022.en.html",
       "image_frame": {
@@ -1469,7 +1535,8 @@ const priceCatalog = {
       "official_name_verified": true,
       "searchAliases": [
         "2 Euros Erasmus Greece"
-      ]
+      ],
+      "availability": "OutOfStock"
     }
   },
   "coin_image_reference": {
@@ -1488,7 +1555,7 @@ const priceCatalog = {
   }
 };
 
-type Product = { name: string; price_cents: number; colored?: boolean };
+type Product = { name: string; price_cents: number | null; colored?: boolean; availability?: string };
 const PRODUCTS: Record<string, Product> = priceCatalog.products;
 const SHIPPING_CENTS = priceCatalog.shipping_cents;
 
@@ -1548,10 +1615,14 @@ export function createCheckoutHandler(deps: Dependencies) {
         if (!Number.isSafeInteger(coinId) || coinId < 1) return jsonResponse({ error: "Invalid coin ID" }, 400);
         const product = PRODUCTS[coinId];
         if (!product) return jsonResponse({ error: `Unknown coin ID: ${coinId}` }, 400);
+        const stock = String(product.availability || 'InStock').replace('https://schema.org/', '');
+        if (product.price_cents === null || !['InStock', 'LimitedAvailability', 'OnlineOnly', 'BackOrder', 'PreOrder', 'PreSale'].includes(stock)) {
+          return jsonResponse({ error: `Product out of stock: ${coinId}` }, 409);
+        }
         if (!Number.isSafeInteger(quantity) || quantity < 1 || quantity > 100) {
           return jsonResponse({ error: `Invalid quantity for coin ${coinId}` }, 400);
         }
-        if (!Number.isSafeInteger(product.price_cents) || product.price_cents < 0) {
+        if (!Number.isSafeInteger(product.price_cents) || product.price_cents <= 0) {
           throw new Error(`Invalid price configuration for coin ${coinId}`);
         }
         // Always use the server's catalogue; request-body prices are ignored.

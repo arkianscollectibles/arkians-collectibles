@@ -6,7 +6,7 @@
 const coins = Object.entries(window.ARKIANS_PRICES.products).map(([id, product]) => ({
   ...product,
   id: Number(id),
-  price: product.price_cents / 100,
+  price: product.price_cents === null ? null : product.price_cents / 100,
 }));
 
 // Static product pages keep their canonical catalogue identity even if a query is added.
@@ -47,6 +47,9 @@ let paymentRenderRevision = 0;
 const accountRevision = () => window.arkiansAuthState?.revision || 0;
 const accountRequestIsCurrent = (revision, user) => revision === accountRevision() &&
   (!window.arkiansAuthState?.ready || window.arkiansAuthState.userId === user?.id);
+function coinPriceMarkup(coin) {
+  return coin.price === null ? '<span data-i18n="product_out_of_stock">Out of stock</span>' : `€${coin.price.toFixed(2)}`;
+}
 const accountText = (english, greek) => document.documentElement.lang === 'el' ? greek : english;
 function showAccountLoadError(element) {
   if (!element) return;
@@ -256,7 +259,7 @@ function renderNewArrivals() {
       </div>
 
       <div class="coin-card-price">
-        €${coin.price.toFixed(2)}
+        ${coinPriceMarkup(coin)}
       </div>
     `;
 
@@ -351,12 +354,13 @@ function renderAllCoins(list) {
 
 
       <div class="coin-card-price">
-        €${coin.price.toFixed(2)}
+        ${coinPriceMarkup(coin)}
       </div>
 
 
       <button
         class="add-cart-button"
+        ${window.ARKIANS_PRODUCT_SEO.canPurchase(coin) ? '' : 'disabled'}
         data-coin-id="${coin.id}"
         type="button"
       >
@@ -667,12 +671,13 @@ async function renderWishlistPage() {
 
 
       <div class="wishlist-card-price">
-        €${coin.price.toFixed(2)}
+        ${coinPriceMarkup(coin)}
       </div>
 
 
       <button
         class="add-cart-button"
+        ${window.ARKIANS_PRODUCT_SEO.canPurchase(coin) ? '' : 'disabled'}
         data-coin-id="${coin.id}"
         type="button"
       >
@@ -891,6 +896,7 @@ async function renderCartPage() {
     showAccountLoadError(emptyMessage);
     return;
   }
+  const hasUnavailable = data.some(item => !window.ARKIANS_PRODUCT_SEO.canPurchase(coins.find(coin => coin.id === Number(item.coin_id))));
   let subtotal = 0;
 
 
@@ -951,7 +957,7 @@ async function renderCartPage() {
 
 
         <div class="cart-card-price">
-          €${coin.price.toFixed(2)}
+          ${coinPriceMarkup(coin)}
         </div>
 
 
@@ -1066,15 +1072,22 @@ container.appendChild(card);
 
 
 if (subtotalElement) {
-  subtotalElement.textContent =
+  subtotalElement.textContent = hasUnavailable ? '—' :
     `€${subtotal.toFixed(2)}`;
 }
 
 
+const checkoutControl = document.getElementById('checkoutButton');
+if (checkoutControl) checkoutControl.disabled = hasUnavailable;
+if (hasUnavailable && emptyMessage) {
+  emptyMessage.setAttribute('data-i18n', 'cart_unavailable_items');
+  emptyMessage.textContent = 'Remove unavailable items from your cart to continue.';
+  emptyMessage.style.display = 'block';
+} else emptyMessage?.removeAttribute('data-i18n');
 const shippingElement = document.getElementById('cartShipping');
 if (shippingElement) shippingElement.textContent = `€${(window.ARKIANS_PRICES.shipping_cents / 100).toFixed(2)}`;
 if (totalElement) {
-  totalElement.textContent =
+  totalElement.textContent = hasUnavailable ? '—' :
     `€${(subtotal + window.ARKIANS_PRICES.shipping_cents / 100).toFixed(2)}`;
 }
 
@@ -1204,12 +1217,13 @@ function renderRelatedProducts(currentCoin) {
 
 
       <div class="coin-card-price">
-        €${coin.price.toFixed(2)}
+        ${coinPriceMarkup(coin)}
       </div>
 
 
       <button
         class="add-cart-button"
+        ${window.ARKIANS_PRODUCT_SEO.canPurchase(coin) ? '' : 'disabled'}
         data-coin-id="${coin.id}"
         type="button"
       >
@@ -1304,7 +1318,7 @@ async function renderProductPage() {
 
   if (productPrice) {
     productPrice.textContent =
-      `€${coin.price.toFixed(2)}`;
+      (coin.price === null ? '' : `€${coin.price.toFixed(2)}`);
   }
 
 

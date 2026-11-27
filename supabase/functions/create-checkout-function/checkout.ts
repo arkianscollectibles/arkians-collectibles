@@ -3,7 +3,7 @@ import type { createClient } from "npm:@supabase/supabase-js@2.117.2";
 import { corsHeaders } from "npm:@supabase/supabase-js@2.117.2/cors";
 import priceCatalog from "../_shared/product-prices.json" with { type: "json" };
 
-type Product = { name: string; price_cents: number; colored?: boolean };
+type Product = { name: string; price_cents: number | null; colored?: boolean; availability?: string };
 const PRODUCTS: Record<string, Product> = priceCatalog.products;
 const SHIPPING_CENTS = priceCatalog.shipping_cents;
 
@@ -63,10 +63,14 @@ export function createCheckoutHandler(deps: Dependencies) {
         if (!Number.isSafeInteger(coinId) || coinId < 1) return jsonResponse({ error: "Invalid coin ID" }, 400);
         const product = PRODUCTS[coinId];
         if (!product) return jsonResponse({ error: `Unknown coin ID: ${coinId}` }, 400);
+        const stock = String(product.availability || 'InStock').replace('https://schema.org/', '');
+        if (product.price_cents === null || !['InStock', 'LimitedAvailability', 'OnlineOnly', 'BackOrder', 'PreOrder', 'PreSale'].includes(stock)) {
+          return jsonResponse({ error: `Product out of stock: ${coinId}` }, 409);
+        }
         if (!Number.isSafeInteger(quantity) || quantity < 1 || quantity > 100) {
           return jsonResponse({ error: `Invalid quantity for coin ${coinId}` }, 400);
         }
-        if (!Number.isSafeInteger(product.price_cents) || product.price_cents < 0) {
+        if (!Number.isSafeInteger(product.price_cents) || product.price_cents <= 0) {
           throw new Error(`Invalid price configuration for coin ${coinId}`);
         }
         // Always use the server's catalogue; request-body prices are ignored.

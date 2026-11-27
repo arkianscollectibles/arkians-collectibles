@@ -7,7 +7,7 @@ if (!Number.isSafeInteger(catalog.shipping_cents) || catalog.shipping_cents < 0)
 if (!catalog.products || !Object.keys(catalog.products).length) throw Error('Empty product catalogue');
 for (const [id, product] of Object.entries(catalog.products)) {
   if (!/^\d+$/.test(id) || Number(id) < 1 || !Number.isSafeInteger(Number(id))) throw Error(`Invalid product ID: ${id}`);
-  if (!product.name || !Number.isSafeInteger(product.price_cents) || product.price_cents < 0) throw Error(`Invalid product: ${id}`);
+  if (!product.name || (!(product.price_cents === null && product.availability === 'OutOfStock') && (!Number.isSafeInteger(product.price_cents) || product.price_cents < 0))) throw Error(`Invalid product: ${id}`);
 }
 // Validate the catalogue before the SEO generator can write any HTML.
 // The SEO generator also preflights optional product metadata before writing.

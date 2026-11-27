@@ -47,7 +47,7 @@
     const [key, en, el] = stockLabels[availability(product).slice('https://schema.org/'.length)];
     return { key, en, el };
   }
-  const canPurchase = product => onlineOffers.has(availability(product).slice('https://schema.org/'.length));
+  const canPurchase = product => Number.isSafeInteger(product.price_cents) && product.price_cents > 0 && onlineOffers.has(availability(product).slice('https://schema.org/'.length));
   function validateGTIN(value) {
     // Keep leading zeroes. A checksum verifies the format, not ownership or
     // assignment: only add a GTIN verified from the actual item/issuer.
@@ -98,7 +98,7 @@
     };
   }
   function schema(product, id, catalog, imageURL) {
-    if (!product?.name || !Number.isSafeInteger(product.price_cents) || product.price_cents < 0) {
+    if (!product?.name || (!(product.price_cents === null && availability(product).endsWith('/OutOfStock')) && (!Number.isSafeInteger(product.price_cents) || product.price_cents < 0))) {
       throw Error(`Invalid product metadata: ${id}`);
     }
     if (!Number.isSafeInteger(catalog?.shipping_cents) || catalog.shipping_cents < 0) {
@@ -122,6 +122,8 @@
         hasMerchantReturnPolicy: returnPolicy(),
       },
     };
+    // No offer or invented zero price is published when the owner supplied no price.
+    if (product.price_cents === null) delete result.offers;
     if (imageURL) {
       const image = new URL(imageURL, domain);
       if (image.protocol !== 'https:') throw Error('Product images must use HTTPS');

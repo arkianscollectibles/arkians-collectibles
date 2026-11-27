@@ -63,10 +63,11 @@
         meta.append(' · ', edited);
       }
       const price = document.createElement('div'); price.className = 'coin-card-price';
-      if (type === 'coins') price.textContent = `€${product.price.toFixed(2)}`;
+      if (type === 'coins' && product.price !== null) price.textContent = `€${product.price.toFixed(2)}`;
+      else if (type === 'coins' || type === 'photos') price.dataset.i18n = 'product_out_of_stock';
       else price.dataset.i18n = 'coming_soon';
       link.append(type === 'photos' ? window.arkiansCreatePhotoFrame(product) : image, title, label, meta);
-      if (type !== 'photos') link.append(price);
+      link.append(price);
       container.appendChild(link);
     });
     window.arkiansTranslate?.();
